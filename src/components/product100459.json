@@ -1,0 +1,334 @@
+{
+	"result": "00",
+	"result_msg": "OK",
+	"prod_marketing": {
+		"TW": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"HK": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"CN": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"MY": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"SG": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"ID": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"PH": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"KK": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"JP": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"KR": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"TH": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"VN": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		}
+	},
+	"prod": {
+		"is_tour": false,
+		"timezone": "Asia/Taipei",
+		"guide_lang_list": [],
+		"voice_guide_lang": [],
+		"confirm_order_time": true,
+		"online_s_date": "2021-06-08",
+		"online_e_date": "2021-12-31",
+		"img_list": [
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_100459/20200525093410_Swr05/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_100459/20200525093404_OJoNB/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_100459/20200525093406_4V2nx/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_100459/20200525093412_LazAE/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_100459/20200525093414_oSu3J/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_100459/20200525094921_uXssg/jpg"
+		],
+		"video_list": [],
+		"prod_comment_info": {
+			"avg_scores": "4.87",
+			"total_scores": "1047",
+			"click_count": "0",
+			"comment_record": "215"
+		},
+		"go_date_setting": {
+			"type": "01"
+		},
+		"is_cancel_free": false,
+		"description_module": {
+			"PMDL_EXCHANGE": {
+				"module_title": "憑證使用方式",
+				"content": {
+					"properties": {
+						"exchange_type": {
+							"desc": "現場請出示 QR code",
+							"title": "使用方式"
+						}
+					}
+				}
+			},
+			"PMDL_INC_NINC": {
+				"module_title": "費用包含/不包含",
+				"content": {
+					"properties": {
+						"include_item": {
+							"list": [
+								{
+									"desc": "阿里山國家森林遊樂區門票"
+								}
+							],
+							"title": "費用包含"
+						},
+						"not_include_item": {
+							"list": [
+								{
+									"desc": "其他個人花費"
+								}
+							],
+							"title": "費用不包含"
+						}
+					}
+				}
+			},
+			"PMDL_REFUND_POLICY": {
+				"module_title": "取消政策",
+				"content": {
+					"properties": {
+						"policy_type": {
+							"desc": "取消訂單，將收取所有實際產生費用",
+							"title": "手續費收取方式"
+						}
+					}
+				}
+			},
+			"PMDL_EXCHANGE_VALID": {
+				"module_title": "憑證兌換期限",
+				"content": {
+					"properties": {
+						"exchange": {
+							"desc": "指定兌換效期區間 2020-05-29 ~ 2021-12-31 逾期無效"
+						}
+					}
+				}
+			},
+			"PMDL_NOTICE": {
+				"module_title": "注意事項",
+				"content": {
+					"properties": {
+						"cust_reminds": {
+							"list": [
+								{
+									"desc": "目前園區禁止攜帶犬、貓及其他哺乳類動物進入。"
+								},
+								{
+									"desc": "遊樂區所在縣(市)民眾，持有證明文件者、優待票票種請至現場購票，票種介紹請參考林務局官網資訊：https://www.forest.gov.tw/0000184"
+								},
+								{
+									"desc": "此門票限定一人一票使用且僅能通行一次，驗證進場後無法重複使用 。票券一經核銷後，恕不接受退票。"
+								}
+							]
+						},
+						"cust_reminds_after": {
+							"list": [
+								{
+									"desc": "因為山上氣候多變，出發前請確認：林務局官網資訊：https://www.forest.gov.tw/"
+								},
+								{
+									"desc": "除依「天然災害停止辦公及上課作業辦法」規定，嘉義縣政府決定停止公告或上課之起止時間；或其他經林務局或經營管理單位視園區實際狀況，足以影響遊客安全時必須全部或部分封閉。出發前請確認官方網站。"
+								},
+								{
+									"desc": "因票價隨年度調整，故此票券購買後，須於2021年06月30日之內使用完畢。"
+								}
+							],
+							"title": "售後注意事項"
+						}
+					}
+				}
+			},
+			"PMDL_GRAPHIC": {
+				"module_title": "圖文介紹",
+				"content": {
+					"list": [
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_100459/20200525093401_5jsGY/jpg"
+								}
+							],
+							"desc": "阿里山國家森林遊樂區門票核銷地點"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_100459/20200525093404_OJoNB/jpg"
+								}
+							],
+							"desc": "阿里山國家森林遊樂區大門口"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_100459/20200525093410_Swr05/jpg"
+								}
+							],
+							"desc": "台灣八景之一阿里山雲海"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_100459/20200525093406_4V2nx/jpg"
+								}
+							],
+							"desc": "沼平車站就是阿里山舊火車站，建於西元1914年，於大正3年3月14日正式開始營運，原為阿里山林業鐵路登山本線的終點站。"
+						}
+					]
+				}
+			},
+			"PMDL_NATIONALITY": {
+				"module_title": "使用對象",
+				"content": {
+					"properties": {
+						"nationality_allow": {
+							"desc": "台灣",
+							"title": "可使用國籍/地區"
+						}
+					}
+				}
+			},
+			"PMDL_INTRODUCE_SUMMARY": {
+				"module_title": "商品說明",
+				"content": {
+					"desc": "<p>－ 行程說明 －</p><ul><li>開放時間：24 小時開放</li><li>兌換方式：本國籍民眾，兌換時請出示身分證明文件，至阿里山國家森林遊樂區收費站由工作人員感應QR code後即可入場。半票、免票等優待票種請於現場購票（<a href=\"https://www.forest.gov.tw/0000184\">票種參考</a>）。</li><li>聯絡電話：白天 05 - 2679917，夜間 05 - 2679715</li><li>營業地址：臺灣嘉義縣阿里山鄉正村59號<br><br><br></li></ul><p>－ 景點介紹 －</p><p>阿里山山脈為台灣五大山脈之一，阿里山並不是一座山，而是泛指這個山區；自古擁有豐沛的紅檜與扁柏，然從 191 2年起成為台灣最具規模的林場，一直到 1960 年代末期為止。歷經日本、國民政府的採伐後，原始檜木林幾乎伐盡，現今存有第一期與第二期巨木群棧道近四十株的紅檜巨木，讓人緬懷過去神木林的壯闊神聖。其中最高的「阿里山香林神木」，高 45 公尺，樹圍 12.3 公尺，樹齡約2300年，是到訪阿里山的必遊之處。<br><br>在阿里山國家森林遊樂區內有豐富的生態，其中最特殊的植物，莫過於稀有的蓧蕨、相馬氏石杉、阿里山十大功勞與一葉蘭了；動物則有台灣獼猴、帝雉、藪鳥、阿里山鴝、阿里山山椒魚等小明星助陣，熱鬧非凡。除了神木，阿里山還有非常多具可看性的景點：森林小火車、空靈飄渺的姊妹潭、壯闊動人的雲海、美麗的祝山日出、受鎮宮、百年慈雲寺、林業史蹟、春天盛開的各類櫻花與杜鵑…阿里山森林遊樂區是一個足以代表台灣霧林帶的國際級觀光景點，歡迎著來自全世界的旅人們，前來認識台灣山林豐富而美麗的面貌。<br><br>「春賞花、夏避暑、秋攬楓、冬觀雲」詳述了一年四季萬種風情的阿里山國家森林遊樂區。在阿里山您只須放慢腳步，享受舒適宜人的綿延群山，伴蟲鳴入眠、被林間輕脆鳥啼喚醒，不妨現在就背起行李，規劃一趟阿里山輕旅行，讓自己徜徉於神木群的芬多精中，為身心靈安排一趟大自然的洗禮吧。</p>"
+				}
+			},
+			"PMDL_EXPERIENCE_LOCATION": {
+				"module_title": "體驗地點",
+				"content": {
+					"list": [
+						{
+							"arrival_desc": {
+								"desc": "前往方式：\n【大眾運輸】\n1. 國光客運有台北、台中、台南新營至嘉義轉運站等路線，抵達嘉義後，可以轉搭其他交通工具抵達阿里山。\n2. 搭乘台灣鐵路抵達嘉義站後，可以轉搭阿里山林業鐵路或其他交通工具抵達阿里山。\n3. 搭乘高鐵於嘉義高鐵站2號出口，可搭乘快捷公車BRT往嘉義火車站（約25分鐘）轉乘其他交通工具。\n【自行開車】\n導航定位設定臺灣嘉義縣阿里山鄉正村59號，阿里山公路午後易起濃霧，請多利用上午時段上山並減速慢行。"
+							},
+							"location_name": {
+								"desc": "阿里山國家森林遊樂區收費站"
+							},
+							"latlng": {
+								"latitude": "23.5112942",
+								"longitude": "120.8036725",
+								"place_id": "ChIJOxUmrCDcbjQR1L87oFz49_8",
+								"map_snap_url": "s1.kkday.com/product_100459/20200525095215_s5M9h/png",
+								"zoom_lv": "17",
+								"desc": "臺灣嘉義縣阿里山鄉正村59號"
+							}
+						}
+					],
+					"table_key_langs": {
+						"location_name": "地點名稱",
+						"latlng": "地址",
+						"photo": "地點圖片",
+						"video": "地點影片",
+						"active_time": "開放時間",
+						"active_time_desc": "開放時間說明",
+						"arrival_desc": "如何抵達"
+					}
+				}
+			}
+		},
+		"prod_no": 100459,
+		"prod_url_no": 100459,
+		"prod_name": "台灣嘉義｜阿里山國家森林遊樂區門票｜平假日均可使用（本國籍限定）",
+		"prod_type": "M05",
+		"tag": [
+			"TAG_1_3",
+			"TAG_2_1",
+			"TAG_4_3"
+		],
+		"b2c_min_price": 200.0,
+		"b2b_min_price": 184.0,
+		"instant_booking": true,
+		"order_count": 1261,
+		"days": 0,
+		"hours": 0,
+		"duration": 0,
+		"introduction": "森林小火車、神木、雲海、日出與櫻花，阿里山國家森林遊樂區，是台灣最具知名、也最受歡迎的森林遊樂區，五奇絕景最為經典，觀看日出、雲海、晚霞，搭乘阿里山小火車穿梭在森林間，體驗世界僅存的三條登山鐵路之一；不想搭火車的乘客，阿里山國家森林遊樂園也有許多輕鬆的自然步道，讓你輕鬆吸取豐富芬多精，遠離塵囂，立即在 KKday 訂購阿里山國家森林遊樂區門票，體會高山森林的迷人之處。",
+		"cities": [
+			{
+				"city_code": "A01-001-00014",
+				"country_code": "A01-001",
+				"name": "台灣,嘉義"
+			}
+		],
+		"b2c_price": 200.0,
+		"b2b_price": 184.0,
+		"prod_currency": "TWD"
+	},
+	"pkg": [
+		{
+			"pkg_no": 301731,
+			"pkg_name": "台灣嘉義｜阿里山國家森林遊樂區門票｜平假日均可使用（本國籍限定）",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "2",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 0,
+			"lead_day_unit": "h",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "15:59",
+			"b2c_min_price": 200.0,
+			"b2b_min_price": 184.0,
+			"item_no": [
+				47058
+			],
+			"sale_s_date": "2021-06-08",
+			"sale_e_date": "2021-12-31",
+			"description_module": {}
+		}
+	],
+	"booking_field": {
+		"prod_no": "100459",
+		"ref_pkg": {
+			"301731": {}
+		}
+	}
+}

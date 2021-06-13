@@ -1,0 +1,1562 @@
+{
+	"result": "00",
+	"result_msg": "OK",
+	"prod_marketing": {
+		"TW": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"HK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"CN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"MY": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"SG": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"ID": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"PH": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"JP": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KR": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"TH": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"VN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		}
+	},
+	"prod": {
+		"is_tour": true,
+		"timezone": "US/Eastern",
+		"guide_lang_list": [
+			"English",
+			"中文"
+		],
+		"voice_guide_lang": [],
+		"confirm_order_time": false,
+		"img_list": [
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_1944/20191017072612_grt8c/png",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_1944/20191017072620_TPXjq/png",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_1944/20191017072701_ATunY/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_1944/20191017072722_odEpE/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_1944/20191017074218_PXzxr/jpg"
+		],
+		"video_list": [],
+		"prod_comment_info": {
+			"avg_scores": "4.08",
+			"total_scores": "216",
+			"click_count": "0",
+			"comment_record": "53"
+		},
+		"go_date_setting": {
+			"type": "01"
+		},
+		"is_cancel_free": false,
+		"description_module": {
+			"PMDL_EXCHANGE": {
+				"module_title": "憑證使用方式",
+				"content": {
+					"properties": {
+						"exchange_type": {
+							"desc": "現場請出示電子憑證",
+							"title": "使用方式"
+						}
+					}
+				}
+			},
+			"PMDL_INC_NINC": {
+				"module_title": "費用包含/不包含",
+				"content": {
+					"properties": {
+						"include_item": {
+							"list": [
+								{
+									"desc": "飯店 1 晚"
+								},
+								{
+									"desc": "全程豪華空調巴士"
+								},
+								{
+									"desc": "中英文雙語導遊"
+								},
+								{
+									"desc": "稅費"
+								}
+							],
+							"title": "費用包含"
+						},
+						"not_include_item": {
+							"list": [
+								{
+									"desc": "餐費"
+								},
+								{
+									"desc": "景點門票"
+								},
+								{
+									"desc": "保險"
+								},
+								{
+									"desc": "任何私人性質費用"
+								},
+								{
+									"desc": "司機導遊小費（每人每天最低支付 US$ 10），兒童與嬰兒需按成人標準支付小費"
+								},
+								{
+									"desc": "美境千島遊船 成人 US$ 27 / 3 - 12 歲 US$ 15"
+								},
+								{
+									"desc": "神秘洞 成人 US$ 18 / 6 - 12 歲 US$ 10"
+								},
+								{
+									"desc": "霧中少女號 成人 US$ 19.25 / 6 - 12 歲 US$ 11.20"
+								},
+								{
+									"desc": "尼亞加拉瀑布深度遊 成人 US$ 25 / 3 - 12 歲 US$ 15"
+								},
+								{
+									"desc": "風之洞 成人 US$ 19 / 6 - 12 歲 US$ 16"
+								},
+								{
+									"desc": "瀑布電影（美境）IMAX 成人 US$ 12 / 6 - 12 歲 US$ 8"
+								},
+								{
+									"desc": "Niagara Jet boat 成人 US$ 66 / 4 - 12 歲 US$ 56"
+								},
+								{
+									"desc": "康寧玻璃中心 成人 US$ 19.50 / 17 歲以下免費"
+								}
+							],
+							"title": "費用不包含"
+						}
+					}
+				}
+			},
+			"PMDL_REFUND_POLICY": {
+				"module_title": "取消政策",
+				"content": {
+					"properties": {
+						"policy_type": {
+							"desc": "指定手續費",
+							"title": "手續費收取方式"
+						},
+						"partial_refund": {
+							"list": [
+								{
+									"desc": "所選日期 14 天（含）之前取消，收取手續費 0%"
+								},
+								{
+									"desc": "所選日期  7 ~ 13 天之間取消，收取手續費 50%"
+								},
+								{
+									"desc": "所選日期  0 ~ 6 天之間取消，收取手續費 100%"
+								}
+							],
+							"title": "政策內容"
+						}
+					}
+				}
+			},
+			"PMDL_NOTICE": {
+				"module_title": "注意事項",
+				"content": {
+					"properties": {
+						"reminds": {
+							"list": [
+								{
+									"desc": "最少出團人數 10 人，當參加人數未達上述規定的最少成團人數時，將取消旅遊行程，於出發日前 1 天發出取消旅遊的 Email 通知。"
+								}
+							]
+						},
+						"cust_reminds": {
+							"list": [
+								{
+									"desc": "上下車地點需要保持一致，除了不提供下車的服務站點外，如需更換下車地點，請即時與我們聯繫，回程下車順序按具體交通情況由導遊統一安排。"
+								},
+								{
+									"desc": "此為併團行程，您將與各地來的旅客同遊。"
+								},
+								{
+									"desc": "每一位乘客可以攜帶一件大行李（最大 28 吋、重量 20 公斤以下）跟一件手提行李。"
+								}
+							]
+						}
+					}
+				}
+			},
+			"PMDL_SCHEDULE": {
+				"module_title": "行程介紹",
+				"content": {
+					"properties": {
+						"total_day": {
+							"desc": "2天",
+							"title": "行程時間"
+						},
+						"schedule_list": {
+							"list": [
+								{
+									"daily_title": {
+										"desc": "第1天"
+									},
+									"daily_schedule_list": {
+										"table_key_langs": {
+											"time": "活動時間",
+											"content": "活動內容",
+											"media": "活動圖片"
+										},
+										"list": [
+											{
+												"content": {
+													"desc": "紐約出發"
+												}
+											},
+											{
+												"time": {
+													"desc": "07:00"
+												},
+												"content": {
+													"desc": "Flushing, NY"
+												}
+											},
+											{
+												"time": {
+													"desc": "08:00"
+												},
+												"content": {
+													"desc": "New York China Town, NY"
+												}
+											},
+											{
+												"content": {
+													"desc": "紐約千島（04 / 27 - 11 / 14）"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_1944/20191017074218_PXzxr/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "住宿：Standard Hotel: Rochester 或附近酒店"
+												}
+											},
+											{
+												"content": {
+													"desc": "斯克內克塔迪 神秘洞（11 / 15 - 04 / 26）"
+												}
+											}
+										]
+									}
+								},
+								{
+									"daily_title": {
+										"desc": "第2天"
+									},
+									"daily_schedule_list": {
+										"table_key_langs": {
+											"time": "活動時間",
+											"content": "活動內容",
+											"media": "活動圖片"
+										},
+										"list": [
+											{
+												"content": {
+													"desc": "尼加拉瀑布"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_1944/20191017072612_grt8c/png"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "霧中少女號（5 月－10 月），遊覽時間約 20 分鐘"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_1944/20191017072620_TPXjq/png"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "噴射快艇（11 月－4 月），遊覽時間約 45 分鐘"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_1944/20191017072701_ATunY/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "尼加拉瀑布 IMAX 電影，遊覽時間約 45 分鐘"
+												}
+											},
+											{
+												"content": {
+													"desc": "印第安人真人秀，遊覽時間約 45 分鐘"
+												}
+											},
+											{
+												"content": {
+													"desc": "尼加拉瀑布深度遊"
+												}
+											}
+										]
+									}
+								}
+							],
+							"table_key_langs": {
+								"meals": "當天餐點",
+								"daily_schedule_list": "當天行程內容"
+							},
+							"title": "行程內容"
+						}
+					}
+				}
+			},
+			"PMDL_VENUE_LOCATION": {
+				"module_title": "接駁地點",
+				"content": {
+					"list": [
+						{
+							"location_name": {
+								"desc": "6102 8th Ave, Brooklyn, NY 11220 (Pick up only 只接不送)"
+							},
+							"latlng": {
+								"latitude": "40.6349292",
+								"longitude": "-74.0104949",
+								"place_id": "ChIJ0X9LZElFwokRQqq08FG-2u4",
+								"map_snap_url": "/image/get/w_140,h_105,c_fill,q_55,wm_auto/s1.kkday.com/product_1944/20200414042926_UwgTP/png",
+								"zoom_lv": "16",
+								"desc": "6102 8th Ave, Brooklyn, NY 11220 (HSBC BANK)"
+							},
+							"gather": {
+								"desc": "07:00"
+							},
+							"setout": {
+								"desc": "07:00"
+							}
+						},
+						{
+							"location_name": {
+								"desc": "75 Chrystie St, New York"
+							},
+							"latlng": {
+								"latitude": "40.7171859",
+								"longitude": "-73.9945436",
+								"place_id": "ChIJs0QaAChawokRqDviXm9kwEo",
+								"map_snap_url": "/image/get/w_140,h_105,c_fill,q_55,wm_auto/s1.kkday.com/product_1944/20200414042928_bDJtC/png",
+								"zoom_lv": "16",
+								"desc": "75 Chrystie St, New York (Chinatown-Manhattan)"
+							},
+							"gather": {
+								"desc": "08:00"
+							},
+							"setout": {
+								"desc": "08:00"
+							}
+						},
+						{
+							"location_name": {
+								"desc": "125 Eighteenth St. Jersey City, NJ07310"
+							},
+							"latlng": {
+								"latitude": "40.7330715",
+								"longitude": "-74.0373803",
+								"place_id": "ChIJ0crvmVBXwokRvLcR0kFuqj0",
+								"map_snap_url": "/image/get/w_140,h_105,c_fill,q_55,wm_auto/s1.kkday.com/product_1944/20200414042930_nT3S7/png",
+								"zoom_lv": "16",
+								"desc": "125 Eighteenth St. Jersey City, NJ07310 (Acme market 門口)"
+							},
+							"gather": {
+								"desc": "08:10"
+							},
+							"setout": {
+								"desc": "08:10"
+							}
+						},
+						{
+							"location_name": {
+								"desc": "828 US-46, Parsippany, NJ 070540"
+							},
+							"latlng": {
+								"latitude": "40.862793",
+								"longitude": "-74.37627",
+								"place_id": "ChIJxSslfpEHw4kRmNkhfvsmh3A",
+								"map_snap_url": "/image/get/w_140,h_105,c_fill,q_55,wm_auto/s1.kkday.com/product_1944/20200414042932_4Bbgp/png",
+								"zoom_lv": "16",
+								"desc": "828 US-46, Parsippany, NJ 070540 (Top Quality Food Market 門口)"
+							},
+							"gather": {
+								"desc": "08:40"
+							},
+							"setout": {
+								"desc": "08:40"
+							}
+						},
+						{
+							"location_name": {
+								"desc": "133-30 39th Ave"
+							},
+							"latlng": {
+								"latitude": "40.7591112",
+								"longitude": "-73.8333422",
+								"place_id": "ChIJ2aw2iQ5gwokRDiwmsI9YhnE",
+								"map_snap_url": "/image/get/w_140,h_105,c_fill,q_55,wm_auto/s1.kkday.com/product_1944/20200414042934_GG2xS/png",
+								"zoom_lv": "16",
+								"desc": "Flushing,133-30 39th Ave, Flushing (敦城海鮮酒家門口)"
+							},
+							"gather": {
+								"desc": "06:45"
+							},
+							"setout": {
+								"desc": "06:45"
+							}
+						}
+					],
+					"table_key_langs": {
+						"location_name": "地點名稱",
+						"latlng": "地址",
+						"photo": "地點圖片",
+						"video": "地點影片",
+						"gather": "集合時間",
+						"setout": "出發時間",
+						"arrival_desc": "如何抵達"
+					}
+				}
+			},
+			"PMDL_INTRODUCE_SUMMARY": {
+				"module_title": "商品說明",
+				"content": {
+					"desc": "<p>－ 行程特色 －<br><br> ・觀光巴士來回接送，費用包含一晚住宿，還有中英雙語導遊隨行導覽<br> ・乘坐噴射快艇 Jetboat 或霧之少女 Maid of the Mist 穿越尼加拉大瀑布<br>・ 深度遊覽尼加拉瀑布，漩渦公園欣賞天然巨大漩渦，尼加拉古堡認識歷史地標<br><br><br>－ 行程資訊 － <br><br>・集合時間：07:00 - 08:40 (集合時間因接送地點而不同，請以憑證為準)<br>・行程長度：2 天 1 夜<br>・回程資訊：同出發地點<br>・票券種類：出示電子憑證<br>・上車 / 下車時間地點：共 5 個上車點，時間及地點詳情請參考下方說明。請於訂購時指定要於何處上車 (正確時間請以憑證為準)<br><br>・06:45 / 20:30：133-30 39th Ave, Flushing（敦城海鮮酒家門口）<br>・07:00 / 此站只接不送：6102 8th Ave, Brooklyn, NY 11220（HSBC BANK）<br>・08:00 / 20:00 ：75 Chrystie St, New York（Chinatown-Manhattan）<br>・08:10 / 19:30 ：125 Eighteenth St. Jersey City, NJ07310 （Acme market 門口）<br>・08:40 / 19:00 ：828 US-46, Parsippany, NJ 070540 （Top Quality Food Market 門口）<br><br><br>－ 行程介紹 －<br><br>・第一日行程<br> - 夏季：亞歷山大灣 / 美國境內千島湖遊船（自費，60 分鐘）<br> - 冬季：神秘洞（自費，60 分鐘）/ 尼亞加拉瀑布 IMAX 电影 (自費，30 分鐘）/ 加拉瓜瀑布燈光夜景<br><br>・第二日行程<br> - 夏季：尼亞加拉瀑布 / 風之洞（自費，90 分鐘）/ 美境瀑布 IMAX 電影（自費，30 分鐘）/ 霧中少女觀瀑船（自費，20 分鐘）<br> - 冬季：尼亞加拉深度遊（自費，120 分鐘，包含漩渦公園和尼亞加拉戰爭古堡）/ 尼亞加拉瀑布快艇（自費，45 分鐘）/ 康寧玻璃中心 (自費，60 分鐘）<br><br> ・神秘洞 (冬季 11 - 3 月)<br>神秘洞形成於 38,000 年前冰河時期，您可以觀賞 85 英尺深洞穴的岩石演變，以及懸掛的鐘乳石柱、在地上的石筍、唯美的地下瀑布。<br><br> ・千島群島 (夏季 4 - 10月)<br>在這個由 1864 個小島組成的千島湖上，你可以乘坐夏季航行的千島湖專屬遊船，欣賞世界上最短的國際橋，享受清澈的湖水及美麗風景圍繞的「 世界淡水劃船之都 」！<br><br>※住宿：R.I.T Inn Rochester, Holiday Inn Rochester Airport 或同等級飯店<br><br>・風之洞<br>風之洞的入口在公羊島，裡面會有一個小型博物館和一個小電影院，可搭乘電梯在岩洞中向下 53 米就到達谷底。站在了大瀑布的腳下，翹首仰望，便會看見大瀑布以鋪天蓋地的磅礴氣勢飛流直下。<br><br>・尼亞加拉瀑布<br>搭乘噴射快艇 Jetboat 或霧之少女號，探索尼加拉大瀑布，乘遊船繞著瀑布航行，近距離觀賞世界七大奇景。<br><br> ・漩渦公園<br>漩渦公園因地質斷裂運動擁有天然的巨大漩渦，一旁建有空中纜車，可以從空中一覽壯觀的漩渦。<br><br> ・戰爭古堡<br>戰爭古堡在美國獨立前就存在於瀑布旁邊，它的背後就是一望無際的安大略湖，美國五大湖之一佔據重要地理位置，經歷多場戰爭，是一個富有歷史價值的景點。<br><br><br>－ 重要資訊 －<br><br>・請提早15分鐘抵達集合地點，以便工作人員登記。<br>・以上所有自費行程內容，均須和導遊購買，無法使用自行預先購買的票券，像是 CityPass 等等，請見諒。<br>・導遊會依當天實際情況調整景點順序其參訪地點，敬請知悉。<br>・參加此團必須參加以上列出之自費行程，敬請知悉。<br>・門票價錢僅供參考，價錢會因季節而作出變動，請以官網或當天門票價錢為準。<br>・基於 Niagara Jet boat 安全因素，未滿 4 歲孩童不得參加，敬請知悉。</p>"
+				}
+			},
+			"PMDL_EXPERIENCE_LOCATION": {
+				"module_title": "體驗地點",
+				"content": {
+					"list": [
+						{
+							"arrival_desc": {
+								"desc": "・Brooklyn只作上車地點，返程不停靠\n・上車點與下車點一般需要保持一致，除個別不提供下車服務的站點以外，如需更換下車地點，請及時與我們聯繫回程下車順序按具體的交通情況由導遊統一安排"
+							},
+							"location_name": {
+								"desc": "體驗地點"
+							},
+							"latlng": {
+								"latitude": "44.2588661",
+								"longitude": "-76.3135773",
+								"map_snap_url": "s1.kkday.com/product_1944_location/20171016034636_vYX4d/png",
+								"zoom_lv": "6",
+								"desc": "Thousand Islands, NY"
+							}
+						},
+						{
+							"arrival_desc": {
+								"desc": "・Brooklyn只作上車地點，返程不停靠\n・上車點與下車點一般需要保持一致，除個別不提供下車服務的站點以外，如需更換下車地點，請及時與我們聯繫回程下車順序按具體的交通情況由導遊統一安排"
+							},
+							"location_name": {
+								"desc": "體驗地點"
+							},
+							"latlng": {
+								"latitude": "42.8142432",
+								"longitude": "-73.9395687",
+								"map_snap_url": "s1.kkday.com/product_1944_location/20171016034636_vYX4d/png",
+								"zoom_lv": "6",
+								"desc": "Schenectady, NY"
+							}
+						}
+					],
+					"table_key_langs": {
+						"location_name": "地點名稱",
+						"latlng": "地址",
+						"photo": "地點圖片",
+						"video": "地點影片",
+						"active_time": "開放時間",
+						"active_time_desc": "開放時間說明",
+						"arrival_desc": "如何抵達"
+					}
+				}
+			}
+		},
+		"prod_no": 1944,
+		"prod_url_no": 1944,
+		"prod_name": "【橫跨美加邊境】尼加拉瀑布 ＆ 千島群島二日遊",
+		"prod_type": "M01",
+		"tag": [
+			"TAG_4_5",
+			"TAG_4_4"
+		],
+		"b2c_min_price": 2535.0,
+		"b2b_min_price": 2155.0,
+		"instant_booking": false,
+		"order_count": 324,
+		"days": 2,
+		"hours": 0,
+		"duration": 0,
+		"introduction": "參加紐約尼加拉瀑布二日遊，搭乘旅行團專車直達滂礡壯闊的景點，還有中英導遊隨行導覽服務，讓您在旅行中專心欣賞沿途風景！行程會前往探索神祕洞或千島群島，再到紐約州與加拿大交界－尼加拉瀑布，搭乘噴射快艇，近距離觀賞世界聞名的跨國瀑布",
+		"cities": [
+			{
+				"city_code": "A05-001-00001",
+				"country_code": "A05-001",
+				"name": "美國,紐約"
+			}
+		],
+		"b2c_price": 5180.0,
+		"b2b_price": 2155.0,
+		"prod_currency": "TWD"
+	},
+	"pkg": [],
+	"booking_field": {
+		"prod_no": "1944",
+		"custom": {
+			"cus_type": {
+				"is_require": "True",
+				"is_contact_used": "True",
+				"is_lead_used": "True",
+				"type": "array",
+				"list_option": [
+					"cus_01",
+					"contact"
+				]
+			},
+			"english_last_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_lead_used": "True",
+				"type": "string"
+			},
+			"english_first_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_lead_used": "True",
+				"type": "string"
+			},
+			"native_last_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"type": "string"
+			},
+			"native_first_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"type": "string"
+			},
+			"tel_country_code": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"ref_source": "list_option.code",
+				"type": "list",
+				"list_option": [
+					{
+						"code": "93",
+						"info": "Afghanistan(阿富汗)"
+					},
+					{
+						"code": "355",
+						"info": "Albania(阿爾巴尼亞)"
+					},
+					{
+						"code": "213",
+						"info": "Algeria(阿爾及利亞)"
+					},
+					{
+						"code": "376",
+						"info": "Andorra(安道爾)"
+					},
+					{
+						"code": "244",
+						"info": "Angola(安哥拉)"
+					},
+					{
+						"code": "1264",
+						"info": "Anguilla(安圭拉)"
+					},
+					{
+						"code": "672",
+						"info": "Antarctica(南極洲)"
+					},
+					{
+						"code": "1268",
+						"info": "Antigua and Barbuda(安地卡及巴布達)"
+					},
+					{
+						"code": "54",
+						"info": "Argentina(阿根廷)"
+					},
+					{
+						"code": "374",
+						"info": "Armenia(亞美尼亞)"
+					},
+					{
+						"code": "297",
+						"info": "Aruba(阿魯巴)"
+					},
+					{
+						"code": "61",
+						"info": "Australia(澳洲)"
+					},
+					{
+						"code": "43",
+						"info": "Austria(奥地利)"
+					},
+					{
+						"code": "994",
+						"info": "Azerbaijan(亞塞拜然)"
+					},
+					{
+						"code": "1242",
+						"info": "Bahamas(巴哈馬)"
+					},
+					{
+						"code": "973",
+						"info": "Bahrain(巴林)"
+					},
+					{
+						"code": "880",
+						"info": "Bangladesh(孟加拉)"
+					},
+					{
+						"code": "1246",
+						"info": "Barbados(巴貝多)"
+					},
+					{
+						"code": "375",
+						"info": "Belarus(白俄羅斯)"
+					},
+					{
+						"code": "32",
+						"info": "Belgium(比利時)"
+					},
+					{
+						"code": "501",
+						"info": "Belize(貝里斯)"
+					},
+					{
+						"code": "229",
+						"info": "Benin(貝南)"
+					},
+					{
+						"code": "1441",
+						"info": "Bermuda(百慕達)"
+					},
+					{
+						"code": "975",
+						"info": "Bhutan(不丹)"
+					},
+					{
+						"code": "591",
+						"info": "Bolivia(玻利維亞)"
+					},
+					{
+						"code": "387",
+						"info": "Bosnia and Herzegovina(波士尼亞與赫塞哥維納)"
+					},
+					{
+						"code": "267",
+						"info": "Botswana(波札那)"
+					},
+					{
+						"code": "55",
+						"info": "Brazil(巴西)"
+					},
+					{
+						"code": "673",
+						"info": "Brunei(汶萊)"
+					},
+					{
+						"code": "359",
+						"info": "Bulgaria(保加利亞)"
+					},
+					{
+						"code": "226",
+						"info": "Burkina Faso(布吉納法索)"
+					},
+					{
+						"code": "257",
+						"info": "Burundi(蒲隆地)"
+					},
+					{
+						"code": "855",
+						"info": "Cambodia(柬埔寨)"
+					},
+					{
+						"code": "237",
+						"info": "Cameroon(喀麥隆)"
+					},
+					{
+						"code": "1",
+						"info": "Canada(加拿大)"
+					},
+					{
+						"code": "236",
+						"info": "Central African Republic(中非共和國)"
+					},
+					{
+						"code": "235",
+						"info": "Chad(查德)"
+					},
+					{
+						"code": "56",
+						"info": "Chile(智利)"
+					},
+					{
+						"code": "86",
+						"info": "China(中國)"
+					},
+					{
+						"code": "672",
+						"info": "Christmas Island(聖誕島)"
+					},
+					{
+						"code": "57",
+						"info": "Colombia(哥倫比亞)"
+					},
+					{
+						"code": "269",
+						"info": "Comoros(葛摩)"
+					},
+					{
+						"code": "682",
+						"info": "Cook Islands(庫克群島)"
+					},
+					{
+						"code": "506",
+						"info": "Costa Rica(哥斯大黎加)"
+					},
+					{
+						"code": "225",
+						"info": "Côte dIvoire(科特迪瓦(象牙海岸))"
+					},
+					{
+						"code": "385",
+						"info": "Croatia(克羅埃西亞)"
+					},
+					{
+						"code": "53",
+						"info": "Cuba(古巴)"
+					},
+					{
+						"code": "357",
+						"info": "Cyprus(賽普勒斯)"
+					},
+					{
+						"code": "420",
+						"info": "Czech Republic(捷克共和國)"
+					},
+					{
+						"code": "45",
+						"info": "Denmark(丹麥)"
+					},
+					{
+						"code": "253",
+						"info": "Djibouti(吉布地)"
+					},
+					{
+						"code": "1767",
+						"info": "Dominica(多明尼加共和國)"
+					},
+					{
+						"code": "1809",
+						"info": "Dominican Republic(多明尼加共和國)"
+					},
+					{
+						"code": "593",
+						"info": "Ecuador(厄瓜多)"
+					},
+					{
+						"code": "20",
+						"info": "Egypt(埃及)"
+					},
+					{
+						"code": "503",
+						"info": "El Salvador(薩爾瓦多)"
+					},
+					{
+						"code": "372",
+						"info": "Estonia(愛沙尼亞)"
+					},
+					{
+						"code": "251",
+						"info": "Ethiopia(衣索比亞)"
+					},
+					{
+						"code": "500",
+						"info": "Falkland Islands(英屬福克蘭群島)"
+					},
+					{
+						"code": "252",
+						"info": "Federal Republic of Somalia(索馬利亞聯邦共和國)"
+					},
+					{
+						"code": "679",
+						"info": "Fiji(斐濟)"
+					},
+					{
+						"code": "358",
+						"info": "Finland(芬蘭)"
+					},
+					{
+						"code": "33",
+						"info": "France(法國)"
+					},
+					{
+						"code": "594",
+						"info": "French Guiana(法屬圭亞那)"
+					},
+					{
+						"code": "689",
+						"info": "French Polynesia(法屬玻里尼西亞)"
+					},
+					{
+						"code": "241",
+						"info": "Gabon(加彭)"
+					},
+					{
+						"code": "220",
+						"info": "Gambia(甘比亞)"
+					},
+					{
+						"code": "995",
+						"info": "Georgia(喬治亞)"
+					},
+					{
+						"code": "49",
+						"info": "Germany(德國)"
+					},
+					{
+						"code": "233",
+						"info": "Ghana(迦納)"
+					},
+					{
+						"code": "350",
+						"info": "Gibraltar(直布羅陀)"
+					},
+					{
+						"code": "30",
+						"info": "Greece(希臘)"
+					},
+					{
+						"code": "299",
+						"info": "Greenland(格陵蘭)"
+					},
+					{
+						"code": "1473",
+						"info": "Grenada(格瑞那達)"
+					},
+					{
+						"code": "1671",
+						"info": "Guam(關島)"
+					},
+					{
+						"code": "502",
+						"info": "Guatemala(瓜地馬拉)"
+					},
+					{
+						"code": "224",
+						"info": "Guinea(幾內亞)"
+					},
+					{
+						"code": "592",
+						"info": "Guyana(蓋亞那)"
+					},
+					{
+						"code": "509",
+						"info": "Haiti(海地)"
+					},
+					{
+						"code": "39",
+						"info": "Vatican City, Holy See(梵諦岡(教廷))"
+					},
+					{
+						"code": "504",
+						"info": "Honduras(宏都拉斯)"
+					},
+					{
+						"code": "852",
+						"info": "Hong Kong(香港)"
+					},
+					{
+						"code": "36",
+						"info": "Hungary(匈牙利)"
+					},
+					{
+						"code": "354",
+						"info": "Iceland(冰島)"
+					},
+					{
+						"code": "91",
+						"info": "India(印度)"
+					},
+					{
+						"code": "62",
+						"info": "Indonesia(印尼)"
+					},
+					{
+						"code": "98",
+						"info": "Iran(伊朗)"
+					},
+					{
+						"code": "964",
+						"info": "Iraq(伊拉克)"
+					},
+					{
+						"code": "353",
+						"info": "Ireland(愛爾蘭)"
+					},
+					{
+						"code": "972",
+						"info": "Israel(以色列)"
+					},
+					{
+						"code": "39",
+						"info": "Italy(義大利)"
+					},
+					{
+						"code": "1876",
+						"info": "Jamaica(牙買加)"
+					},
+					{
+						"code": "81",
+						"info": "Japan(日本)"
+					},
+					{
+						"code": "962",
+						"info": "Jordan(約旦)"
+					},
+					{
+						"code": "7",
+						"info": "Kazakhstan(哈薩克)"
+					},
+					{
+						"code": "254",
+						"info": "Kenya(肯亞)"
+					},
+					{
+						"code": "965",
+						"info": "Kuwait(科威特)"
+					},
+					{
+						"code": "996",
+						"info": "Kyrgyzstan(吉爾吉斯坦)"
+					},
+					{
+						"code": "856",
+						"info": "Laos(寮國)"
+					},
+					{
+						"code": "371",
+						"info": "Latvia(拉脫維亞)"
+					},
+					{
+						"code": "961",
+						"info": "Lebanon(黎巴嫩)"
+					},
+					{
+						"code": "266",
+						"info": "Lesotho(賴索托)"
+					},
+					{
+						"code": "231",
+						"info": "Liberia(賴比瑞亞)"
+					},
+					{
+						"code": "218",
+						"info": "Libya(利比亞)"
+					},
+					{
+						"code": "423",
+						"info": "Liechtenstein(列支敦斯登)"
+					},
+					{
+						"code": "370",
+						"info": "Lithuania(立陶宛)"
+					},
+					{
+						"code": "352",
+						"info": "Luxembourg(盧森堡)"
+					},
+					{
+						"code": "853",
+						"info": "Macau(澳門)"
+					},
+					{
+						"code": "389",
+						"info": "Macedonia(馬其頓)"
+					},
+					{
+						"code": "261",
+						"info": "Madagascar(馬達加斯加)"
+					},
+					{
+						"code": "265",
+						"info": "Malawi(馬拉威)"
+					},
+					{
+						"code": "60",
+						"info": "Malaysia(馬來西亞)"
+					},
+					{
+						"code": "960",
+						"info": "Maldives(馬爾地夫)"
+					},
+					{
+						"code": "223",
+						"info": "Mali(馬利)"
+					},
+					{
+						"code": "356",
+						"info": "Malta(馬爾他)"
+					},
+					{
+						"code": "230",
+						"info": "Mauritius(模里西斯)"
+					},
+					{
+						"code": "52",
+						"info": "Mexico(墨西哥)"
+					},
+					{
+						"code": "373",
+						"info": "Moldova(摩爾多瓦)"
+					},
+					{
+						"code": "377",
+						"info": "Monaco(摩納哥)"
+					},
+					{
+						"code": "976",
+						"info": "Mongolia(蒙古)"
+					},
+					{
+						"code": "382",
+						"info": "Montenegro(蒙特內哥羅)"
+					},
+					{
+						"code": "1664",
+						"info": "Montserrat(蒙塞拉特)"
+					},
+					{
+						"code": "212",
+						"info": "Morocco(摩洛哥)"
+					},
+					{
+						"code": "258",
+						"info": "Mozambique(莫三比克)"
+					},
+					{
+						"code": "95",
+						"info": "Myanmar(緬甸)"
+					},
+					{
+						"code": "264",
+						"info": "Namibia(那米比亞)"
+					},
+					{
+						"code": "674",
+						"info": "Nauru(諾魯)"
+					},
+					{
+						"code": "977",
+						"info": "Nepal(尼泊爾)"
+					},
+					{
+						"code": "31",
+						"info": "Netherlands(荷蘭)"
+					},
+					{
+						"code": "64",
+						"info": "New Zealand(紐西蘭)"
+					},
+					{
+						"code": "505",
+						"info": "Nicaragua(尼加拉瓜)"
+					},
+					{
+						"code": "227",
+						"info": "Niger(尼日)"
+					},
+					{
+						"code": "234",
+						"info": "Nigeria(奈及利亞)"
+					},
+					{
+						"code": "1-670",
+						"info": "Northern Mariana Islands(北馬里安納群島)"
+					},
+					{
+						"code": "850",
+						"info": "North Korea(北韓)"
+					},
+					{
+						"code": "47",
+						"info": "Norway(挪威)"
+					},
+					{
+						"code": "968",
+						"info": "Oman(阿曼)"
+					},
+					{
+						"code": "92",
+						"info": "Pakistan(巴基斯坦)"
+					},
+					{
+						"code": "507",
+						"info": "Panama(巴拿馬)"
+					},
+					{
+						"code": "675",
+						"info": "Papua New Guinea(巴布亞紐幾內亞)"
+					},
+					{
+						"code": "595",
+						"info": "Paraguay(巴拉圭)"
+					},
+					{
+						"code": "51",
+						"info": "Peru(秘魯)"
+					},
+					{
+						"code": "63",
+						"info": "Philippines(菲律賓)"
+					},
+					{
+						"code": "48",
+						"info": "Poland(波蘭)"
+					},
+					{
+						"code": "351",
+						"info": "Portugal(葡萄牙)"
+					},
+					{
+						"code": "1787",
+						"info": "Puerto Rico(波多黎各)"
+					},
+					{
+						"code": "974",
+						"info": "Qatar(卡達)"
+					},
+					{
+						"code": "680",
+						"info": "Republic of Palau(帛琉)"
+					},
+					{
+						"code": "242",
+						"info": "Republic of the Congo(剛果共和國)"
+					},
+					{
+						"code": "262",
+						"info": "Réunion(留尼旺)"
+					},
+					{
+						"code": "40",
+						"info": "Romania(羅馬尼亞)"
+					},
+					{
+						"code": "7",
+						"info": "Russia(俄羅斯)"
+					},
+					{
+						"code": "250",
+						"info": "Rwanda(盧安達)"
+					},
+					{
+						"code": "378",
+						"info": "San Marino(聖馬里諾)"
+					},
+					{
+						"code": "239",
+						"info": "Sao Tome and Principe(聖多美普林西比)"
+					},
+					{
+						"code": "966",
+						"info": "Saudi Arabia(沙烏地阿拉伯)"
+					},
+					{
+						"code": "221",
+						"info": "Senegal(塞內加爾)"
+					},
+					{
+						"code": "381",
+						"info": "Serbia(塞爾維亞)"
+					},
+					{
+						"code": "248",
+						"info": "Seychelles(塞席爾)"
+					},
+					{
+						"code": "232",
+						"info": "Sierra Leone(獅子山)"
+					},
+					{
+						"code": "65",
+						"info": "Singapore(新加坡)"
+					},
+					{
+						"code": "421",
+						"info": "Slovakia(斯洛伐克)"
+					},
+					{
+						"code": "386",
+						"info": "Slovenia(斯洛維尼亞)"
+					},
+					{
+						"code": "677",
+						"info": "Solomon Islands(索羅門群島)"
+					},
+					{
+						"code": "27",
+						"info": "South Africa(南非)"
+					},
+					{
+						"code": "82",
+						"info": "South Korea(南韓)"
+					},
+					{
+						"code": "34",
+						"info": "Spain(西班牙)"
+					},
+					{
+						"code": "94",
+						"info": "Sri Lanka(斯里蘭卡)"
+					},
+					{
+						"code": "1758",
+						"info": "St. Lucia(聖露西亞)"
+					},
+					{
+						"code": "1784",
+						"info": "St. Vincent and the Grenadines(聖文森及格瑞那丁)"
+					},
+					{
+						"code": "249",
+						"info": "Sudan(蘇丹)"
+					},
+					{
+						"code": "597",
+						"info": "Suriname(蘇利南)"
+					},
+					{
+						"code": "268",
+						"info": "Swaziland(史瓦濟蘭)"
+					},
+					{
+						"code": "46",
+						"info": "Sweden(瑞典)"
+					},
+					{
+						"code": "41",
+						"info": "Switzerland(瑞士)"
+					},
+					{
+						"code": "963",
+						"info": "Syria(希利亞)"
+					},
+					{
+						"code": "886",
+						"info": "Taiwan(台灣)"
+					},
+					{
+						"code": "992",
+						"info": "Tajikistan(塔吉克)"
+					},
+					{
+						"code": "255",
+						"info": "Tanzania(坦尚尼亞)"
+					},
+					{
+						"code": "66",
+						"info": "Thailand(泰國)"
+					},
+					{
+						"code": "228",
+						"info": "Togo(多哥)"
+					},
+					{
+						"code": "676",
+						"info": "Tonga(東加)"
+					},
+					{
+						"code": "1868",
+						"info": "Trinidad and Tobago(千里達及托巴哥)"
+					},
+					{
+						"code": "216",
+						"info": "Tunisia(突尼西亞)"
+					},
+					{
+						"code": "90",
+						"info": "Turkey(土耳其)"
+					},
+					{
+						"code": "993",
+						"info": "Turkmenistan(土庫曼)"
+					},
+					{
+						"code": "256",
+						"info": "Uganda(烏干達)"
+					},
+					{
+						"code": "380",
+						"info": "Ukraine(烏克蘭)"
+					},
+					{
+						"code": "971",
+						"info": "United Arab Emirates(阿拉伯聯合大公國)"
+					},
+					{
+						"code": "44",
+						"info": "United Kingdom(英國)"
+					},
+					{
+						"code": "1",
+						"info": "United States of America(美國)"
+					},
+					{
+						"code": "598",
+						"info": "Uruguay(烏拉圭)"
+					},
+					{
+						"code": "233",
+						"info": "Uzbekistan(烏茲別克)"
+					},
+					{
+						"code": "58",
+						"info": "Venezuela(委內瑞拉)"
+					},
+					{
+						"code": "84",
+						"info": "Vietnam(越南)"
+					},
+					{
+						"code": "967",
+						"info": "Yemen(葉門)"
+					},
+					{
+						"code": "260",
+						"info": "Zambia(尚比亞)"
+					},
+					{
+						"code": "263",
+						"info": "Zimbabwe(辛巴威)"
+					}
+				]
+			},
+			"tel_number": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"type": "string"
+			},
+			"birth": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_lead_used": "True",
+				"type": "date"
+			},
+			"guide_lang": {
+				"is_require": "True",
+				"is_visible": "True",
+				"ref_source": "list_option.code",
+				"type": "list",
+				"list_option": [
+					{
+						"code": "en",
+						"name": "English"
+					},
+					{
+						"code": "zh-tw",
+						"name": "中文"
+					}
+				]
+			}
+		},
+		"traffic": {
+			"car": {
+				"traffic_type": {
+					"is_require": "True",
+					"type": "array",
+					"list_option": [
+						"pickup_03"
+					]
+				},
+				"location_list": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_pickup_used": "True",
+					"type": "list",
+					"list_option": [
+						{
+							"traffic_type": "pickup_03",
+							"sort": 0,
+							"id": "a23a0bd0-3027-41fe-9009-c15abe217e84",
+							"name": "6102 8th Ave, Brooklyn, NY 11220 (Pick up only 只接不送)",
+							"address": "6102 8th Ave, Brooklyn, NY 11220 (HSBC BANK)",
+							"s_time": "07:00",
+							"e_time": "07:00"
+						},
+						{
+							"traffic_type": "pickup_03",
+							"sort": 1,
+							"id": "758763ae-8d2f-454e-ab32-f1839bc1ec7a",
+							"name": "75 Chrystie St, New York",
+							"address": "75 Chrystie St, New York (Chinatown-Manhattan)",
+							"s_time": "08:00",
+							"e_time": "08:00"
+						},
+						{
+							"traffic_type": "pickup_03",
+							"sort": 2,
+							"id": "a437f272-04f5-4489-a3e0-21f9c79b7023",
+							"name": "125 Eighteenth St. Jersey City, NJ07310",
+							"address": "125 Eighteenth St. Jersey City, NJ07310 (Acme market 門口)",
+							"s_time": "08:10",
+							"e_time": "08:10"
+						},
+						{
+							"traffic_type": "pickup_03",
+							"sort": 3,
+							"id": "96724945-ca46-4193-8a34-3360e9592abe",
+							"name": "828 US-46, Parsippany, NJ 070540",
+							"address": "828 US-46, Parsippany, NJ 070540 (Top Quality Food Market 門口)",
+							"s_time": "08:40",
+							"e_time": "08:40"
+						},
+						{
+							"traffic_type": "pickup_03",
+							"sort": 4,
+							"id": "a7c76fa1-fd36-4adc-9e3d-2b7a122ed689",
+							"name": "133-30 39th Ave",
+							"address": "Flushing,133-30 39th Ave, Flushing (敦城海鮮酒家門口)",
+							"s_time": "06:45",
+							"e_time": "06:45"
+						}
+					]
+				},
+				"s_location": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_pickup_used": "True",
+					"ref_source": "location_list.id",
+					"type": "string"
+				},
+				"s_date": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_pickup_used": "True",
+					"type": "string"
+				}
+			}
+		},
+		"ref_pkg": {
+			"73759": {
+				"custom": {
+					"cus_type": [
+						"cus_01",
+						"contact"
+					]
+				},
+				"traffic": {
+					"traffic_type": [
+						"pickup_03"
+					],
+					"s_location": "True"
+				}
+			},
+			"73760": {
+				"custom": {
+					"cus_type": [
+						"cus_01",
+						"contact"
+					]
+				},
+				"traffic": {
+					"traffic_type": [
+						"pickup_03"
+					],
+					"s_location": "True"
+				}
+			},
+			"73758": {
+				"custom": {
+					"cus_type": [
+						"cus_01",
+						"contact"
+					]
+				},
+				"traffic": {
+					"traffic_type": [
+						"pickup_03"
+					],
+					"s_location": "True"
+				}
+			},
+			"73761": {
+				"custom": {
+					"cus_type": [
+						"cus_01",
+						"contact"
+					]
+				},
+				"traffic": {
+					"traffic_type": [
+						"pickup_03"
+					],
+					"s_location": "True"
+				}
+			}
+		}
+	}
+}

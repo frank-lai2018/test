@@ -1,0 +1,705 @@
+{
+	"result": "00",
+	"result_msg": "OK",
+	"prod_marketing": {
+		"TW": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"HK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"CN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"MY": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"SG": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"ID": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"PH": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"JP": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KR": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"TH": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"VN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		}
+	},
+	"prod": {
+		"is_tour": false,
+		"timezone": "Asia/Taipei",
+		"guide_lang_list": [],
+		"voice_guide_lang": [],
+		"confirm_order_time": true,
+		"online_s_date": "2021-06-15",
+		"online_e_date": "2021-12-31",
+		"img_list": [
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_9468/20190225091057_q1e4v/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_9468/20200810084540_WmJG4/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_9468/20190902024557_D7DnO/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_9468/20160728044225_UGCkT/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_9468/20190902024702_3NcxJ/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_9468/20160728043916_pvECV/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_9468/20160804045800_Z1zXC/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_9468/20160728043953_MpnNZ/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_9468/20200810084849_fdB9Y/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_9468/20200810083755_ZSQWU/jpg"
+		],
+		"video_list": [],
+		"prod_comment_info": {
+			"avg_scores": "4.79",
+			"total_scores": "12142",
+			"click_count": "0",
+			"comment_record": "2536"
+		},
+		"go_date_setting": {
+			"type": "01"
+		},
+		"is_cancel_free": false,
+		"description_module": {
+			"PMDL_EXCHANGE": {
+				"module_title": "憑證使用方式",
+				"content": {
+					"properties": {
+						"exchange_type": {
+							"desc": "電子憑證將寄送至 Email 信箱，請於指定地點兌換成實體票券",
+							"title": "使用方式"
+						},
+						"description": {
+							"desc": "請於海生館入口處售票櫃檯出示 Qr code"
+						}
+					}
+				}
+			},
+			"PMDL_INC_NINC": {
+				"module_title": "費用包含/不包含",
+				"content": {
+					"properties": {
+						"include_item": {
+							"list": [
+								{
+									"desc": "國立海洋生物博物館電子入場券"
+								},
+								{
+									"desc": "虛擬海世界VR體驗館優惠套票"
+								}
+							],
+							"title": "費用包含"
+						},
+						"not_include_item": {
+							"list": [
+								{
+									"desc": "保險"
+								},
+								{
+									"desc": "其他個人消費"
+								}
+							],
+							"title": "費用不包含"
+						}
+					}
+				}
+			},
+			"PMDL_REFUND_POLICY": {
+				"module_title": "取消政策",
+				"content": {
+					"properties": {
+						"policy_type": {
+							"desc": "免費取消！",
+							"title": "手續費收取方式"
+						}
+					}
+				}
+			},
+			"PMDL_GRAPHIC": {
+				"module_title": "圖文介紹",
+				"content": {
+					"list": [
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_9468/20200810084540_WmJG4/jpg"
+								}
+							],
+							"desc": "一起與海洋生物做最近距離的接觸吧！"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_9468/20160728043953_MpnNZ/jpg"
+								}
+							],
+							"desc": "漫步於全台灣最大的海底隧道"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_9468/20160728043916_pvECV/jpg"
+								}
+							],
+							"desc": "觀賞壯觀的海底生物"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_9468/20190902024713_Otlhr/png"
+								}
+							],
+							"desc": "乘 VR 潛水艇時，體驗者又彷彿屏住呼吸潛入海底開啟一段奇幻旅程，除了看到令人驚異的海洋生物，甚至探索神祕的海底城市"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_9468/20200810084849_fdB9Y/jpg"
+								}
+							],
+							"desc": "飛行劇場：體驗者透過VR 3D影像結合三軸油壓懸吊模擬系統，前進深海，在穿過美麗的珊瑚礁後，將發現神秘的水下帝國"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_9468/20190902024702_3NcxJ/jpg"
+								}
+							],
+							"desc": "蛋型劇院：全自動的動感模擬影院，搭配VR眼鏡以及液壓動感座椅，在與螢幕上的影像同步移動時，帶您進入各式各樣的奇幻世界"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_9468/20190902024557_D7DnO/jpg"
+								}
+							],
+							"desc": "邀請大家身歷其境潛入海洋，親身感受海底世界奇幻樣貌"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_9468/20160728044225_UGCkT/jpg"
+								}
+							],
+							"desc": "在鯨魚親水廣場歡樂戲水"
+						}
+					]
+				}
+			},
+			"PMDL_PURCHASE_SUMMARY": {
+				"module_title": "購買須知",
+				"content": {
+					"desc": "<ul><li>國立海洋生物博物館：</li></ul><ol><li>未滿 6 歲或身高 115 公分以下兒童、身心障礙者及其必要陪伴者 1 人免費（不包含虛擬海世界VR體驗館設施體驗）；6 歲以上學童及 65 歲以上長者、學生等，請持有效證件至現場購買優惠票種</li></ol><ul><li>虛擬海世界VR體驗館：</li></ul><ol><li>VR體驗券限定設施包含：飛行劇場、蛋型劇院、VR潛水艇，若限定設施當日開放情況有變動，廠商保有提供其他設施體驗替換權利</li><li>VR體驗券可多人同時體驗，使用次數加總為三次即可（依人次計算，含 6 歲以下兒童；單人體驗單項設施一次計使用一次，雙人體驗單項設施一次計使用兩次，以此類推）</li><li>VR部分體驗設施設有身高限制，兒童身高建議為110cm以上</li><li>VR體驗館開放時間將根據屏東海生館開、閉館時間而有所變動</li><li>虛擬海世界VR體驗館限定設施套票，請持憑證至售票口兌換體驗券後，至虛擬海世界VR體驗館櫃檯兌換使用</li><li>虛擬海世界VR體驗館限定設施套票，限入館當日使用，如未使用則視為放棄，不可退換現金亦不找零，並妥善保管，遺失毀損或遭塗改，不接受兌換或補發，未蓋章者無效</li></ol>"
+				}
+			},
+			"PMDL_EXCHANGE_LOCATION": {
+				"module_title": "兌換地點",
+				"content": {
+					"properties": {
+						"locations": {
+							"list": [
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "海生館入口處售票櫃檯",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "22.0460173",
+												"longitude": "120.6989058",
+												"place_id": "ChIJL-PBocS5cTQRxKGnoxLUwj8",
+												"map_snap_url": "s1.kkday.com/product_9468/20200810090420_6Y5Bj/png",
+												"zoom_lv": "18",
+												"desc": "屏東縣車城鄉後灣村後灣路 2 號，海洋生物博物館",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"active_time_desc": {
+													"desc": "<p>暑假平日（7 月 － 8 月）：09:00 - 17:00<br>暑假假日（7 月 － 8 月）：08:00 - 17:00</p>"
+												},
+												"provide_service": {
+													"desc": "可兌換"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "16:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "16:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "16:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "16:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "16:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "16:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "16:30"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												},
+												"photo": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_140,h_105,c_fill,q_55,wm_auto/s1.kkday.com/product_9468/20160728044133_rrNVw/jpg"
+														}
+													]
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								}
+							],
+							"table_key_langs": {
+								"city_info": "城市資訊",
+								"location_info": "地點資訊",
+								"station_list": "地點清單"
+							},
+							"title": "兌換地點"
+						}
+					}
+				}
+			},
+			"PMDL_INTRODUCE_SUMMARY": {
+				"module_title": "商品說明",
+				"content": {
+					"desc": "<p>＊配合中央疫情指揮中心於5月25日宣布全國三級防疫措施延長至6月14日， 屏東海生館為配合防疫作業守護全民健康，將從即日起延長暫停開放入館至6月14日，預計於6月15日重新開放入館，開放時間將視疫情發展狀況滾動式調整並即時公布。<br><br></p><p>－ 票券介紹 －<br></p><ul><li>國立海洋生物博物館<br>國立海洋生物博物館位於後灣，是全台灣規模最大的，館內魚類種類豐富，分成台灣水域館、珊瑚王國館、世界水域館，包含三層樓高的水族箱、海底隧道，或是可愛的企鵝、悠游自在的小白鯨與鯊魚，都讓人猶如親臨海底世界般，非常值得一遊，不僅適合家庭團體，就連大人們也能在這裡玩得十分盡興</li></ul><ul><li>虛擬海世界VR體驗館<br>親子必遊景點屏東海生館，除了模擬海洋生態教育展示帶領遊客了解海洋世界真實樣貌，近來更引進時下盛行最新VR技術，帶領遊客潛入海洋，彷彿親身感受海底世界奇幻樣貌；同時搭乘極地探險車，前進南北極探索驚人地形樣貌，讓民眾只要戴上VR裝置，就能立刻身歷其境展開一段前所未有的奇幻旅程</li></ul>"
+				}
+			},
+			"PMDL_EXPERIENCE_LOCATION": {
+				"module_title": "體驗地點",
+				"content": {
+					"list": [
+						{
+							"active_time_desc": {
+								"desc": "<ol><li>暑假平日（7 月 － 8 月）：09:00 - 18:00 (最後入園時間：閉館前1小時)<br></li><li>暑假假日（7 月 － 8 月）：08:00 - 18:00 (最後入園時間：閉館前1小時)</li></ol>"
+							},
+							"arrival_desc": {
+								"desc": "・搭乘高鐵：高鐵左營站下車→轉乘墾丁快線或客運（國光客運、高雄客運、屏東客運）→到車城「海生館轉乘站」站→至下車處右後方燈塔旁「後灣路口」站牌轉搭屏東客運墾丁街車（橘線）或計程車→抵達本館。\n\n・搭乘火車：搭乘火車至枋寮火車站下車→至轉運站搭乘客運（國光客運、高雄客運、屏東客運）→到「南保力」站→下車處右後方燈塔旁「後灣路口」站牌轉搭屏東客運墾丁街車（橘線）或計程車→抵達本館。"
+							},
+							"location_name": {
+								"desc": "屏東海洋生物博物館"
+							},
+							"latlng": {
+								"latitude": "22.0461747",
+								"longitude": "120.6987726",
+								"place_id": "ChIJjzu0a9u5cTQRZoIk6oTqz4I",
+								"map_snap_url": "s1.kkday.com/product_9468/20200427102800_QuXap/png",
+								"zoom_lv": "13",
+								"desc": "屏東縣車城鄉後灣村後灣路 2 號"
+							}
+						}
+					],
+					"table_key_langs": {
+						"location_name": "地點名稱",
+						"latlng": "地址",
+						"photo": "地點圖片",
+						"video": "地點影片",
+						"active_time": "開放時間",
+						"active_time_desc": "開放時間說明",
+						"arrival_desc": "如何抵達"
+					}
+				}
+			}
+		},
+		"prod_no": 9468,
+		"prod_url_no": 9468,
+		"prod_name": "\b【94折優惠】屏東國立海洋生物博物館門票",
+		"prod_type": "M05",
+		"tag": [
+			"TAG_2_1",
+			"TAG_3_1",
+			"TAG_3_3"
+		],
+		"b2c_min_price": 250.0,
+		"b2b_min_price": 238.0,
+		"instant_booking": true,
+		"order_count": 20867,
+		"days": 0,
+		"hours": 8,
+		"duration": 0,
+		"introduction": "【停止營運公告】屏東海生館為配合防疫作業守護全民健康，將從即日起延長暫停開放入館至6月14日，預計於6月15日重新開放入館，開放時間將視疫情發展狀況滾動式調整並即時公布，造成不便敬請見諒！\n\n即訂即用屏東國立海生館門票\b，不必排隊購票・輕鬆入場！透過 KKday 線上購票立即擁有 94 折門票優惠，來墾丁必遊全台最大海生館及海底隧道，還能體驗最新 VR 虛擬海世界，豐富的海洋生態及難忘的虛擬體驗在等著你體驗！",
+		"cities": [
+			{
+				"city_code": "A01-001-00016",
+				"country_code": "A01-001",
+				"name": "台灣,墾丁"
+			},
+			{
+				"city_code": "A01-001-00015",
+				"country_code": "A01-001",
+				"name": "台灣,屏東"
+			}
+		],
+		"b2c_price": 720.0,
+		"b2b_price": 238.0,
+		"prod_currency": "TWD"
+	},
+	"pkg": [
+		{
+			"pkg_no": 344732,
+			"pkg_name": "海生館門票",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "1",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 0,
+			"lead_day_unit": "h",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "09:00",
+			"lead_e_time": "17:59",
+			"b2c_min_price": 250.0,
+			"b2b_min_price": 238.0,
+			"item_no": [
+				90509
+			],
+			"sale_s_date": "2021-06-15",
+			"sale_e_date": "2021-12-31",
+			"description_module": {
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>未滿 6 歲或身高 115 公分以下兒童、身心障礙者及其必要陪伴者 1 人免費（不包含虛擬海世界VR體驗館設施體驗）<br></p>"
+							},
+							{
+								"desc": "<p>優待票適用於：6 歲以上或身高 115 公分及以上之學童、大學生持有效學生證者、持有效榮民證、公教人員退休證之民眾<br></p>"
+							}
+						]
+					}
+				},
+				"PMDL_EXCHANGE_VALID": {
+					"module_title": "憑證兌換期限",
+					"content": {
+						"properties": {
+							"exchange": {
+								"desc": "需要按照預訂日期及當天開放時間內兌換，逾期失效"
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"pkg_no": 111046,
+			"pkg_name": "海生館門票+虛擬海世界VR體驗館優惠套票",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "1",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 0,
+			"lead_day_unit": "h",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "09:00",
+			"lead_e_time": "17:59",
+			"b2c_min_price": 720.0,
+			"b2b_min_price": 689.0,
+			"item_no": [
+				18951
+			],
+			"sale_s_date": "2021-06-15",
+			"sale_e_date": "2021-12-31",
+			"description_module": {
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>未滿 6 歲或身高 115 公分以下兒童、身心障礙者及其必要陪伴者 1 人免費（不包含虛擬海世界VR體驗館設施體驗）<br></p>"
+							},
+							{
+								"desc": "<p>6 歲以上學童及 65 歲以上長者、學生等，請持有效證件至現場購買優惠票種<br></p>"
+							}
+						]
+					}
+				},
+				"PMDL_EXCHANGE_VALID": {
+					"module_title": "憑證兌換期限",
+					"content": {
+						"properties": {
+							"exchange": {
+								"desc": "需要按照預訂日期及當天開放時間內兌換，逾期失效"
+							}
+						}
+					}
+				}
+			}
+		}
+	],
+	"booking_field": {
+		"prod_no": "9468",
+		"traffic": {
+			"car": {
+				"traffic_type": {
+					"is_require": "True",
+					"type": "array",
+					"list_option": [
+						"voucher"
+					]
+				},
+				"location_list": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_voucher_used": "True",
+					"type": "list",
+					"list_option": [
+						{
+							"traffic_type": "voucher",
+							"id": "5d1c8790-1cbd-43d7-ae48-492d08fc89e1",
+							"name": "海生館入口處售票櫃檯",
+							"address": "屏東縣車城鄉後灣村後灣路 2 號，海洋生物博物館",
+							"time_list": [
+								{
+									"weekDays": "Y,N,N,N,N,N,N",
+									"from": {
+										"hour": 9,
+										"minute": 0
+									},
+									"to": {
+										"hour": 16,
+										"minute": 30
+									}
+								},
+								{
+									"weekDays": "N,Y,N,N,N,N,N",
+									"from": {
+										"hour": 9,
+										"minute": 0
+									},
+									"to": {
+										"hour": 16,
+										"minute": 30
+									}
+								},
+								{
+									"weekDays": "N,N,Y,N,N,N,N",
+									"from": {
+										"hour": 9,
+										"minute": 0
+									},
+									"to": {
+										"hour": 16,
+										"minute": 30
+									}
+								},
+								{
+									"weekDays": "N,N,N,Y,N,N,N",
+									"from": {
+										"hour": 9,
+										"minute": 0
+									},
+									"to": {
+										"hour": 16,
+										"minute": 30
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,Y,N,N",
+									"from": {
+										"hour": 9,
+										"minute": 0
+									},
+									"to": {
+										"hour": 16,
+										"minute": 30
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,Y,N",
+									"from": {
+										"hour": 9,
+										"minute": 0
+									},
+									"to": {
+										"hour": 16,
+										"minute": 30
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,N,Y",
+									"from": {
+										"hour": 9,
+										"minute": 0
+									},
+									"to": {
+										"hour": 16,
+										"minute": 30
+									}
+								}
+							]
+						}
+					]
+				},
+				"s_location": {
+					"is_require": "True",
+					"is_voucher_used": "True",
+					"ref_source": "location_list.id",
+					"type": "string"
+				}
+			}
+		},
+		"ref_pkg": {
+			"304576": {
+				"traffic": {
+					"traffic_type": [
+						"voucher"
+					],
+					"s_location": "True"
+				}
+			},
+			"111046": {
+				"traffic": {
+					"traffic_type": [
+						"voucher"
+					],
+					"s_location": "True"
+				}
+			},
+			"344732": {
+				"traffic": {
+					"traffic_type": [
+						"voucher"
+					],
+					"s_location": "True"
+				}
+			},
+			"24882": {
+				"traffic": {
+					"traffic_type": [
+						"voucher"
+					],
+					"s_location": "True"
+				}
+			}
+		}
+	}
+}

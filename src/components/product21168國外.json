@@ -1,0 +1,1319 @@
+{
+	"result": "00",
+	"result_msg": "OK",
+	"prod_marketing": {
+		"TW": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"HK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"CN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"MY": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"SG": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"ID": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"PH": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"KK": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"JP": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"KR": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"TH": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"VN": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		}
+	},
+	"prod": {
+		"is_tour": true,
+		"timezone": "Europe/Rome",
+		"guide_lang_list": [
+			"English",
+			"Français",
+			"Español",
+			"Deutsch"
+		],
+		"voice_guide_lang": [],
+		"confirm_order_time": false,
+		"img_list": [
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_21168/20190110044603_KqIuI/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_21168/20190110044609_v5Y9D/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_21168/20190110044615_eDGef/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_21168/20190110044621_H59WI/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_21168/20190110044624_h4sKa/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_21168/20190110044628_SqY5U/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_21168/20190110044646_2wwXe/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_21168/20190116080939_CPWqi/jpg"
+		],
+		"video_list": [],
+		"prod_comment_info": {
+			"avg_scores": "1",
+			"total_scores": "4",
+			"click_count": "0",
+			"comment_record": "4"
+		},
+		"go_date_setting": {
+			"type": "01"
+		},
+		"is_cancel_free": false,
+		"description_module": {
+			"PMDL_EXCHANGE": {
+				"module_title": "憑證使用方式",
+				"content": {
+					"properties": {
+						"exchange_type": {
+							"desc": "現場請出示電子憑證",
+							"title": "使用方式"
+						}
+					}
+				}
+			},
+			"PMDL_INC_NINC": {
+				"module_title": "費用包含/不包含",
+				"content": {
+					"properties": {
+						"include_item": {
+							"list": [
+								{
+									"desc": "總督府快速通關門票"
+								},
+								{
+									"desc": "聖馬可教堂快速通關門票"
+								},
+								{
+									"desc": "專人導覽"
+								},
+								{
+									"desc": "個人導覽耳機 (可以更清楚聽得到嚮導說話)"
+								}
+							],
+							"title": "費用包含"
+						},
+						"not_include_item": {
+							"list": [
+								{
+									"desc": "其他未提及之費用"
+								}
+							],
+							"title": "費用不包含"
+						}
+					}
+				}
+			},
+			"PMDL_REFUND_POLICY": {
+				"module_title": "取消政策",
+				"content": {
+					"properties": {
+						"policy_type": {
+							"desc": "指定手續費",
+							"title": "手續費收取方式"
+						},
+						"partial_refund": {
+							"list": [
+								{
+									"desc": "所選日期 2 天（含）之前取消，收取手續費 0%"
+								},
+								{
+									"desc": "所選日期  0 ~ 1 天之間取消，收取手續費 100%"
+								}
+							],
+							"title": "政策內容"
+						}
+					}
+				}
+			},
+			"PMDL_NOTICE": {
+				"module_title": "注意事項",
+				"content": {
+					"properties": {
+						"reminds": {
+							"list": [
+								{
+									"desc": "因交通、天氣等不可抗力因素所引起的時間延誤，造成部份行程景點取消時，請您主動聯絡客服，我們將會為您辦理部份退款。"
+								}
+							]
+						},
+						"cust_reminds": {
+							"list": [
+								{
+									"desc": "請務必攜帶護照，工作人員將不定期抽查旅客身份。"
+								}
+							]
+						}
+					}
+				}
+			},
+			"PMDL_SCHEDULE": {
+				"module_title": "行程介紹",
+				"content": {
+					"properties": {
+						"total_day": {
+							"desc": "1天",
+							"title": "行程時間"
+						},
+						"schedule_list": {
+							"list": [
+								{
+									"daily_title": {
+										"desc": "第1天"
+									},
+									"daily_schedule_list": {
+										"table_key_langs": {
+											"time": "活動時間",
+											"content": "活動內容",
+											"media": "活動圖片"
+										},
+										"list": [
+											{
+												"content": {
+													"desc": "集合地點：聖馬克廣場 (St Mark's Square) 上的藍色鐘塔 (Clock Tower) 下，將有相關人員指示報到並開始行程"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_21168/20190116080939_CPWqi/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "跟著導覽，開始探索威尼斯的深度旅程"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_21168/20190110044603_KqIuI/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "從聖馬可廣場開始徒步之旅、欣賞且了解威尼斯的標誌性景點"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_21168/20190110044615_eDGef/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "參觀昔日總督府「道奇宮」，不需耗時排隊購票，透過導遊解說，深入瞭解其歷史背景"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_21168/20190110044624_h4sKa/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "探訪總督府，了解威尼斯人的政府獨特的統治形式、總督（威尼斯公爵）的角色與意義"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_21168/20190110044621_H59WI/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "參觀聖馬可教堂，欣賞教堂內奢華的黃金祭壇"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_21168/20190110044646_2wwXe/jpg"
+														}
+													]
+												}
+											}
+										]
+									}
+								}
+							],
+							"table_key_langs": {
+								"meals": "當天餐點",
+								"daily_schedule_list": "當天行程內容"
+							},
+							"title": "行程內容"
+						}
+					}
+				}
+			},
+			"PMDL_VENUE_LOCATION": {
+				"module_title": "集合地點",
+				"content": {
+					"list": [
+						{
+							"location_name": {
+								"desc": "集合地點"
+							},
+							"latlng": {
+								"latitude": "45.4347389",
+								"longitude": "12.3389394",
+								"map_snap_url": "/image/get/w_140,h_105,c_fill,q_55,wm_auto/s1.kkday.com/product_21168_location/20190111052423_xjc6S/png",
+								"zoom_lv": "19",
+								"desc": "Italy, Metropolitan City of Venice, Venice, Piazza San Marco, 聖馬可時鐘塔"
+							}
+						}
+					],
+					"table_key_langs": {
+						"location_name": "地點名稱",
+						"latlng": "地址",
+						"photo": "地點圖片",
+						"video": "地點影片",
+						"gather": "集合時間",
+						"setout": "出發時間",
+						"arrival_desc": "如何抵達"
+					}
+				}
+			},
+			"PMDL_INTRODUCE_SUMMARY": {
+				"module_title": "商品說明",
+				"content": {
+					"desc": "<p>－ 行程特色 －<br><br>・快速通關進入威尼斯總督府、聖馬可教堂<br>・深入了解威尼斯的文化與歷史<br>・透過專業導覽，發掘不為人知的威尼斯<br><br><br>－ 行程資訊 －<br><br>・開始時間：週一至週六每日 09:00 (請至少提前15分鐘抵達集合地點)<br>・集合地點：聖馬克廣場 (St Mark's Square) 上的藍色鐘塔 (Clock Tower) 下，將有相關人員指示報到並開始行程<br>・行程長度：4 小時<br>・回程資訊：回到原集合地<br><br><br>－ 行程介紹 －<br><br>此行程將帶您深入了解威尼斯的文化與歷史，行程的一開始會帶大家前往威尼斯的窄巷中 (calli)，在此您可以看到無數的橋和寬敞的廣場，也能從不同角度觀察威尼斯當地人的生活，透過專業導覽能夠知道從經典景點到街坊生活的故事及歷史，而後將從聖馬可廣場開始，跟隨嚮導經過聖馬可鐘塔（Campanile di San Marco）、新舊行政官邸大樓（Procuratie）、拿破崙翼大樓、聖馬可圖書館等著名景點，邊走邊聽著這些建築迷人的歷史和有關於這座城市的故事，而後來到商店集中的Mercerie購物街，購買一些當地的特產商品，或特色美食留作紀念，留下關於威尼斯之旅的最佳記憶。<br><br>隨後，您將參觀顏色鮮明且白灰色大理石外觀的總督府，作為威尼斯最重要的千年建築，道奇宮是瞭解威尼斯歷史，和現在獨特城市魅力的關鍵地點。高聳的圍牆之內，總督府的建築形式就跟這座城市本身一樣特別，在這獨一無二的旅程裡，你將會發現所有關於威尼斯的城市故事和昔日的政府風光。道奇宮裡不只有那些美輪美奐的建築，身為世界上最具藝術感的城市之一，威尼斯人也用許多畫作、雕刻來點綴他們的總督府，我們的導遊也會在參觀過程中一一為你介紹這些著名經典的藝術作品。<br><br>隨後，您將參觀聖馬可大教堂，進入教堂內部，欣賞由金、銅和各種華麗石頭建造成的天花板，覆蓋了許多由馬賽克拼接而成的鑲嵌畫，閃爍燦爛的光芒，教堂內的黃金祭壇更是奢華，由 2000 多顆寶石鑲嵌而成，十分華麗。<br><br>關於為什麼這座城市會成為現在這麼獨特的樣貌，跟著導遊的腳步，跟您今天都會得到解答。<br><br><br>－ 重要資訊 －<br><br>・未滿 6 歲孩童可免費體驗行程，請於備註欄加註孩童人數及年齡。<br>・建議穿著尊重宗教禮儀的服飾參觀教堂，勿著露肩、低領、短褲、短裙、拖鞋及帽子等。<br>・由於安全因素，請勿攜帶大型的背包參觀教堂，敬請知悉。<br>・部分景點需要通過安全檢查方能入場，故即使有快速通關票券，仍需排隊檢查入場，敬請知悉。<br>・請至少提前15分鐘抵達集合地點，遲到者將無法參與行程，並無法以此為由，要求訂單修改、訂單取消或退款。</p>"
+				}
+			},
+			"PMDL_EXPERIENCE_LOCATION": {
+				"module_title": "體驗地點",
+				"content": {
+					"list": [
+						{
+							"location_name": {
+								"desc": "體驗地點"
+							},
+							"latlng": {
+								"latitude": "45.4408474",
+								"longitude": "12.3155151",
+								"map_snap_url": "s1.kkday.com/product_21168_location/20190110045519_4rVjM/png",
+								"zoom_lv": "10",
+								"desc": "Venice Metropolitan City of Venice Italy"
+							}
+						}
+					],
+					"table_key_langs": {
+						"location_name": "地點名稱",
+						"latlng": "地址",
+						"photo": "地點圖片",
+						"video": "地點影片",
+						"active_time": "開放時間",
+						"active_time_desc": "開放時間說明",
+						"arrival_desc": "如何抵達"
+					}
+				}
+			}
+		},
+		"prod_no": 21168,
+		"prod_url_no": 21168,
+		"prod_name": "【經典威尼斯】徒步之旅半日遊",
+		"prod_type": "M06",
+		"tag": [
+			"TAG_4_1",
+			"TAG_4_4"
+		],
+		"b2c_min_price": 2849.0,
+		"b2b_min_price": 2621.0,
+		"instant_booking": false,
+		"order_count": 5,
+		"days": 0,
+		"hours": 4,
+		"duration": 0,
+		"introduction": "您將由導遊帶領，帶您走過威尼斯最經典的路線，不僅僅是欣賞威尼斯的水道及景觀，更能深入了解威尼斯的文化與歷史，從道奇宮 (The Doge's Palace)、聖馬可教堂 (Basilica of St Mark)、聖馬可廣場 (St. Mark’s square) 到鐘塔 (Clock Tower) 等經典景點，並在威尼斯的小巷中穿梭，發現不一樣的威尼斯。",
+		"cities": [
+			{
+				"city_code": "A03-012-00003",
+				"country_code": "A03-012",
+				"name": "義大利,威尼斯"
+			}
+		],
+		"b2c_price": 2849.0,
+		"b2b_price": 2621.0,
+		"prod_currency": "TWD"
+	},
+	"pkg": [
+		{
+			"pkg_no": 82269,
+			"pkg_name": "【經典威尼斯】徒步之旅半日遊",
+			"exchange_type": "",
+			"confirm_time": 1,
+			"confirm_time_unit": "d",
+			"deliver_time_unit": "d",
+			"policy_type": "3",
+			"refund_type": "1",
+			"partial_refund": [
+				{
+					"value": 0.0,
+					"day_min": 2
+				},
+				{
+					"value": 1.0,
+					"day_min": 0,
+					"day_max": 1
+				}
+			],
+			"lead_day": 1,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "14:00",
+			"b2c_min_price": 2849.0,
+			"b2b_min_price": 2621.0,
+			"item_no": [
+				31913
+			],
+			"description_module": {}
+		}
+	],
+	"booking_field": {
+		"prod_no": "21168",
+		"custom": {
+			"cus_type": {
+				"is_require": "True",
+				"is_perParticipant": "True",
+				"is_contact_used": "True",
+				"type": "array",
+				"list_option": [
+					"cus_02",
+					"contact"
+				]
+			},
+			"english_last_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_perParticipant": "True",
+				"type": "string"
+			},
+			"english_first_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_perParticipant": "True",
+				"type": "string"
+			},
+			"native_last_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"type": "string"
+			},
+			"native_first_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"type": "string"
+			},
+			"tel_country_code": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"ref_source": "list_option.code",
+				"type": "list",
+				"list_option": [
+					{
+						"code": "93",
+						"info": "Afghanistan(阿富汗)"
+					},
+					{
+						"code": "355",
+						"info": "Albania(阿爾巴尼亞)"
+					},
+					{
+						"code": "213",
+						"info": "Algeria(阿爾及利亞)"
+					},
+					{
+						"code": "376",
+						"info": "Andorra(安道爾)"
+					},
+					{
+						"code": "244",
+						"info": "Angola(安哥拉)"
+					},
+					{
+						"code": "1264",
+						"info": "Anguilla(安圭拉)"
+					},
+					{
+						"code": "672",
+						"info": "Antarctica(南極洲)"
+					},
+					{
+						"code": "1268",
+						"info": "Antigua and Barbuda(安地卡及巴布達)"
+					},
+					{
+						"code": "54",
+						"info": "Argentina(阿根廷)"
+					},
+					{
+						"code": "374",
+						"info": "Armenia(亞美尼亞)"
+					},
+					{
+						"code": "297",
+						"info": "Aruba(阿魯巴)"
+					},
+					{
+						"code": "61",
+						"info": "Australia(澳洲)"
+					},
+					{
+						"code": "43",
+						"info": "Austria(奥地利)"
+					},
+					{
+						"code": "994",
+						"info": "Azerbaijan(亞塞拜然)"
+					},
+					{
+						"code": "1242",
+						"info": "Bahamas(巴哈馬)"
+					},
+					{
+						"code": "973",
+						"info": "Bahrain(巴林)"
+					},
+					{
+						"code": "880",
+						"info": "Bangladesh(孟加拉)"
+					},
+					{
+						"code": "1246",
+						"info": "Barbados(巴貝多)"
+					},
+					{
+						"code": "375",
+						"info": "Belarus(白俄羅斯)"
+					},
+					{
+						"code": "32",
+						"info": "Belgium(比利時)"
+					},
+					{
+						"code": "501",
+						"info": "Belize(貝里斯)"
+					},
+					{
+						"code": "229",
+						"info": "Benin(貝南)"
+					},
+					{
+						"code": "1441",
+						"info": "Bermuda(百慕達)"
+					},
+					{
+						"code": "975",
+						"info": "Bhutan(不丹)"
+					},
+					{
+						"code": "591",
+						"info": "Bolivia(玻利維亞)"
+					},
+					{
+						"code": "387",
+						"info": "Bosnia and Herzegovina(波士尼亞與赫塞哥維納)"
+					},
+					{
+						"code": "267",
+						"info": "Botswana(波札那)"
+					},
+					{
+						"code": "55",
+						"info": "Brazil(巴西)"
+					},
+					{
+						"code": "673",
+						"info": "Brunei(汶萊)"
+					},
+					{
+						"code": "359",
+						"info": "Bulgaria(保加利亞)"
+					},
+					{
+						"code": "226",
+						"info": "Burkina Faso(布吉納法索)"
+					},
+					{
+						"code": "257",
+						"info": "Burundi(蒲隆地)"
+					},
+					{
+						"code": "855",
+						"info": "Cambodia(柬埔寨)"
+					},
+					{
+						"code": "237",
+						"info": "Cameroon(喀麥隆)"
+					},
+					{
+						"code": "1",
+						"info": "Canada(加拿大)"
+					},
+					{
+						"code": "236",
+						"info": "Central African Republic(中非共和國)"
+					},
+					{
+						"code": "235",
+						"info": "Chad(查德)"
+					},
+					{
+						"code": "56",
+						"info": "Chile(智利)"
+					},
+					{
+						"code": "86",
+						"info": "China(中國)"
+					},
+					{
+						"code": "672",
+						"info": "Christmas Island(聖誕島)"
+					},
+					{
+						"code": "57",
+						"info": "Colombia(哥倫比亞)"
+					},
+					{
+						"code": "269",
+						"info": "Comoros(葛摩)"
+					},
+					{
+						"code": "682",
+						"info": "Cook Islands(庫克群島)"
+					},
+					{
+						"code": "506",
+						"info": "Costa Rica(哥斯大黎加)"
+					},
+					{
+						"code": "225",
+						"info": "Côte dIvoire(科特迪瓦(象牙海岸))"
+					},
+					{
+						"code": "385",
+						"info": "Croatia(克羅埃西亞)"
+					},
+					{
+						"code": "53",
+						"info": "Cuba(古巴)"
+					},
+					{
+						"code": "357",
+						"info": "Cyprus(賽普勒斯)"
+					},
+					{
+						"code": "420",
+						"info": "Czech Republic(捷克共和國)"
+					},
+					{
+						"code": "45",
+						"info": "Denmark(丹麥)"
+					},
+					{
+						"code": "253",
+						"info": "Djibouti(吉布地)"
+					},
+					{
+						"code": "1767",
+						"info": "Dominica(多明尼加共和國)"
+					},
+					{
+						"code": "1809",
+						"info": "Dominican Republic(多明尼加共和國)"
+					},
+					{
+						"code": "593",
+						"info": "Ecuador(厄瓜多)"
+					},
+					{
+						"code": "20",
+						"info": "Egypt(埃及)"
+					},
+					{
+						"code": "503",
+						"info": "El Salvador(薩爾瓦多)"
+					},
+					{
+						"code": "372",
+						"info": "Estonia(愛沙尼亞)"
+					},
+					{
+						"code": "251",
+						"info": "Ethiopia(衣索比亞)"
+					},
+					{
+						"code": "500",
+						"info": "Falkland Islands(英屬福克蘭群島)"
+					},
+					{
+						"code": "252",
+						"info": "Federal Republic of Somalia(索馬利亞聯邦共和國)"
+					},
+					{
+						"code": "679",
+						"info": "Fiji(斐濟)"
+					},
+					{
+						"code": "358",
+						"info": "Finland(芬蘭)"
+					},
+					{
+						"code": "33",
+						"info": "France(法國)"
+					},
+					{
+						"code": "594",
+						"info": "French Guiana(法屬圭亞那)"
+					},
+					{
+						"code": "689",
+						"info": "French Polynesia(法屬玻里尼西亞)"
+					},
+					{
+						"code": "241",
+						"info": "Gabon(加彭)"
+					},
+					{
+						"code": "220",
+						"info": "Gambia(甘比亞)"
+					},
+					{
+						"code": "995",
+						"info": "Georgia(喬治亞)"
+					},
+					{
+						"code": "49",
+						"info": "Germany(德國)"
+					},
+					{
+						"code": "233",
+						"info": "Ghana(迦納)"
+					},
+					{
+						"code": "350",
+						"info": "Gibraltar(直布羅陀)"
+					},
+					{
+						"code": "30",
+						"info": "Greece(希臘)"
+					},
+					{
+						"code": "299",
+						"info": "Greenland(格陵蘭)"
+					},
+					{
+						"code": "1473",
+						"info": "Grenada(格瑞那達)"
+					},
+					{
+						"code": "1671",
+						"info": "Guam(關島)"
+					},
+					{
+						"code": "502",
+						"info": "Guatemala(瓜地馬拉)"
+					},
+					{
+						"code": "224",
+						"info": "Guinea(幾內亞)"
+					},
+					{
+						"code": "592",
+						"info": "Guyana(蓋亞那)"
+					},
+					{
+						"code": "509",
+						"info": "Haiti(海地)"
+					},
+					{
+						"code": "39",
+						"info": "Vatican City, Holy See(梵諦岡(教廷))"
+					},
+					{
+						"code": "504",
+						"info": "Honduras(宏都拉斯)"
+					},
+					{
+						"code": "852",
+						"info": "Hong Kong(香港)"
+					},
+					{
+						"code": "36",
+						"info": "Hungary(匈牙利)"
+					},
+					{
+						"code": "354",
+						"info": "Iceland(冰島)"
+					},
+					{
+						"code": "91",
+						"info": "India(印度)"
+					},
+					{
+						"code": "62",
+						"info": "Indonesia(印尼)"
+					},
+					{
+						"code": "98",
+						"info": "Iran(伊朗)"
+					},
+					{
+						"code": "964",
+						"info": "Iraq(伊拉克)"
+					},
+					{
+						"code": "353",
+						"info": "Ireland(愛爾蘭)"
+					},
+					{
+						"code": "972",
+						"info": "Israel(以色列)"
+					},
+					{
+						"code": "39",
+						"info": "Italy(義大利)"
+					},
+					{
+						"code": "1876",
+						"info": "Jamaica(牙買加)"
+					},
+					{
+						"code": "81",
+						"info": "Japan(日本)"
+					},
+					{
+						"code": "962",
+						"info": "Jordan(約旦)"
+					},
+					{
+						"code": "7",
+						"info": "Kazakhstan(哈薩克)"
+					},
+					{
+						"code": "254",
+						"info": "Kenya(肯亞)"
+					},
+					{
+						"code": "965",
+						"info": "Kuwait(科威特)"
+					},
+					{
+						"code": "996",
+						"info": "Kyrgyzstan(吉爾吉斯坦)"
+					},
+					{
+						"code": "856",
+						"info": "Laos(寮國)"
+					},
+					{
+						"code": "371",
+						"info": "Latvia(拉脫維亞)"
+					},
+					{
+						"code": "961",
+						"info": "Lebanon(黎巴嫩)"
+					},
+					{
+						"code": "266",
+						"info": "Lesotho(賴索托)"
+					},
+					{
+						"code": "231",
+						"info": "Liberia(賴比瑞亞)"
+					},
+					{
+						"code": "218",
+						"info": "Libya(利比亞)"
+					},
+					{
+						"code": "423",
+						"info": "Liechtenstein(列支敦斯登)"
+					},
+					{
+						"code": "370",
+						"info": "Lithuania(立陶宛)"
+					},
+					{
+						"code": "352",
+						"info": "Luxembourg(盧森堡)"
+					},
+					{
+						"code": "853",
+						"info": "Macau(澳門)"
+					},
+					{
+						"code": "389",
+						"info": "Macedonia(馬其頓)"
+					},
+					{
+						"code": "261",
+						"info": "Madagascar(馬達加斯加)"
+					},
+					{
+						"code": "265",
+						"info": "Malawi(馬拉威)"
+					},
+					{
+						"code": "60",
+						"info": "Malaysia(馬來西亞)"
+					},
+					{
+						"code": "960",
+						"info": "Maldives(馬爾地夫)"
+					},
+					{
+						"code": "223",
+						"info": "Mali(馬利)"
+					},
+					{
+						"code": "356",
+						"info": "Malta(馬爾他)"
+					},
+					{
+						"code": "230",
+						"info": "Mauritius(模里西斯)"
+					},
+					{
+						"code": "52",
+						"info": "Mexico(墨西哥)"
+					},
+					{
+						"code": "373",
+						"info": "Moldova(摩爾多瓦)"
+					},
+					{
+						"code": "377",
+						"info": "Monaco(摩納哥)"
+					},
+					{
+						"code": "976",
+						"info": "Mongolia(蒙古)"
+					},
+					{
+						"code": "382",
+						"info": "Montenegro(蒙特內哥羅)"
+					},
+					{
+						"code": "1664",
+						"info": "Montserrat(蒙塞拉特)"
+					},
+					{
+						"code": "212",
+						"info": "Morocco(摩洛哥)"
+					},
+					{
+						"code": "258",
+						"info": "Mozambique(莫三比克)"
+					},
+					{
+						"code": "95",
+						"info": "Myanmar(緬甸)"
+					},
+					{
+						"code": "264",
+						"info": "Namibia(那米比亞)"
+					},
+					{
+						"code": "674",
+						"info": "Nauru(諾魯)"
+					},
+					{
+						"code": "977",
+						"info": "Nepal(尼泊爾)"
+					},
+					{
+						"code": "31",
+						"info": "Netherlands(荷蘭)"
+					},
+					{
+						"code": "64",
+						"info": "New Zealand(紐西蘭)"
+					},
+					{
+						"code": "505",
+						"info": "Nicaragua(尼加拉瓜)"
+					},
+					{
+						"code": "227",
+						"info": "Niger(尼日)"
+					},
+					{
+						"code": "234",
+						"info": "Nigeria(奈及利亞)"
+					},
+					{
+						"code": "1-670",
+						"info": "Northern Mariana Islands(北馬里安納群島)"
+					},
+					{
+						"code": "850",
+						"info": "North Korea(北韓)"
+					},
+					{
+						"code": "47",
+						"info": "Norway(挪威)"
+					},
+					{
+						"code": "968",
+						"info": "Oman(阿曼)"
+					},
+					{
+						"code": "92",
+						"info": "Pakistan(巴基斯坦)"
+					},
+					{
+						"code": "507",
+						"info": "Panama(巴拿馬)"
+					},
+					{
+						"code": "675",
+						"info": "Papua New Guinea(巴布亞紐幾內亞)"
+					},
+					{
+						"code": "595",
+						"info": "Paraguay(巴拉圭)"
+					},
+					{
+						"code": "51",
+						"info": "Peru(秘魯)"
+					},
+					{
+						"code": "63",
+						"info": "Philippines(菲律賓)"
+					},
+					{
+						"code": "48",
+						"info": "Poland(波蘭)"
+					},
+					{
+						"code": "351",
+						"info": "Portugal(葡萄牙)"
+					},
+					{
+						"code": "1787",
+						"info": "Puerto Rico(波多黎各)"
+					},
+					{
+						"code": "974",
+						"info": "Qatar(卡達)"
+					},
+					{
+						"code": "680",
+						"info": "Republic of Palau(帛琉)"
+					},
+					{
+						"code": "242",
+						"info": "Republic of the Congo(剛果共和國)"
+					},
+					{
+						"code": "262",
+						"info": "Réunion(留尼旺)"
+					},
+					{
+						"code": "40",
+						"info": "Romania(羅馬尼亞)"
+					},
+					{
+						"code": "7",
+						"info": "Russia(俄羅斯)"
+					},
+					{
+						"code": "250",
+						"info": "Rwanda(盧安達)"
+					},
+					{
+						"code": "378",
+						"info": "San Marino(聖馬里諾)"
+					},
+					{
+						"code": "239",
+						"info": "Sao Tome and Principe(聖多美普林西比)"
+					},
+					{
+						"code": "966",
+						"info": "Saudi Arabia(沙烏地阿拉伯)"
+					},
+					{
+						"code": "221",
+						"info": "Senegal(塞內加爾)"
+					},
+					{
+						"code": "381",
+						"info": "Serbia(塞爾維亞)"
+					},
+					{
+						"code": "248",
+						"info": "Seychelles(塞席爾)"
+					},
+					{
+						"code": "232",
+						"info": "Sierra Leone(獅子山)"
+					},
+					{
+						"code": "65",
+						"info": "Singapore(新加坡)"
+					},
+					{
+						"code": "421",
+						"info": "Slovakia(斯洛伐克)"
+					},
+					{
+						"code": "386",
+						"info": "Slovenia(斯洛維尼亞)"
+					},
+					{
+						"code": "677",
+						"info": "Solomon Islands(索羅門群島)"
+					},
+					{
+						"code": "27",
+						"info": "South Africa(南非)"
+					},
+					{
+						"code": "82",
+						"info": "South Korea(南韓)"
+					},
+					{
+						"code": "34",
+						"info": "Spain(西班牙)"
+					},
+					{
+						"code": "94",
+						"info": "Sri Lanka(斯里蘭卡)"
+					},
+					{
+						"code": "1758",
+						"info": "St. Lucia(聖露西亞)"
+					},
+					{
+						"code": "1784",
+						"info": "St. Vincent and the Grenadines(聖文森及格瑞那丁)"
+					},
+					{
+						"code": "249",
+						"info": "Sudan(蘇丹)"
+					},
+					{
+						"code": "597",
+						"info": "Suriname(蘇利南)"
+					},
+					{
+						"code": "268",
+						"info": "Swaziland(史瓦濟蘭)"
+					},
+					{
+						"code": "46",
+						"info": "Sweden(瑞典)"
+					},
+					{
+						"code": "41",
+						"info": "Switzerland(瑞士)"
+					},
+					{
+						"code": "963",
+						"info": "Syria(希利亞)"
+					},
+					{
+						"code": "886",
+						"info": "Taiwan(台灣)"
+					},
+					{
+						"code": "992",
+						"info": "Tajikistan(塔吉克)"
+					},
+					{
+						"code": "255",
+						"info": "Tanzania(坦尚尼亞)"
+					},
+					{
+						"code": "66",
+						"info": "Thailand(泰國)"
+					},
+					{
+						"code": "228",
+						"info": "Togo(多哥)"
+					},
+					{
+						"code": "676",
+						"info": "Tonga(東加)"
+					},
+					{
+						"code": "1868",
+						"info": "Trinidad and Tobago(千里達及托巴哥)"
+					},
+					{
+						"code": "216",
+						"info": "Tunisia(突尼西亞)"
+					},
+					{
+						"code": "90",
+						"info": "Turkey(土耳其)"
+					},
+					{
+						"code": "993",
+						"info": "Turkmenistan(土庫曼)"
+					},
+					{
+						"code": "256",
+						"info": "Uganda(烏干達)"
+					},
+					{
+						"code": "380",
+						"info": "Ukraine(烏克蘭)"
+					},
+					{
+						"code": "971",
+						"info": "United Arab Emirates(阿拉伯聯合大公國)"
+					},
+					{
+						"code": "44",
+						"info": "United Kingdom(英國)"
+					},
+					{
+						"code": "1",
+						"info": "United States of America(美國)"
+					},
+					{
+						"code": "598",
+						"info": "Uruguay(烏拉圭)"
+					},
+					{
+						"code": "233",
+						"info": "Uzbekistan(烏茲別克)"
+					},
+					{
+						"code": "58",
+						"info": "Venezuela(委內瑞拉)"
+					},
+					{
+						"code": "84",
+						"info": "Vietnam(越南)"
+					},
+					{
+						"code": "967",
+						"info": "Yemen(葉門)"
+					},
+					{
+						"code": "260",
+						"info": "Zambia(尚比亞)"
+					},
+					{
+						"code": "263",
+						"info": "Zimbabwe(辛巴威)"
+					}
+				]
+			},
+			"tel_number": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"type": "string"
+			},
+			"gender": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_perParticipant": "True",
+				"ref_source": "list_option.id",
+				"type": "list",
+				"list_option": [
+					{
+						"id": "F",
+						"name": "Female"
+					},
+					{
+						"id": "M",
+						"name": "Male"
+					}
+				]
+			},
+			"guide_lang": {
+				"is_require": "True",
+				"is_visible": "True",
+				"ref_source": "list_option.code",
+				"type": "list",
+				"list_option": [
+					{
+						"code": "en",
+						"name": "English"
+					},
+					{
+						"code": "fr",
+						"name": "Français"
+					},
+					{
+						"code": "es",
+						"name": "Español"
+					},
+					{
+						"code": "de",
+						"name": "Deutsch"
+					}
+				]
+			}
+		},
+		"ref_pkg": {
+			"82269": {
+				"custom": {
+					"cus_type": [
+						"cus_02",
+						"contact"
+					]
+				},
+				"traffic": {
+					"traffic_type": [
+						"flight"
+					],
+					"arrival_flight": "True",
+					"departure_flight": "True"
+				}
+			}
+		}
+	}
+}

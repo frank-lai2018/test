@@ -1,0 +1,606 @@
+{
+	"result": "00",
+	"result_msg": "OK",
+	"prod_marketing": {
+		"TW": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"HK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"CN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"MY": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"SG": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"ID": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"PH": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"JP": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KR": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"TH": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"VN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		}
+	},
+	"prod": {
+		"is_tour": false,
+		"timezone": "Asia/Taipei",
+		"guide_lang_list": [],
+		"voice_guide_lang": [],
+		"confirm_order_time": true,
+		"online_s_date": "2021-06-09",
+		"online_e_date": "2021-07-15",
+		"img_list": [
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_102570/20200814092144_lRqG8/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_102570/20200818065029_7BhZq/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_102570/20200818065038_RI1Vq/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_102570/20200818065034_JTAZR/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_102570/20200818065207_pvOHy/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_102570/20200818065237_aMdqH/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_102570/20200818065135_7RZKY/jpg"
+		],
+		"video_list": [
+			"https://www.youtube.com/embed/EmYEWG0SN-A&utm_source=Facebook_PicSee&fbclid=IwAR25iaHIZ3V7ZVyiqSt1XR2MvpvNjis1GB9jdH0ueCW3UE72zyZfFrF86R4"
+		],
+		"prod_comment_info": {
+			"avg_scores": "4.82",
+			"total_scores": "217",
+			"click_count": "0",
+			"comment_record": "45"
+		},
+		"go_date_setting": {
+			"type": "01"
+		},
+		"is_cancel_free": false,
+		"description_module": {
+			"PMDL_EXCHANGE": {
+				"module_title": "憑證使用方式",
+				"content": {
+					"properties": {
+						"exchange_type": {
+							"desc": "現場請出示 QR code",
+							"title": "使用方式"
+						}
+					}
+				}
+			},
+			"PMDL_USE_VALID": {
+				"module_title": "使用期限",
+				"content": {
+					"properties": {
+						"exchange": {
+							"desc": "需要按照預訂日期及當天開放時間內使用，逾期失效"
+						}
+					}
+				}
+			},
+			"PMDL_REFUND_POLICY": {
+				"module_title": "取消政策",
+				"content": {
+					"properties": {
+						"policy_type": {
+							"desc": "指定手續費",
+							"title": "手續費收取方式"
+						},
+						"partial_refund": {
+							"list": [
+								{
+									"desc": "所選日期 4 天（含）之前取消，收取手續費 0%"
+								},
+								{
+									"desc": "所選日期  0 ~ 3 天之間取消，收取手續費 100%"
+								}
+							],
+							"title": "政策內容"
+						}
+					}
+				}
+			},
+			"PMDL_NOTICE": {
+				"module_title": "注意事項",
+				"content": {
+					"properties": {
+						"cust_reminds": {
+							"list": [
+								{
+									"desc": "請依照訂購日期使用，同一筆訂單須同時兌換並同時入場。"
+								}
+							]
+						},
+						"cust_reminds_after": {
+							"list": [
+								{
+									"desc": "為尊重創作智慧財產權，請勿翻拍作品；除預先申請之採訪外，禁止錄音、錄影。"
+								},
+								{
+									"desc": "為維護參觀品質，入館請保持安靜，勿大聲喧譁。"
+								},
+								{
+									"desc": "館內僅可飲水，並設有飲水機（需自備環保杯），請小心誤濺及展品，共同維護展館清潔與民眾觀賞權益；其他飲料與外食請先食用完畢，再入館內觀賞。"
+								}
+							],
+							"title": "售後注意事項"
+						}
+					}
+				}
+			},
+			"PMDL_GRAPHIC": {
+				"module_title": "圖文介紹",
+				"content": {
+					"list": [
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_102570/20200814092144_lRqG8/jpg"
+								}
+							],
+							"desc": "逐岸特展，延續台灣之美"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_102570/20200818065029_7BhZq/jpg"
+								}
+							],
+							"desc": "透過齊柏林導演的鏡頭，感受眼前的視覺震撼"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_102570/20200818065034_JTAZR/jpg"
+								}
+							],
+							"desc": "以鳥瞰的角度重新認識台灣"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_102570/20200818065237_aMdqH/jpg"
+								}
+							],
+							"desc": "感受每個作品所傳達的動人故事"
+						}
+					]
+				}
+			},
+			"PMDL_PURCHASE_SUMMARY": {
+				"module_title": "購買須知",
+				"content": {
+					"desc": "<ul><li>未滿 7 歲孩童免費，須由付費成人陪同。<br></li><li>展場動線、坡道、廁所等公共空間，皆為無障礙設計考量。<br></li><li>如需攜帶寵物請將寵物妥善安置於寵物背包或提籃中，以不影響其他民眾觀賞為前提。<br></li></ul>"
+				}
+			},
+			"PMDL_EXCHANGE_LOCATION": {
+				"module_title": "兌換地點",
+				"content": {
+					"properties": {
+						"locations": {
+							"list": [
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "齊柏林空間",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "25.1726353",
+												"longitude": "121.4369533",
+												"place_id": "ChIJuTwTh1qlQjQRzYgovXWisHA",
+												"map_snap_url": "s1.kkday.com/product_102570/20200817063656_yGq6k/png",
+												"zoom_lv": "19",
+												"desc": "新北市淡水區中正路316-1號（得忌利士洋行後棟）",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"arrival_desc": {
+													"desc": "- 搭乘捷運淡水信義線，於終點淡水站下車，出口左轉即為中正路（淡水老街），步行約 15 分鐘可抵達。\n- 捷運淡水佔前方搭乘公車：紅 26、836，於「小白宮（淡水分局）站」下車，往老街方向步行 2 分鐘到達。\n- 自行開車：淡水三民立體停車場（新北市淡水區建設街 6 號），車停妥後，沿著建設街往中正路方向走，至中正路上右轉，再直走約 3 分鐘即可到達齊柏林空間。"
+												},
+												"provide_service": {
+													"desc": "可兌換"
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								}
+							],
+							"table_key_langs": {
+								"city_info": "城市資訊",
+								"location_info": "地點資訊",
+								"station_list": "地點清單"
+							},
+							"title": "兌換地點"
+						}
+					}
+				}
+			},
+			"PMDL_INTRODUCE_SUMMARY": {
+				"module_title": "商品說明",
+				"content": {
+					"desc": "<p>－ 展覽介紹 －</p><p>逐岸&nbsp; ABOVE THE COAST</p><p>讓美麗與缺憾，同時存在一個空間，這是真實的世界，也是真實的人生。 —— 齊柏林<br></p><p><br></p><p>一分為二的海岸線，劃出日常生息與無際探索的對照。俯瞰的視角，沿著島嶼曲折、順著高山綿延，來直達內心的悸動。驅動著有意識的追尋、或是不自覺的跟隨，看見吐息自然與人文的交匯、並感受日月交替與潮汐的動靜。<br>如同海岸線所勾勒的表情中，展現了千萬風情的情感渲染來呈現：<br>島嶼逐岸之顏，台灣天造之美。</p><p>沿著台灣山線順行，將會遇到一整片蔚藍、濃郁色彩，和綿延 1200 多公里長的海岸線。向北是鬼斧神工的天然創作，向東是大海高峭的同框互峙。小島尾端有緩緩被抬升的珊瑚礁岩盤，像正在和凹凸崎嶇唱反調似的。西邊偌大一片平、直、淺的沙洲上，濕地渲染出鳥類的家園。而羅列潟湖間，像棋子般灑落的幾何形，是攝影師偏愛的蚵架與魚塭。這片風景交融了海與岸的線條，也若有所指的隱喻著自然與人為間，那美麗與哀愁的矛盾關係。</p><p>我們都曾迷戀著壯闊絢麗的景致，並以豐饒富裕的海岸線為傲，然而，按下快門、走近海岸之際，多放入一分疼惜土地的動機，才能看見家園被改變的真相。</p><p><br></p><p>主辦單位｜財團法人看見・齊柏林基金會<br>指導單位｜教育部、新北市政府文化局<br>策展執行｜卡爾吉特國際股份有限公司</p><p><br></p><p><br></p>"
+				}
+			},
+			"PMDL_EXPERIENCE_LOCATION": {
+				"module_title": "體驗地點",
+				"content": {
+					"list": [
+						{
+							"arrival_desc": {
+								"desc": "＊ 每週二休館（逢國定假日正常開館，翌日休館）；除夕、初一休館"
+							},
+							"active_time": {
+								"list": [
+									{
+										"week_title": {
+											"desc": "禮拜一"
+										},
+										"start_time": {
+											"desc": "10:00"
+										},
+										"end_time": {
+											"desc": "18:00"
+										},
+										"last_admission": {
+											"desc": "17:00"
+										}
+									},
+									{
+										"week_title": {
+											"desc": "禮拜二"
+										},
+										"close_desc": {
+											"desc": "不開放"
+										}
+									},
+									{
+										"week_title": {
+											"desc": "禮拜三"
+										},
+										"start_time": {
+											"desc": "10:00"
+										},
+										"end_time": {
+											"desc": "18:00"
+										},
+										"last_admission": {
+											"desc": "17:00"
+										}
+									},
+									{
+										"week_title": {
+											"desc": "禮拜四"
+										},
+										"start_time": {
+											"desc": "10:00"
+										},
+										"end_time": {
+											"desc": "18:00"
+										},
+										"last_admission": {
+											"desc": "17:00"
+										}
+									},
+									{
+										"week_title": {
+											"desc": "禮拜五"
+										},
+										"start_time": {
+											"desc": "10:00"
+										},
+										"end_time": {
+											"desc": "18:00"
+										},
+										"last_admission": {
+											"desc": "17:00"
+										}
+									},
+									{
+										"week_title": {
+											"desc": "禮拜六"
+										},
+										"start_time": {
+											"desc": "10:00"
+										},
+										"end_time": {
+											"desc": "19:00"
+										},
+										"last_admission": {
+											"desc": "18:00"
+										}
+									},
+									{
+										"week_title": {
+											"desc": "禮拜日"
+										},
+										"start_time": {
+											"desc": "10:00"
+										},
+										"end_time": {
+											"desc": "19:00"
+										},
+										"last_admission": {
+											"desc": "18:00"
+										}
+									}
+								],
+								"table_key_langs": {
+									"week_title": "星期",
+									"start_time": "開始時間",
+									"end_time": "結束時間",
+									"close_desc": "是否開放",
+									"last_admission": "最後入場時間"
+								}
+							},
+							"location_name": {
+								"desc": "齊柏林空間"
+							},
+							"latlng": {
+								"latitude": "25.172611",
+								"longitude": "121.436922",
+								"place_id": "ChIJE09zfVqlQjQRMzVvuKCTWto",
+								"map_snap_url": "s1.kkday.com/product_102570/20200817063940_lhbRL/png",
+								"zoom_lv": "19",
+								"desc": "新北市淡水區中正路316-1號（得忌利士洋行後棟）"
+							}
+						}
+					],
+					"table_key_langs": {
+						"location_name": "地點名稱",
+						"latlng": "地址",
+						"photo": "地點圖片",
+						"video": "地點影片",
+						"active_time": "開放時間",
+						"active_time_desc": "開放時間說明",
+						"arrival_desc": "如何抵達"
+					}
+				}
+			}
+		},
+		"prod_no": 102570,
+		"prod_url_no": 102570,
+		"prod_name": "新北淡水｜逐岸・齊柏林空間展覽預售門票",
+		"prod_type": "M05",
+		"tag": [
+			"TAG_2_2",
+			"TAG_4_3"
+		],
+		"b2c_min_price": 120.0,
+		"b2b_min_price": 110.0,
+		"instant_booking": true,
+		"order_count": 256,
+		"days": 0,
+		"hours": 0,
+		"duration": 0,
+		"introduction": "立即購買「看見台灣」導演 — 齊柏林空間 2 號作品展覽門票，跳過排隊人潮，輕鬆入場！齊柏林導演對台灣線條的素描，集結台灣海岸線「自然與不自然」樣貌，紀錄台灣 25 年的美好時光，在《齊柏林空間，逐岸》認識過去，關懷現在，期許未來。",
+		"cities": [
+			{
+				"city_code": "A01-001-00006",
+				"country_code": "A01-001",
+				"name": "台灣,新北市"
+			}
+		],
+		"b2c_price": 120.0,
+		"b2b_price": 110.0,
+		"prod_currency": "TWD"
+	},
+	"pkg": [
+		{
+			"pkg_no": 309770,
+			"pkg_name": "線上預售票",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "3",
+			"refund_type": "1",
+			"partial_refund": [
+				{
+					"value": 0.0,
+					"day_min": 4
+				},
+				{
+					"value": 1.0,
+					"day_min": 0,
+					"day_max": 3
+				}
+			],
+			"lead_day": 1,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "23:59",
+			"b2c_min_price": 120.0,
+			"b2b_min_price": 110.0,
+			"item_no": [
+				55547
+			],
+			"sale_s_date": "2021-06-09",
+			"sale_e_date": "2021-07-15",
+			"description_module": {
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>使用對象：7 歲以上至未滿 65 歲旅客<br></p>"
+							},
+							{
+								"desc": "<p>符合優待票資格者請於現場購票。資格如下：學生（須現場出示有效學生證，不含空中大學、大專院校學分班、附設進修補習班、社區大學、學習中心、語言中心等）、淡水區居民（請出示身分證等有效證明）、持有身心障礙手冊者及其陪同者一名<br></p>"
+							}
+						]
+					}
+				},
+				"PMDL_EXCHANGE_VALID": {
+					"module_title": "憑證兌換期限",
+					"content": {
+						"properties": {
+							"exchange": {
+								"desc": "需要按照預訂日期及當天開放時間內兌換，逾期失效"
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"pkg_no": 309862,
+			"pkg_name": "15 - 40 人團體票",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "3",
+			"refund_type": "1",
+			"partial_refund": [
+				{
+					"value": 0.0,
+					"day_min": 4
+				},
+				{
+					"value": 1.0,
+					"day_min": 0,
+					"day_max": 3
+				}
+			],
+			"lead_day": 1,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "17:59",
+			"b2c_min_price": 120.0,
+			"b2b_min_price": 110.0,
+			"item_no": [
+				55639
+			],
+			"sale_s_date": "2021-06-09",
+			"sale_s_date_event": "10:00",
+			"sale_e_date": "2021-07-15",
+			"sale_e_date_event": "16:00",
+			"description_module": {
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>學校參訪提供 2 位導師免費入場，須出示教師證或相關證明<br></p>"
+							},
+							{
+								"desc": "<p>旅遊團體可提供 1 位導遊免費入場，須出示導遊證<br></p>"
+							}
+						]
+					}
+				},
+				"PMDL_EXCHANGE_VALID": {
+					"module_title": "憑證兌換期限",
+					"content": {
+						"properties": {
+							"exchange": {
+								"desc": "需要按照預訂日期及當天開放時間內兌換，逾期失效"
+							}
+						}
+					}
+				}
+			}
+		}
+	],
+	"booking_field": {
+		"prod_no": "102570",
+		"custom": {
+			"cus_type": {
+				"is_require": "True",
+				"is_lead_used": "True",
+				"type": "array",
+				"list_option": [
+					"cus_01"
+				]
+			},
+			"birth": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_lead_used": "True",
+				"type": "date"
+			}
+		},
+		"ref_pkg": {
+			"309770": {
+				"custom": {
+					"cus_type": [
+						"cus_01"
+					]
+				}
+			},
+			"316686": {
+				"custom": {
+					"cus_type": [
+						"cus_01"
+					]
+				}
+			},
+			"309862": {
+				"custom": {
+					"cus_type": [
+						"cus_01"
+					]
+				}
+			}
+		}
+	}
+}

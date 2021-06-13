@@ -1,0 +1,1117 @@
+{
+	"result": "00",
+	"result_msg": "OK",
+	"prod_marketing": {
+		"TW": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"HK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"CN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"MY": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"SG": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"ID": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"PH": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"JP": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KR": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"TH": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"VN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		}
+	},
+	"prod": {
+		"is_tour": true,
+		"timezone": "Asia/Taipei",
+		"guide_lang_list": [],
+		"voice_guide_lang": [],
+		"confirm_order_time": true,
+		"online_s_date": "2021-06-15",
+		"online_e_date": "2021-12-31",
+		"img_list": [
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_8332/20210226024417_Sue6k/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_8332/20210113034124_83J9o/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_8332/20210311071740_oVgAi/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_8332/20210316072919_54xiQ/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_8332/20170703102402_Oe0Ij/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_8332/20210113034123_JNrQf/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_8332/20210503063813_0nnBB/png"
+		],
+		"video_list": [
+			"https://www.youtube.com/embed/0v6ZQfGE4MA"
+		],
+		"prod_comment_info": {
+			"avg_scores": "4.58",
+			"total_scores": "34608",
+			"click_count": "0",
+			"comment_record": "7558"
+		},
+		"go_date_setting": {
+			"type": "01"
+		},
+		"is_cancel_free": false,
+		"description_module": {
+			"PMDL_EXCHANGE": {
+				"module_title": "憑證使用方式",
+				"content": {
+					"properties": {
+						"exchange_type": {
+							"desc": "現場請出示 QR code",
+							"title": "使用方式"
+						}
+					}
+				}
+			},
+			"PMDL_USE_VALID": {
+				"module_title": "使用期限",
+				"content": {
+					"properties": {
+						"exchange": {
+							"desc": "需要按照預訂日期及當天開放時間內使用，逾期失效"
+						}
+					}
+				}
+			},
+			"PMDL_NOTICE": {
+				"module_title": "注意事項",
+				"content": {
+					"properties": {
+						"cust_reminds": {
+							"list": [
+								{
+									"desc": "91F 為不定期開放樓層，以現場公告為主。"
+								},
+								{
+									"desc": "購買快速通關票券之旅客，請至5樓票務快速通行人工櫃台使用憑證兌換票券，並會由專人導引至快速通行通道等候電梯上樓；離場時請於 88 樓快速通行通道出示票券由工作人員安排下樓。"
+								},
+								{
+									"desc": "入場時敬請配合隨身物件安全檢查，請勿攜帶外食、寵物、違禁品及危險物品進場。"
+								},
+								{
+									"desc": "請遵守本場所之相關規定與服務人員之引導說明。"
+								},
+								{
+									"desc": "針對目前全球疫情，台北101觀景台為配合政府政策及提供旅客安心的旅遊環境，提醒至觀景台參觀的旅客，請事先準備好口罩，並建議在參觀的過程中全程配戴。"
+								}
+							]
+						}
+					}
+				}
+			},
+			"PMDL_SCHEDULE": {
+				"module_title": "行程介紹",
+				"content": {
+					"properties": {
+						"total_day": {
+							"desc": "1天",
+							"title": "行程時間"
+						},
+						"schedule_list": {
+							"list": [
+								{
+									"daily_title": {
+										"desc": "第1天"
+									},
+									"daily_schedule_list": {
+										"table_key_langs": {
+											"time": "活動時間",
+											"content": "活動內容",
+											"media": "活動圖片"
+										},
+										"list": [
+											{
+												"content": {
+													"desc": "101觀景台小小導覽員體驗活動，由專人帶團現場解說讓小朋友體驗學習"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_8332/20210311071739_vEx19/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "每日整點開放「101觀景台小小導覽員」限時免費體驗（原價$199），結業即贈認證證書（活動時間：平日12:00，假日11:00開始，最後場次16:00"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_8332/20210311071738_4apBW/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "超萌恐龍造型雞蛋糕陪你一起觀賞101美景"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_8332/20210113034125_LuTOZ/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "89F 觀景台－彩繪101親子繪畫區"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_8332/20210113034124_83J9o/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "爸爸媽媽快帶著孩子們上89樓最佳打卡點－繁花盛宴，留下經典難忘的回憶！"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_8332/20210226024408_gURyQ/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "夜之101 一窗一景獨享靜謐，讓您可以坐在窗邊享受大台北夜景"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_8332/20210316072919_54xiQ/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "台北101觀景台夜景"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_8332/20160530045541_ElaA6/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "89F最佳戀愛打卡點－讓愛點亮夜空"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_8332/20201203094540_Ftphx/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "93F 敲敲幸福鐘 迎接美好的一年"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_8332/20210113034122_Tan03/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "登上 101F 幸福迴廊－旅客求婚紀錄"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_8332/20210113034122_rmyeP/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "88F 101印象館"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_8332/20210311071735_7arSt/jpg"
+														}
+													]
+												}
+											}
+										]
+									}
+								}
+							],
+							"table_key_langs": {
+								"meals": "當天餐點",
+								"daily_schedule_list": "當天行程內容"
+							},
+							"title": "行程內容"
+						}
+					}
+				}
+			},
+			"PMDL_HOWTO_SUMMARY": {
+				"module_title": "如何使用",
+				"content": {
+					"desc": "<p>－兌換方式－</p><ul><li>至5樓票務人工櫃台出示 KKday 憑證兌換票券</li></ul>"
+				}
+			},
+			"PMDL_PURCHASE_SUMMARY": {
+				"module_title": "購買須知",
+				"content": {
+					"desc": "<ul><li>農曆春節或連續假日等營業時間有所變更，詳情請參考官網</li><li>購買國人優惠門票之旅客，一位成人可攜帶兩位12歲以下兒童免費入場(兒童需出示中華民國有效身分證件)</li><li>於4/1-5/31 每週六日凡購買假日票$420者於10:50-11:00可參加『鼎泰豐見習體驗』，透過專人的解說，揭開鼎泰豐小籠包黃金十八摺的製作過程(採現場5F觀景台預約，限量前20位購買假日票名額)。<br></li></ul>"
+				}
+			},
+			"PMDL_EXCHANGE_LOCATION": {
+				"module_title": "兌換地點",
+				"content": {
+					"properties": {
+						"locations": {
+							"list": [
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "台北 101 五樓售票處櫃檯（101觀景台門票、快速通關票券）",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "25.033976",
+												"longitude": "121.5645389",
+												"place_id": "ChIJH56c2rarQjQRphD9gvC8BhI",
+												"map_snap_url": "s1.kkday.com/product_8332/20200709030207_ReK0y/png",
+												"zoom_lv": "16",
+												"desc": "台北 101",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"provide_service": {
+													"desc": "可兌換"
+												},
+												"photo": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_140,h_105,c_fill,q_55,wm_auto/s1.kkday.com/product_8332/20200709023804_sqQhs/png"
+														},
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_140,h_105,c_fill,q_55,wm_auto/s1.kkday.com/product_8332/20200709022816_Dvms4/jpg"
+														}
+													]
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								}
+							],
+							"table_key_langs": {
+								"city_info": "城市資訊",
+								"location_info": "地點資訊",
+								"station_list": "地點清單"
+							},
+							"title": "兌換地點"
+						}
+					}
+				}
+			},
+			"PMDL_INTRODUCE_SUMMARY": {
+				"module_title": "商品說明",
+				"content": {
+					"desc": "<p>－ 票券介紹 －<br><br>想要一覽無遺台北信義區繁華的城市景觀，台北 101 觀景台絕對是最佳的位置，你將搭上世界超高速電梯，直達 89 樓離地 382 公尺的觀景台，居高臨下的鳥瞰台北市，天氣好的話，還有機會進入戶外觀景台感受大樓頂端的高空風力，絕對讓你有個難忘的城市體驗。<br><br><br>－ 景點介紹 －</p><ul><li>&nbsp;91 樓戶外觀景台（不定期開放）<br></li></ul><p>經由 89 樓樓梯到達 91 樓戶外觀景台，可感受全然不同的觀景體驗。遊客可在超高大樓的頂端感受高空風力，雲霧圍繞以及寬闊的視野，並以最近距離仰望大樓最高點 508 公尺高的塔尖。</p><ul><li>89 樓室內觀景台</li></ul><p>高度 382 公尺的 89 樓觀景台，擁有 360 度絕佳的台北觀景視野外，並提供其他多項設施，包括：超高倍數望遠鏡（須自費）、紀念照攝影服務（須自費）、飲料吧（須自費）、 四國語言互動式導覽平台、世界最高郵筒等。</p><ul><li>88 樓世界最大風阻尼球區</li></ul><p>89 樓往88樓為台北 101 鎮樓之寶風阻尼器區，可近距離觀賞世界最大：5.5公尺、最重：660 公噸風阻尼器的完整主體結構，遊客可以最接近的距離與風阻尼器合影。<br></p>"
+				}
+			},
+			"PMDL_EXPERIENCE_LOCATION": {
+				"module_title": "體驗地點",
+				"content": {
+					"list": [
+						{
+							"active_time_desc": {
+								"desc": "<p>一般營業時間：週一至週五 11:00-21:00，週六、日 10:00-21:00（最後購票/入場時間：20:30）</p><p>＊國定假日開放時間如有變更，將另行公佈</p>"
+							},
+							"arrival_desc": {
+								"desc": "搭乘捷運信義線至「台北101/世貿站」4號出口，步行 1 分鐘即可抵達"
+							},
+							"location_name": {
+								"desc": "台北101"
+							},
+							"latlng": {
+								"latitude": "25.033976",
+								"longitude": "121.5645389",
+								"place_id": "ChIJH56c2rarQjQRphD9gvC8BhI",
+								"map_snap_url": "s1.kkday.com/product_8332/20200427093241_69hnQ/png",
+								"zoom_lv": "17",
+								"desc": "台北市信義區信義路五段7號"
+							}
+						}
+					],
+					"table_key_langs": {
+						"location_name": "地點名稱",
+						"latlng": "地址",
+						"photo": "地點圖片",
+						"video": "地點影片",
+						"active_time": "開放時間",
+						"active_time_desc": "開放時間說明",
+						"arrival_desc": "如何抵達"
+					}
+				}
+			}
+		},
+		"prod_no": 8332,
+		"prod_url_no": 8332,
+		"prod_name": "【限時優惠】台北 101 觀景台門票",
+		"prod_type": "M05",
+		"tag": [
+			"TAG_2_1"
+		],
+		"b2c_min_price": 190.0,
+		"b2b_min_price": 184.0,
+		"instant_booking": true,
+		"order_count": 186540,
+		"days": 0,
+		"hours": 1,
+		"duration": 0,
+		"introduction": "即訂即出台北101觀景台門票\b，掃 QRcode 快速入場！搭乘世界超快速度電梯，僅 37 秒抵達 89 樓觀景台，登上台灣第一高樓離地 382 公尺處，俯瞰大台北城市夜景，盡享全視野景觀！國人更享半價限定優惠，一位成人更可以帶兩位兒童免費入場！",
+		"cities": [
+			{
+				"city_code": "A01-001-00001",
+				"country_code": "A01-001",
+				"name": "台灣,台北"
+			}
+		],
+		"b2c_price": 1020.0,
+		"b2b_price": 184.0,
+		"prod_currency": "TWD"
+	},
+	"pkg": [
+		{
+			"pkg_no": 336227,
+			"pkg_name": "【台灣籍限定】夜之101獨享窗景 雙人套票",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "1",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 1,
+			"lead_day_unit": "h",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "23:59",
+			"b2c_min_price": 600.0,
+			"b2b_min_price": 552.0,
+			"item_no": [
+				82004
+			],
+			"sale_s_date": "2021-06-15",
+			"sale_s_date_event": "17:30",
+			"sale_e_date": "2021-06-30",
+			"sale_e_date_event": "17:30",
+			"description_module": {
+				"PMDL_INC_NINC": {
+					"module_title": "費用包含/不包含",
+					"content": {
+						"properties": {
+							"include_item": {
+								"list": [
+									{
+										"desc": "夜之 101 獨享窗景 雙人套票"
+									}
+								],
+								"title": "費用包含"
+							},
+							"not_include_item": {
+								"list": [
+									{
+										"desc": "小費"
+									},
+									{
+										"desc": "保險"
+									},
+									{
+										"desc": "門票以外消費"
+									}
+								],
+								"title": "費用不包含"
+							}
+						}
+					}
+				},
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>兩個場次：夕陽落日浪漫場：17:30－19:00 落日餘暉，鉛華與喧囂跟著夕陽落下 / 華燈初上夜景場 19:00 － 21:00 華燈初起，浪漫與美景佐著神秘登場<br></p>"
+							},
+							{
+								"desc": "<p>限雙人沙發座位區套票享有89F窗景雙人座位乙組 (限購買場次內時間使用)<br></p>"
+							},
+							{
+								"desc": "<p>只需上傳現場拍攝照片，並於「台北101觀景台」粉絲頁按讚（現場可掃描ＱR code、社群(FB/IG) 打卡101觀景台，附上文字說明，設定朋友或是公開皆可，並加上以下hashtag：#101之夜 / #享慶祝隨時都可以，提供給服務人員確認，即可獲得「越甜蜜越健康堅果」乙份<br></p>"
+							},
+							{
+								"desc": "<p>每組雙人活動套票可攜1-4位12歲以下兒童免費參加(孩童恕不提供座位)，成人及兒童入場皆須出示台灣籍有效身份證件／健保卡入場<br></p>"
+							}
+						]
+					}
+				},
+				"PMDL_REFUND_POLICY": {
+					"module_title": "取消政策",
+					"content": {
+						"properties": {
+							"policy_type": {
+								"desc": "免費取消！",
+								"title": "手續費收取方式"
+							}
+						}
+					}
+				},
+				"PMDL_EXCHANGE_VALID": {
+					"module_title": "憑證兌換期限",
+					"content": {
+						"properties": {
+							"exchange": {
+								"desc": "需要按照預訂日期及當天開放時間內兌換，逾期失效"
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"pkg_no": 343737,
+			"pkg_name": "【台灣籍限定】台北101觀景台門票",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "1",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 0,
+			"lead_day_unit": "h",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "23:59",
+			"b2c_min_price": 300.0,
+			"b2b_min_price": 286.0,
+			"item_no": [
+				89514
+			],
+			"sale_s_date": "2021-06-15",
+			"sale_e_date": "2021-12-31",
+			"description_module": {
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>每票成人可攜帶兩位12歲以下兒童免費入場(成人及兒童需出示中華民國有效身分證件/健保卡/護照/居留證/健保卡/戶口名簿（擇一）<br></p>"
+							},
+							{
+								"desc": "<p>即日起，每日整點開放「<a href=\"https://www.kkday.com/zh-tw/product/115673\">101觀景台小小導覽員</a>」限時免費體驗（原價$199），結業即贈認證證書（活動時間：平日12:00，假日11:00開始，最後場次16:00<br></p>"
+							},
+							{
+								"desc": "<p>於4/1-5/31 每週六日凡購買假日票$420者於10:50-11:00可參加『鼎泰豐見習體驗』，透過專人的解說，揭開鼎泰豐小籠包黃金十八摺的製作過程(採現場5F觀景台預約，限量前20位購買假日票名額)<br></p>"
+							}
+						]
+					}
+				},
+				"PMDL_REFUND_POLICY": {
+					"module_title": "取消政策",
+					"content": {
+						"properties": {
+							"policy_type": {
+								"desc": "免費取消！",
+								"title": "手續費收取方式"
+							}
+						}
+					}
+				},
+				"PMDL_EXCHANGE_VALID": {
+					"module_title": "憑證兌換期限",
+					"content": {
+						"properties": {
+							"exchange": {
+								"desc": "需要按照預訂日期及當天開放時間內兌換，逾期失效"
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"pkg_no": 314398,
+			"pkg_name": "【台灣籍旅客限定】台北101觀景台樂齡 / 愛心票",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "1",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 0,
+			"lead_day_unit": "h",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "23:59",
+			"b2c_min_price": 190.0,
+			"b2b_min_price": 184.0,
+			"item_no": [
+				60175
+			],
+			"sale_s_date": "2021-06-15",
+			"sale_e_date": "2021-12-31",
+			"description_module": {
+				"PMDL_INC_NINC": {
+					"module_title": "費用包含/不包含",
+					"content": {
+						"properties": {
+							"include_item": {
+								"list": [
+									{
+										"desc": "【台灣籍旅客限定】台北101觀景台樂齡 / 愛心票"
+									}
+								],
+								"title": "費用包含"
+							},
+							"not_include_item": {
+								"list": [
+									{
+										"desc": "小費"
+									},
+									{
+										"desc": "保險"
+									},
+									{
+										"desc": "門票以外消費"
+									}
+								],
+								"title": "費用不包含"
+							}
+						}
+					}
+				},
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>樂齡票適用對象：限台灣籍並年滿60歲以上之長者，旅客購票及進場時皆須出示台灣籍有效身份證件/在台居留證(ARC)/健保卡<br></p>"
+							},
+							{
+								"desc": "<p>愛心票適用對象：限台灣籍旅客(旅客購票及進場時)皆須出示台灣籍有效身份證件/在台居留證(ARC)/健保卡以及身心障礙者手冊<br></p>"
+							},
+							{
+								"desc": "<p>每張樂齡/愛心票可攜2位12歲以下學齡孩童(免票孩童須出示台灣籍有效身份證件/健保卡)免費入場參觀<br></p>"
+							}
+						]
+					}
+				},
+				"PMDL_REFUND_POLICY": {
+					"module_title": "取消政策",
+					"content": {
+						"properties": {
+							"policy_type": {
+								"desc": "免費取消！",
+								"title": "手續費收取方式"
+							}
+						}
+					}
+				},
+				"PMDL_EXCHANGE_VALID": {
+					"module_title": "憑證兌換期限",
+					"content": {
+						"properties": {
+							"exchange": {
+								"desc": "需要按照預訂日期及當天開放時間內兌換，逾期失效"
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"pkg_no": 331887,
+			"pkg_name": "【台灣籍旅客限定】台北101觀景台軍警消票",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "1",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 0,
+			"lead_day_unit": "h",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "23:59",
+			"b2c_min_price": 190.0,
+			"b2b_min_price": 184.0,
+			"item_no": [
+				77664
+			],
+			"sale_s_date": "2021-06-15",
+			"sale_e_date": "2021-12-31",
+			"description_module": {
+				"PMDL_INC_NINC": {
+					"module_title": "費用包含/不包含",
+					"content": {
+						"properties": {
+							"include_item": {
+								"list": [
+									{
+										"desc": "【台灣籍旅客限定】台北101觀景台敬軍票"
+									}
+								],
+								"title": "費用包含"
+							},
+							"not_include_item": {
+								"list": [
+									{
+										"desc": "小費"
+									},
+									{
+										"desc": "保險"
+									},
+									{
+										"desc": "門票以外消費"
+									}
+								],
+								"title": "費用不包含"
+							}
+						}
+					}
+				},
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>國軍票：限台灣國軍或軍眷本人，購票及進場時皆須出示國軍身份證 / 榮民證 / 軍眷補給證者 / 軍校生證以及台灣籍有效身份證件 / 在台居留證 (ARC) / 健保卡， · 每月前600名另贈國軍購票本人BAR88雲朵系列飲品兌換券乙張<br></p>"
+							},
+							{
+								"desc": "<p>警消票：限台灣警察/消防人員(含義警、義消)，購票及進場時皆須出示警消識別證件以及台灣籍有效身份證件 / 在台居留證 (ARC) / 健保卡，每月前600名另贈購票者B1美食街飲品兌換券乙張<br></p>"
+							},
+							{
+								"desc": "<p>以上每票最多可攜2位同行者享同價（如有需要請一併預訂，同行者購票及入場需出示台灣籍有效身份證件 / 在台居留證 (ARC) / 健保卡）<br></p>"
+							},
+							{
+								"desc": "<p>每票可攜2位12歲以下學齡孩童（免票孩童須出示台灣籍有效身份證件/健保卡）免費入場參觀（每位兒童皆贈送台北101觀景台學習單乙份）<br></p>"
+							},
+							{
+								"desc": "<p>即日起至 5/31 開放 7,000 個名額予購買警消票者可免費參觀 101 樓室內觀景區<br></p>"
+							}
+						]
+					}
+				},
+				"PMDL_REFUND_POLICY": {
+					"module_title": "取消政策",
+					"content": {
+						"properties": {
+							"policy_type": {
+								"desc": "免費取消！",
+								"title": "手續費收取方式"
+							}
+						}
+					}
+				},
+				"PMDL_EXCHANGE_VALID": {
+					"module_title": "憑證兌換期限",
+					"content": {
+						"properties": {
+							"exchange": {
+								"desc": "需要按照預訂日期及當天開放時間內兌換，逾期失效"
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"pkg_no": 338763,
+			"pkg_name": "【不分國籍】台北101觀景台門票",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "1",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 0,
+			"lead_day_unit": "h",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "23:59",
+			"b2c_min_price": 540.0,
+			"b2b_min_price": 513.0,
+			"item_no": [
+				84540
+			],
+			"sale_s_date": "2021-06-15",
+			"sale_e_date": "2021-12-31",
+			"description_module": {
+				"PMDL_INC_NINC": {
+					"module_title": "費用包含/不包含",
+					"content": {
+						"properties": {
+							"include_item": {
+								"list": [
+									{
+										"desc": "台北 101 觀景台門票"
+									}
+								],
+								"title": "費用包含"
+							},
+							"not_include_item": {
+								"list": [
+									{
+										"desc": "小費"
+									},
+									{
+										"desc": "保險"
+									},
+									{
+										"desc": "以上未提及消費"
+									}
+								],
+								"title": "費用不包含"
+							}
+						}
+					}
+				},
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>身高 115 公分以下兒童免費入場，須由一位成人陪同<br></p>"
+							}
+						]
+					}
+				},
+				"PMDL_REFUND_POLICY": {
+					"module_title": "取消政策",
+					"content": {
+						"properties": {
+							"policy_type": {
+								"desc": "免費取消！",
+								"title": "手續費收取方式"
+							}
+						}
+					}
+				},
+				"PMDL_EXCHANGE_VALID": {
+					"module_title": "憑證兌換期限",
+					"content": {
+						"properties": {
+							"exchange": {
+								"desc": "需要按照預訂日期及當天開放時間內兌換，逾期失效"
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"pkg_no": 306189,
+			"pkg_name": "【專屬通道】台北101觀景台快速通行門票",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "3",
+			"refund_type": "1",
+			"partial_refund": [
+				{
+					"value": 0.0,
+					"day_min": 1
+				},
+				{
+					"value": 1.0,
+					"day_min": 0,
+					"day_max": 0
+				}
+			],
+			"lead_day": 0,
+			"lead_day_unit": "h",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "23:59",
+			"b2c_min_price": 1020.0,
+			"b2b_min_price": 969.0,
+			"item_no": [
+				51966
+			],
+			"sale_s_date": "2021-06-15",
+			"sale_e_date": "2021-12-31",
+			"description_module": {
+				"PMDL_INC_NINC": {
+					"module_title": "費用包含/不包含",
+					"content": {
+						"properties": {
+							"include_item": {
+								"list": [
+									{
+										"desc": "【專屬通道】台北101觀景台快速通行門票"
+									}
+								],
+								"title": "費用包含"
+							},
+							"not_include_item": {
+								"list": [
+									{
+										"desc": "小費"
+									},
+									{
+										"desc": "保險"
+									},
+									{
+										"desc": "門票以外消費"
+									}
+								],
+								"title": "費用不包含"
+							}
+						}
+					}
+				},
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>持 KKday 憑證至 5 樓售票處櫃檯兌換快速通行票券後，將由專人帶你走快速通道，直達89樓觀景台</p>"
+							}
+						]
+					}
+				},
+				"PMDL_REFUND_POLICY": {
+					"module_title": "取消政策",
+					"content": {
+						"properties": {
+							"policy_type": {
+								"desc": "指定手續費",
+								"title": "手續費收取方式"
+							},
+							"partial_refund": {
+								"list": [
+									{
+										"desc": "所選日期 1 天（含）之前取消，收取手續費 0%"
+									},
+									{
+										"desc": "所選日期  0 ~ 0 天之間取消，收取手續費 100%"
+									}
+								],
+								"title": "政策內容"
+							}
+						}
+					}
+				},
+				"PMDL_EXCHANGE_VALID": {
+					"module_title": "憑證兌換期限",
+					"content": {
+						"properties": {
+							"exchange": {
+								"desc": "需要按照預訂日期及當天開放時間內兌換，逾期失效"
+							}
+						}
+					}
+				}
+			}
+		}
+	],
+	"booking_field": {
+		"prod_no": "8332",
+		"custom": {
+			"cus_type": {
+				"is_require": "True",
+				"is_lead_used": "True",
+				"type": "array",
+				"list_option": [
+					"cus_01"
+				]
+			},
+			"english_last_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_lead_used": "True",
+				"type": "string"
+			},
+			"english_first_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_lead_used": "True",
+				"type": "string"
+			}
+		},
+		"ref_pkg": {
+			"338763": {
+				"custom": {
+					"cus_type": [
+						"cus_01"
+					]
+				}
+			},
+			"331887": {
+				"custom": {
+					"cus_type": [
+						"cus_01"
+					]
+				}
+			},
+			"314473": {
+				"custom": {
+					"cus_type": [
+						"cus_01"
+					]
+				}
+			},
+			"314398": {
+				"custom": {
+					"cus_type": [
+						"cus_01"
+					]
+				}
+			},
+			"336227": {
+				"custom": {
+					"cus_type": [
+						"cus_01"
+					]
+				}
+			},
+			"306190": {
+				"custom": {
+					"cus_type": [
+						"cus_01"
+					]
+				}
+			},
+			"333873": {
+				"custom": {
+					"cus_type": [
+						"cus_01"
+					]
+				}
+			},
+			"343735": {
+				"custom": {
+					"cus_type": [
+						"cus_01"
+					]
+				}
+			},
+			"90164": {
+				"custom": {
+					"cus_type": [
+						"cus_01"
+					]
+				}
+			},
+			"306188": {
+				"custom": {
+					"cus_type": [
+						"cus_01"
+					]
+				}
+			},
+			"343737": {
+				"custom": {
+					"cus_type": [
+						"cus_01"
+					]
+				}
+			},
+			"306189": {
+				"custom": {
+					"cus_type": [
+						"cus_01"
+					]
+				}
+			}
+		}
+	}
+}

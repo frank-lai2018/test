@@ -1,0 +1,2613 @@
+{
+	"result": "00",
+	"result_msg": "OK",
+	"prod_marketing": {
+		"TW": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"HK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"CN": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"MY": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"SG": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"ID": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"PH": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"JP": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KR": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"TH": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"VN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		}
+	},
+	"prod": {
+		"is_tour": false,
+		"timezone": "Asia/Taipei",
+		"guide_lang_list": [],
+		"voice_guide_lang": [],
+		"confirm_order_time": false,
+		"online_s_date": "2021-06-11",
+		"online_e_date": "2021-12-31",
+		"img_list": [
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_4451/20200826022147_FMNSd/jpg"
+		],
+		"video_list": [],
+		"prod_comment_info": {
+			"avg_scores": "4.51",
+			"total_scores": "5191",
+			"click_count": "0",
+			"comment_record": "1150"
+		},
+		"go_date_setting": {
+			"days": {
+				"max": 30,
+				"min": 1
+			},
+			"type": "02"
+		},
+		"is_cancel_free": false,
+		"description_module": {
+			"PMDL_EXCHANGE": {
+				"module_title": "憑證使用方式",
+				"content": {
+					"properties": {
+						"exchange_type": {
+							"desc": "現場請出示電子憑證",
+							"title": "使用方式"
+						}
+					}
+				}
+			},
+			"PMDL_INC_NINC": {
+				"module_title": "費用包含/不包含",
+				"content": {
+					"properties": {
+						"include_item": {
+							"list": [
+								{
+									"desc": "強制汽車責任險保險"
+								},
+								{
+									"desc": "第三人責任險：保險金額每人之傷害最高新台幣 200 萬元、每一意外事故之傷害最高新台幣 400 萬元、每一意外事故之財損最高新台幣 50 萬元。"
+								},
+								{
+									"desc": "駕駛人傷害保險：保險金額新台幣 300 萬元。"
+								},
+								{
+									"desc": "乘客責任保險：保險金額每人新台幣 300 萬元。（超載部分除外)。"
+								},
+								{
+									"desc": "汽車竊盜損失險：承租人僅支付市價與保險賠償金額之差額。（不含零件、配件被竊損失)"
+								}
+							],
+							"title": "費用包含"
+						},
+						"not_include_item": {
+							"list": [
+								{
+									"desc": "小費"
+								},
+								{
+									"desc": "異地還車 (甲租乙還) ： NT$1,500"
+								},
+								{
+									"desc": "逾時費、超里程費、及高速公路通行費由承租人還車時於 Budget 服務站支付"
+								},
+								{
+									"desc": "GPS 衛星導航：NT$120 /天"
+								},
+								{
+									"desc": "兒童座椅：NT$120 /天"
+								},
+								{
+									"desc": "燃料費（還車時，油箱請勿低於出車時之油量）"
+								},
+								{
+									"desc": "額外駕駛：NT $120 / 天"
+								}
+							],
+							"title": "費用不包含"
+						}
+					}
+				}
+			},
+			"PMDL_REFUND_POLICY": {
+				"module_title": "取消政策",
+				"content": {
+					"properties": {
+						"policy_type": {
+							"desc": "指定手續費",
+							"title": "手續費收取方式"
+						},
+						"partial_refund": {
+							"list": [
+								{
+									"desc": "所選日期 11 天（含）之前取消，收取手續費 0%"
+								},
+								{
+									"desc": "所選日期  7 ~ 10 天之間取消，收取手續費 10%"
+								},
+								{
+									"desc": "所選日期  4 ~ 6 天之間取消，收取手續費 50%"
+								},
+								{
+									"desc": "所選日期  0 ~ 3 天之間取消，收取手續費 100%"
+								}
+							],
+							"title": "政策內容"
+						}
+					}
+				}
+			},
+			"PMDL_NOTICE": {
+				"module_title": "注意事項",
+				"content": {
+					"properties": {
+						"cust_reminds": {
+							"list": [
+								{
+									"desc": "提供車款以同等級車組為主，需視現場調度，恕不可指定車款、車色。"
+								},
+								{
+									"desc": "其餘未盡事項，Budget百捷租車租賃契約為主，請參考https://bit.ly/2LKkxb3"
+								},
+								{
+									"desc": "還車時，油箱之油料請勿低於出車時之油量，還車時油量若低於出車時之油量，承租人須自行至加油站加油，或同意租車公司收取短缺之油料油費外加NT$ 100 服務費。"
+								},
+								{
+									"desc": "車輛發生碰撞、毀損或失竊，承租人應立即向警察機關報案並通知租車公司，切勿與對方私下和解或擅自在外修護，否則承租人將負擔所有損害賠償。"
+								},
+								{
+									"desc": "必備證件：台灣旅客需身分證件、本國籍駕照、信用卡（效期須大於 6 個月以上）；外國籍旅客需護照正本、國際駕照或在台開車許可證、原國籍駕照、信用卡（效期須大於 6 個月以上），如現場無法出示，恕無法提供車輛租借服務，概不退款（簽帳金融卡及銀聯卡不適用）。"
+								},
+								{
+									"desc": "假日及連續假日價差、0負擔服務、兒童座椅、GPS、異地還車費用等加價及其他未包含費用，請於取車時現場支付，詳細金額請參照頁面說明。"
+								}
+							]
+						}
+					}
+				}
+			},
+			"PMDL_GRAPHIC": {
+				"module_title": "圖文介紹",
+				"content": {
+					"list": [
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_4451/20200820065125_Q0s1F/png"
+								}
+							],
+							"desc": "C組經濟型車Economy – Honda Fit或同級車款"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_4451/20200820065127_JWs4D/png"
+								}
+							],
+							"desc": "D組標準車Compact – Nissan iTIIDA或同級車款"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_4451/20200820065132_Z6IOo/png"
+								}
+							],
+							"desc": "O組休旅車SUV – Nissan Kicks或同級車款"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_4451/20210503104543_dGos3/png"
+								}
+							],
+							"desc": "S組舒適MPV – Odyssey 或同級車"
+						}
+					]
+				}
+			},
+			"PMDL_EXTRA_FEE": {
+				"module_title": "額外費用",
+				"content": {
+					"list": [
+						{
+							"desc": "延遲還車請事先致電給店家，每小時十分之一牌價收費，超過六小時以一天收取用車費用",
+							"title": "延遲費用"
+						}
+					],
+					"title": "額外費用"
+				}
+			},
+			"PMDL_PURCHASE_SUMMARY": {
+				"module_title": "購買須知",
+				"content": {
+					"desc": "<p>— 商品 Q&amp;A —</p><ul><li>因應新冠疫情調整，暫停提供花蓮、台東、小港機場租車訂單機場來回接送的服務。</li><li>車款須依照現場調度安排為主，恕不可指定車款、車色。有無車輛或是可否甲地乙還會於 2 個工作天內回覆。<br></li></ul><ul><li>站點取車 &amp; 還車須知 : 因應近期武漢肺炎疫情，進出 Budget站點也請您務必配合配戴上口罩、使用酒精消毒，以及測量額溫。同時Budget站點同仁會全程配戴口罩提供車輛承租服務。若未佩戴口罩者經勸阻無效，Budget 百捷租車將有權不提供車輛承租服務，亦不退費，請您見諒。</li></ul>"
+				}
+			},
+			"PMDL_EXCHANGE_LOCATION": {
+				"module_title": "租車地點",
+				"content": {
+					"properties": {
+						"locations": {
+							"list": [
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "台北車站 / Taipei Main Station",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "25.0486743",
+												"longitude": "121.5142391",
+												"place_id": "EioxMDPlj7DngaPlj7DljJfluILlpKflkIzljYDphK3lt57ot6846JmfQjEiHhocChYKFAoSCWEi_1YNqUI0EZXFTfllaTE7EgJCMQ",
+												"map_snap_url": "s1.kkday.com/product_4451/20200424055016_9ddlP/png",
+												"zoom_lv": "18",
+												"desc": "台北市中正區鄭州路8號B1 / B1F., No.8, Zhengzhou Rd., Zhongzheng Dist., Taipei City",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"arrival_desc": {
+													"desc": "Tel:(02) 6620-6620 轉 124"
+												},
+												"provide_service": {
+													"desc": "可取還車"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "10:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "10:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "10:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "10:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "10:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "10:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "10:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "台北松德站 / Taipei Downtown Station - Songde Rd.",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "25.0334248",
+												"longitude": "121.5747635",
+												"place_id": "ChIJ05wTcq-rQjQRR7lorPHpm1s",
+												"map_snap_url": "s1.kkday.com/product_4451/20210129064407_9jHAy/png",
+												"zoom_lv": "16",
+												"desc": "台北市信義區松德路257號 No.257, Songde Rd., Xinyi Dist., Taipei City",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"arrival_desc": {
+													"desc": "Tel: (02) 6620-6620 轉 110"
+												},
+												"provide_service": {
+													"desc": "可取還車"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "18:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "18:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "18:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "18:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "18:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "18:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "18:00"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "板橋服務站 / Banqiao Station",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "25.0161842",
+												"longitude": "121.4686516",
+												"place_id": "ChIJN41IpyKoQjQRdnywPYxIEAU",
+												"map_snap_url": "s1.kkday.com/product_4451/20200424055016_4KR8g/png",
+												"zoom_lv": "18",
+												"desc": "新北市板橋區板新路 208 號 / No.208, Banxin Rd., Banqiao Dist., New Taipei City",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"arrival_desc": {
+													"desc": "Tel: (02) 6620-6620 轉 123"
+												},
+												"provide_service": {
+													"desc": "可取還車"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "20:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "20:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "20:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "20:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "20:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "20:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "20:00"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "桃園國際機場站（第二航廈入境大廳北側）/ Taoyuan Intl. Airport Station(North side of the Terminal 2 Arrivals Lobby)",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "25.080881",
+												"longitude": "121.2367156",
+												"place_id": "ChIJ73MNisCfQjQR8hYmPcf3hGA",
+												"map_snap_url": "s1.kkday.com/product_4451/20200421072656_TASmu/png",
+												"zoom_lv": "16",
+												"desc": "桃園市大園區航站南路 9 號 / No.9, Hangzhan S. Rd., Dayuan Dist., Taoyuan City",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"arrival_desc": {
+													"desc": "Tel: (02) 6620-6620 轉 113"
+												},
+												"provide_service": {
+													"desc": "可取還車"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "台中高鐵站（台鐵新烏日站2樓） / Taichung HSR Station（TRA Taichung Xinwuri station）",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "24.1091069",
+												"longitude": "120.6146338",
+												"place_id": "ChIJt3c2DqE-aTQRx8XGoA9M9BM",
+												"map_snap_url": "s1.kkday.com/product_4451/20200729065342_XtlVJ/png",
+												"zoom_lv": "16",
+												"desc": "台中市烏日區高鐵東一路26號2樓 / 2F., No.26, Gaotie E. 1st Rd., Wuri Dist., Taichung CityWuri Dist.Taichung City",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"arrival_desc": {
+													"desc": "Tel: (02) 6620-6620 轉 140"
+												},
+												"provide_service": {
+													"desc": "可取還車"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "台南高鐵站 / Tainan HSR Station",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "22.92464",
+												"longitude": "120.285662",
+												"place_id": "ChIJpR6pAaZzbjQR58nDfF1UPgI",
+												"map_snap_url": "s1.kkday.com/product_4451/20200421072708_c6FuF/png",
+												"zoom_lv": "16",
+												"desc": "台南市歸仁區高鐡十二路109號 / No.109, Gaotie 12th Rd. Guiren DistGuiren Dist.Tainan City",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"arrival_desc": {
+													"desc": "Tel:(02) 6620-6620 轉 160"
+												},
+												"provide_service": {
+													"desc": "可取還車"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "19:00"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "左營高鐵站 / Zuoying(Kaohsiung) HSR Station",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "22.686311",
+												"longitude": "120.309199",
+												"place_id": "ChIJh6UQKW4FbjQRulJtrjrBnsc",
+												"map_snap_url": "s1.kkday.com/product_4451/20210507090429_7Pa5l/png",
+												"zoom_lv": "18",
+												"desc": "高雄市文府路35-1號",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"arrival_desc": {
+													"desc": "Tel:(02) 6620-6620 轉 170"
+												},
+												"provide_service": {
+													"desc": "可取還車"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "20:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "20:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "20:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "20:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "20:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "20:00"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "09:00"
+															},
+															"end_time": {
+																"desc": "20:00"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "花蓮服務站 / Hualien Station",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "23.9930855",
+												"longitude": "121.602478",
+												"place_id": "ChIJPVKBKrSfaDQRFB7oTSnBfHI",
+												"map_snap_url": "s1.kkday.com/product_4451/20200424055124_UShHL/png",
+												"zoom_lv": "18",
+												"desc": "花蓮縣花蓮市國聯一路 100-8 號 / No.100-8, Guolian 1st Rd., Hualien City, Hualien County",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"arrival_desc": {
+													"desc": "Tel:(02) 6620-6620 轉 138"
+												},
+												"provide_service": {
+													"desc": "可取還車"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "台東服務站 / Taitung Station",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "22.7928428",
+												"longitude": "121.1248882",
+												"place_id": "ChIJ0SH7LS26bzQRfOqngCuvmo4",
+												"map_snap_url": "s1.kkday.com/product_4451/20200421072711_hRr0M/png",
+												"zoom_lv": "16",
+												"desc": "台東縣台東市新站路 227 號 / No.227, Xinzhan Rd., Taitung City, Taitung County",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"arrival_desc": {
+													"desc": "Tel:(02) 6620-6620 轉 108"
+												},
+												"provide_service": {
+													"desc": "可取還車"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "08:30"
+															},
+															"end_time": {
+																"desc": "20:30"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								}
+							],
+							"table_key_langs": {
+								"city_info": "城市資訊",
+								"location_info": "地點資訊",
+								"station_list": "地點清單"
+							},
+							"title": "租車地點"
+						}
+					}
+				}
+			},
+			"PMDL_INTRODUCE_SUMMARY": {
+				"module_title": "商品說明",
+				"content": {
+					"desc": "<p>－ 公告事項 －<br><br></p><p>因應全球嚴重特殊傳染性肺炎疫情的變化，Budget 持續提供租車自駕全面消毒，亦採取預防措施為保障客人和員工健康安全，為能夠提供持續高效的服務，全台服務站點進行區域分流，請依造網頁提供據點下單。</p><p>＊C組經濟小車 ： Economy – Honda Fit或同級車款，5 人座，2 件行李</p><p>＊D組舒適轎車：Compact – Nissan iTIIDA或同級車款，5人座，2 件行李</p><p>＊O組高級休旅車 ： SUV – Nissan Kicks或同級車款，5人座，2 件小行李及 2 件大行李</p><p>＊S組高級休旅車 ： MPV – Honda Odyssey 或同級車款，7人座，1件小行李及 1  件大行李</p><p>＊旅客資訊請提供實際駕駛人的資料</p><p>＊使用兒童座椅之旅客請備註小孩生日跟身高體重<br><br>＊若需A取B還請麻煩備註訂單，後續以收到憑證為確認服務<br></p><p>＊目前僅台南高鐵站提供接駁服務（請旅客自行預約(02)6620-6660）</p><p>＊三日(含)以上國定假期須以特殊假日價格計算。假期參考如下，以該年度實際放假區間為主(將視調度狀況調整開放天數)</p><p>※ 2020/12/31~2021/01/03，需租用兩天 (含)以上用車 <br>※ 2021/02/09~2021/02/16 ，需租用三天(含)以上用車 <br>※ 2021/02/26~2021/03/01 ，需租用兩天(含)以上用車 <br>※ 2021/04/01~2021/04/05 ，需租用三天(含)以上用車<br>※ 2021/04/30~2021/05/03 ，需租用兩天(含)以上用車<br>※ 2021/06/11~2021/06/14 ，需租用三天(含)以上用車<br>※ 2021/09/17~2021/09/21 ，需租用三天(含)以上用車<br>※ 2021/10/08~2021/10/11 ，需租用三天(含)以上用車<br>※ 2021/12/30~2022/01/02 ，需租用三天(含)以上用車</p><p><br></p><p>&nbsp;<br><br>－ 服務介紹 －</p><ul><li>店家位置：請見下方，營業據點資訊</li><li>取車時間：09:00 - 18:00（各站點營業時間不同，請見下方營業據點資訊）</li><li>必備證件：<br>中華民國籍旅客：<br>承租人需年滿 20 歲，一律使用信用卡付款 (有效期限六個月以上)，恕不接受 簽帳金融卡 / 借記卡;取車時須出示信用卡 (Visa / MasterCard / JCB / 美國運通卡)進行預先授權之用、台灣旅客需身分證件、本國籍駕照<br>外國籍旅客：<br>需護照正本、國際駕照或在台開車許可證、原國籍駕照、信用卡（效期須大於 6 個月以上），如現場無法出示，恕無法提供車輛租借服務，概不退款（簽帳金融卡及銀聯卡不適用）。</li></ul><ul><li>保險細節： 強制汽車責任險、第三人責任險、駕駛人傷害保險、乘客責任保險（超載部分除外）、汽車竊盜損失險、車體損失險（有自付額）。</li><li>租車限制：須年滿 20 歲，駕照核發日期須滿一年以上，Budget 有權拒絕租車且不退款。關於可在台開車之國家駕照，請參考<a href=\"https://www.thb.gov.tw/sites/ch/modules/download/download_list?node=831dcd37-7259-47c3-9211-ffbf8dee35bc&amp;c=89275811-dcff-4d14-877e-981db78a5b18\" style=\"background-color: rgb(255, 255, 255);\">交通部公路總局主要國家駕照互惠情形一覽表</a>，依照台灣法規，持有澳洲昆士蘭州、泰國、中國、韓國之駕照及國際駕照不適用在台駕駛，詳見上述網址。</li><li>若為港澳旅客，取車時請務必攜帶護照、入台證（需蓋有入境證明）及駕照，敬請知悉。<br></li></ul><p><br></p><p><br><br><br>－ 重要資訊 －<br><br></p><ul><li>如需兒童座椅或 GPS 衛星導航或 Wi-fi 租借，請於下訂時備註，並現場支付兒童座椅或 GPS 衛星導航為 NT$120 / 天； Wi-fi 租借為 NT$99 / 天。</li><li>車輛每日平均行駛里程限制為 200 公里，逾 200 公里者，以每 1 公里加收 NT$2 累計。</li><li>租金不包括燃料，車輛使用之燃料需由承租人自備，還車時，油箱之油料請勿低於出車時之油量，還車時油量若低於出車時之油量，承租人須自行至加油站加油，或同意租車公司收取短缺之油料油費外加NT$ 100 服務費。</li></ul><ul><li>若欲選擇「0負擔」服務，現場需加價NT$500 / 天，請於下訂時備註，將可享有以下保障：<br>（1）營業損失<br>（2）此服務不開放中途加購<br>（3）車體損失險（未包含玻璃、輪胎、輪框）<br>（4）自負額減免（30,000元 為 0元）<br>（5）購買此服務後，若發生複數個事故時，只適用發生初次事故的時候<br>（6）若車輛發生擦撞、毀損時，務必報警處理，並協尋取得道路交通事故當事人登記聯單，方能適用此服務保障內容<br><br></li></ul>"
+				}
+			}
+		},
+		"prod_no": 4451,
+		"prod_url_no": 4451,
+		"prod_name": "台灣租車｜百捷租車 Budget｜快速取車不需現場加價",
+		"prod_type": "M02",
+		"tag": [
+			"TAG_5_3"
+		],
+		"b2c_min_price": 1150.0,
+		"b2b_min_price": 1058.0,
+		"instant_booking": false,
+		"order_count": 5167,
+		"days": 0,
+		"hours": 1,
+		"duration": 0,
+		"introduction": "連假租車推薦｜現在透過KKgift預定台灣租車，方便快速！Budget百捷租車帶你自駕環島遊台灣，線上預訂，抵達機場、高鐵站、市區領車輕鬆領取，保證現場不撲空。",
+		"cities": [
+			{
+				"city_code": "A01-001-00001",
+				"country_code": "A01-001",
+				"name": "台灣,台北"
+			},
+			{
+				"city_code": "A01-001-00002",
+				"country_code": "A01-001",
+				"name": "台灣,台中"
+			},
+			{
+				"city_code": "A01-001-00003",
+				"country_code": "A01-001",
+				"name": "台灣,台南"
+			},
+			{
+				"city_code": "A01-001-00004",
+				"country_code": "A01-001",
+				"name": "台灣,高雄"
+			},
+			{
+				"city_code": "A01-001-00005",
+				"country_code": "A01-001",
+				"name": "台灣,花蓮"
+			},
+			{
+				"city_code": "A01-001-00006",
+				"country_code": "A01-001",
+				"name": "台灣,新北市"
+			},
+			{
+				"city_code": "A01-001-00008",
+				"country_code": "A01-001",
+				"name": "台灣,桃園"
+			},
+			{
+				"city_code": "A01-001-00018",
+				"country_code": "A01-001",
+				"name": "台灣,台東"
+			}
+		],
+		"b2c_price": 4200.0,
+		"b2b_price": 1058.0,
+		"prod_currency": "TWD"
+	},
+	"pkg": [
+		{
+			"pkg_no": 344291,
+			"pkg_name": "百捷租車 Budget",
+			"exchange_type": "",
+			"confirm_time": 1,
+			"confirm_time_unit": "d",
+			"deliver_time_unit": "d",
+			"policy_type": "3",
+			"refund_type": "1",
+			"partial_refund": [
+				{
+					"value": 0.0,
+					"day_min": 11
+				},
+				{
+					"value": 0.1,
+					"day_min": 7,
+					"day_max": 10
+				},
+				{
+					"value": 0.5,
+					"day_min": 4,
+					"day_max": 6
+				},
+				{
+					"value": 1.0,
+					"day_min": 0,
+					"day_max": 3
+				}
+			],
+			"lead_day": 3,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "23:59",
+			"b2c_min_price": 1150.0,
+			"b2b_min_price": 1058.0,
+			"item_no": [
+				90068
+			],
+			"sale_s_date": "2021-06-11",
+			"sale_e_date": "2021-12-31",
+			"description_module": {
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>依照實際使用天數填選日期<br></p>"
+							},
+							{
+								"desc": "<p>車輛租金以「24HR」計算，如欲於10/1 中午12點取車，10/2 中午12點還車，則收費為一日24HR，下訂日期請選擇10/1至10/1共一天。<br></p>"
+							},
+							{
+								"desc": "<p>如欲於10/1 中午12點取車，10/2 下午6點還車，則收費為二日48HR，下訂日期請選擇10/1至10/2共兩天。<br></p>"
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"booking_field": {
+		"prod_no": "4451",
+		"custom": {
+			"cus_type": {
+				"is_require": "True",
+				"is_lead_used": "True",
+				"type": "array",
+				"list_option": [
+					"cus_01"
+				]
+			},
+			"english_last_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_lead_used": "True",
+				"type": "string"
+			},
+			"english_first_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_lead_used": "True",
+				"type": "string"
+			},
+			"native_last_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_lead_used": "True",
+				"type": "string"
+			},
+			"native_first_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_lead_used": "True",
+				"type": "string"
+			},
+			"nationality": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_lead_used": "True",
+				"ref_source": "list_option.code",
+				"type": "list",
+				"list_option": [
+					{
+						"name": "Afghanistan(阿富汗)",
+						"code": "AF"
+					},
+					{
+						"name": "Albania(阿爾巴尼亞)",
+						"code": "AL"
+					},
+					{
+						"name": "Algeria(阿爾及利亞)",
+						"code": "DZ"
+					},
+					{
+						"name": "Andorra(安道爾)",
+						"code": "AD"
+					},
+					{
+						"name": "Angola(安哥拉)",
+						"code": "AO"
+					},
+					{
+						"name": "Anguilla(安圭拉)",
+						"code": "AI"
+					},
+					{
+						"name": "Antarctica(南極洲)",
+						"code": "AQ"
+					},
+					{
+						"name": "Antigua and Barbuda(安地卡及巴布達)",
+						"code": "AG"
+					},
+					{
+						"name": "Argentina(阿根廷)",
+						"code": "AR"
+					},
+					{
+						"name": "Armenia(亞美尼亞)",
+						"code": "AM"
+					},
+					{
+						"name": "Aruba(阿魯巴)",
+						"code": "AW"
+					},
+					{
+						"name": "Australia(澳洲)",
+						"code": "AU"
+					},
+					{
+						"name": "Austria(奥地利)",
+						"code": "AT"
+					},
+					{
+						"name": "Azerbaijan(亞塞拜然)",
+						"code": "AZ"
+					},
+					{
+						"name": "Bahamas(巴哈馬)",
+						"code": "BS"
+					},
+					{
+						"name": "Bahrain(巴林)",
+						"code": "BH"
+					},
+					{
+						"name": "Bangladesh(孟加拉)",
+						"code": "BD"
+					},
+					{
+						"name": "Barbados(巴貝多)",
+						"code": "BB"
+					},
+					{
+						"name": "Belarus(白俄羅斯)",
+						"code": "BY"
+					},
+					{
+						"name": "Belgium(比利時)",
+						"code": "BE"
+					},
+					{
+						"name": "Belize(貝里斯)",
+						"code": "BZ"
+					},
+					{
+						"name": "Benin(貝南)",
+						"code": "BJ"
+					},
+					{
+						"name": "Bermuda(百慕達)",
+						"code": "BM"
+					},
+					{
+						"name": "Bhutan(不丹)",
+						"code": "BT"
+					},
+					{
+						"name": "Bolivia(玻利維亞)",
+						"code": "BO"
+					},
+					{
+						"name": "Bosnia and Herzegovina(波士尼亞與赫塞哥維納)",
+						"code": "BA"
+					},
+					{
+						"name": "Botswana(波札那)",
+						"code": "BW"
+					},
+					{
+						"name": "Brazil(巴西)",
+						"code": "BR"
+					},
+					{
+						"name": "Brunei(汶萊)",
+						"code": "BN"
+					},
+					{
+						"name": "Bulgaria(保加利亞)",
+						"code": "BG"
+					},
+					{
+						"name": "Burkina Faso(布吉納法索)",
+						"code": "BF"
+					},
+					{
+						"name": "Burundi(蒲隆地)",
+						"code": "BI"
+					},
+					{
+						"name": "Cambodia(柬埔寨)",
+						"code": "KH"
+					},
+					{
+						"name": "Cameroon(喀麥隆)",
+						"code": "CM"
+					},
+					{
+						"name": "Canada(加拿大)",
+						"code": "CA"
+					},
+					{
+						"name": "Central African Republic(中非共和國)",
+						"code": "CF"
+					},
+					{
+						"name": "Chad(查德)",
+						"code": "TD"
+					},
+					{
+						"name": "Chile(智利)",
+						"code": "CL"
+					},
+					{
+						"name": "China(中國)",
+						"code": "CN"
+					},
+					{
+						"name": "Christmas Island(聖誕島)",
+						"code": "CX"
+					},
+					{
+						"name": "Colombia(哥倫比亞)",
+						"code": "CO"
+					},
+					{
+						"name": "Comoros(葛摩)",
+						"code": "KM"
+					},
+					{
+						"name": "Cook Islands(庫克群島)",
+						"code": "CK"
+					},
+					{
+						"name": "Costa Rica(哥斯大黎加)",
+						"code": "CR"
+					},
+					{
+						"name": "Côte dIvoire(科特迪瓦(象牙海岸))",
+						"code": "CI"
+					},
+					{
+						"name": "Croatia(克羅埃西亞)",
+						"code": "HR"
+					},
+					{
+						"name": "Cuba(古巴)",
+						"code": "CU"
+					},
+					{
+						"name": "Cyprus(賽普勒斯)",
+						"code": "CY"
+					},
+					{
+						"name": "Czech Republic(捷克共和國)",
+						"code": "CZ"
+					},
+					{
+						"name": "Denmark(丹麥)",
+						"code": "DK"
+					},
+					{
+						"name": "Djibouti(吉布地)",
+						"code": "DJ"
+					},
+					{
+						"name": "Dominica(多明尼加共和國)",
+						"code": "DM"
+					},
+					{
+						"name": "Dominican Republic(多明尼加共和國)",
+						"code": "DO"
+					},
+					{
+						"name": "Ecuador(厄瓜多)",
+						"code": "EC"
+					},
+					{
+						"name": "Egypt(埃及)",
+						"code": "EG"
+					},
+					{
+						"name": "El Salvador(薩爾瓦多)",
+						"code": "SV"
+					},
+					{
+						"name": "Estonia(愛沙尼亞)",
+						"code": "EE"
+					},
+					{
+						"name": "Ethiopia(衣索比亞)",
+						"code": "ET"
+					},
+					{
+						"name": "Falkland Islands(英屬福克蘭群島)",
+						"code": "FK"
+					},
+					{
+						"name": "Federal Republic of Somalia(索馬利亞聯邦共和國)",
+						"code": "SO"
+					},
+					{
+						"name": "Fiji(斐濟)",
+						"code": "FJ"
+					},
+					{
+						"name": "Finland(芬蘭)",
+						"code": "FI"
+					},
+					{
+						"name": "France(法國)",
+						"code": "FR"
+					},
+					{
+						"name": "French Guiana(法屬圭亞那)",
+						"code": "GF"
+					},
+					{
+						"name": "French Polynesia(法屬玻里尼西亞)",
+						"code": "PF"
+					},
+					{
+						"name": "Gabon(加彭)",
+						"code": "GA"
+					},
+					{
+						"name": "Gambia(甘比亞)",
+						"code": "GM"
+					},
+					{
+						"name": "Georgia(喬治亞)",
+						"code": "GE"
+					},
+					{
+						"name": "Germany(德國)",
+						"code": "DE"
+					},
+					{
+						"name": "Ghana(迦納)",
+						"code": "GH"
+					},
+					{
+						"name": "Gibraltar(直布羅陀)",
+						"code": "GI"
+					},
+					{
+						"name": "Greece(希臘)",
+						"code": "GR"
+					},
+					{
+						"name": "Greenland(格陵蘭)",
+						"code": "GL"
+					},
+					{
+						"name": "Grenada(格瑞那達)",
+						"code": "GD"
+					},
+					{
+						"name": "Guam(關島)",
+						"code": "GU"
+					},
+					{
+						"name": "Guatemala(瓜地馬拉)",
+						"code": "GT"
+					},
+					{
+						"name": "Guinea(幾內亞)",
+						"code": "GN"
+					},
+					{
+						"name": "Guyana(蓋亞那)",
+						"code": "GY"
+					},
+					{
+						"name": "Haiti(海地)",
+						"code": "HT"
+					},
+					{
+						"name": "Vatican City, Holy See(梵諦岡(教廷))",
+						"code": "VA"
+					},
+					{
+						"name": "Honduras(宏都拉斯)",
+						"code": "HN"
+					},
+					{
+						"name": "Hong Kong(香港)",
+						"code": "HK"
+					},
+					{
+						"name": "Hungary(匈牙利)",
+						"code": "HU"
+					},
+					{
+						"name": "Iceland(冰島)",
+						"code": "IS"
+					},
+					{
+						"name": "India(印度)",
+						"code": "IN"
+					},
+					{
+						"name": "Indonesia(印尼)",
+						"code": "ID"
+					},
+					{
+						"name": "Iran(伊朗)",
+						"code": "IR"
+					},
+					{
+						"name": "Iraq(伊拉克)",
+						"code": "IQ"
+					},
+					{
+						"name": "Ireland(愛爾蘭)",
+						"code": "IE"
+					},
+					{
+						"name": "Israel(以色列)",
+						"code": "IL"
+					},
+					{
+						"name": "Italy(義大利)",
+						"code": "IT"
+					},
+					{
+						"name": "Jamaica(牙買加)",
+						"code": "JM"
+					},
+					{
+						"name": "Japan(日本)",
+						"code": "JP"
+					},
+					{
+						"name": "Jordan(約旦)",
+						"code": "JO"
+					},
+					{
+						"name": "Kazakhstan(哈薩克)",
+						"code": "KZ"
+					},
+					{
+						"name": "Kenya(肯亞)",
+						"code": "KE"
+					},
+					{
+						"name": "Kuwait(科威特)",
+						"code": "KW"
+					},
+					{
+						"name": "Kyrgyzstan(吉爾吉斯坦)",
+						"code": "KG"
+					},
+					{
+						"name": "Laos(寮國)",
+						"code": "LA"
+					},
+					{
+						"name": "Latvia(拉脫維亞)",
+						"code": "LV"
+					},
+					{
+						"name": "Lebanon(黎巴嫩)",
+						"code": "LB"
+					},
+					{
+						"name": "Lesotho(賴索托)",
+						"code": "LS"
+					},
+					{
+						"name": "Liberia(賴比瑞亞)",
+						"code": "LR"
+					},
+					{
+						"name": "Libya(利比亞)",
+						"code": "LY"
+					},
+					{
+						"name": "Liechtenstein(列支敦斯登)",
+						"code": "LI"
+					},
+					{
+						"name": "Lithuania(立陶宛)",
+						"code": "LT"
+					},
+					{
+						"name": "Luxembourg(盧森堡)",
+						"code": "LU"
+					},
+					{
+						"name": "Macau(澳門)",
+						"code": "MO"
+					},
+					{
+						"name": "Macedonia(馬其頓)",
+						"code": "MK"
+					},
+					{
+						"name": "Madagascar(馬達加斯加)",
+						"code": "MG"
+					},
+					{
+						"name": "Malawi(馬拉威)",
+						"code": "MW"
+					},
+					{
+						"name": "Malaysia(馬來西亞)",
+						"code": "MY"
+					},
+					{
+						"name": "Maldives(馬爾地夫)",
+						"code": "MV"
+					},
+					{
+						"name": "Mali(馬利)",
+						"code": "ML"
+					},
+					{
+						"name": "Malta(馬爾他)",
+						"code": "MT"
+					},
+					{
+						"name": "Mauritius(模里西斯)",
+						"code": "MU"
+					},
+					{
+						"name": "Mexico(墨西哥)",
+						"code": "MX"
+					},
+					{
+						"name": "Moldova(摩爾多瓦)",
+						"code": "MD"
+					},
+					{
+						"name": "Monaco(摩納哥)",
+						"code": "MC"
+					},
+					{
+						"name": "Mongolia(蒙古)",
+						"code": "MN"
+					},
+					{
+						"name": "Montenegro(蒙特內哥羅)",
+						"code": "ME"
+					},
+					{
+						"name": "Montserrat(蒙塞拉特)",
+						"code": "MS"
+					},
+					{
+						"name": "Morocco(摩洛哥)",
+						"code": "MA"
+					},
+					{
+						"name": "Mozambique(莫三比克)",
+						"code": "MZ"
+					},
+					{
+						"name": "Myanmar(緬甸)",
+						"code": "MM"
+					},
+					{
+						"name": "Namibia(那米比亞)",
+						"code": "NA"
+					},
+					{
+						"name": "Nauru(諾魯)",
+						"code": "NR"
+					},
+					{
+						"name": "Nepal(尼泊爾)",
+						"code": "NP"
+					},
+					{
+						"name": "Netherlands(荷蘭)",
+						"code": "NL"
+					},
+					{
+						"name": "New Zealand(紐西蘭)",
+						"code": "NZ"
+					},
+					{
+						"name": "Nicaragua(尼加拉瓜)",
+						"code": "NI"
+					},
+					{
+						"name": "Niger(尼日)",
+						"code": "NE"
+					},
+					{
+						"name": "Nigeria(奈及利亞)",
+						"code": "NG"
+					},
+					{
+						"name": "Northern Mariana Islands(北馬里安納群島)",
+						"code": "MP"
+					},
+					{
+						"name": "North Korea(北韓)",
+						"code": "KP"
+					},
+					{
+						"name": "Norway(挪威)",
+						"code": "NO"
+					},
+					{
+						"name": "Oman(阿曼)",
+						"code": "OM"
+					},
+					{
+						"name": "Pakistan(巴基斯坦)",
+						"code": "PK"
+					},
+					{
+						"name": "Panama(巴拿馬)",
+						"code": "PA"
+					},
+					{
+						"name": "Papua New Guinea(巴布亞紐幾內亞)",
+						"code": "PG"
+					},
+					{
+						"name": "Paraguay(巴拉圭)",
+						"code": "PY"
+					},
+					{
+						"name": "Peru(秘魯)",
+						"code": "PE"
+					},
+					{
+						"name": "Philippines(菲律賓)",
+						"code": "PH"
+					},
+					{
+						"name": "Poland(波蘭)",
+						"code": "PL"
+					},
+					{
+						"name": "Portugal(葡萄牙)",
+						"code": "PT"
+					},
+					{
+						"name": "Puerto Rico(波多黎各)",
+						"code": "PR"
+					},
+					{
+						"name": "Qatar(卡達)",
+						"code": "QA"
+					},
+					{
+						"name": "Republic of Palau(帛琉)",
+						"code": "PW"
+					},
+					{
+						"name": "Republic of the Congo(剛果共和國)",
+						"code": "CG"
+					},
+					{
+						"name": "Réunion(留尼旺)",
+						"code": "RE"
+					},
+					{
+						"name": "Romania(羅馬尼亞)",
+						"code": "RO"
+					},
+					{
+						"name": "Russia(俄羅斯)",
+						"code": "RU"
+					},
+					{
+						"name": "Rwanda(盧安達)",
+						"code": "RW"
+					},
+					{
+						"name": "San Marino(聖馬里諾)",
+						"code": "SM"
+					},
+					{
+						"name": "Sao Tome and Principe(聖多美普林西比)",
+						"code": "ST"
+					},
+					{
+						"name": "Saudi Arabia(沙烏地阿拉伯)",
+						"code": "SA"
+					},
+					{
+						"name": "Senegal(塞內加爾)",
+						"code": "SN"
+					},
+					{
+						"name": "Serbia(塞爾維亞)",
+						"code": "RS"
+					},
+					{
+						"name": "Seychelles(塞席爾)",
+						"code": "SC"
+					},
+					{
+						"name": "Sierra Leone(獅子山)",
+						"code": "SL"
+					},
+					{
+						"name": "Singapore(新加坡)",
+						"code": "SG"
+					},
+					{
+						"name": "Slovakia(斯洛伐克)",
+						"code": "SK"
+					},
+					{
+						"name": "Slovenia(斯洛維尼亞)",
+						"code": "SI"
+					},
+					{
+						"name": "Solomon Islands(索羅門群島)",
+						"code": "SB"
+					},
+					{
+						"name": "South Africa(南非)",
+						"code": "ZA"
+					},
+					{
+						"name": "South Korea(南韓)",
+						"code": "KR"
+					},
+					{
+						"name": "Spain(西班牙)",
+						"code": "ES"
+					},
+					{
+						"name": "Sri Lanka(斯里蘭卡)",
+						"code": "LK"
+					},
+					{
+						"name": "St. Lucia(聖露西亞)",
+						"code": "LC"
+					},
+					{
+						"name": "St. Vincent and the Grenadines(聖文森及格瑞那丁)",
+						"code": "VC"
+					},
+					{
+						"name": "Sudan(蘇丹)",
+						"code": "SD"
+					},
+					{
+						"name": "Suriname(蘇利南)",
+						"code": "SR"
+					},
+					{
+						"name": "Swaziland(史瓦濟蘭)",
+						"code": "SZ"
+					},
+					{
+						"name": "Sweden(瑞典)",
+						"code": "SE"
+					},
+					{
+						"name": "Switzerland(瑞士)",
+						"code": "CH"
+					},
+					{
+						"name": "Syria(希利亞)",
+						"code": "SY"
+					},
+					{
+						"name": "Taiwan(台灣)",
+						"code": "TW"
+					},
+					{
+						"name": "Tajikistan(塔吉克)",
+						"code": "TJ"
+					},
+					{
+						"name": "Tanzania(坦尚尼亞)",
+						"code": "TZ"
+					},
+					{
+						"name": "Thailand(泰國)",
+						"code": "TH"
+					},
+					{
+						"name": "Togo(多哥)",
+						"code": "TG"
+					},
+					{
+						"name": "Tonga(東加)",
+						"code": "TO"
+					},
+					{
+						"name": "Trinidad and Tobago(千里達及托巴哥)",
+						"code": "TT"
+					},
+					{
+						"name": "Tunisia(突尼西亞)",
+						"code": "TN"
+					},
+					{
+						"name": "Turkey(土耳其)",
+						"code": "TR"
+					},
+					{
+						"name": "Turkmenistan(土庫曼)",
+						"code": "TM"
+					},
+					{
+						"name": "Uganda(烏干達)",
+						"code": "UG"
+					},
+					{
+						"name": "Ukraine(烏克蘭)",
+						"code": "UA"
+					},
+					{
+						"name": "United Arab Emirates(阿拉伯聯合大公國)",
+						"code": "AE"
+					},
+					{
+						"name": "United Kingdom(英國)",
+						"code": "GB"
+					},
+					{
+						"name": "United States of America(美國)",
+						"code": "US"
+					},
+					{
+						"name": "Uruguay(烏拉圭)",
+						"code": "UY"
+					},
+					{
+						"name": "Uzbekistan(烏茲別克)",
+						"code": "UZ"
+					},
+					{
+						"name": "Venezuela(委內瑞拉)",
+						"code": "VE"
+					},
+					{
+						"name": "Vietnam(越南)",
+						"code": "VN"
+					},
+					{
+						"name": "Yemen(葉門)",
+						"code": "YE"
+					},
+					{
+						"name": "Zambia(尚比亞)",
+						"code": "ZM"
+					},
+					{
+						"name": "Zimbabwe(辛巴威)",
+						"code": "ZW"
+					}
+				]
+			},
+			"passport_no": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_lead_used": "True",
+				"type": "string"
+			},
+			"birth": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_lead_used": "True",
+				"type": "date"
+			}
+		},
+		"traffic": {
+			"car": {
+				"traffic_type": {
+					"is_require": "True",
+					"type": "array",
+					"list_option": [
+						"rentcar_01"
+					]
+				},
+				"location_list": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_rentcar_used": "True",
+					"type": "list",
+					"list_option": [
+						{
+							"traffic_type": "rentcar_01",
+							"sort": 0,
+							"id": "74ca2e30-5962-4fd8-88ea-5e2ccce286a9",
+							"code": "A01-001-00001",
+							"name": "台北車站 / Taipei Main Station",
+							"address": "[English]台北市中正區鄭州路8號B1 / B1F., No.8, Zhengzhou Rd., Zhongzheng Dist., Taipei City[Native]台北市中正區鄭州路8號B1 / B1F., No.8, Zhengzhou Rd., Zhongzheng Dist., Taipei City",
+							"interval": 30,
+							"s_time": "10:00",
+							"e_time": "19:00"
+						},
+						{
+							"traffic_type": "rentcar_01",
+							"sort": 1,
+							"id": "27e6fc7c-2fb6-43d9-985a-07693f7acbaa",
+							"code": "A01-001-00001",
+							"name": "台北松德站 / Taipei Downtown Station - Songde Rd.",
+							"address": "[English]台北市信義區松德路 155 號 / No.155, Songde Rd., Xinyi Dist., Taipei City[Native]台北市信義區松德路257號 No.257, Songde Rd., Xinyi Dist., Taipei City",
+							"interval": 30,
+							"s_time": "09:00",
+							"e_time": "18:00"
+						},
+						{
+							"traffic_type": "rentcar_01",
+							"sort": 2,
+							"id": "1ebea97c-eab6-4cd9-ac94-fe6598ea83ac",
+							"code": "A01-001-00006",
+							"name": "板橋服務站 / Banqiao Station",
+							"address": "[English]新北市板橋區板新路 208 號 / No.208, Banxin Rd., Banqiao Dist., New Taipei City[Native]新北市板橋區板新路 208 號 / No.208, Banxin Rd., Banqiao Dist., New Taipei City",
+							"interval": 30,
+							"s_time": "09:00",
+							"e_time": "20:00"
+						},
+						{
+							"traffic_type": "rentcar_01",
+							"sort": 3,
+							"id": "b803c92e-1f94-48af-bdd6-7bba2aa01bab",
+							"code": "A01-001-00008",
+							"name": "桃園國際機場站（第二航廈入境大廳北側）/ Taoyuan Intl. Airport Station(North side of the Terminal 2 Arrivals Lobby)",
+							"address": "[English]桃園市大園區航站南路 9 號 / No.9, Hangzhan S. Rd., Dayuan Dist., Taoyuan City[Native]桃園市大園區航站南路 9 號 / No.9, Hangzhan S. Rd., Dayuan Dist., Taoyuan City",
+							"interval": 30,
+							"s_time": "09:00",
+							"e_time": "19:00"
+						},
+						{
+							"traffic_type": "rentcar_01",
+							"sort": 4,
+							"id": "44027b74-1cd5-4e1f-94d3-7339b96d6519",
+							"code": "A01-001-00002",
+							"name": "台中高鐵站（台鐵新烏日站2樓） / Taichung HSR Station（TRA Taichung Xinwuri station）",
+							"address": "[English]台中市烏日區高鐵東一路26號2樓 / 2F., No.26, Gaotie E. 1st Rd., Wuri Dist., Taichung CityWuri Dist.Taichung City[Native]台中市烏日區高鐵東一路26號2樓 / 2F., No.26, Gaotie E. 1st Rd., Wuri Dist., Taichung CityWuri Dist.Taichung City",
+							"interval": 30,
+							"s_time": "08:30",
+							"e_time": "20:30"
+						},
+						{
+							"traffic_type": "rentcar_01",
+							"sort": 5,
+							"id": "1a41d126-d74b-49df-b577-5c69b5bcc9c9",
+							"code": "A01-001-00003",
+							"name": "台南高鐵站 / Tainan HSR Station",
+							"address": "[English]台南市歸仁區高鐡十二路109號 / No.109, Gaotie 12th Rd. Guiren DistGuiren Dist.Tainan City[Native]台南市歸仁區高鐡十二路109號 / No.109, Gaotie 12th Rd. Guiren DistGuiren Dist.Tainan City",
+							"interval": 30,
+							"s_time": "09:00",
+							"e_time": "19:00"
+						},
+						{
+							"traffic_type": "rentcar_01",
+							"sort": 6,
+							"id": "a9cdd187-a193-4401-a7de-082b3181214c",
+							"code": "A01-001-00004",
+							"name": "左營高鐵站 / Zuoying(Kaohsiung) HSR Station",
+							"address": "[English]高雄市左營區高鐵路298之1號 / No. 298-1, Gaotie Rd., Zuoying Dist.,, Zuoying Dist., Kaohsiung City[Native]高雄市文府路35-1號",
+							"interval": 30,
+							"s_time": "09:00",
+							"e_time": "20:00"
+						},
+						{
+							"traffic_type": "rentcar_01",
+							"sort": 7,
+							"id": "f20f1309-342f-4b8c-8202-40ee5446993c",
+							"code": "A01-001-00005",
+							"name": "花蓮服務站 / Hualien Station",
+							"address": "[English]花蓮縣花蓮市國聯一路 100-8 號 / No.100-8, Guolian 1st Rd., Hualien City, Hualien County[Native]花蓮縣花蓮市國聯一路 100-8 號 / No.100-8, Guolian 1st Rd., Hualien City, Hualien County",
+							"interval": 30,
+							"s_time": "08:30",
+							"e_time": "20:30"
+						},
+						{
+							"traffic_type": "rentcar_01",
+							"sort": 8,
+							"id": "c159255a-856a-4ecd-85a4-fbbf0104b30d",
+							"code": "A01-001-00018",
+							"name": "台東服務站 / Taitung Station",
+							"address": "[English]台東縣台東市新站路 227 號 / No.227, Xinzhan Rd., Taitung City, Taitung County[Native]台東縣台東市新站路 227 號 / No.227, Xinzhan Rd., Taitung City, Taitung County",
+							"interval": 30,
+							"s_time": "08:30",
+							"e_time": "20:30"
+						}
+					]
+				},
+				"s_location": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_rentcar_used": "True",
+					"ref_source": "location_list.id",
+					"type": "string"
+				},
+				"e_location": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_rentcar_used": "True",
+					"ref_source": "location_list.id",
+					"type": "string"
+				},
+				"s_date": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_rentcar_used": "True",
+					"type": "string"
+				},
+				"e_date": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_rentcar_used": "True",
+					"type": "string"
+				},
+				"s_time": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_rentcar_used": "True",
+					"type": "string"
+				},
+				"e_time": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_rentcar_used": "True",
+					"type": "string"
+				}
+			}
+		},
+		"ref_pkg": {
+			"308792": {
+				"custom": {
+					"cus_type": [
+						"cus_01"
+					]
+				},
+				"traffic": {
+					"traffic_type": [
+						"rentcar_01"
+					],
+					"s_date": "True",
+					"s_time": "True",
+					"s_location": "True",
+					"e_date": "True",
+					"e_time": "True"
+				}
+			},
+			"344291": {
+				"custom": {
+					"cus_type": [
+						"cus_01"
+					]
+				},
+				"traffic": {
+					"traffic_type": [
+						"rentcar_01"
+					],
+					"s_date": "True",
+					"s_time": "True",
+					"s_location": "True",
+					"e_date": "True",
+					"e_time": "True"
+				}
+			}
+		}
+	}
+}

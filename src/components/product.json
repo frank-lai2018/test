@@ -1,0 +1,1340 @@
+{
+	"result": "00",
+	"result_msg": "OK",
+	"prod_marketing": {
+		"TW": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"HK": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"CN": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"MY": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"SG": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"ID": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"PH": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"KK": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"JP": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"KR": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"TH": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"VN": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		}
+	},
+	"prod": {
+		"is_tour": false,
+		"timezone": "Asia/Taipei",
+		"guide_lang_list": [],
+		"voice_guide_lang": [],
+		"confirm_order_time": true,
+		"online_s_date": "2021-06-09",
+		"online_e_date": "2021-08-25",
+		"img_list": [
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_119537/20210517064120_NhEXp/png",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_119537/20210519090539_pPbGY/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_119537/20210517064131_mANXX/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_119537/20210517064131_vMMTX/jpg"
+		],
+		"video_list": [
+			"https://www.youtube.com/embed/SoAiAQQ1uX4"
+		],
+		"prod_comment_info": {
+			"avg_scores": "5",
+			"total_scores": "5",
+			"click_count": "0",
+			"comment_record": "1"
+		},
+		"go_date_setting": {
+			"type": "01"
+		},
+		"is_cancel_free": false,
+		"description_module": {
+			"PMDL_INC_NINC": {
+				"module_title": "費用包含/不包含",
+				"content": {
+					"properties": {
+						"include_item": {
+							"list": [
+								{
+									"desc": "粉紅菇（2入組為1盒；4入組為2盒）"
+								},
+								{
+									"desc": "黃金菇（2入組為1盒；4入組為2盒）"
+								},
+								{
+									"desc": "配送運費"
+								}
+							],
+							"title": "費用包含"
+						}
+					}
+				}
+			},
+			"PMDL_REFUND_POLICY": {
+				"module_title": "取消政策",
+				"content": {
+					"properties": {
+						"policy_type": {
+							"desc": "指定手續費",
+							"title": "手續費收取方式"
+						},
+						"partial_refund": {
+							"list": [
+								{
+									"desc": "所選日期 1 天（含）之前取消，收取手續費 0%"
+								},
+								{
+									"desc": "所選日期  0 ~ 0 天之間取消，收取手續費 100%"
+								}
+							],
+							"title": "政策內容"
+						}
+					}
+				}
+			},
+			"PMDL_NOTICE": {
+				"module_title": "注意事項",
+				"content": {
+					"properties": {
+						"cust_reminds": {
+							"list": [
+								{
+									"desc": "因天氣悶熱，收到貨當日請立即開封並依循SOP進行栽種。"
+								},
+								{
+									"desc": "菇盒可多次性種植，請放在陰涼通風的地方以飲用的水進行1天3-4次的噴灑澆水。"
+								},
+								{
+									"desc": "詳細種植說明可參考包裝上說明或本頁面上方的YouTube開封教學影片。"
+								}
+							]
+						}
+					}
+				}
+			},
+			"PMDL_GRAPHIC": {
+				"module_title": "圖文介紹",
+				"content": {
+					"list": [
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_119537/20210517064131_vMMTX/jpg"
+								}
+							],
+							"desc": "．黃金菇生長力強，含蛋白質、維生素和礦物質等多種營養成分。"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_119537/20210517064130_HcFO7/jpg"
+								}
+							],
+							"desc": "．粉紅菇又稱玫瑰菇、紅平菇，為印度引入的優良品種，亦含有胡蘿蔔素、蛋白質、維生素等豐富營養。"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_119537/20210519090539_pPbGY/jpg"
+								}
+							],
+							"desc": "． 盒子上方或側面擇一方式種植，體驗採菇樂趣！"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_119537/20210521092855_I4j30/jpg"
+								}
+							],
+							"desc": "．自己種植的太空包菇菇，成為家中的餐桌料理，成就感爆棚！"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_119537/20210521092855_HB2KM/jpg"
+								}
+							],
+							"desc": "．美味的菇菇料理上桌啦！"
+						}
+					]
+				}
+			},
+			"PMDL_PURCHASE_SUMMARY": {
+				"module_title": "購買須知",
+				"content": {
+					"desc": "<ul><li>商品費用已含運費，配送範圍：台灣本島，下單時請於備註欄清楚填寫配送地址、收貨人姓名及聯絡電話。<br></li><li>此方案在您預訂的該週三之隔日（週四）出貨，預計於1-2天到貨（依貨運物流安排為主）</li><li>如有其他疑問或是退換貨需求，歡迎聯繫「魔菇部落」<a href=\"https://www.facebook.com/mogu76/\">FB粉絲頁</a>或<a href=\"https://line.me/R/ti/p/%40sby4164o\">官方LINE@</a>詢問。<br></li></ul>"
+				}
+			},
+			"PMDL_INTRODUCE_SUMMARY": {
+				"module_title": "商品說明",
+				"content": {
+					"desc": "<p>－ 產品特色 －</p><ul><li>在家親手種菇！大約 7 天可採收，富含營養的防疫食材</li><li>超簡易種植方式及說明影片，大小朋友都可體驗種菇樂趣</li><li>多種料理方式，全家同享、輕鬆上桌</li></ul><p><br></p><p>－ 品牌介紹 －</p><ul><li>蕈集團<br>蕈集團旗下包含了蕈優生技農場、優菇客、方格氏和魔菇部落四個品牌，分別負責菌種的培育、研發，新鮮菇的販售，以及保健美顏食品的開發銷售，為了跳脫傳統蕈菇栽植需大量投藥之弊習，蕈優創辦人方世文先生不斷走訪世界各地觀摩，深切感受環控科技的重要，開始研發創設「生產、採收、包裝全程無塵」的科技農法，讓在廠房內成長的蕈菇，全程無塵與溫濕度環控，無需用藥並完整保留菇蕈的高營養價值，讓蕈優的每一朵菇蕈都在等同六星級高科技晶圓廠房成長。<br></li></ul><p><br></p><p>－ 商品介紹 －</p><ul><li>「星球採菇趣」種菇DIY 防疫組合｜2入&nbsp;<br>　1.粉紅菇*1盒<br>　2.黃金菇*1盒<br><br></li><li>「星球採菇趣」種菇DIY 防疫組合｜4入&nbsp;<br>　1.粉紅菇*2盒<br>　2.黃金菇*2盒<br><br>＊為避免分化菇菇成長的養分，請擇一方式種植：<br>- 種植方式Ａ「上方生長」<br>　1.請先將盒子上開，沿虛線剪開後取出太空包<br>　2.將棉花拿出<br>　3.用剪刀或美工刀，沿著套環下圓圈，將套環剪掉<br><br>- 種植方式Ｂ「側邊生長」<br>　1.沿外盒側面虛線，將盒子撕開<br>　2.側面十字劃切3*3cm<br><br>- 澆水方式：<br>　請將採菇趣放在陰涼通風的地方，以飲用水或RO水 每天噴灑 3～4 次，在開封處每次噴 2～3下至表面潮濕即可<br><br>- 採收食用：<br>　· 粉紅菇長至 50 元硬幣大小時，即可採收<br>　· 黃金菇長至 1 元硬幣大小時，即可採收<br>＊菇盒平均採收約2-3次，依照顧方式、照顧環境不同，每人能採收的次數也不一樣，來試著挑戰更多的採收紀錄吧！</li></ul>"
+				}
+			}
+		},
+		"prod_no": 119537,
+		"prod_url_no": 119537,
+		"prod_name": "【防疫應援89折】魔菇部落｜星球採菇趣 DIY 種菇盒太空包（全台宅配含運）",
+		"prod_type": "M05",
+		"tag": [
+			"TAG_3_1",
+			"TAG_3_4",
+			"TAG_3_7"
+		],
+		"b2c_min_price": 520.0,
+		"b2b_min_price": 478.0,
+		"instant_booking": true,
+		"order_count": 8,
+		"days": 0,
+		"hours": 0,
+		"duration": 0,
+		"introduction": "立即預訂魔菇部落「星球採菇趣 DIY 種菇盒」（全台宅配到府），防疫宅在家自己親手種粉紅菇、黃金菇，學習養菇方式、了解生命成長意義，約 7 -10天可採收，收成後更可以自己下廚做菇類料理，趕快來享用自己親手種植的菇菇吧！",
+		"cities": [
+			{
+				"city_code": "A01-001-99999",
+				"country_code": "A01-001",
+				"name": "台灣,所有城市"
+			}
+		],
+		"b2c_price": 870.0,
+		"b2b_price": 478.0,
+		"prod_currency": "TWD"
+	},
+	"pkg": [
+		{
+			"pkg_no": 345347,
+			"pkg_name": "【防疫應援89折】星球採菇趣 DIY 種菇盒｜2入（全台宅配）",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "3",
+			"refund_type": "1",
+			"partial_refund": [
+				{
+					"value": 0.0,
+					"day_min": 1
+				},
+				{
+					"value": 1.0,
+					"day_min": 0,
+					"day_max": 0
+				}
+			],
+			"lead_day": 0,
+			"lead_day_unit": "h",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "23:59",
+			"b2c_min_price": 520.0,
+			"b2b_min_price": 478.0,
+			"item_no": [
+				91124
+			],
+			"sale_s_date": "2021-06-09",
+			"sale_e_date": "2021-08-25",
+			"description_module": {
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>2入一組：內含粉紅菇 1 盒 + 黃金菇 1 盒</p>"
+							},
+							{
+								"desc": "<p>每盒可重複採收2-3次，生長期平均7-10天採收一次，澆菇菇時請使用飲用水、瓶裝水、ＲＯ水<br></p>"
+							},
+							{
+								"desc": "<p>此方案在您預訂的該週三之隔日（週四）出貨，預計於2-3 個工作日到貨（依貨運物流安排為主）<br></p>"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"pkg_no": 345417,
+			"pkg_name": "【防疫應援89折】星球採菇趣 DIY 種菇盒｜4入（全台宅配）",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "3",
+			"refund_type": "1",
+			"partial_refund": [
+				{
+					"value": 0.0,
+					"day_min": 1
+				},
+				{
+					"value": 1.0,
+					"day_min": 0,
+					"day_max": 0
+				}
+			],
+			"lead_day": 0,
+			"lead_day_unit": "h",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "23:59",
+			"b2c_min_price": 870.0,
+			"b2b_min_price": 800.0,
+			"item_no": [
+				91194
+			],
+			"sale_s_date": "2021-06-09",
+			"sale_e_date": "2021-08-25",
+			"description_module": {
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>4入一組：內含粉紅菇 2盒 + 黃金菇 2 盒<br></p>"
+							},
+							{
+								"desc": "<p>每盒可重複採收2-3次，生長期平均7-10天採收一次，澆菇菇時請使用飲用水、瓶裝水、ＲＯ水<br></p>"
+							},
+							{
+								"desc": "<p>此方案在您預訂的該週三之隔日（週四）出貨，預計於2-3 個工作日到貨（依貨運物流安排為主）<br></p>"
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"booking_field": {
+		"prod_no": "119537",
+		"custom": {
+			"cus_type": {
+				"is_require": "True",
+				"is_send_used": "True",
+				"type": "array",
+				"list_option": [
+					"send"
+				]
+			},
+			"native_last_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_send_used": "True",
+				"type": "string"
+			},
+			"native_first_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_send_used": "True",
+				"type": "string"
+			},
+			"tel_country_code": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_send_used": "True",
+				"ref_source": "list_option.code",
+				"type": "list",
+				"list_option": [
+					{
+						"code": "93",
+						"info": "Afghanistan(阿富汗)"
+					},
+					{
+						"code": "355",
+						"info": "Albania(阿爾巴尼亞)"
+					},
+					{
+						"code": "213",
+						"info": "Algeria(阿爾及利亞)"
+					},
+					{
+						"code": "376",
+						"info": "Andorra(安道爾)"
+					},
+					{
+						"code": "244",
+						"info": "Angola(安哥拉)"
+					},
+					{
+						"code": "1264",
+						"info": "Anguilla(安圭拉)"
+					},
+					{
+						"code": "672",
+						"info": "Antarctica(南極洲)"
+					},
+					{
+						"code": "1268",
+						"info": "Antigua and Barbuda(安地卡及巴布達)"
+					},
+					{
+						"code": "54",
+						"info": "Argentina(阿根廷)"
+					},
+					{
+						"code": "374",
+						"info": "Armenia(亞美尼亞)"
+					},
+					{
+						"code": "297",
+						"info": "Aruba(阿魯巴)"
+					},
+					{
+						"code": "61",
+						"info": "Australia(澳洲)"
+					},
+					{
+						"code": "43",
+						"info": "Austria(奥地利)"
+					},
+					{
+						"code": "994",
+						"info": "Azerbaijan(亞塞拜然)"
+					},
+					{
+						"code": "1242",
+						"info": "Bahamas(巴哈馬)"
+					},
+					{
+						"code": "973",
+						"info": "Bahrain(巴林)"
+					},
+					{
+						"code": "880",
+						"info": "Bangladesh(孟加拉)"
+					},
+					{
+						"code": "1246",
+						"info": "Barbados(巴貝多)"
+					},
+					{
+						"code": "375",
+						"info": "Belarus(白俄羅斯)"
+					},
+					{
+						"code": "32",
+						"info": "Belgium(比利時)"
+					},
+					{
+						"code": "501",
+						"info": "Belize(貝里斯)"
+					},
+					{
+						"code": "229",
+						"info": "Benin(貝南)"
+					},
+					{
+						"code": "1441",
+						"info": "Bermuda(百慕達)"
+					},
+					{
+						"code": "975",
+						"info": "Bhutan(不丹)"
+					},
+					{
+						"code": "591",
+						"info": "Bolivia(玻利維亞)"
+					},
+					{
+						"code": "387",
+						"info": "Bosnia and Herzegovina(波士尼亞與赫塞哥維納)"
+					},
+					{
+						"code": "267",
+						"info": "Botswana(波札那)"
+					},
+					{
+						"code": "55",
+						"info": "Brazil(巴西)"
+					},
+					{
+						"code": "673",
+						"info": "Brunei(汶萊)"
+					},
+					{
+						"code": "359",
+						"info": "Bulgaria(保加利亞)"
+					},
+					{
+						"code": "226",
+						"info": "Burkina Faso(布吉納法索)"
+					},
+					{
+						"code": "257",
+						"info": "Burundi(蒲隆地)"
+					},
+					{
+						"code": "855",
+						"info": "Cambodia(柬埔寨)"
+					},
+					{
+						"code": "237",
+						"info": "Cameroon(喀麥隆)"
+					},
+					{
+						"code": "1",
+						"info": "Canada(加拿大)"
+					},
+					{
+						"code": "236",
+						"info": "Central African Republic(中非共和國)"
+					},
+					{
+						"code": "235",
+						"info": "Chad(查德)"
+					},
+					{
+						"code": "56",
+						"info": "Chile(智利)"
+					},
+					{
+						"code": "86",
+						"info": "China(中國)"
+					},
+					{
+						"code": "672",
+						"info": "Christmas Island(聖誕島)"
+					},
+					{
+						"code": "57",
+						"info": "Colombia(哥倫比亞)"
+					},
+					{
+						"code": "269",
+						"info": "Comoros(葛摩)"
+					},
+					{
+						"code": "682",
+						"info": "Cook Islands(庫克群島)"
+					},
+					{
+						"code": "506",
+						"info": "Costa Rica(哥斯大黎加)"
+					},
+					{
+						"code": "225",
+						"info": "Côte dIvoire(科特迪瓦(象牙海岸))"
+					},
+					{
+						"code": "385",
+						"info": "Croatia(克羅埃西亞)"
+					},
+					{
+						"code": "53",
+						"info": "Cuba(古巴)"
+					},
+					{
+						"code": "357",
+						"info": "Cyprus(賽普勒斯)"
+					},
+					{
+						"code": "420",
+						"info": "Czech Republic(捷克共和國)"
+					},
+					{
+						"code": "45",
+						"info": "Denmark(丹麥)"
+					},
+					{
+						"code": "253",
+						"info": "Djibouti(吉布地)"
+					},
+					{
+						"code": "1767",
+						"info": "Dominica(多明尼加共和國)"
+					},
+					{
+						"code": "1809",
+						"info": "Dominican Republic(多明尼加共和國)"
+					},
+					{
+						"code": "593",
+						"info": "Ecuador(厄瓜多)"
+					},
+					{
+						"code": "20",
+						"info": "Egypt(埃及)"
+					},
+					{
+						"code": "503",
+						"info": "El Salvador(薩爾瓦多)"
+					},
+					{
+						"code": "372",
+						"info": "Estonia(愛沙尼亞)"
+					},
+					{
+						"code": "251",
+						"info": "Ethiopia(衣索比亞)"
+					},
+					{
+						"code": "500",
+						"info": "Falkland Islands(英屬福克蘭群島)"
+					},
+					{
+						"code": "252",
+						"info": "Federal Republic of Somalia(索馬利亞聯邦共和國)"
+					},
+					{
+						"code": "679",
+						"info": "Fiji(斐濟)"
+					},
+					{
+						"code": "358",
+						"info": "Finland(芬蘭)"
+					},
+					{
+						"code": "33",
+						"info": "France(法國)"
+					},
+					{
+						"code": "594",
+						"info": "French Guiana(法屬圭亞那)"
+					},
+					{
+						"code": "689",
+						"info": "French Polynesia(法屬玻里尼西亞)"
+					},
+					{
+						"code": "241",
+						"info": "Gabon(加彭)"
+					},
+					{
+						"code": "220",
+						"info": "Gambia(甘比亞)"
+					},
+					{
+						"code": "995",
+						"info": "Georgia(喬治亞)"
+					},
+					{
+						"code": "49",
+						"info": "Germany(德國)"
+					},
+					{
+						"code": "233",
+						"info": "Ghana(迦納)"
+					},
+					{
+						"code": "350",
+						"info": "Gibraltar(直布羅陀)"
+					},
+					{
+						"code": "30",
+						"info": "Greece(希臘)"
+					},
+					{
+						"code": "299",
+						"info": "Greenland(格陵蘭)"
+					},
+					{
+						"code": "1473",
+						"info": "Grenada(格瑞那達)"
+					},
+					{
+						"code": "1671",
+						"info": "Guam(關島)"
+					},
+					{
+						"code": "502",
+						"info": "Guatemala(瓜地馬拉)"
+					},
+					{
+						"code": "224",
+						"info": "Guinea(幾內亞)"
+					},
+					{
+						"code": "592",
+						"info": "Guyana(蓋亞那)"
+					},
+					{
+						"code": "509",
+						"info": "Haiti(海地)"
+					},
+					{
+						"code": "39",
+						"info": "Vatican City, Holy See(梵諦岡(教廷))"
+					},
+					{
+						"code": "504",
+						"info": "Honduras(宏都拉斯)"
+					},
+					{
+						"code": "852",
+						"info": "Hong Kong(香港)"
+					},
+					{
+						"code": "36",
+						"info": "Hungary(匈牙利)"
+					},
+					{
+						"code": "354",
+						"info": "Iceland(冰島)"
+					},
+					{
+						"code": "91",
+						"info": "India(印度)"
+					},
+					{
+						"code": "62",
+						"info": "Indonesia(印尼)"
+					},
+					{
+						"code": "98",
+						"info": "Iran(伊朗)"
+					},
+					{
+						"code": "964",
+						"info": "Iraq(伊拉克)"
+					},
+					{
+						"code": "353",
+						"info": "Ireland(愛爾蘭)"
+					},
+					{
+						"code": "972",
+						"info": "Israel(以色列)"
+					},
+					{
+						"code": "39",
+						"info": "Italy(義大利)"
+					},
+					{
+						"code": "1876",
+						"info": "Jamaica(牙買加)"
+					},
+					{
+						"code": "81",
+						"info": "Japan(日本)"
+					},
+					{
+						"code": "962",
+						"info": "Jordan(約旦)"
+					},
+					{
+						"code": "7",
+						"info": "Kazakhstan(哈薩克)"
+					},
+					{
+						"code": "254",
+						"info": "Kenya(肯亞)"
+					},
+					{
+						"code": "965",
+						"info": "Kuwait(科威特)"
+					},
+					{
+						"code": "996",
+						"info": "Kyrgyzstan(吉爾吉斯坦)"
+					},
+					{
+						"code": "856",
+						"info": "Laos(寮國)"
+					},
+					{
+						"code": "371",
+						"info": "Latvia(拉脫維亞)"
+					},
+					{
+						"code": "961",
+						"info": "Lebanon(黎巴嫩)"
+					},
+					{
+						"code": "266",
+						"info": "Lesotho(賴索托)"
+					},
+					{
+						"code": "231",
+						"info": "Liberia(賴比瑞亞)"
+					},
+					{
+						"code": "218",
+						"info": "Libya(利比亞)"
+					},
+					{
+						"code": "423",
+						"info": "Liechtenstein(列支敦斯登)"
+					},
+					{
+						"code": "370",
+						"info": "Lithuania(立陶宛)"
+					},
+					{
+						"code": "352",
+						"info": "Luxembourg(盧森堡)"
+					},
+					{
+						"code": "853",
+						"info": "Macau(澳門)"
+					},
+					{
+						"code": "389",
+						"info": "Macedonia(馬其頓)"
+					},
+					{
+						"code": "261",
+						"info": "Madagascar(馬達加斯加)"
+					},
+					{
+						"code": "265",
+						"info": "Malawi(馬拉威)"
+					},
+					{
+						"code": "60",
+						"info": "Malaysia(馬來西亞)"
+					},
+					{
+						"code": "960",
+						"info": "Maldives(馬爾地夫)"
+					},
+					{
+						"code": "223",
+						"info": "Mali(馬利)"
+					},
+					{
+						"code": "356",
+						"info": "Malta(馬爾他)"
+					},
+					{
+						"code": "230",
+						"info": "Mauritius(模里西斯)"
+					},
+					{
+						"code": "52",
+						"info": "Mexico(墨西哥)"
+					},
+					{
+						"code": "373",
+						"info": "Moldova(摩爾多瓦)"
+					},
+					{
+						"code": "377",
+						"info": "Monaco(摩納哥)"
+					},
+					{
+						"code": "976",
+						"info": "Mongolia(蒙古)"
+					},
+					{
+						"code": "382",
+						"info": "Montenegro(蒙特內哥羅)"
+					},
+					{
+						"code": "1664",
+						"info": "Montserrat(蒙塞拉特)"
+					},
+					{
+						"code": "212",
+						"info": "Morocco(摩洛哥)"
+					},
+					{
+						"code": "258",
+						"info": "Mozambique(莫三比克)"
+					},
+					{
+						"code": "95",
+						"info": "Myanmar(緬甸)"
+					},
+					{
+						"code": "264",
+						"info": "Namibia(那米比亞)"
+					},
+					{
+						"code": "674",
+						"info": "Nauru(諾魯)"
+					},
+					{
+						"code": "977",
+						"info": "Nepal(尼泊爾)"
+					},
+					{
+						"code": "31",
+						"info": "Netherlands(荷蘭)"
+					},
+					{
+						"code": "64",
+						"info": "New Zealand(紐西蘭)"
+					},
+					{
+						"code": "505",
+						"info": "Nicaragua(尼加拉瓜)"
+					},
+					{
+						"code": "227",
+						"info": "Niger(尼日)"
+					},
+					{
+						"code": "234",
+						"info": "Nigeria(奈及利亞)"
+					},
+					{
+						"code": "1-670",
+						"info": "Northern Mariana Islands(北馬里安納群島)"
+					},
+					{
+						"code": "850",
+						"info": "North Korea(北韓)"
+					},
+					{
+						"code": "47",
+						"info": "Norway(挪威)"
+					},
+					{
+						"code": "968",
+						"info": "Oman(阿曼)"
+					},
+					{
+						"code": "92",
+						"info": "Pakistan(巴基斯坦)"
+					},
+					{
+						"code": "507",
+						"info": "Panama(巴拿馬)"
+					},
+					{
+						"code": "675",
+						"info": "Papua New Guinea(巴布亞紐幾內亞)"
+					},
+					{
+						"code": "595",
+						"info": "Paraguay(巴拉圭)"
+					},
+					{
+						"code": "51",
+						"info": "Peru(秘魯)"
+					},
+					{
+						"code": "63",
+						"info": "Philippines(菲律賓)"
+					},
+					{
+						"code": "48",
+						"info": "Poland(波蘭)"
+					},
+					{
+						"code": "351",
+						"info": "Portugal(葡萄牙)"
+					},
+					{
+						"code": "1787",
+						"info": "Puerto Rico(波多黎各)"
+					},
+					{
+						"code": "974",
+						"info": "Qatar(卡達)"
+					},
+					{
+						"code": "680",
+						"info": "Republic of Palau(帛琉)"
+					},
+					{
+						"code": "242",
+						"info": "Republic of the Congo(剛果共和國)"
+					},
+					{
+						"code": "262",
+						"info": "Réunion(留尼旺)"
+					},
+					{
+						"code": "40",
+						"info": "Romania(羅馬尼亞)"
+					},
+					{
+						"code": "7",
+						"info": "Russia(俄羅斯)"
+					},
+					{
+						"code": "250",
+						"info": "Rwanda(盧安達)"
+					},
+					{
+						"code": "378",
+						"info": "San Marino(聖馬里諾)"
+					},
+					{
+						"code": "239",
+						"info": "Sao Tome and Principe(聖多美普林西比)"
+					},
+					{
+						"code": "966",
+						"info": "Saudi Arabia(沙烏地阿拉伯)"
+					},
+					{
+						"code": "221",
+						"info": "Senegal(塞內加爾)"
+					},
+					{
+						"code": "381",
+						"info": "Serbia(塞爾維亞)"
+					},
+					{
+						"code": "248",
+						"info": "Seychelles(塞席爾)"
+					},
+					{
+						"code": "232",
+						"info": "Sierra Leone(獅子山)"
+					},
+					{
+						"code": "65",
+						"info": "Singapore(新加坡)"
+					},
+					{
+						"code": "421",
+						"info": "Slovakia(斯洛伐克)"
+					},
+					{
+						"code": "386",
+						"info": "Slovenia(斯洛維尼亞)"
+					},
+					{
+						"code": "677",
+						"info": "Solomon Islands(索羅門群島)"
+					},
+					{
+						"code": "27",
+						"info": "South Africa(南非)"
+					},
+					{
+						"code": "82",
+						"info": "South Korea(南韓)"
+					},
+					{
+						"code": "34",
+						"info": "Spain(西班牙)"
+					},
+					{
+						"code": "94",
+						"info": "Sri Lanka(斯里蘭卡)"
+					},
+					{
+						"code": "1758",
+						"info": "St. Lucia(聖露西亞)"
+					},
+					{
+						"code": "1784",
+						"info": "St. Vincent and the Grenadines(聖文森及格瑞那丁)"
+					},
+					{
+						"code": "249",
+						"info": "Sudan(蘇丹)"
+					},
+					{
+						"code": "597",
+						"info": "Suriname(蘇利南)"
+					},
+					{
+						"code": "268",
+						"info": "Swaziland(史瓦濟蘭)"
+					},
+					{
+						"code": "46",
+						"info": "Sweden(瑞典)"
+					},
+					{
+						"code": "41",
+						"info": "Switzerland(瑞士)"
+					},
+					{
+						"code": "963",
+						"info": "Syria(希利亞)"
+					},
+					{
+						"code": "886",
+						"info": "Taiwan(台灣)"
+					},
+					{
+						"code": "992",
+						"info": "Tajikistan(塔吉克)"
+					},
+					{
+						"code": "255",
+						"info": "Tanzania(坦尚尼亞)"
+					},
+					{
+						"code": "66",
+						"info": "Thailand(泰國)"
+					},
+					{
+						"code": "228",
+						"info": "Togo(多哥)"
+					},
+					{
+						"code": "676",
+						"info": "Tonga(東加)"
+					},
+					{
+						"code": "1868",
+						"info": "Trinidad and Tobago(千里達及托巴哥)"
+					},
+					{
+						"code": "216",
+						"info": "Tunisia(突尼西亞)"
+					},
+					{
+						"code": "90",
+						"info": "Turkey(土耳其)"
+					},
+					{
+						"code": "993",
+						"info": "Turkmenistan(土庫曼)"
+					},
+					{
+						"code": "256",
+						"info": "Uganda(烏干達)"
+					},
+					{
+						"code": "380",
+						"info": "Ukraine(烏克蘭)"
+					},
+					{
+						"code": "971",
+						"info": "United Arab Emirates(阿拉伯聯合大公國)"
+					},
+					{
+						"code": "44",
+						"info": "United Kingdom(英國)"
+					},
+					{
+						"code": "1",
+						"info": "United States of America(美國)"
+					},
+					{
+						"code": "598",
+						"info": "Uruguay(烏拉圭)"
+					},
+					{
+						"code": "233",
+						"info": "Uzbekistan(烏茲別克)"
+					},
+					{
+						"code": "58",
+						"info": "Venezuela(委內瑞拉)"
+					},
+					{
+						"code": "84",
+						"info": "Vietnam(越南)"
+					},
+					{
+						"code": "967",
+						"info": "Yemen(葉門)"
+					},
+					{
+						"code": "260",
+						"info": "Zambia(尚比亞)"
+					},
+					{
+						"code": "263",
+						"info": "Zimbabwe(辛巴威)"
+					}
+				]
+			},
+			"tel_number": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_send_used": "True",
+				"type": "string"
+			},
+			"country_cities": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_send_used": "True",
+				"ref_source": "list_option.id",
+				"type": "list",
+				"list_option": [
+					{
+						"id": "A01-001",
+						"name": "台灣",
+						"cities": [
+							{
+								"city_code": "A01-001-00025",
+								"name": "不使用"
+							},
+							{
+								"city_code": "A01-001-00001",
+								"name": "台北"
+							},
+							{
+								"city_code": "A01-001-00005",
+								"name": "花蓮"
+							},
+							{
+								"city_code": "A01-001-00008",
+								"name": "桃園"
+							},
+							{
+								"city_code": "A01-001-00002",
+								"name": "台中"
+							},
+							{
+								"city_code": "A01-001-00004",
+								"name": "高雄"
+							},
+							{
+								"city_code": "A01-001-00014",
+								"name": "嘉義"
+							},
+							{
+								"city_code": "A01-001-00009",
+								"name": "新竹"
+							},
+							{
+								"city_code": "A01-001-00006",
+								"name": "新北市"
+							},
+							{
+								"city_code": "A01-001-00003",
+								"name": "台南"
+							},
+							{
+								"city_code": "A01-001-00010",
+								"name": "苗栗"
+							},
+							{
+								"city_code": "A01-001-00013",
+								"name": "雲林"
+							},
+							{
+								"city_code": "A01-001-00011",
+								"name": "彰化"
+							},
+							{
+								"city_code": "A01-001-00012",
+								"name": "南投"
+							},
+							{
+								"city_code": "A01-001-00016",
+								"name": "墾丁"
+							},
+							{
+								"city_code": "A01-001-00017",
+								"name": "宜蘭"
+							},
+							{
+								"city_code": "A01-001-00018",
+								"name": "台東"
+							},
+							{
+								"city_code": "A01-001-00019",
+								"name": "澎湖"
+							},
+							{
+								"city_code": "A01-001-00015",
+								"name": "屏東"
+							},
+							{
+								"city_code": "A01-001-00023",
+								"name": "綠島"
+							},
+							{
+								"city_code": "A01-001-00022",
+								"name": "蘭嶼"
+							},
+							{
+								"city_code": "A01-001-00007",
+								"name": "平溪"
+							},
+							{
+								"city_code": "A01-001-00026",
+								"name": "基隆"
+							},
+							{
+								"city_code": "A01-001-00024",
+								"name": "小琉球"
+							},
+							{
+								"city_code": "A01-001-00021",
+								"name": "馬祖"
+							},
+							{
+								"city_code": "A01-001-00020",
+								"name": "金門"
+							},
+							{
+								"city_code": "A01-001-99999",
+								"name": "所有城市"
+							}
+						]
+					}
+				]
+			},
+			"zipcode": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_send_used": "True",
+				"type": "string"
+			},
+			"address": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_send_used": "True",
+				"type": "string"
+			}
+		},
+		"ref_pkg": {
+			"345417": {
+				"custom": {
+					"cus_type": [
+						"send"
+					],
+					"country_cities": "True",
+					"address": "True"
+				}
+			},
+			"345347": {
+				"custom": {
+					"cus_type": [
+						"send"
+					],
+					"country_cities": "True",
+					"address": "True"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,81 @@
+{
+	"result": "00",
+	"result_msg": "OK",
+	"guid": "90b7b4ab5a024520b1129c1751b407bd",
+	"pkg_no": 300348,
+	"pkg_name": "【假日午、晚餐】單人自助吃到飽餐券",
+	"exchange_type": "",
+	"confirm_time": 0,
+	"confirm_time_unit": "h",
+	"deliver_time": 0,
+	"deliver_time_unit": "h",
+	"deliver_timing": 0,
+	"policy_type": "2",
+	"refund_type": "1",
+	"partial_refund": [],
+	"lead_day": 1,
+	"lead_day_unit": "d",
+	"lead_day_timezone": "Asia/Taipei",
+	"lead_s_time": "00:00",
+	"lead_e_time": "11:29",
+	"b2c_min_price": 1200.0,
+	"b2b_min_price": 1151.0,
+	"item_no": [
+		44705
+	],
+	"sale_s_date": "2021-06-12",
+	"sale_e_date": "2021-12-25",
+	"description_module": {},
+	"item": [
+		{
+			"item_no": 44705,
+			"unit": "人",
+			"voucher_type": "KKDAY",
+			"unit_quantity_rule": {
+				"total_rule": {
+					"max_quantity": 10,
+					"min_quantity": 1
+				},
+				"ticket_rule": {
+					"rulesets": []
+				}
+			},
+			"b2c_min_price": 1200.0,
+			"b2b_min_price": 1151.0,
+			"sale_s_date": "2021-06-12",
+			"sale_e_date": "2021-12-25",
+			"inventory_set": 0,
+			"skus": [
+				{
+					"sku_id": "8f62a9cb27d16b05a05d437016f69863",
+					"spec_token": "ca7f1057-32d7-43de-8003-f0825782bd5c",
+					"spec": {
+						"單規": "不拘"
+					},
+					"official_price": 1320.0,
+					"b2c_price": 0.0,
+					"b2b_price": 0.0,
+					"calendar_detail": {},
+					"specs_ref": [
+						{
+							"spec_item_id": "spec-single",
+							"spec_value_id": "ca7f1057-32d7-43de-8003-f0825782bd5c"
+						}
+					]
+				}
+			],
+			"specs": [
+				{
+					"spec_oid": "spec-single",
+					"spec_title": "單規",
+					"spec_items": [
+						{
+							"name": "不拘",
+							"spec_item_oid": "ca7f1057-32d7-43de-8003-f0825782bd5c"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,2294 @@
+{
+	"result": "00",
+	"result_msg": "OK",
+	"prod_marketing": {
+		"TW": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"HK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"CN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"MY": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"SG": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"ID": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"PH": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"JP": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KR": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"TH": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"VN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		}
+	},
+	"prod": {
+		"is_tour": true,
+		"timezone": "Asia/Taipei",
+		"guide_lang_list": [],
+		"voice_guide_lang": [],
+		"confirm_order_time": false,
+		"online_s_date": "2021-06-12",
+		"online_e_date": "2021-08-08",
+		"img_list": [
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_3504/20171107013917_XX58e/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_3504/20150911082509_Qe8aO/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_3504/20150911082516_dQncQ/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_3504/20150911082755_pYhIt/png",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_3504/20150911083349_8CBmD/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_3504/20171107014538_S7UM7/jpg"
+		],
+		"video_list": [],
+		"prod_comment_info": {
+			"avg_scores": "4.43",
+			"total_scores": "279",
+			"click_count": "0",
+			"comment_record": "63"
+		},
+		"go_date_setting": {
+			"type": "01"
+		},
+		"is_cancel_free": false,
+		"description_module": {
+			"PMDL_EXCHANGE": {
+				"module_title": "憑證使用方式",
+				"content": {
+					"properties": {
+						"exchange_type": {
+							"desc": "現場請出示電子憑證",
+							"title": "使用方式"
+						}
+					}
+				}
+			},
+			"PMDL_INC_NINC": {
+				"module_title": "費用包含/不包含",
+				"content": {
+					"properties": {
+						"include_item": {
+							"list": [
+								{
+									"desc": "停車費"
+								},
+								{
+									"desc": "過路費"
+								},
+								{
+									"desc": "乘客責任險"
+								},
+								{
+									"desc": "車資"
+								},
+								{
+									"desc": "司機"
+								},
+								{
+									"desc": "20 萬意外醫療險"
+								}
+							],
+							"title": "費用包含"
+						},
+						"not_include_item": {
+							"list": [
+								{
+									"desc": "餐費"
+								},
+								{
+									"desc": "小費"
+								},
+								{
+									"desc": "個人消費"
+								},
+								{
+									"desc": "門票"
+								}
+							],
+							"title": "費用不包含"
+						}
+					}
+				}
+			},
+			"PMDL_USE_VALID": {
+				"module_title": "使用期限",
+				"content": {
+					"properties": {
+						"exchange": {
+							"desc": "需要按照預訂日期及當天開放時間內使用，逾期失效"
+						}
+					}
+				}
+			},
+			"PMDL_REFUND_POLICY": {
+				"module_title": "取消政策",
+				"content": {
+					"properties": {
+						"policy_type": {
+							"desc": "指定手續費",
+							"title": "手續費收取方式"
+						},
+						"partial_refund": {
+							"list": [
+								{
+									"desc": "所選日期 31 天（含）之前取消，收取手續費 0%"
+								},
+								{
+									"desc": "所選日期  21 ~ 30 天之間取消，收取手續費 10%"
+								},
+								{
+									"desc": "所選日期  11 ~ 20 天之間取消，收取手續費 20%"
+								},
+								{
+									"desc": "所選日期  4 ~ 10 天之間取消，收取手續費 30%"
+								},
+								{
+									"desc": "所選日期  2 ~ 3 天之間取消，收取手續費 70%"
+								},
+								{
+									"desc": "所選日期  0 ~ 1 天之間取消，收取手續費 100%"
+								}
+							],
+							"title": "政策內容"
+						}
+					}
+				}
+			},
+			"PMDL_NOTICE": {
+				"module_title": "注意事項",
+				"content": {
+					"properties": {
+						"reminds": {
+							"list": [
+								{
+									"desc": "請務必於 10 分鐘前抵達指定地點，為避免耽誤之後行程，逾時不候。"
+								}
+							]
+						},
+						"cust_reminds": {
+							"list": [
+								{
+									"desc": "行程景點依實際出發時間及地點安排遊覽順序。"
+								},
+								{
+									"desc": "可承載輪椅、寵物、娃娃車，請提前備註於訂單中。"
+								}
+							]
+						},
+						"cust_reminds_after": {
+							"list": [
+								{
+									"desc": "請於你預訂時間的前 10 分鐘抵達，若因個人因素遲到、未能準時體驗行程，概不退費亦無法改期，敬請知悉。"
+								}
+							],
+							"title": "售後注意事項"
+						}
+					}
+				}
+			},
+			"PMDL_GRAPHIC": {
+				"module_title": "圖文介紹",
+				"content": {
+					"list": [
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_3504/20171107014538_S7UM7/jpg"
+								}
+							],
+							"desc": "擎天崗擁有豐富的自然生態與景觀"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_3504/20171107013917_XX58e/jpg"
+								}
+							],
+							"desc": "大屯山自然公園，最壯觀的賞芒地點，除了滿山滿谷的雪白外，還擁有一大片寬闊的草原"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_3504/20150911082509_Qe8aO/jpg"
+								}
+							],
+							"desc": "享受一趟悠閒愜意的旅遊"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_3504/20150911083349_8CBmD/jpg"
+								}
+							],
+							"desc": "臺北市夜晚燦爛星空與閃爍燈海相映的景象，觀賞夜景的好地方"
+						}
+					]
+				}
+			},
+			"PMDL_EXTRA_FEE": {
+				"module_title": "額外費用",
+				"content": {
+					"list": [
+						{
+							"desc": "五人座車：30 分鐘內 NT$250，超過 30 分鐘將以小時計算，每小時加收 NT$500；請於現場支付給司機\n七、九人座：30 分鐘內 NT$300，超過 30 分鐘將以小時計算，每小時加收 NT$600；請於現場支付給司機",
+							"title": "用車超時費用"
+						},
+						{
+							"desc": "四歲以下兒童如需乘坐安全座椅，請於下訂時備註兒童年齡與體重，並現場支付 NT$100/座。",
+							"title": "安全座椅"
+						},
+						{
+							"desc": "如陽明山有管制需加裝雪鏈方可上山，價格為 NT$1500 - 2000 元不等，請於行程當日直接支付現金給司機。",
+							"title": "加裝雪鏈"
+						},
+						{
+							"desc": "需額外加價 NT$1200/台，請提前備註於訂單中，並於現場支付給司機",
+							"title": "七人/九人座車"
+						}
+					],
+					"title": "額外費用"
+				}
+			},
+			"PMDL_VENUE_LOCATION": {
+				"module_title": "接駁地點",
+				"content": {
+					"list": [
+						{
+							"arrival_desc": {
+								"desc": "・每車限乘坐 1 - 4 位乘客，使用台灣計程車\n・旅客可自行選擇出發時間：07:00 - 10:00"
+							},
+							"location_name": {
+								"desc": "台北市區飯店、台北火車站上/下車"
+							},
+							"latlng": {
+								"latitude": "25.0329694",
+								"longitude": "121.5654177",
+								"place_id": "ChIJmQrivHKsQjQR4MIK3c41aj8",
+								"map_snap_url": "/image/get/w_140,h_105,c_fill,q_55,wm_auto/s1.kkday.com/product_3504/20201102082520_09TG2/png",
+								"zoom_lv": "14",
+								"desc": "台北"
+							}
+						}
+					],
+					"table_key_langs": {
+						"location_name": "地點名稱",
+						"latlng": "地址",
+						"photo": "地點圖片",
+						"video": "地點影片",
+						"gather": "集合時間",
+						"setout": "出發時間",
+						"arrival_desc": "如何抵達"
+					}
+				}
+			},
+			"PMDL_PURCHASE_SUMMARY": {
+				"module_title": "購買須知",
+				"content": {
+					"desc": "<ul><li>2021 年春節期間(2/10 - 2/16 小年夜到大年初五)包車旅遊需額外加價 NT$1000，請於行程當日直接支付現金給司機。<br></li><li>團體或個人套裝行程商品適用中華民國交通部觀光局頒定之國內旅遊定型化契約書，當您完成預定時，即表示您同意並接受<a href=\"https://drive.google.com/drive/folders/17YC0u-3Nf-sCyjZLwMY7bX9XzOzFcM8G?usp=sharing\">國內旅遊定型化契約書</a>之約定</li></ul>"
+				}
+			},
+			"PMDL_INTRODUCE_SUMMARY": {
+				"module_title": "商品說明",
+				"content": {
+					"desc": "<p>－ 行程介紹 －<br></p><p>台北的後花園陽明山系，沿著擎天崗中央步道漫步，一邊大口的呼吸著山林間最清新的空氣，不禁讓人身、心、靈都煥然一新！每到秋天 10 月、11 月，台北陽明山上的芒草花海讓整座陽明山國家公園都呈現白黃色的芒草色澤，加上風吹的波動彷彿就像是金色的海浪。<br><br>陽明山擁有豐富的自然生態與景觀，四季樣貌更是多變的讓人驚嘆！秋季佈滿了盛開的菅芒花，白蒼蒼的一整片山頭隨風搖曳。其中之一的冷水坑溫泉，位於陽明山國家公園冷水坑遊憩區內，泉水自七星山東麓的岩縫中自然湧出，溫度約 40℃，是屬於弱酸或中性的碳酸氫鹽泉，PH 質在 6 - 7 之間。因其水溫和鄰近遊憩區的溫泉（90 - 100℃ 左右）相比之下並不太高，故有此稱名。</p>"
+				}
+			},
+			"PMDL_EXPERIENCE_LOCATION": {
+				"module_title": "體驗地點",
+				"content": {
+					"list": [
+						{
+							"location_name": {
+								"desc": "陽明山"
+							},
+							"latlng": {
+								"latitude": "25.15364",
+								"longitude": "121.547862",
+								"map_snap_url": "s1.kkday.com/product_3504/20150911074728_nWnkw/png",
+								"zoom_lv": "13",
+								"desc": "陽明山"
+							}
+						}
+					],
+					"table_key_langs": {
+						"location_name": "地點名稱",
+						"latlng": "地址",
+						"photo": "地點圖片",
+						"video": "地點影片",
+						"active_time": "開放時間",
+						"active_time_desc": "開放時間說明",
+						"arrival_desc": "如何抵達"
+					}
+				}
+			}
+		},
+		"prod_no": 3504,
+		"prod_url_no": 3504,
+		"prod_name": "台北陽明山｜擎天岡草原＆大屯山賞芒草＆冷水坑｜包車一日遊",
+		"prod_type": "M06",
+		"tag": [
+			"TAG_4_6",
+			"TAG_4_4",
+			"TAG_4_3"
+		],
+		"b2c_min_price": 2900.0,
+		"b2b_min_price": 2755.0,
+		"instant_booking": true,
+		"order_count": 246,
+		"days": 0,
+		"hours": 6,
+		"duration": 0,
+		"introduction": "芒芒人海遇見你｜遊台必訪的台北後花園－陽明山，包車直達接送，不需辛苦排隊轉車，擎天岡遼闊的草原景觀，連綿的綠茵上牛隻漫步吃草，形成台北難得一見的牧野風光。每年秋冬之際，大屯山芒草盛開，一整片的芒草隨風搖曳，讓人心情舒爽並享受當下的悠閒時光。",
+		"cities": [
+			{
+				"city_code": "A01-001-00001",
+				"country_code": "A01-001",
+				"name": "台灣,台北"
+			}
+		],
+		"b2c_price": 3500.0,
+		"b2b_price": 2755.0,
+		"prod_currency": "TWD"
+	},
+	"pkg": [
+		{
+			"pkg_no": 316271,
+			"pkg_name": "陽明山包車一日遊",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 1,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "3",
+			"refund_type": "1",
+			"partial_refund": [
+				{
+					"value": 0.0,
+					"day_min": 31
+				},
+				{
+					"value": 0.1,
+					"day_min": 21,
+					"day_max": 30
+				},
+				{
+					"value": 0.2,
+					"day_min": 11,
+					"day_max": 20
+				},
+				{
+					"value": 0.3,
+					"day_min": 4,
+					"day_max": 10
+				},
+				{
+					"value": 0.7,
+					"day_min": 2,
+					"day_max": 3
+				},
+				{
+					"value": 1.0,
+					"day_min": 0,
+					"day_max": 1
+				}
+			],
+			"lead_day": 1,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "09:00",
+			"lead_e_time": "15:59",
+			"b2c_min_price": 2900.0,
+			"b2b_min_price": 2755.0,
+			"item_no": [
+				62048
+			],
+			"sale_s_date": "2021-06-12",
+			"sale_e_date": "2021-08-08",
+			"description_module": {}
+		}
+	],
+	"booking_field": {
+		"prod_no": "3504",
+		"custom": {
+			"cus_type": {
+				"is_require": "True",
+				"is_perParticipant": "True",
+				"is_contact_used": "True",
+				"type": "array",
+				"list_option": [
+					"cus_02",
+					"contact"
+				]
+			},
+			"english_last_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_perParticipant": "True",
+				"type": "string"
+			},
+			"english_first_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_perParticipant": "True",
+				"type": "string"
+			},
+			"native_last_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_perParticipant": "True",
+				"type": "string"
+			},
+			"native_first_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_perParticipant": "True",
+				"type": "string"
+			},
+			"tel_country_code": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"ref_source": "list_option.code",
+				"type": "list",
+				"list_option": [
+					{
+						"code": "93",
+						"info": "Afghanistan(阿富汗)"
+					},
+					{
+						"code": "355",
+						"info": "Albania(阿爾巴尼亞)"
+					},
+					{
+						"code": "213",
+						"info": "Algeria(阿爾及利亞)"
+					},
+					{
+						"code": "376",
+						"info": "Andorra(安道爾)"
+					},
+					{
+						"code": "244",
+						"info": "Angola(安哥拉)"
+					},
+					{
+						"code": "1264",
+						"info": "Anguilla(安圭拉)"
+					},
+					{
+						"code": "672",
+						"info": "Antarctica(南極洲)"
+					},
+					{
+						"code": "1268",
+						"info": "Antigua and Barbuda(安地卡及巴布達)"
+					},
+					{
+						"code": "54",
+						"info": "Argentina(阿根廷)"
+					},
+					{
+						"code": "374",
+						"info": "Armenia(亞美尼亞)"
+					},
+					{
+						"code": "297",
+						"info": "Aruba(阿魯巴)"
+					},
+					{
+						"code": "61",
+						"info": "Australia(澳洲)"
+					},
+					{
+						"code": "43",
+						"info": "Austria(奥地利)"
+					},
+					{
+						"code": "994",
+						"info": "Azerbaijan(亞塞拜然)"
+					},
+					{
+						"code": "1242",
+						"info": "Bahamas(巴哈馬)"
+					},
+					{
+						"code": "973",
+						"info": "Bahrain(巴林)"
+					},
+					{
+						"code": "880",
+						"info": "Bangladesh(孟加拉)"
+					},
+					{
+						"code": "1246",
+						"info": "Barbados(巴貝多)"
+					},
+					{
+						"code": "375",
+						"info": "Belarus(白俄羅斯)"
+					},
+					{
+						"code": "32",
+						"info": "Belgium(比利時)"
+					},
+					{
+						"code": "501",
+						"info": "Belize(貝里斯)"
+					},
+					{
+						"code": "229",
+						"info": "Benin(貝南)"
+					},
+					{
+						"code": "1441",
+						"info": "Bermuda(百慕達)"
+					},
+					{
+						"code": "975",
+						"info": "Bhutan(不丹)"
+					},
+					{
+						"code": "591",
+						"info": "Bolivia(玻利維亞)"
+					},
+					{
+						"code": "387",
+						"info": "Bosnia and Herzegovina(波士尼亞與赫塞哥維納)"
+					},
+					{
+						"code": "267",
+						"info": "Botswana(波札那)"
+					},
+					{
+						"code": "55",
+						"info": "Brazil(巴西)"
+					},
+					{
+						"code": "673",
+						"info": "Brunei(汶萊)"
+					},
+					{
+						"code": "359",
+						"info": "Bulgaria(保加利亞)"
+					},
+					{
+						"code": "226",
+						"info": "Burkina Faso(布吉納法索)"
+					},
+					{
+						"code": "257",
+						"info": "Burundi(蒲隆地)"
+					},
+					{
+						"code": "855",
+						"info": "Cambodia(柬埔寨)"
+					},
+					{
+						"code": "237",
+						"info": "Cameroon(喀麥隆)"
+					},
+					{
+						"code": "1",
+						"info": "Canada(加拿大)"
+					},
+					{
+						"code": "236",
+						"info": "Central African Republic(中非共和國)"
+					},
+					{
+						"code": "235",
+						"info": "Chad(查德)"
+					},
+					{
+						"code": "56",
+						"info": "Chile(智利)"
+					},
+					{
+						"code": "86",
+						"info": "China(中國)"
+					},
+					{
+						"code": "672",
+						"info": "Christmas Island(聖誕島)"
+					},
+					{
+						"code": "57",
+						"info": "Colombia(哥倫比亞)"
+					},
+					{
+						"code": "269",
+						"info": "Comoros(葛摩)"
+					},
+					{
+						"code": "682",
+						"info": "Cook Islands(庫克群島)"
+					},
+					{
+						"code": "506",
+						"info": "Costa Rica(哥斯大黎加)"
+					},
+					{
+						"code": "225",
+						"info": "Côte dIvoire(科特迪瓦(象牙海岸))"
+					},
+					{
+						"code": "385",
+						"info": "Croatia(克羅埃西亞)"
+					},
+					{
+						"code": "53",
+						"info": "Cuba(古巴)"
+					},
+					{
+						"code": "357",
+						"info": "Cyprus(賽普勒斯)"
+					},
+					{
+						"code": "420",
+						"info": "Czech Republic(捷克共和國)"
+					},
+					{
+						"code": "45",
+						"info": "Denmark(丹麥)"
+					},
+					{
+						"code": "253",
+						"info": "Djibouti(吉布地)"
+					},
+					{
+						"code": "1767",
+						"info": "Dominica(多明尼加共和國)"
+					},
+					{
+						"code": "1809",
+						"info": "Dominican Republic(多明尼加共和國)"
+					},
+					{
+						"code": "593",
+						"info": "Ecuador(厄瓜多)"
+					},
+					{
+						"code": "20",
+						"info": "Egypt(埃及)"
+					},
+					{
+						"code": "503",
+						"info": "El Salvador(薩爾瓦多)"
+					},
+					{
+						"code": "372",
+						"info": "Estonia(愛沙尼亞)"
+					},
+					{
+						"code": "251",
+						"info": "Ethiopia(衣索比亞)"
+					},
+					{
+						"code": "500",
+						"info": "Falkland Islands(英屬福克蘭群島)"
+					},
+					{
+						"code": "252",
+						"info": "Federal Republic of Somalia(索馬利亞聯邦共和國)"
+					},
+					{
+						"code": "679",
+						"info": "Fiji(斐濟)"
+					},
+					{
+						"code": "358",
+						"info": "Finland(芬蘭)"
+					},
+					{
+						"code": "33",
+						"info": "France(法國)"
+					},
+					{
+						"code": "594",
+						"info": "French Guiana(法屬圭亞那)"
+					},
+					{
+						"code": "689",
+						"info": "French Polynesia(法屬玻里尼西亞)"
+					},
+					{
+						"code": "241",
+						"info": "Gabon(加彭)"
+					},
+					{
+						"code": "220",
+						"info": "Gambia(甘比亞)"
+					},
+					{
+						"code": "995",
+						"info": "Georgia(喬治亞)"
+					},
+					{
+						"code": "49",
+						"info": "Germany(德國)"
+					},
+					{
+						"code": "233",
+						"info": "Ghana(迦納)"
+					},
+					{
+						"code": "350",
+						"info": "Gibraltar(直布羅陀)"
+					},
+					{
+						"code": "30",
+						"info": "Greece(希臘)"
+					},
+					{
+						"code": "299",
+						"info": "Greenland(格陵蘭)"
+					},
+					{
+						"code": "1473",
+						"info": "Grenada(格瑞那達)"
+					},
+					{
+						"code": "1671",
+						"info": "Guam(關島)"
+					},
+					{
+						"code": "502",
+						"info": "Guatemala(瓜地馬拉)"
+					},
+					{
+						"code": "224",
+						"info": "Guinea(幾內亞)"
+					},
+					{
+						"code": "592",
+						"info": "Guyana(蓋亞那)"
+					},
+					{
+						"code": "509",
+						"info": "Haiti(海地)"
+					},
+					{
+						"code": "39",
+						"info": "Vatican City, Holy See(梵諦岡(教廷))"
+					},
+					{
+						"code": "504",
+						"info": "Honduras(宏都拉斯)"
+					},
+					{
+						"code": "852",
+						"info": "Hong Kong(香港)"
+					},
+					{
+						"code": "36",
+						"info": "Hungary(匈牙利)"
+					},
+					{
+						"code": "354",
+						"info": "Iceland(冰島)"
+					},
+					{
+						"code": "91",
+						"info": "India(印度)"
+					},
+					{
+						"code": "62",
+						"info": "Indonesia(印尼)"
+					},
+					{
+						"code": "98",
+						"info": "Iran(伊朗)"
+					},
+					{
+						"code": "964",
+						"info": "Iraq(伊拉克)"
+					},
+					{
+						"code": "353",
+						"info": "Ireland(愛爾蘭)"
+					},
+					{
+						"code": "972",
+						"info": "Israel(以色列)"
+					},
+					{
+						"code": "39",
+						"info": "Italy(義大利)"
+					},
+					{
+						"code": "1876",
+						"info": "Jamaica(牙買加)"
+					},
+					{
+						"code": "81",
+						"info": "Japan(日本)"
+					},
+					{
+						"code": "962",
+						"info": "Jordan(約旦)"
+					},
+					{
+						"code": "7",
+						"info": "Kazakhstan(哈薩克)"
+					},
+					{
+						"code": "254",
+						"info": "Kenya(肯亞)"
+					},
+					{
+						"code": "965",
+						"info": "Kuwait(科威特)"
+					},
+					{
+						"code": "996",
+						"info": "Kyrgyzstan(吉爾吉斯坦)"
+					},
+					{
+						"code": "856",
+						"info": "Laos(寮國)"
+					},
+					{
+						"code": "371",
+						"info": "Latvia(拉脫維亞)"
+					},
+					{
+						"code": "961",
+						"info": "Lebanon(黎巴嫩)"
+					},
+					{
+						"code": "266",
+						"info": "Lesotho(賴索托)"
+					},
+					{
+						"code": "231",
+						"info": "Liberia(賴比瑞亞)"
+					},
+					{
+						"code": "218",
+						"info": "Libya(利比亞)"
+					},
+					{
+						"code": "423",
+						"info": "Liechtenstein(列支敦斯登)"
+					},
+					{
+						"code": "370",
+						"info": "Lithuania(立陶宛)"
+					},
+					{
+						"code": "352",
+						"info": "Luxembourg(盧森堡)"
+					},
+					{
+						"code": "853",
+						"info": "Macau(澳門)"
+					},
+					{
+						"code": "389",
+						"info": "Macedonia(馬其頓)"
+					},
+					{
+						"code": "261",
+						"info": "Madagascar(馬達加斯加)"
+					},
+					{
+						"code": "265",
+						"info": "Malawi(馬拉威)"
+					},
+					{
+						"code": "60",
+						"info": "Malaysia(馬來西亞)"
+					},
+					{
+						"code": "960",
+						"info": "Maldives(馬爾地夫)"
+					},
+					{
+						"code": "223",
+						"info": "Mali(馬利)"
+					},
+					{
+						"code": "356",
+						"info": "Malta(馬爾他)"
+					},
+					{
+						"code": "230",
+						"info": "Mauritius(模里西斯)"
+					},
+					{
+						"code": "52",
+						"info": "Mexico(墨西哥)"
+					},
+					{
+						"code": "373",
+						"info": "Moldova(摩爾多瓦)"
+					},
+					{
+						"code": "377",
+						"info": "Monaco(摩納哥)"
+					},
+					{
+						"code": "976",
+						"info": "Mongolia(蒙古)"
+					},
+					{
+						"code": "382",
+						"info": "Montenegro(蒙特內哥羅)"
+					},
+					{
+						"code": "1664",
+						"info": "Montserrat(蒙塞拉特)"
+					},
+					{
+						"code": "212",
+						"info": "Morocco(摩洛哥)"
+					},
+					{
+						"code": "258",
+						"info": "Mozambique(莫三比克)"
+					},
+					{
+						"code": "95",
+						"info": "Myanmar(緬甸)"
+					},
+					{
+						"code": "264",
+						"info": "Namibia(那米比亞)"
+					},
+					{
+						"code": "674",
+						"info": "Nauru(諾魯)"
+					},
+					{
+						"code": "977",
+						"info": "Nepal(尼泊爾)"
+					},
+					{
+						"code": "31",
+						"info": "Netherlands(荷蘭)"
+					},
+					{
+						"code": "64",
+						"info": "New Zealand(紐西蘭)"
+					},
+					{
+						"code": "505",
+						"info": "Nicaragua(尼加拉瓜)"
+					},
+					{
+						"code": "227",
+						"info": "Niger(尼日)"
+					},
+					{
+						"code": "234",
+						"info": "Nigeria(奈及利亞)"
+					},
+					{
+						"code": "1-670",
+						"info": "Northern Mariana Islands(北馬里安納群島)"
+					},
+					{
+						"code": "850",
+						"info": "North Korea(北韓)"
+					},
+					{
+						"code": "47",
+						"info": "Norway(挪威)"
+					},
+					{
+						"code": "968",
+						"info": "Oman(阿曼)"
+					},
+					{
+						"code": "92",
+						"info": "Pakistan(巴基斯坦)"
+					},
+					{
+						"code": "507",
+						"info": "Panama(巴拿馬)"
+					},
+					{
+						"code": "675",
+						"info": "Papua New Guinea(巴布亞紐幾內亞)"
+					},
+					{
+						"code": "595",
+						"info": "Paraguay(巴拉圭)"
+					},
+					{
+						"code": "51",
+						"info": "Peru(秘魯)"
+					},
+					{
+						"code": "63",
+						"info": "Philippines(菲律賓)"
+					},
+					{
+						"code": "48",
+						"info": "Poland(波蘭)"
+					},
+					{
+						"code": "351",
+						"info": "Portugal(葡萄牙)"
+					},
+					{
+						"code": "1787",
+						"info": "Puerto Rico(波多黎各)"
+					},
+					{
+						"code": "974",
+						"info": "Qatar(卡達)"
+					},
+					{
+						"code": "680",
+						"info": "Republic of Palau(帛琉)"
+					},
+					{
+						"code": "242",
+						"info": "Republic of the Congo(剛果共和國)"
+					},
+					{
+						"code": "262",
+						"info": "Réunion(留尼旺)"
+					},
+					{
+						"code": "40",
+						"info": "Romania(羅馬尼亞)"
+					},
+					{
+						"code": "7",
+						"info": "Russia(俄羅斯)"
+					},
+					{
+						"code": "250",
+						"info": "Rwanda(盧安達)"
+					},
+					{
+						"code": "378",
+						"info": "San Marino(聖馬里諾)"
+					},
+					{
+						"code": "239",
+						"info": "Sao Tome and Principe(聖多美普林西比)"
+					},
+					{
+						"code": "966",
+						"info": "Saudi Arabia(沙烏地阿拉伯)"
+					},
+					{
+						"code": "221",
+						"info": "Senegal(塞內加爾)"
+					},
+					{
+						"code": "381",
+						"info": "Serbia(塞爾維亞)"
+					},
+					{
+						"code": "248",
+						"info": "Seychelles(塞席爾)"
+					},
+					{
+						"code": "232",
+						"info": "Sierra Leone(獅子山)"
+					},
+					{
+						"code": "65",
+						"info": "Singapore(新加坡)"
+					},
+					{
+						"code": "421",
+						"info": "Slovakia(斯洛伐克)"
+					},
+					{
+						"code": "386",
+						"info": "Slovenia(斯洛維尼亞)"
+					},
+					{
+						"code": "677",
+						"info": "Solomon Islands(索羅門群島)"
+					},
+					{
+						"code": "27",
+						"info": "South Africa(南非)"
+					},
+					{
+						"code": "82",
+						"info": "South Korea(南韓)"
+					},
+					{
+						"code": "34",
+						"info": "Spain(西班牙)"
+					},
+					{
+						"code": "94",
+						"info": "Sri Lanka(斯里蘭卡)"
+					},
+					{
+						"code": "1758",
+						"info": "St. Lucia(聖露西亞)"
+					},
+					{
+						"code": "1784",
+						"info": "St. Vincent and the Grenadines(聖文森及格瑞那丁)"
+					},
+					{
+						"code": "249",
+						"info": "Sudan(蘇丹)"
+					},
+					{
+						"code": "597",
+						"info": "Suriname(蘇利南)"
+					},
+					{
+						"code": "268",
+						"info": "Swaziland(史瓦濟蘭)"
+					},
+					{
+						"code": "46",
+						"info": "Sweden(瑞典)"
+					},
+					{
+						"code": "41",
+						"info": "Switzerland(瑞士)"
+					},
+					{
+						"code": "963",
+						"info": "Syria(希利亞)"
+					},
+					{
+						"code": "886",
+						"info": "Taiwan(台灣)"
+					},
+					{
+						"code": "992",
+						"info": "Tajikistan(塔吉克)"
+					},
+					{
+						"code": "255",
+						"info": "Tanzania(坦尚尼亞)"
+					},
+					{
+						"code": "66",
+						"info": "Thailand(泰國)"
+					},
+					{
+						"code": "228",
+						"info": "Togo(多哥)"
+					},
+					{
+						"code": "676",
+						"info": "Tonga(東加)"
+					},
+					{
+						"code": "1868",
+						"info": "Trinidad and Tobago(千里達及托巴哥)"
+					},
+					{
+						"code": "216",
+						"info": "Tunisia(突尼西亞)"
+					},
+					{
+						"code": "90",
+						"info": "Turkey(土耳其)"
+					},
+					{
+						"code": "993",
+						"info": "Turkmenistan(土庫曼)"
+					},
+					{
+						"code": "256",
+						"info": "Uganda(烏干達)"
+					},
+					{
+						"code": "380",
+						"info": "Ukraine(烏克蘭)"
+					},
+					{
+						"code": "971",
+						"info": "United Arab Emirates(阿拉伯聯合大公國)"
+					},
+					{
+						"code": "44",
+						"info": "United Kingdom(英國)"
+					},
+					{
+						"code": "1",
+						"info": "United States of America(美國)"
+					},
+					{
+						"code": "598",
+						"info": "Uruguay(烏拉圭)"
+					},
+					{
+						"code": "233",
+						"info": "Uzbekistan(烏茲別克)"
+					},
+					{
+						"code": "58",
+						"info": "Venezuela(委內瑞拉)"
+					},
+					{
+						"code": "84",
+						"info": "Vietnam(越南)"
+					},
+					{
+						"code": "967",
+						"info": "Yemen(葉門)"
+					},
+					{
+						"code": "260",
+						"info": "Zambia(尚比亞)"
+					},
+					{
+						"code": "263",
+						"info": "Zimbabwe(辛巴威)"
+					}
+				]
+			},
+			"tel_number": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"type": "string"
+			},
+			"contact_app": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"ref_source": "list_option.app_type",
+				"type": "list",
+				"list_option": [
+					{
+						"supported": false,
+						"app_type": "0006",
+						"app_name": "SnapChat"
+					},
+					{
+						"supported": false,
+						"app_type": "0007",
+						"app_name": "Facebook Messenger"
+					},
+					{
+						"supported": false,
+						"app_type": "0004",
+						"app_name": "Kakao"
+					},
+					{
+						"supported": false,
+						"app_type": "0005",
+						"app_name": "Viber"
+					},
+					{
+						"supported": true,
+						"app_type": "0002",
+						"app_name": "WhatsApp"
+					},
+					{
+						"supported": true,
+						"app_type": "0003",
+						"app_name": "WeChat"
+					},
+					{
+						"supported": true,
+						"app_type": "0001",
+						"app_name": "Line"
+					},
+					{
+						"supported": false,
+						"app_type": "0008",
+						"app_name": "Twitter"
+					}
+				]
+			},
+			"contact_app_account": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"type": "string"
+			},
+			"nationality": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_perParticipant": "True",
+				"ref_source": "list_option.code",
+				"type": "list",
+				"list_option": [
+					{
+						"name": "Afghanistan(阿富汗)",
+						"code": "AF"
+					},
+					{
+						"name": "Albania(阿爾巴尼亞)",
+						"code": "AL"
+					},
+					{
+						"name": "Algeria(阿爾及利亞)",
+						"code": "DZ"
+					},
+					{
+						"name": "Andorra(安道爾)",
+						"code": "AD"
+					},
+					{
+						"name": "Angola(安哥拉)",
+						"code": "AO"
+					},
+					{
+						"name": "Anguilla(安圭拉)",
+						"code": "AI"
+					},
+					{
+						"name": "Antarctica(南極洲)",
+						"code": "AQ"
+					},
+					{
+						"name": "Antigua and Barbuda(安地卡及巴布達)",
+						"code": "AG"
+					},
+					{
+						"name": "Argentina(阿根廷)",
+						"code": "AR"
+					},
+					{
+						"name": "Armenia(亞美尼亞)",
+						"code": "AM"
+					},
+					{
+						"name": "Aruba(阿魯巴)",
+						"code": "AW"
+					},
+					{
+						"name": "Australia(澳洲)",
+						"code": "AU"
+					},
+					{
+						"name": "Austria(奥地利)",
+						"code": "AT"
+					},
+					{
+						"name": "Azerbaijan(亞塞拜然)",
+						"code": "AZ"
+					},
+					{
+						"name": "Bahamas(巴哈馬)",
+						"code": "BS"
+					},
+					{
+						"name": "Bahrain(巴林)",
+						"code": "BH"
+					},
+					{
+						"name": "Bangladesh(孟加拉)",
+						"code": "BD"
+					},
+					{
+						"name": "Barbados(巴貝多)",
+						"code": "BB"
+					},
+					{
+						"name": "Belarus(白俄羅斯)",
+						"code": "BY"
+					},
+					{
+						"name": "Belgium(比利時)",
+						"code": "BE"
+					},
+					{
+						"name": "Belize(貝里斯)",
+						"code": "BZ"
+					},
+					{
+						"name": "Benin(貝南)",
+						"code": "BJ"
+					},
+					{
+						"name": "Bermuda(百慕達)",
+						"code": "BM"
+					},
+					{
+						"name": "Bhutan(不丹)",
+						"code": "BT"
+					},
+					{
+						"name": "Bolivia(玻利維亞)",
+						"code": "BO"
+					},
+					{
+						"name": "Bosnia and Herzegovina(波士尼亞與赫塞哥維納)",
+						"code": "BA"
+					},
+					{
+						"name": "Botswana(波札那)",
+						"code": "BW"
+					},
+					{
+						"name": "Brazil(巴西)",
+						"code": "BR"
+					},
+					{
+						"name": "Brunei(汶萊)",
+						"code": "BN"
+					},
+					{
+						"name": "Bulgaria(保加利亞)",
+						"code": "BG"
+					},
+					{
+						"name": "Burkina Faso(布吉納法索)",
+						"code": "BF"
+					},
+					{
+						"name": "Burundi(蒲隆地)",
+						"code": "BI"
+					},
+					{
+						"name": "Cambodia(柬埔寨)",
+						"code": "KH"
+					},
+					{
+						"name": "Cameroon(喀麥隆)",
+						"code": "CM"
+					},
+					{
+						"name": "Canada(加拿大)",
+						"code": "CA"
+					},
+					{
+						"name": "Central African Republic(中非共和國)",
+						"code": "CF"
+					},
+					{
+						"name": "Chad(查德)",
+						"code": "TD"
+					},
+					{
+						"name": "Chile(智利)",
+						"code": "CL"
+					},
+					{
+						"name": "China(中國)",
+						"code": "CN"
+					},
+					{
+						"name": "Christmas Island(聖誕島)",
+						"code": "CX"
+					},
+					{
+						"name": "Colombia(哥倫比亞)",
+						"code": "CO"
+					},
+					{
+						"name": "Comoros(葛摩)",
+						"code": "KM"
+					},
+					{
+						"name": "Cook Islands(庫克群島)",
+						"code": "CK"
+					},
+					{
+						"name": "Costa Rica(哥斯大黎加)",
+						"code": "CR"
+					},
+					{
+						"name": "Côte dIvoire(科特迪瓦(象牙海岸))",
+						"code": "CI"
+					},
+					{
+						"name": "Croatia(克羅埃西亞)",
+						"code": "HR"
+					},
+					{
+						"name": "Cuba(古巴)",
+						"code": "CU"
+					},
+					{
+						"name": "Cyprus(賽普勒斯)",
+						"code": "CY"
+					},
+					{
+						"name": "Czech Republic(捷克共和國)",
+						"code": "CZ"
+					},
+					{
+						"name": "Denmark(丹麥)",
+						"code": "DK"
+					},
+					{
+						"name": "Djibouti(吉布地)",
+						"code": "DJ"
+					},
+					{
+						"name": "Dominica(多明尼加共和國)",
+						"code": "DM"
+					},
+					{
+						"name": "Dominican Republic(多明尼加共和國)",
+						"code": "DO"
+					},
+					{
+						"name": "Ecuador(厄瓜多)",
+						"code": "EC"
+					},
+					{
+						"name": "Egypt(埃及)",
+						"code": "EG"
+					},
+					{
+						"name": "El Salvador(薩爾瓦多)",
+						"code": "SV"
+					},
+					{
+						"name": "Estonia(愛沙尼亞)",
+						"code": "EE"
+					},
+					{
+						"name": "Ethiopia(衣索比亞)",
+						"code": "ET"
+					},
+					{
+						"name": "Falkland Islands(英屬福克蘭群島)",
+						"code": "FK"
+					},
+					{
+						"name": "Federal Republic of Somalia(索馬利亞聯邦共和國)",
+						"code": "SO"
+					},
+					{
+						"name": "Fiji(斐濟)",
+						"code": "FJ"
+					},
+					{
+						"name": "Finland(芬蘭)",
+						"code": "FI"
+					},
+					{
+						"name": "France(法國)",
+						"code": "FR"
+					},
+					{
+						"name": "French Guiana(法屬圭亞那)",
+						"code": "GF"
+					},
+					{
+						"name": "French Polynesia(法屬玻里尼西亞)",
+						"code": "PF"
+					},
+					{
+						"name": "Gabon(加彭)",
+						"code": "GA"
+					},
+					{
+						"name": "Gambia(甘比亞)",
+						"code": "GM"
+					},
+					{
+						"name": "Georgia(喬治亞)",
+						"code": "GE"
+					},
+					{
+						"name": "Germany(德國)",
+						"code": "DE"
+					},
+					{
+						"name": "Ghana(迦納)",
+						"code": "GH"
+					},
+					{
+						"name": "Gibraltar(直布羅陀)",
+						"code": "GI"
+					},
+					{
+						"name": "Greece(希臘)",
+						"code": "GR"
+					},
+					{
+						"name": "Greenland(格陵蘭)",
+						"code": "GL"
+					},
+					{
+						"name": "Grenada(格瑞那達)",
+						"code": "GD"
+					},
+					{
+						"name": "Guam(關島)",
+						"code": "GU"
+					},
+					{
+						"name": "Guatemala(瓜地馬拉)",
+						"code": "GT"
+					},
+					{
+						"name": "Guinea(幾內亞)",
+						"code": "GN"
+					},
+					{
+						"name": "Guyana(蓋亞那)",
+						"code": "GY"
+					},
+					{
+						"name": "Haiti(海地)",
+						"code": "HT"
+					},
+					{
+						"name": "Vatican City, Holy See(梵諦岡(教廷))",
+						"code": "VA"
+					},
+					{
+						"name": "Honduras(宏都拉斯)",
+						"code": "HN"
+					},
+					{
+						"name": "Hong Kong(香港)",
+						"code": "HK"
+					},
+					{
+						"name": "Hungary(匈牙利)",
+						"code": "HU"
+					},
+					{
+						"name": "Iceland(冰島)",
+						"code": "IS"
+					},
+					{
+						"name": "India(印度)",
+						"code": "IN"
+					},
+					{
+						"name": "Indonesia(印尼)",
+						"code": "ID"
+					},
+					{
+						"name": "Iran(伊朗)",
+						"code": "IR"
+					},
+					{
+						"name": "Iraq(伊拉克)",
+						"code": "IQ"
+					},
+					{
+						"name": "Ireland(愛爾蘭)",
+						"code": "IE"
+					},
+					{
+						"name": "Israel(以色列)",
+						"code": "IL"
+					},
+					{
+						"name": "Italy(義大利)",
+						"code": "IT"
+					},
+					{
+						"name": "Jamaica(牙買加)",
+						"code": "JM"
+					},
+					{
+						"name": "Japan(日本)",
+						"code": "JP"
+					},
+					{
+						"name": "Jordan(約旦)",
+						"code": "JO"
+					},
+					{
+						"name": "Kazakhstan(哈薩克)",
+						"code": "KZ"
+					},
+					{
+						"name": "Kenya(肯亞)",
+						"code": "KE"
+					},
+					{
+						"name": "Kuwait(科威特)",
+						"code": "KW"
+					},
+					{
+						"name": "Kyrgyzstan(吉爾吉斯坦)",
+						"code": "KG"
+					},
+					{
+						"name": "Laos(寮國)",
+						"code": "LA"
+					},
+					{
+						"name": "Latvia(拉脫維亞)",
+						"code": "LV"
+					},
+					{
+						"name": "Lebanon(黎巴嫩)",
+						"code": "LB"
+					},
+					{
+						"name": "Lesotho(賴索托)",
+						"code": "LS"
+					},
+					{
+						"name": "Liberia(賴比瑞亞)",
+						"code": "LR"
+					},
+					{
+						"name": "Libya(利比亞)",
+						"code": "LY"
+					},
+					{
+						"name": "Liechtenstein(列支敦斯登)",
+						"code": "LI"
+					},
+					{
+						"name": "Lithuania(立陶宛)",
+						"code": "LT"
+					},
+					{
+						"name": "Luxembourg(盧森堡)",
+						"code": "LU"
+					},
+					{
+						"name": "Macau(澳門)",
+						"code": "MO"
+					},
+					{
+						"name": "Macedonia(馬其頓)",
+						"code": "MK"
+					},
+					{
+						"name": "Madagascar(馬達加斯加)",
+						"code": "MG"
+					},
+					{
+						"name": "Malawi(馬拉威)",
+						"code": "MW"
+					},
+					{
+						"name": "Malaysia(馬來西亞)",
+						"code": "MY"
+					},
+					{
+						"name": "Maldives(馬爾地夫)",
+						"code": "MV"
+					},
+					{
+						"name": "Mali(馬利)",
+						"code": "ML"
+					},
+					{
+						"name": "Malta(馬爾他)",
+						"code": "MT"
+					},
+					{
+						"name": "Mauritius(模里西斯)",
+						"code": "MU"
+					},
+					{
+						"name": "Mexico(墨西哥)",
+						"code": "MX"
+					},
+					{
+						"name": "Moldova(摩爾多瓦)",
+						"code": "MD"
+					},
+					{
+						"name": "Monaco(摩納哥)",
+						"code": "MC"
+					},
+					{
+						"name": "Mongolia(蒙古)",
+						"code": "MN"
+					},
+					{
+						"name": "Montenegro(蒙特內哥羅)",
+						"code": "ME"
+					},
+					{
+						"name": "Montserrat(蒙塞拉特)",
+						"code": "MS"
+					},
+					{
+						"name": "Morocco(摩洛哥)",
+						"code": "MA"
+					},
+					{
+						"name": "Mozambique(莫三比克)",
+						"code": "MZ"
+					},
+					{
+						"name": "Myanmar(緬甸)",
+						"code": "MM"
+					},
+					{
+						"name": "Namibia(那米比亞)",
+						"code": "NA"
+					},
+					{
+						"name": "Nauru(諾魯)",
+						"code": "NR"
+					},
+					{
+						"name": "Nepal(尼泊爾)",
+						"code": "NP"
+					},
+					{
+						"name": "Netherlands(荷蘭)",
+						"code": "NL"
+					},
+					{
+						"name": "New Zealand(紐西蘭)",
+						"code": "NZ"
+					},
+					{
+						"name": "Nicaragua(尼加拉瓜)",
+						"code": "NI"
+					},
+					{
+						"name": "Niger(尼日)",
+						"code": "NE"
+					},
+					{
+						"name": "Nigeria(奈及利亞)",
+						"code": "NG"
+					},
+					{
+						"name": "Northern Mariana Islands(北馬里安納群島)",
+						"code": "MP"
+					},
+					{
+						"name": "North Korea(北韓)",
+						"code": "KP"
+					},
+					{
+						"name": "Norway(挪威)",
+						"code": "NO"
+					},
+					{
+						"name": "Oman(阿曼)",
+						"code": "OM"
+					},
+					{
+						"name": "Pakistan(巴基斯坦)",
+						"code": "PK"
+					},
+					{
+						"name": "Panama(巴拿馬)",
+						"code": "PA"
+					},
+					{
+						"name": "Papua New Guinea(巴布亞紐幾內亞)",
+						"code": "PG"
+					},
+					{
+						"name": "Paraguay(巴拉圭)",
+						"code": "PY"
+					},
+					{
+						"name": "Peru(秘魯)",
+						"code": "PE"
+					},
+					{
+						"name": "Philippines(菲律賓)",
+						"code": "PH"
+					},
+					{
+						"name": "Poland(波蘭)",
+						"code": "PL"
+					},
+					{
+						"name": "Portugal(葡萄牙)",
+						"code": "PT"
+					},
+					{
+						"name": "Puerto Rico(波多黎各)",
+						"code": "PR"
+					},
+					{
+						"name": "Qatar(卡達)",
+						"code": "QA"
+					},
+					{
+						"name": "Republic of Palau(帛琉)",
+						"code": "PW"
+					},
+					{
+						"name": "Republic of the Congo(剛果共和國)",
+						"code": "CG"
+					},
+					{
+						"name": "Réunion(留尼旺)",
+						"code": "RE"
+					},
+					{
+						"name": "Romania(羅馬尼亞)",
+						"code": "RO"
+					},
+					{
+						"name": "Russia(俄羅斯)",
+						"code": "RU"
+					},
+					{
+						"name": "Rwanda(盧安達)",
+						"code": "RW"
+					},
+					{
+						"name": "San Marino(聖馬里諾)",
+						"code": "SM"
+					},
+					{
+						"name": "Sao Tome and Principe(聖多美普林西比)",
+						"code": "ST"
+					},
+					{
+						"name": "Saudi Arabia(沙烏地阿拉伯)",
+						"code": "SA"
+					},
+					{
+						"name": "Senegal(塞內加爾)",
+						"code": "SN"
+					},
+					{
+						"name": "Serbia(塞爾維亞)",
+						"code": "RS"
+					},
+					{
+						"name": "Seychelles(塞席爾)",
+						"code": "SC"
+					},
+					{
+						"name": "Sierra Leone(獅子山)",
+						"code": "SL"
+					},
+					{
+						"name": "Singapore(新加坡)",
+						"code": "SG"
+					},
+					{
+						"name": "Slovakia(斯洛伐克)",
+						"code": "SK"
+					},
+					{
+						"name": "Slovenia(斯洛維尼亞)",
+						"code": "SI"
+					},
+					{
+						"name": "Solomon Islands(索羅門群島)",
+						"code": "SB"
+					},
+					{
+						"name": "South Africa(南非)",
+						"code": "ZA"
+					},
+					{
+						"name": "South Korea(南韓)",
+						"code": "KR"
+					},
+					{
+						"name": "Spain(西班牙)",
+						"code": "ES"
+					},
+					{
+						"name": "Sri Lanka(斯里蘭卡)",
+						"code": "LK"
+					},
+					{
+						"name": "St. Lucia(聖露西亞)",
+						"code": "LC"
+					},
+					{
+						"name": "St. Vincent and the Grenadines(聖文森及格瑞那丁)",
+						"code": "VC"
+					},
+					{
+						"name": "Sudan(蘇丹)",
+						"code": "SD"
+					},
+					{
+						"name": "Suriname(蘇利南)",
+						"code": "SR"
+					},
+					{
+						"name": "Swaziland(史瓦濟蘭)",
+						"code": "SZ"
+					},
+					{
+						"name": "Sweden(瑞典)",
+						"code": "SE"
+					},
+					{
+						"name": "Switzerland(瑞士)",
+						"code": "CH"
+					},
+					{
+						"name": "Syria(希利亞)",
+						"code": "SY"
+					},
+					{
+						"name": "Taiwan(台灣)",
+						"code": "TW"
+					},
+					{
+						"name": "Tajikistan(塔吉克)",
+						"code": "TJ"
+					},
+					{
+						"name": "Tanzania(坦尚尼亞)",
+						"code": "TZ"
+					},
+					{
+						"name": "Thailand(泰國)",
+						"code": "TH"
+					},
+					{
+						"name": "Togo(多哥)",
+						"code": "TG"
+					},
+					{
+						"name": "Tonga(東加)",
+						"code": "TO"
+					},
+					{
+						"name": "Trinidad and Tobago(千里達及托巴哥)",
+						"code": "TT"
+					},
+					{
+						"name": "Tunisia(突尼西亞)",
+						"code": "TN"
+					},
+					{
+						"name": "Turkey(土耳其)",
+						"code": "TR"
+					},
+					{
+						"name": "Turkmenistan(土庫曼)",
+						"code": "TM"
+					},
+					{
+						"name": "Uganda(烏干達)",
+						"code": "UG"
+					},
+					{
+						"name": "Ukraine(烏克蘭)",
+						"code": "UA"
+					},
+					{
+						"name": "United Arab Emirates(阿拉伯聯合大公國)",
+						"code": "AE"
+					},
+					{
+						"name": "United Kingdom(英國)",
+						"code": "GB"
+					},
+					{
+						"name": "United States of America(美國)",
+						"code": "US"
+					},
+					{
+						"name": "Uruguay(烏拉圭)",
+						"code": "UY"
+					},
+					{
+						"name": "Uzbekistan(烏茲別克)",
+						"code": "UZ"
+					},
+					{
+						"name": "Venezuela(委內瑞拉)",
+						"code": "VE"
+					},
+					{
+						"name": "Vietnam(越南)",
+						"code": "VN"
+					},
+					{
+						"name": "Yemen(葉門)",
+						"code": "YE"
+					},
+					{
+						"name": "Zambia(尚比亞)",
+						"code": "ZM"
+					},
+					{
+						"name": "Zimbabwe(辛巴威)",
+						"code": "ZW"
+					}
+				]
+			},
+			"id_no": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_perParticipant": "True",
+				"type": "string"
+			},
+			"passport_no": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_perParticipant": "True",
+				"type": "string"
+			},
+			"birth": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_perParticipant": "True",
+				"type": "date"
+			}
+		},
+		"traffic": {
+			"car": {
+				"traffic_type": {
+					"is_require": "True",
+					"type": "array",
+					"list_option": [
+						"pickup_04"
+					]
+				},
+				"location_list": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_pickup_used": "True",
+					"type": "list",
+					"list_option": [
+						{
+							"traffic_type": "pickup_04",
+							"s_time": "07:00",
+							"e_time": "10:00"
+						}
+					]
+				},
+				"s_location": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_pickup_used": "True",
+					"type": "string"
+				},
+				"e_location": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_pickup_used": "True",
+					"type": "string"
+				},
+				"s_date": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_pickup_used": "True",
+					"type": "string"
+				},
+				"s_time": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_pickup_used": "True",
+					"ref_source": "location_list",
+					"type": "string"
+				},
+				"time_list": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_pickup_used": "True",
+					"type": "list",
+					"list_option": [
+						{
+							"time_range": "7:0~10:0"
+						}
+					]
+				}
+			},
+			"qty": {
+				"traffic_type": {
+					"is_require": "True",
+					"type": "array",
+					"list_option": [
+						"psg_qty"
+					]
+				},
+				"CarPsg_adult": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_pickup_used": "True",
+					"type": "string"
+				},
+				"CarPsg_child": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_pickup_used": "True",
+					"type": "string"
+				},
+				"SafetySeat_sup_child": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_pickup_used": "True",
+					"type": "string"
+				},
+				"SafetySeat_self_child": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_pickup_used": "True",
+					"type": "string"
+				},
+				"Luggage_carry": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_pickup_used": "True",
+					"type": "string"
+				},
+				"Luggage_check": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_pickup_used": "True",
+					"type": "string"
+				}
+			}
+		},
+		"ref_pkg": {
+			"316271": {
+				"custom": {
+					"cus_type": [
+						"cus_02",
+						"contact"
+					]
+				},
+				"traffic": {
+					"traffic_type": [
+						"qty",
+						"pickup_04"
+					],
+					"s_time": "True",
+					"s_location": "True",
+					"e_location": "True"
+				}
+			}
+		}
+	}
+}

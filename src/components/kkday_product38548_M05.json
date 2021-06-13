@@ -1,0 +1,505 @@
+{
+	"result": "00",
+	"result_msg": "OK",
+	"prod_marketing": {
+		"CN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"HK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"ID": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"JP": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"KK": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"KR": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"MY": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"PH": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"SG": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"TH": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"TW": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"VN": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		}
+	},
+	"prod": {
+		"is_tour": true,
+		"timezone": "Asia/Taipei",
+		"guide_lang_list": [],
+		"voice_guide_lang": [],
+		"confirm_order_time": true,
+		"online_s_date": "2021-06-10",
+		"online_e_date": "2021-12-25",
+		"img_list": [
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20200313034412_FfcVh/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20200312091531_pxeQx/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20200312091710_u9LOh/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20200312091716_8vDSH/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20200312091954_iUkad/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20200312091718_1CJvc/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20200312091951_2gOBt/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20200312091720_h8DWq/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20200312091723_sdWgQ/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20200312091714_OK4yD/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20200312091726_4CJgw/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20200312091957_jOdhd/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20200312091959_gTt2e/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20200312092001_T7cUO/jpg"
+		],
+		"video_list": [],
+		"prod_comment_info": {
+			"avg_scores": "5",
+			"total_scores": "5",
+			"click_count": "0",
+			"comment_record": "1"
+		},
+		"go_date_setting": {
+			"type": "01"
+		},
+		"is_cancel_free": false,
+		"description_module": {
+			"PMDL_EXCHANGE": {
+				"module_title": "憑證使用方式",
+				"content": {
+					"properties": {
+						"exchange_type": {
+							"desc": "現場請出示電子憑證",
+							"title": "使用方式"
+						}
+					}
+				}
+			},
+			"PMDL_INC_NINC": {
+				"module_title": "費用包含/不包含",
+				"content": {
+					"properties": {
+						"include_item": {
+							"list": [
+								{
+									"desc": "所選套餐內容"
+								},
+								{
+									"desc": "10 %服務費"
+								}
+							],
+							"title": "費用包含"
+						},
+						"not_include_item": {
+							"list": [
+								{
+									"desc": "其他未提及之費用"
+								}
+							],
+							"title": "費用不包含"
+						}
+					}
+				}
+			},
+			"PMDL_USE_VALID": {
+				"module_title": "使用期限",
+				"content": {
+					"properties": {
+						"exchange": {
+							"desc": "指定使用效期區間 2021-03-18 ~ 2021-12-31 逾期無效"
+						}
+					}
+				}
+			},
+			"PMDL_REFUND_POLICY": {
+				"module_title": "取消政策",
+				"content": {
+					"properties": {
+						"policy_type": {
+							"desc": "取消訂單，將收取所有實際產生費用",
+							"title": "手續費收取方式"
+						}
+					}
+				}
+			},
+			"PMDL_NOTICE": {
+				"module_title": "注意事項",
+				"content": {
+					"properties": {
+						"cust_reminds": {
+							"list": [
+								{
+									"desc": "菜色內容依季節時令調整，實際菜色依現場提供為主"
+								},
+								{
+									"desc": "請提前完成預約，並告知使用本憑證，預約電話：03-515-1111 #3461"
+								}
+							]
+						}
+					}
+				}
+			},
+			"PMDL_GRAPHIC": {
+				"module_title": "圖文介紹",
+				"content": {
+					"list": [
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20210527075005_oC3aD/jpg"
+								}
+							],
+							"desc": "防疫期間首選，安心店家認證"
+						}
+					]
+				}
+			},
+			"PMDL_SCHEDULE": {
+				"module_title": "行程介紹",
+				"content": {
+					"properties": {
+						"total_day": {
+							"desc": "1天",
+							"title": "行程時間"
+						},
+						"schedule_list": {
+							"list": [
+								{
+									"daily_title": {
+										"desc": "第1天"
+									},
+									"daily_schedule_list": {
+										"table_key_langs": {
+											"time": "活動時間",
+											"content": "活動內容",
+											"media": "活動圖片"
+										},
+										"list": [
+											{
+												"content": {
+													"desc": "八方燴西餐廳，位於新竹國賓大飯店12樓，擁有挑高3層樓的氣派中庭。透過大面落地窗而灑落的自然採光，讓整座餐廳籠罩在和煦的陽光中"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20200312091531_pxeQx/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "透過各式開放式自助餐台，盡情享用中西日式的豐盛美食佳餚"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20200312091710_u9LOh/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "眾多區塊任您選擇：主廚推薦區、熱食區、冷盤區、甜點區、冰品/飲品/水果區等，選用新鮮食材呈現精緻美饌組合"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20200313033513_NmFx7/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "八方燴西餐廳的甜點區有各式各樣誘人的甜點水果，不妨小小放縱一下吧"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20200312091726_4CJgw/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "人氣第一的哈根達斯冰淇淋，飽餐後的冰涼驚喜"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_38548/20200312091714_OK4yD/jpg"
+														}
+													]
+												}
+											}
+										]
+									}
+								}
+							],
+							"table_key_langs": {
+								"meals": "當天餐點",
+								"daily_schedule_list": "當天行程內容"
+							},
+							"title": "行程內容"
+						}
+					}
+				}
+			},
+			"PMDL_HOWTO_SUMMARY": {
+				"module_title": "如何使用",
+				"content": {
+					"desc": "<ul><li>請提前完成預約，並告知使用本憑證，預約電話：03-515-1111 #3461</li></ul>"
+				}
+			},
+			"PMDL_PURCHASE_SUMMARY": {
+				"module_title": "購買須知",
+				"content": {
+					"desc": "<ul><li>旅客用餐期間免費停車</li><li>如無依規定提前預約，店家有權不接受兌換<br></li><li>憑證不限本人使用，使用時店家將會核對，一組限用一次</li><li>特殊節日不適用：除夕新春期間 (2021/2/10-2/16)、西洋情人節(2021/2/14)、母親節周末假期(2021/5/8-5/9)、七夕情人節(2021/8/14)及聖誕節(2021/12/24)及餐廳特殊主題活動等均不適用</li><li>外帶、餐後打包及打包費用等事宜請直接與店家協商</li><li>本餐券不得與其他優惠合併使用，且恕無法兌換現金</li></ul>"
+				}
+			},
+			"PMDL_INTRODUCE_SUMMARY": {
+				"module_title": "商品說明",
+				"content": {
+					"desc": "<p>－ 店家資訊 －<br><br>・餐廳名稱：新竹國賓八方燴西餐廳<br>・餐廳電話：(03 ) 5151111 # 3461<br>・餐廳地址：新竹市東區中華路二段188號12樓<br>・開放時間：<br>　- 午餐時段：11 : 30 - 14 : 00<br>　- 下午茶時段：14 : 30 - 16 : 30<br>　- 晚餐時段：17 : 30 - 21 : 00<br><br><br><br>－ 使用說明 －<br><br>・如何抵達：距離高鐵新竹站車程約15分鐘，請參考<a href=\"https://reurl.cc/mnnjk9\">新竹國賓大飯店官網</a><br>・使用規定：<br> - 限內用<br> - 每人每次限用一張，恕無法與他人併用一張憑證<br> - 請提前預約完成，並告知使用本憑證，如無依規定提前預約，店家有權不接受兌換<br></p>"
+				}
+			},
+			"PMDL_EXPERIENCE_LOCATION": {
+				"module_title": "體驗地點",
+				"content": {
+					"list": [
+						{
+							"active_time_desc": {
+								"desc": "<ul><li>午餐時段：11 : 30 - 14 : 00&nbsp;</li><li>下午茶時段：14 : 30 - 16 : 30</li><li>晚餐時段：17 : 30 - 21 : 00</li></ul>"
+							},
+							"location_name": {
+								"desc": "體驗地點"
+							},
+							"latlng": {
+								"latitude": "24.8064019",
+								"longitude": "120.978266",
+								"place_id": "ChIJR_o5Y9s1aDQRrEDZF6tSzeU",
+								"map_snap_url": "s1.kkday.com/product_38548_location/20200312092311_pSQGj/png",
+								"zoom_lv": "16",
+								"desc": "八方燴西餐廳"
+							}
+						}
+					],
+					"table_key_langs": {
+						"location_name": "地點名稱",
+						"latlng": "地址",
+						"photo": "地點圖片",
+						"video": "地點影片",
+						"active_time": "開放時間",
+						"active_time_desc": "開放時間說明",
+						"arrival_desc": "如何抵達"
+					}
+				}
+			}
+		},
+		"prod_no": 38548,
+		"prod_url_no": 38548,
+		"prod_name": "【防疫首選安心店家】【享樂券】新竹飯店吃到飽｜國賓大飯店－八方燴西餐廳餐券 (需電話預約）",
+		"prod_type": "M05",
+		"tag": [
+			"TAG_3_2"
+		],
+		"b2c_min_price": 600.0,
+		"b2b_min_price": 575.0,
+		"instant_booking": true,
+		"order_count": 4,
+		"days": 0,
+		"hours": 2,
+		"duration": 0,
+		"introduction": "透過KKday訂購新竹國賓大飯店－八方燴西餐廳餐券，輕鬆享受市中心唯一的五星級飯店吃到飽！距離新竹科學園區和高鐵新竹站，車程僅需要15分鐘。供應中西日式多種佳餚的自助式午餐、下午茶及晚餐吃到飽，快來體驗多國風味美饌盛宴吧！",
+		"cities": [
+			{
+				"city_code": "A01-001-00009",
+				"country_code": "A01-001",
+				"name": "台灣,新竹"
+			}
+		],
+		"b2c_price": 1200.0,
+		"b2b_price": 575.0,
+		"prod_currency": "TWD"
+	},
+	"pkg": [
+		{
+			"pkg_no": 300348,
+			"pkg_name": "【假日午、晚餐】單人自助吃到飽餐券",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "2",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 1,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "11:29",
+			"b2c_min_price": 1200.0,
+			"b2b_min_price": 1151.0,
+			"item_no": [
+				44705
+			],
+			"sale_s_date": "2021-06-12",
+			"sale_e_date": "2021-12-25",
+			"description_module": {}
+		},
+		{
+			"pkg_no": 151257,
+			"pkg_name": "【假日下午茶】單人自助吃到飽餐券",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "2",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 1,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "11:29",
+			"b2c_min_price": 700.0,
+			"b2b_min_price": 671.0,
+			"item_no": [
+				12945
+			],
+			"sale_s_date": "2021-06-12",
+			"sale_e_date": "2021-12-25",
+			"description_module": {}
+		},
+		{
+			"pkg_no": 300349,
+			"pkg_name": "【平日午餐】單人自助吃到飽餐券",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "2",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 1,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "11:29",
+			"b2c_min_price": 880.0,
+			"b2b_min_price": 844.0,
+			"item_no": [
+				44706
+			],
+			"sale_s_date": "2021-06-10",
+			"sale_e_date": "2021-12-23",
+			"description_module": {}
+		},
+		{
+			"pkg_no": 151261,
+			"pkg_name": "【平日下午茶】單人自助吃到飽餐券",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "2",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 1,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "11:29",
+			"b2c_min_price": 600.0,
+			"b2b_min_price": 575.0,
+			"item_no": [
+				12948
+			],
+			"sale_s_date": "2021-06-10",
+			"sale_e_date": "2021-12-23",
+			"description_module": {}
+		},
+		{
+			"pkg_no": 300350,
+			"pkg_name": "【平日晚餐】單人自助吃到飽餐券",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "2",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 1,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "11:29",
+			"b2c_min_price": 1020.0,
+			"b2b_min_price": 978.0,
+			"item_no": [
+				44707
+			],
+			"sale_s_date": "2021-06-10",
+			"sale_e_date": "2021-12-23",
+			"description_module": {}
+		}
+	],
+	"booking_field": {
+		"prod_no": "38548",
+		"ref_pkg": {
+			"151261": {},
+			"300350": {},
+			"300349": {},
+			"151257": {},
+			"300348": {}
+		}
+	}
+}

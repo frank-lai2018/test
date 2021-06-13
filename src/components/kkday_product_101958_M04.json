@@ -1,0 +1,261 @@
+{
+	"result": "00",
+	"result_msg": "OK",
+	"prod_marketing": {
+		"TW": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"HK": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"CN": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"MY": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"SG": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"ID": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"PH": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"KK": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"JP": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"KR": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"TH": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"VN": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		}
+	},
+	"prod": {
+		"is_tour": false,
+		"timezone": "Asia/Taipei",
+		"guide_lang_list": [],
+		"voice_guide_lang": [],
+		"confirm_order_time": true,
+		"online_s_date": "2021-06-10",
+		"online_e_date": "2021-09-30",
+		"img_list": [
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_101958/20201216082921_K34ZB/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_101958/20200801152405_ClSTH/jpg"
+		],
+		"video_list": [
+			"https://www.youtube.com/embed/https://www.youtube.com/watch?v=n9Gu72nAZbU"
+		],
+		"prod_comment_info": {
+			"avg_scores": "4.5",
+			"total_scores": "9",
+			"click_count": "0",
+			"comment_record": "2"
+		},
+		"go_date_setting": {
+			"type": "01"
+		},
+		"is_cancel_free": false,
+		"description_module": {
+			"PMDL_EXCHANGE": {
+				"module_title": "憑證使用方式",
+				"content": {
+					"properties": {
+						"exchange_type": {
+							"desc": "現場請出示 QR code",
+							"title": "使用方式"
+						},
+						"description": {
+							"desc": "在桃園捷運指定車站兌換實體一日票"
+						}
+					}
+				}
+			},
+			"PMDL_USE_VALID": {
+				"module_title": "使用期限",
+				"content": {
+					"properties": {
+						"exchange": {
+							"desc": "指定使用效期 2021-09-30 之前使用有效，逾期無效"
+						},
+						"expired": {
+							"desc": "第一次使用後 1 天之內有效，逾期無效"
+						}
+					}
+				}
+			},
+			"PMDL_REFUND_POLICY": {
+				"module_title": "取消政策",
+				"content": {
+					"properties": {
+						"policy_type": {
+							"desc": "免費取消！",
+							"title": "手續費收取方式"
+						}
+					}
+				}
+			},
+			"PMDL_EXCHANGE_VALID": {
+				"module_title": "憑證兌換期限",
+				"content": {
+					"properties": {
+						"exchange": {
+							"desc": "指定兌換效期 2021-09-30 之前兌換有效，逾期無效"
+						}
+					}
+				}
+			},
+			"PMDL_GRAPHIC": {
+				"module_title": "圖文介紹",
+				"content": {
+					"list": [
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_101958/20200801154638_BDDL7/jpg"
+								}
+							],
+							"desc": "桃園捷運路線圖"
+						}
+					]
+				}
+			},
+			"PMDL_HOWTO_SUMMARY": {
+				"module_title": "如何使用",
+				"content": {
+					"desc": "<ul><li>請於2021/09/30前完成啟用(一經感應車站閘門口即啟用)，啟用後於當日營運結束前可不限區間、不限次數、不限車種搭乘。</li><li>訂單經各站詢問處核銷取卡後，恕無法退票、退款</li><li>本活動一日票不含押金且無加值功能，票卡如遺失或毀損將無法掛失或補發。</li></ul>"
+				}
+			},
+			"PMDL_INTRODUCE_SUMMARY": {
+				"module_title": "商品說明",
+				"content": {
+					"desc": "<p>－ 方案介紹 －</p><ul><li>兌換站點<br>-請至桃園捷運全線詢問處，出示 KKday 電子憑證，即可兌換實體票券<br>-各站營業時間請參考<a href=\"https://www.tymetro.com.tw/tymetro-new/tw/_pages/travel-guide/a1\" style=\"background-color: rgb(255, 255, 255);\">官方網站</a><br></li><li>各站時刻表查詢，請查閱<a href=\"https://www.tymetro.com.tw/tymetro-new/tw/_pages/travel-guide/timetable-A1\">官方網站</a></li></ul>"
+				}
+			}
+		},
+		"prod_no": 101958,
+		"prod_url_no": 101958,
+		"prod_name": "台灣桃園｜KKday獨家販售桃園捷運一日票",
+		"prod_type": "M04",
+		"tag": [
+			"TAG_5_1"
+		],
+		"b2c_min_price": 320.0,
+		"b2b_min_price": 310.0,
+		"instant_booking": true,
+		"order_count": 73,
+		"days": 0,
+		"hours": 0,
+		"duration": 0,
+		"introduction": "憑KKday憑證至桃園捷運指定站點兌換實體一日票，即可在當日營運時間內不限次數與里程搭乘桃園捷運，優惠期間，數量有限售完為止。",
+		"cities": [
+			{
+				"city_code": "A01-001-00008",
+				"country_code": "A01-001",
+				"name": "台灣,桃園"
+			},
+			{
+				"city_code": "A01-001-00001",
+				"country_code": "A01-001",
+				"name": "台灣,台北"
+			}
+		],
+		"b2c_price": 320.0,
+		"b2b_price": 310.0,
+		"prod_currency": "TWD"
+	},
+	"pkg": [
+		{
+			"pkg_no": 307986,
+			"pkg_name": "桃園捷運一日票",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "1",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 0,
+			"lead_day_unit": "h",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "23:59",
+			"b2c_min_price": 320.0,
+			"b2b_min_price": 310.0,
+			"item_no": [
+				53763
+			],
+			"sale_s_date": "2021-06-10",
+			"sale_e_date": "2021-09-30",
+			"description_module": {}
+		}
+	],
+	"booking_field": {
+		"prod_no": "101958",
+		"custom": {
+			"cus_type": {
+				"is_require": "True",
+				"is_lead_used": "True",
+				"type": "array",
+				"list_option": [
+					"cus_01"
+				]
+			},
+			"native_last_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_lead_used": "True",
+				"type": "string"
+			},
+			"native_first_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_lead_used": "True",
+				"type": "string"
+			}
+		},
+		"ref_pkg": {
+			"307986": {
+				"custom": {
+					"cus_type": [
+						"cus_01"
+					]
+				}
+			}
+		}
+	}
+}

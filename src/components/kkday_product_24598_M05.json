@@ -1,0 +1,739 @@
+{
+	"result": "00",
+	"result_msg": "OK",
+	"prod_marketing": {
+		"CN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"HK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"ID": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"JP": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KR": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"MY": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"PH": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"SG": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"TH": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"TW": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"VN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		}
+	},
+	"prod": {
+		"is_tour": false,
+		"timezone": "Asia/Taipei",
+		"guide_lang_list": [],
+		"voice_guide_lang": [],
+		"confirm_order_time": true,
+		"online_s_date": "2021-06-17",
+		"online_e_date": "2022-02-06",
+		"img_list": [
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_24598/20210514065854_00IP4/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_24598/20190530044405_e1sh3/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_24598/20190530044417_h48go/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_24598/20190530044421_wKAyT/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_24598/20190530044431_ErMbv/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_24598/20190530044436_sFB0e/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_24598/20190530044447_JRZEj/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_24598/20190530044919_W0zi5/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_24598/20190530044429_deyv8/jpg"
+		],
+		"video_list": [
+			"https://www.youtube.com/embed/VUbP5pAzp50"
+		],
+		"prod_comment_info": {
+			"avg_scores": "4.89",
+			"total_scores": "6025",
+			"click_count": "0",
+			"comment_record": "1233"
+		},
+		"go_date_setting": {
+			"type": "01"
+		},
+		"is_cancel_free": false,
+		"description_module": {
+			"PMDL_EXCHANGE": {
+				"module_title": "憑證使用方式",
+				"content": {
+					"properties": {
+						"exchange_type": {
+							"desc": "電子憑證將寄送至 Email 信箱，請於指定地點兌換成實體票券",
+							"title": "使用方式"
+						}
+					}
+				}
+			},
+			"PMDL_INC_NINC": {
+				"module_title": "費用包含/不包含",
+				"content": {
+					"properties": {
+						"include_item": {
+							"list": [
+								{
+									"desc": "門票"
+								}
+							],
+							"title": "費用包含"
+						}
+					}
+				}
+			},
+			"PMDL_REFUND_POLICY": {
+				"module_title": "取消政策",
+				"content": {
+					"properties": {
+						"policy_type": {
+							"desc": "免費取消！",
+							"title": "手續費收取方式"
+						}
+					}
+				}
+			},
+			"PMDL_NOTICE": {
+				"module_title": "注意事項",
+				"content": {
+					"properties": {
+						"cust_reminds": {
+							"list": [
+								{
+									"desc": "為維護館內的參觀品質，館內禁止飲食、拍照、穿著拖鞋、攜帶寵物（導盲犬除外）"
+								},
+								{
+									"desc": "同一筆訂單須同時兌換並同時入園。"
+								},
+								{
+									"desc": "符合優惠 / 免費票 / 臺南人資格者，參觀當日請備妥有效證件查驗，未攜帶者以全票計。"
+								},
+								{
+									"desc": "展廳出口處可蓋重覆入館章，當日憑此章及票根，即可重覆入場。"
+								}
+							]
+						}
+					}
+				}
+			},
+			"PMDL_GRAPHIC": {
+				"module_title": "圖文介紹",
+				"content": {
+					"list": [
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_24598/20210517065405_EYdqP/jpg"
+								}
+							],
+							"desc": "轟動時尚界、沸騰藝術圈，在全球引發熱烈討論的重量級展覽《蒂姆．沃克：美妙事物》（Tim Walker: Wonderful Things）即將來台！"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_24598/20210514065901_chG5E/jpg"
+								}
+							],
+							"desc": "邀請大家一起走進傳奇攝影師蒂姆．沃克打造的奇幻之境，看看這位傳奇攝影師如何透過電影般的豪華造景與頂尖知名的表演者，創造一個個天馬行空、魔幻詩意的視覺盛宴。"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_24598/20210514065857_Qkie9/jpg"
+								}
+							],
+							"desc": "關於維多利亞與亞伯特博物館（V&A）｜於1852年開幕，座落在英國最壯麗的維多利亞及現代建築群之中，收藏了五千多年來許多人類的創意結晶。兩間寬闊的鑄模展示廳中，展出數百件石膏複製品，例如米開朗基羅的大衛像。"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_24598/20200916070125_NlW2Q/jpg"
+								}
+							],
+							"desc": "【特展】紙上奇蹟2 : 無所不彈(2020/10/01-2021/06/15)"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_24598/20190530044405_e1sh3/jpg"
+								}
+							],
+							"desc": "充滿西洋美學的建築風格"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_24598/20190530044429_deyv8/jpg"
+								}
+							],
+							"desc": "氣勢磅礡的阿波羅噴泉"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_24598/20190530044436_sFB0e/jpg"
+								}
+							],
+							"desc": "寬闊典雅的大廳空間"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_24598/20190530044447_JRZEj/jpg"
+								}
+							],
+							"desc": "【常設展】藝術廳，將西方藝術從13至20世紀的藝術作品循序展出"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_24598/20190530044417_h48go/jpg"
+								}
+							],
+							"desc": "【常設展】動物廳，透過化石與動物標本，展現生命的演化之旅"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_24598/20190530044421_wKAyT/jpg"
+								}
+							],
+							"desc": "【常設展】樂器廳-提琴區，展出各國最早製琴師作品，介紹製琴大師的名琴與琴弓的絕美風采"
+						}
+					]
+				}
+			},
+			"PMDL_EXCHANGE_LOCATION": {
+				"module_title": "兌換地點",
+				"content": {
+					"properties": {
+						"locations": {
+							"list": [
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "奇美博物館1樓售票櫃檯",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "22.9345608",
+												"longitude": "120.2260268",
+												"place_id": "ChIJq6qqqnp0bjQRpvTHZeYTjKg",
+												"map_snap_url": "s1.kkday.com/product_24598/20200622065710_zamWs/png",
+												"zoom_lv": "18",
+												"desc": "Taiwan Tainan City Rende District 文華路二段奇美博物館",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"provide_service": {
+													"desc": "可兌換"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "09:30"
+															},
+															"end_time": {
+																"desc": "16:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "09:30"
+															},
+															"end_time": {
+																"desc": "16:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"close_desc": {
+																"desc": "不開放"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "09:30"
+															},
+															"end_time": {
+																"desc": "16:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "09:30"
+															},
+															"end_time": {
+																"desc": "16:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "09:30"
+															},
+															"end_time": {
+																"desc": "16:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "09:30"
+															},
+															"end_time": {
+																"desc": "16:30"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												},
+												"photo": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_140,h_105,c_fill,q_55,wm_auto/s1.kkday.com/product_24598/20190530044410_Uzf0v/jpg"
+														}
+													]
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								}
+							],
+							"table_key_langs": {
+								"city_info": "城市資訊",
+								"location_info": "地點資訊",
+								"station_list": "地點清單"
+							},
+							"title": "兌換地點"
+						}
+					}
+				}
+			},
+			"PMDL_INTRODUCE_SUMMARY": {
+				"module_title": "商品說明",
+				"content": {
+					"desc": "<p>－ 展覽介紹 －</p><ul><li>常設展：奇美博物館的蒐藏以西洋藝術、樂器、兵器、動物標本以及化石為主，每次展出四千件以上珍藏品，約整體蒐藏的三分之一。常設展包含藝術廳、樂器廳、兵器廳、動物廳、羅丹廳五大展區，提供遊客文明之奇與藝術之美的體驗。</li></ul><ul><li>《蒂姆・沃克：美妙事物》英國維多利亞與亞伯特博物館─世界巡迴展 時尚攝影界翹楚蒂姆‧沃克，職涯最大個展，世界巡迴亞洲第一站就在奇美博物館。此次引進國際頂尖博物館V&amp;A與蒂姆‧沃克合作重量級展覽，展出超過100幅經典作品，以及受V&amp;A藏品啟發10組系列新作。將帶領您進入攝影世界的無限想像。 <br>- 展期：2021/7/31－2022/2/6 <br>- 早鳥票限時優惠：2021/5/15－2021/6/15</li></ul><ul><li>蒂姆・沃克的奇想世界｜真實打造魔幻童話 蒂姆．沃克擅長將自己的幻想化為攝影作品，風格鮮明、用色大膽，作品中常見巨大的道具、奇異的角色、浮誇的服裝、華麗隆重且充滿戲感的布景，令人感受到童話魔幻、浪漫詩意、荒誕暗黑等多重氛圍，看似衝突卻又散發著優雅自如的氣質。走進他的奇想世界，人們彷彿能暫時逃離現實的羈絆，享受意志上的完全自由。更重要的是，所有作品沒有使用電腦修圖，畫面所見一切都來自於真實的造景。 沃克的獨特之處在於不單單拍攝光鮮亮麗的時尚作品，他更透過源源不絕的創意與充滿觀點的思維，將時尚藝術化，成為一位遊走在時尚與藝術之間的創意思想家。</li></ul><p>&nbsp;更多資訊請參照奇美博物館官方網站：https://www.chimeimuseum.org/</p>"
+				}
+			},
+			"PMDL_EXPERIENCE_LOCATION": {
+				"module_title": "體驗地點",
+				"content": {
+					"list": [
+						{
+							"active_time_desc": {
+								"desc": "<p><ul><li>開放時間： 09:30 - 17:30／戶外園區：09:00 - 18:30</li><li>最後入場時間：17:00</li><li>休館日：每週三、農曆除夕、初一或其他館方公告之休館日</li></ul></p>"
+							},
+							"location_name": {
+								"desc": "奇美博物館"
+							},
+							"latlng": {
+								"latitude": "22.9345608",
+								"longitude": "120.2260268",
+								"map_snap_url": "s1.kkday.com/product_24598_location/20190530051855_hFBBc/png",
+								"zoom_lv": "16",
+								"desc": "Taiwan Tainan City Rende District 文華路二段奇美博物館"
+							}
+						}
+					],
+					"table_key_langs": {
+						"location_name": "地點名稱",
+						"latlng": "地址",
+						"photo": "地點圖片",
+						"video": "地點影片",
+						"active_time": "開放時間",
+						"active_time_desc": "開放時間說明",
+						"arrival_desc": "如何抵達"
+					}
+				}
+			}
+		},
+		"prod_no": 24598,
+		"prod_url_no": 24598,
+		"prod_name": "早鳥預售67折起｜台南奇美博物館 CHIMEI Museum 常設展｜《蒂姆・沃克：美妙事物》特展門票",
+		"prod_type": "M05",
+		"tag": [
+			"TAG_2_1",
+			"TAG_2_2",
+			"TAG_4_2"
+		],
+		"b2c_min_price": 200.0,
+		"b2b_min_price": 190.0,
+		"instant_booking": true,
+		"order_count": 9180,
+		"days": 0,
+		"hours": 3,
+		"duration": 0,
+		"introduction": "線上訂購台南奇美博物館門票，在售票窗口領取，不必排隊購票直接入場！《蒂姆・沃克：美妙事物》特展門票早鳥預售67折起，立即前往全台首座西洋藏品展出博物館，欣賞經典西洋藝術、雕塑家羅丹作品、樂器、小提琴、兵器與動物標本",
+		"cities": [
+			{
+				"city_code": "A01-001-00003",
+				"country_code": "A01-001",
+				"name": "台灣,台南"
+			}
+		],
+		"b2c_price": 300.0,
+		"b2b_price": 190.0,
+		"prod_currency": "TWD"
+	},
+	"pkg": [
+		{
+			"pkg_no": 304621,
+			"pkg_name": "常設展",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "1",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 0,
+			"lead_day_unit": "h",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "23:59",
+			"b2c_min_price": 200.0,
+			"b2b_min_price": 190.0,
+			"item_no": [
+				50398
+			],
+			"sale_s_date": "2021-06-17",
+			"sale_e_date": "2021-12-31",
+			"description_module": {
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>全票：7 - 64歲非學生身份一般民眾</p>"
+							},
+							{
+								"desc": "<p>優惠票：7 - 22歲學生及 65歲以上長者​（兌換時必須攜帶附有照片及出生日期之有效證件）</p>"
+							},
+							{
+								"desc": "<p>免費票：0 - 6 歲兒童、持有身心障礙手冊者及陪同者一名（須同時入場）、持本人之觀光局核發導遊/領隊證者、設籍台南市者、於台南市就讀之外縣市學生 （不含空中大學、大專院校學分班、附設進修補習班、社區大學、學習中心、語言中心等)</p>"
+							}
+						]
+					}
+				},
+				"PMDL_EXCHANGE_VALID": {
+					"module_title": "憑證兌換期限",
+					"content": {
+						"properties": {
+							"exchange": {
+								"desc": "自開票日算起 12月 之內兌換有效，逾期無效"
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"pkg_no": 345055,
+			"pkg_name": "早鳥預售67折起《蒂姆 ‧ 沃克 : 美妙事物》英國維多利亞與亞伯特博物館─世界巡迴展",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "1",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 0,
+			"lead_day_unit": "h",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "23:59",
+			"b2c_min_price": 300.0,
+			"b2b_min_price": 285.0,
+			"item_no": [
+				90832
+			],
+			"sale_s_date": "2021-07-31",
+			"sale_e_date": "2022-02-06",
+			"description_module": {
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>全票：7 - 64歲非學生身份一般民眾<br></p>"
+							},
+							{
+								"desc": "<p>優惠票：7 - 22歲學生及 65歲以上長者​（兌換時必須攜帶附有照片及出生日期之有效證件）、設籍台南市者、於台南市就讀之外縣市學生 （不含空中大學、大專院校學分班、附設進修補習班、社區大學、學習中心、語言中心等)<br></p>"
+							},
+							{
+								"desc": "<p>免費票：0 - 6 歲兒童、持有身心障礙手冊者及陪同者一名（須同時入場）、持本人之觀光局核發導遊/領隊證者<br></p>"
+							}
+						]
+					}
+				},
+				"PMDL_EXCHANGE_VALID": {
+					"module_title": "憑證兌換期限",
+					"content": {
+						"properties": {
+							"exchange": {
+								"desc": "指定兌換效期 2022-02-06 之前兌換有效，逾期無效"
+							}
+						}
+					}
+				}
+			}
+		}
+	],
+	"booking_field": {
+		"prod_no": "24598",
+		"traffic": {
+			"car": {
+				"traffic_type": {
+					"is_require": "True",
+					"type": "array",
+					"list_option": [
+						"voucher"
+					]
+				},
+				"location_list": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_voucher_used": "True",
+					"type": "list",
+					"list_option": [
+						{
+							"traffic_type": "voucher",
+							"id": "d4415fa4-b66f-4bf2-aa42-10a9beb965f7",
+							"name": "奇美博物館1樓售票櫃檯",
+							"address": "Taiwan Tainan City Rende District 文華路二段奇美博物館",
+							"time_list": [
+								{
+									"weekDays": "Y,N,N,N,N,N,N",
+									"from": {
+										"hour": 9,
+										"minute": 30
+									},
+									"to": {
+										"hour": 16,
+										"minute": 30
+									}
+								},
+								{
+									"weekDays": "N,Y,N,N,N,N,N",
+									"from": {
+										"hour": 9,
+										"minute": 30
+									},
+									"to": {
+										"hour": 16,
+										"minute": 30
+									}
+								},
+								{
+									"weekDays": "N,N,Y,N,N,N,N",
+									"from": {},
+									"to": {}
+								},
+								{
+									"weekDays": "N,N,N,Y,N,N,N",
+									"from": {
+										"hour": 9,
+										"minute": 30
+									},
+									"to": {
+										"hour": 16,
+										"minute": 30
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,Y,N,N",
+									"from": {
+										"hour": 9,
+										"minute": 30
+									},
+									"to": {
+										"hour": 16,
+										"minute": 30
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,Y,N",
+									"from": {
+										"hour": 9,
+										"minute": 30
+									},
+									"to": {
+										"hour": 16,
+										"minute": 30
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,N,Y",
+									"from": {
+										"hour": 9,
+										"minute": 30
+									},
+									"to": {
+										"hour": 16,
+										"minute": 30
+									}
+								}
+							]
+						}
+					]
+				},
+				"s_location": {
+					"is_require": "True",
+					"is_voucher_used": "True",
+					"ref_source": "location_list.id",
+					"type": "string"
+				}
+			}
+		},
+		"ref_pkg": {
+			"314930": {
+				"traffic": {
+					"traffic_type": [
+						"voucher"
+					],
+					"s_location": "True"
+				}
+			},
+			"312699": {
+				"traffic": {
+					"traffic_type": [
+						"voucher"
+					],
+					"s_location": "True"
+				}
+			},
+			"304621": {
+				"traffic": {
+					"traffic_type": [
+						"voucher"
+					],
+					"s_location": "True"
+				}
+			},
+			"345065": {
+				"traffic": {
+					"traffic_type": [
+						"voucher"
+					],
+					"s_location": "True"
+				}
+			},
+			"345055": {
+				"traffic": {
+					"traffic_type": [
+						"voucher"
+					],
+					"s_location": "True"
+				}
+			},
+			"345066": {
+				"traffic": {
+					"traffic_type": [
+						"voucher"
+					],
+					"s_location": "True"
+				}
+			},
+			"313847": {
+				"traffic": {
+					"traffic_type": [
+						"voucher"
+					],
+					"s_location": "True"
+				}
+			},
+			"313848": {
+				"traffic": {
+					"traffic_type": [
+						"voucher"
+					],
+					"s_location": "True"
+				}
+			}
+		}
+	}
+}

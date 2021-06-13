@@ -1,0 +1,644 @@
+<template>
+  <div>
+    <div>
+      <span v-for="(pridCityObj,index) in product.pridCityObjArray" :key="index">
+        <a href="" >{{pridCityObj.cityName}}</a>
+        <span v-if="(index === 0)">/</span>
+        <span v-if="(index !== 0 & index !== product.pridCityObjArray.length-1)">,</span>
+      </span>
+    </div>
+    <div>
+      <span v-for="(pridCityObj,index) in product.pridCityObjArray" :key="index">
+        <a href="" >{{pridCityObj.cityName}}</a>
+        <span v-if="(index === 0)">/</span>
+        <span v-if="(index !== 0 & index !== product.pridCityObjArray.length-1)">,</span>
+      </span>
+    </div>
+    <br>
+    <div>
+      <span v-for="(imgList,index) in product.img_list" :key="index">
+        <img :src="imgList" alt=""  width="100px" height ="100px">
+      </span>
+    </div>
+    <br>
+    <div>
+      <p>{{product.prod_name}}</p>
+    </div>
+    <br>
+    <div>
+      <span v-for="(pridCityObj,index) in product.pridCityObjArray" :key="index">
+        <a href="" >{{pridCityObj.cityName}}</a>
+        <span v-if="(index === 0)">/</span>
+        <span v-if="(index !== 0 & index !== product.pridCityObjArray.length-1)">,</span>
+      </span>
+    </div>
+    <br>
+    <div class="float:right">
+      <span v-if="(product.days !== 0 || product.hours !== 0 || product.duration !==0)" class="float:right">
+        行程時間        
+        <span v-if="(product.days !== 0)">{{product.days}}天</span>
+        <span v-if="(product.hours !== 0)">{{product.hours}}小時</span>
+        <span v-if="(product.duration !==0)">{{product.duration}}分鐘</span>
+      </span>
+      /
+      <span v-if="product.partial_refund !== 0" class="float:right">
+        {{product.partial_refund}}天前可免費取消       
+      </span>
+      /
+      <span v-if="product.PMDL_EXCHANGE_DESC === '現場請出示電子憑證'" class="float:right">
+        現場請出示電子憑證       
+      </span>
+      /
+      <span v-if="product.guide_lang_list !== 0">
+        <span v-for="(guideLang,index) in product.guide_lang_list" :key="index">
+          {{guideLang}}
+          <span v-if="index !== (product.guide_lang_list.length -1)">
+            /
+          </span>
+        </span>
+        <span>導覽</span>
+      </span>
+      <span v-if="product.voice_guide_lang.length !== 0">
+        <span v-for="(voice_guide_lang,index) in product.voice_guide_lang" :key="index">
+          {{voice_guide_lang}}
+          <span v-if="index !== (product.voice_guide_lang.length -1)">
+            /
+          </span>
+        </span>
+        <span>語音導覽</span>
+      </span>
+    </div>
+    <br>
+    <div v-html="product.introduction" v-if="product.introduction"></div>
+
+    <div>
+      <h1>選擇方案</h1>
+      <div v-for="(selectPkg,index) in product.selectPkgArray" :key="index">
+        <h2>{{selectPkg.pkg_name}}</h2>
+        <div v-for="(packageDesc,index) in selectPkg.packageDescArray" :key="index" ><p v-html="packageDesc.desc"></p></div>
+        <h3>TW {{selectPkg.b2c_min_price}}</h3>
+        <h3>最早可預訂日:  {{selectPkg.sale_s_date}}</h3>
+        <div>
+          <h3>關於此方案</h3>
+          <span ></span>
+        </div>
+        <div style="width:100%;height:100%;float:left;background-color:red;">
+          <div style="width:60%;height:100%;float:left;background-color:green;">
+            <HotelDatePicker
+            :periodDates='periodDates'
+            :showSingleMonth='true'
+            :alwaysVisible='true'
+            :showPrice='true'
+            :singleDaySelection='true'
+            :halfDay='false'
+            :disabledDates='disabledDatesFun'
+            />
+          </div>
+          <div style="width:40%;float:left;background-color:#664521;">
+            <span>場次時間</span>
+            <span v-for="(showTime,index) in selectPkg.showTimeList" :key="index">
+              <el-button type="success" plain>{{showTime}}</el-button>
+            </span>
+            <p>....</p>
+          </div>
+          <div style="width:40%;float:left;background-color:#664521;">
+            <span>選擇數量</span>
+            <span v-for="(ticket,index) in selectPkg.ticketComponentList" :key="index">
+              <span>{{ticket.desc}}</span>
+            </span>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</template>
+
+<script>
+import productData from "./kkday_product_24598_M05.json"
+import queryPackageObject from "./kkday_package_24598_M05.json"
+import HotelDatePicker from 'vue-hotel-datepicker'
+import 'vue-hotel-datepicker/dist/vueHotelDatepicker.css'
+import moment from 'moment'
+
+
+export default {
+  name: 'KkdayProduct',
+  create  () {
+    console.log(productData)
+    this.initPageData()
+  },
+  components: {
+    HotelDatePicker
+  },
+  data () {
+    return {
+      productData:productData,
+      queryPackageObject:queryPackageObject,
+      product:{},
+      periodDates: [],
+      disabledDates:['2021-06-14']
+    }
+  },
+  computed: {
+    disabledDatesFun: function () {
+      let vm = this
+      if (vm.disabledDates === null) {
+        let now = moment()
+        let tmp = {disabledDates:['2021-06-14']}
+        return tmp
+      } else {
+        
+        return vm.disabledDates
+      }
+    }
+  },
+  methods: {
+    initPageData: function(){
+
+      let vm = this
+      let kkday = vm.productData
+      let queryPackageObject = vm.queryPackageObject
+      //1 level
+      let bookingField = kkday.booking_field
+      let prod = kkday.prod
+      let prodNo = prod.prod_no
+      let pkgArray = kkday.pkg
+      let prodMrketingMap = new Map(Object.entries(kkday.prod_marketing))
+
+      // 2 level
+      let custom = bookingField.custom
+      let prodCitiesArray = prod.cities
+      let descriptionModule = prod.description_module
+      
+      // 3 level
+      // let countryCities = custom.country_cities
+
+      // 4 level
+
+      //5 level
+
+      // let refPkgMap = new Map(Object.entries(kkday.ref_pkg))
+
+      //pridCityObjArray
+      let pridCityObjArray = [] 
+      prodCitiesArray.forEach(element => {
+        let pridCityTmp = element.name
+        let pridCityArray = pridCityTmp.split(',')
+        for(let i=0 ; i<pridCityArray.length ; i++) {
+          if(i === 0){
+            let pridCityFlag = []
+            if(pridCityObjArray.length !== 0){
+              pridCityFlag = pridCityObjArray.filter(obj => {
+                return obj.citeCode === element.country_code
+              })
+            }
+            if(pridCityFlag.length === 0){
+              pridCityObjArray.push({
+                citeCode : element.country_code,
+                cityName : pridCityArray[i]
+              })
+            }
+          } else {
+            pridCityObjArray.push({
+              citeCode : element.city_code,
+              cityName : pridCityArray[i]
+            })
+          }
+        }
+      })
+      vm.product.pridCityObjArray = pridCityObjArray
+      
+      //prod_name
+      vm.product.prod_name = prod.prod_name
+
+      //img_list
+      vm.product.img_list =  prod.img_list
+
+      //行程days hours duration
+      vm.product.days = prod.days
+      vm.product.hours = prod.hours
+      vm.product.duration = prod.duration
+
+      //取消政策 非0可免費取消 0 = 有條件取消
+      let partialRefundArray = pkgArray[0].partial_refund
+      let partialRefundArrayTmp = partialRefundArray.filter(obj => {
+        return obj.value === 0.0
+      })
+      if(partialRefundArrayTmp.length !== 0){
+        vm.product.partial_refund = partialRefundArrayTmp[0].day_min
+      } else {
+        vm.product.partial_refund = 0
+      }
+      //現場請出示電子憑證
+      console.log('descriptionModule',descriptionModule)
+      let pmdlExchange = descriptionModule.PMDL_EXCHANGE
+      vm.product.PMDL_EXCHANGE_DESC = pmdlExchange.content.properties.exchange_type.desc
+
+      //語言顯示 guide_lang_list 
+      vm.product.guide_lang_list = prod.guide_lang_list
+
+      //語音導覽 voice_guide_lang 
+      vm.product.voice_guide_lang = prod.voice_guide_lang
+
+      //introduction
+      vm.product.introduction = prod.introduction
+
+      //b2c_min_price
+      vm.product.b2c_min_price = prod.b2c_min_price
+      
+      //b2c_min_price
+      vm.product.prod_comment_info = prod.prod_comment_info
+
+      //商品說明 建議包車路線 圖文介紹
+      let pmdlIntroduceSummary = descriptionModule.PMDL_INTRODUCE_SUMMARY
+      if(pmdlIntroduceSummary){
+        vm.product.PMDL_INTRODUCE_SUMMARY = {
+          module_title:pmdlIntroduceSummary.module_title,
+          content:pmdlIntroduceSummary.content
+        }
+      }
+      let pmdlGraphic = descriptionModule.PMDL_GRAPHIC
+      if(pmdlGraphic){
+        vm.product.PMDL_GRAPHIC = {
+          module_title:pmdlGraphic.module_title,
+          content:pmdlGraphic.content
+        }
+      }
+      let pmdlSuggestedRoute = descriptionModule.PMDL_SUGGESTED_ROUTE
+      if(pmdlSuggestedRoute){
+        vm.product.PMDL_SUGGESTED_ROUTE = {
+          module_title:pmdlSuggestedRoute.module_title,
+          content:pmdlSuggestedRoute.content
+        }
+      }
+
+      //行程介紹
+      let pmdlSchedule = descriptionModule.PMDL_SCHEDULE
+      if(pmdlSchedule){
+        vm.product.PMDL_SCHEDULE = {
+          module_title:pmdlSchedule.module_title,
+          content:pmdlSchedule.content
+        }
+      }
+      //購買須知
+      let pmdlPurchaseSummary = descriptionModule.PMDL_PURCHASE_SUMMARY
+      if(pmdlPurchaseSummary){
+        vm.product.PMDL_PURCHASE_SUMMARY = {
+          module_title:pmdlPurchaseSummary.module_title,
+          content:pmdlPurchaseSummary.content
+        }
+      }
+      //額外費用
+      let pmdlExtraFee = descriptionModule.PMDL_EXTRA_FEE
+      if(pmdlExtraFee){
+        vm.product.PMDL_EXTRA_FEE = {
+          module_title:pmdlExtraFee.module_title,
+          content:pmdlExtraFee.content
+        }
+      }
+      //使用對象
+      let pmdlNationality = descriptionModule.PMDL_NATIONALITY
+      if(pmdlNationality){
+        vm.product.PMDL_NATIONALITY = {
+          module_title:pmdlNationality.module_title,
+          content:pmdlNationality.content
+        }
+      }
+      //費用包含/不包含
+      let pmdlIncNinc = descriptionModule.PMDL_INC_NINC
+      if(pmdlIncNinc){
+        vm.product.PMDL_INC_NINC = {
+          module_title:pmdlIncNinc.module_title,
+          content:pmdlIncNinc.content
+        }
+      }
+      //注意事項
+      let pmdlNotice = descriptionModule.PMDL_NOTICE
+      if(pmdlIncNinc){
+        vm.product.PMDL_NOTICE = {
+          module_title:pmdlNotice.module_title,
+          content:pmdlNotice.content
+        }
+      }
+
+      //如何使用
+      //憑證使用方式
+      // let pmdlExchange = descriptionModule.PMDL_EXCHANGE
+      if(pmdlExchange){
+        vm.product.PMDL_EXCHANGE = {
+          module_title:pmdlExchange.module_title,
+          content:pmdlExchange.content
+        }
+      }
+      //憑證兌換期限
+      let pmdlExchangeValid = descriptionModule.PMDL_EXCHANGE_VALID
+      if(pmdlExchangeValid){
+        vm.product.PMDL_EXCHANGE_VALID = {
+          module_title:pmdlExchangeValid.module_title,
+          content:pmdlExchangeValid.content
+        }
+      }
+      //使用期限
+      let pmdlUseValid = descriptionModule.PMDL_USE_VALID
+      if(pmdlUseValid){
+        vm.product.PMDL_USE_VALID = {
+          module_title:pmdlUseValid.module_title,
+          content:pmdlUseValid.content
+        }
+      }
+      //XX地點
+      let pmdlVenueLocation = descriptionModule.PMDL_VENUE_LOCATION
+      if(pmdlVenueLocation){
+        vm.product.PMDL_VENUE_LOCATION = {
+          module_title:pmdlVenueLocation.module_title,
+          content:pmdlVenueLocation.content
+        }
+      }
+      //體驗地點
+      let pmdlExperienceLocation = descriptionModule.PMDL_EXPERIENCE_LOCATION
+      if(pmdlExperienceLocation){
+        vm.product.PMDL_EXPERIENCE_LOCATION = {
+          module_title:pmdlExperienceLocation.module_title,
+          content:pmdlExperienceLocation.content
+        }
+      }
+      //兌換地點 租車地點
+      let pmdlExchangeLocation = descriptionModule.PMDL_EXCHANGE_LOCATION
+      if(pmdlExchangeLocation){
+        vm.product.PMDL_EXCHANGE_LOCATION = {
+          module_title:pmdlExchangeLocation.module_title,
+          content:pmdlExchangeLocation.content
+        }
+      }
+      //取消政策
+      let pmdlRefundPolicy = descriptionModule.PMDL_REFUND_POLICY
+      if(pmdlRefundPolicy){
+        vm.product.PMDL_REFUND_POLICY = {
+          module_title:pmdlRefundPolicy.module_title,
+          content:pmdlRefundPolicy.content
+        }
+      }
+      //取消政策
+      vm.product.prod_comment_info = prod.prod_comment_info
+
+      //select package 
+      console.log('4444', vm.prepareQueryPackage())
+      vm.product.selectPkgArray = vm.prepareQueryPackage()
+
+      //TEST TODO
+      let specArray = []
+      specArray.push({
+        spec_item_id:'d9020bc0-5f2d-4f9a-89e7-5dad4f75b426',
+        spec_value_id:'b748bde9-ba30-4755-ace8-5805bce90d8b'
+      })
+      specArray.push({
+        spec_item_id:'spec-ticket',
+        spec_value_id:'adult'
+      })
+      let skus = vm.searchPkgItemSku(304621,specArray)
+      console.log('20210613',skus)
+      let periodDates = vm.parpareDateData(skus[0],'fullday')
+      vm.periodDates = periodDates
+      console.log('periodDates',periodDates)
+      let disabledDates = vm.prepareDisableDate()
+      console.log('disabledDates',disabledDates)
+      vm.disabledDates = disabledDates
+    },
+    prepareQueryPackage: function (){
+
+      let vm = this
+      let packageList = vm.queryPackageObject.packageList
+      let selectPkgArray = []
+      packageList.forEach(selectPkg => {
+        
+        let pkg_no = selectPkg.pkg_no
+        let prod = vm.productData.prod
+        let pkg = {}
+        let pkgArray = vm.productData.pkg
+                let pkgArrayTmp = pkgArray.filter(pkg => {
+          return pkg.pkg_no = pkg_no
+        })
+        if(pkgArrayTmp.length !== 0){
+          pkg = pkgArrayTmp[0]
+        }
+        let selectPkgTmp = {}
+        
+        selectPkgTmp.pkg_name = selectPkg.pkg_name
+        
+        //取消政策
+        let partialRefundArrayTmp = selectPkg.partial_refund.filter(partialRefund => {
+          return partialRefund.value === 0.0
+        })
+        if(partialRefundArrayTmp.length !== 0){
+          selectPkgTmp.partial_refund = partialRefundArrayTmp[0].day_min
+        } else {
+          selectPkgTmp.partial_refund = 0
+        }
+
+        selectPkgTmp.b2c_min_price = selectPkg.b2c_min_price
+        selectPkgTmp.sale_s_date = selectPkg.sale_s_date
+
+        //方案描述
+        let pmdlPackageDesc = selectPkg.description_module.PMDL_PACKAGE_DESC
+        if(pmdlPackageDesc){
+          selectPkgTmp.packageDescArray = pmdlPackageDesc.content.list
+          selectPkgTmp.confirm_time = pkg.confirm_time
+          selectPkgTmp.confirm_order_time = prod.confirm_order_time
+          selectPkgTmp.instant_booking = prod.instant_booking
+        }
+
+        //憑證兌換期限 PMDL_EXCHANGE_VALID
+        let pmdlExchangeValid = selectPkg.description_module.PMDL_EXCHANGE_VALID
+        if(pmdlExchangeValid){
+          selectPkgTmp.PMDL_EXCHANGE_VALID = pmdlExchangeValid.content.properties.exchange.desc
+        }
+        
+        //費用包含/不包含 PMDL_INC_NINC
+        let pmdlIncNinc = selectPkg.description_module.PMDL_INC_NINC
+        if(pmdlIncNinc){
+          selectPkgTmp.PMDL_INC_NINC = {
+            module_title:pmdlIncNinc.module_title,
+            content:pmdlIncNinc.content
+          }
+        }
+        
+        //場次時間
+        let item = selectPkg.item[0]
+        let sale_s_date_event = item.sale_s_date_event
+        let sale_e_date_event = item.sale_e_date_event
+        if(sale_s_date_event && sale_e_date_event){
+          let addMin = 60
+          let saleSdate = sale_s_date_event.split(':')
+          let saleSdateHour = saleSdate[0]
+          let saleSdateMin = saleSdate[1]
+          let saleEdate = sale_e_date_event.split(':')
+          let saleEdateHour = saleEdate[0]
+          let saleEdateMin = saleEdate[1]
+          let timeList = []
+          let date =  new Date(0, 0, 0,saleSdateHour-1, saleSdateMin, 0);
+          for (let i = saleSdateHour;i<=saleEdateHour;i++) {
+            date.setMinutes(date.getMinutes() + addMin);
+            timeList.push(`${date.getHours()}:${date.getMinutes()}`)
+          }
+          
+          selectPkgTmp.showTimeList = timeList
+          
+        }
+
+        let specsList = item.specs
+        let unit_quantity_rule = item.unit_quantity_rule
+        specsList.forEach(spec => {
+          let spec_oid = spec.spec_oid
+          //選擇數量
+          //票種
+          let clickComponentList = []
+          if (spec_oid === 'spec-ticket') {
+            let ticketComponentList = []
+            let spec_items = spec.spec_items
+            spec_items.forEach(specItem => {
+              let ticketComponent = {}
+              ticketComponent.name = specItem.name
+              let spec_item_oid = specItem.spec_item_oid
+              ticketComponent.spec_item_oid = spec_item_oid
+              let rule = specItem.rule
+              if(rule){
+                let age_rule = rule.age_rule
+                if (age_rule) {
+                  let max = age_rule.max
+                  let min = age_rule.min
+                  if (max && !min) {
+                    ticketComponent.desc = `(${max} 歲以下（含）)`
+                  }
+                  if (!max && min) {
+                    ticketComponent.desc = `(${min} 歲以上（含）)`
+                  }
+                  if (max && min) {
+                    ticketComponent.desc = `(${min} ~ ${max} 歲)`
+                  }
+                }
+              }
+              //max age limit and min age limit
+              if (unit_quantity_rule) {
+                let total_rule = unit_quantity_rule.total_rule
+                ticketComponent.max_quantity = total_rule.max_quantity
+                ticketComponent.min_quantity = total_rule.min_quantity
+                let ticket_rule = unit_quantity_rule.ticket_rule
+                if (ticket_rule && ticket_rule.is_active && ticket_rule.rulesets.length !== 0) {
+                  let rulesets =ticket_rule.rulesets
+                  rulesets.forEach(ruleset => {
+                    let specitemsKeyList = ruleset.spec_items
+                    if (specitemsKeyList.find(key => key === spec_item_oid)) {
+                      ticketComponent.max_quantity = ruleset.max_quantity
+                      ticketComponent.min_quantity = ruleset.min_quantity
+                    }
+                  })
+                }
+              }
+              ticketComponentList.push(ticketComponent)
+            })
+            
+            selectPkgTmp.ticketComponentList = ticketComponentList
+          } else {
+            //一般Clickbutton
+            clickComponentList.push(spec)
+            selectPkgTmp.clickComponentList = clickComponentList
+          }
+        })
+
+
+        selectPkgArray.push(selectPkgTmp)
+      })
+      return selectPkgArray
+    },
+    searchPkgItemSku: function (pkg_no,specArray) {
+      let vm = this
+      let packageList = vm.queryPackageObject.packageList
+      let pkg = packageList.filter(element => {
+        return element.pkg_no === pkg_no
+      })[0]
+      let skus = pkg.item[0].skus
+      let skuSearchResult = []
+      for (let i = 0;i<specArray.length;i++) {
+        let spec = specArray[i]
+        if (skuSearchResult.length === 0) {//第一次
+          for (let j = 0;j<skus.length;j++) {
+            let sku = skus[j]
+            let specs_ref = sku.specs_ref
+            if (specArray.length !== specs_ref.length) {
+              continue
+            }
+            specs_ref.forEach(specsRef => {
+              if (spec.spec_item_id === specsRef.spec_item_id && spec.spec_value_id === specsRef.spec_value_id) {
+                skuSearchResult.push(sku)
+              }
+            })
+          }
+        } else {//第2次以後
+          let skuSearchTmp = []
+          skuSearchResult.forEach(sku => {
+            let specs_ref = sku.specs_ref
+            specs_ref.forEach(specsRef => {
+              if (spec.spec_item_id === specsRef.spec_item_id && spec.spec_value_id === specsRef.spec_value_id) {
+                skuSearchTmp.push(sku)
+              }
+            })
+          })
+          skuSearchResult = skuSearchTmp
+        }
+
+        if (skuSearchResult.length === 0) {//過濾結果=0 直接跳出
+          break
+        }
+
+      }
+      return skuSearchResult
+    },
+    parpareDateData: function (sku,bookingTime) {
+      console.log(sku)
+      let calendar_detail = sku.calendar_detail
+      let periodDates = []
+      if(bookingTime === 'fullday'){
+        for (let key in calendar_detail) {
+          let calendarDetailObj = calendar_detail[key]
+          if (calendarDetailObj.b2c_price) {
+            periodDates.push({
+              startAt: key,
+              endAt: key,
+              periodType: 'nightly',
+              price: calendarDetailObj.b2c_price.fullday
+            })
+          }
+        }
+      }
+      return periodDates
+    },
+    prepareDisableDate: function(){
+      let vm = this
+      let periodDates = vm.periodDates
+      let nowDate = moment()
+      let pattern = 'YYYY-MM-DD'
+      let disableDays = []
+      for (let i = 0;i <= 94;i++) {
+        nowDate = nowDate.add(1,'days')
+        let checkDate = nowDate.format(pattern)
+        let result = periodDates.filter(periodDate => {
+          return periodDate.startAt === checkDate
+        })
+        if (result.length === 0) {
+          disableDays.push(checkDate)
+        }
+      }
+      return disableDays
+    }
+      
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+
+</style>

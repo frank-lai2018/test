@@ -1,0 +1,1519 @@
+{
+	"result": "00",
+	"result_msg": "OK",
+	"prod_marketing": {
+		"TW": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"HK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"CN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"MY": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"SG": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"ID": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"PH": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"JP": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KR": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"TH": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"VN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		}
+	},
+	"prod": {
+		"is_tour": true,
+		"timezone": "Asia/Taipei",
+		"guide_lang_list": [
+			"中文"
+		],
+		"voice_guide_lang": [],
+		"confirm_order_time": false,
+		"online_s_date": "2021-06-09",
+		"online_e_date": "2021-10-31",
+		"img_list": [
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_23914/20200527033729_5jYWr/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_23914/20200610061800_q3dTA/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_23914/20200610061624_fcBXR/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_23914/20200527033704_Cuy0J/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_23914/20200527033642_qB7xK/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_23914/20200610061604_OLdzP/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_23914/20200610061615_MUVzN/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_23914/20190807034723_xx4gH/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_23914/20200610061730_ZlFxk/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_23914/20190510104203_gSKoH/jpg"
+		],
+		"video_list": [],
+		"prod_comment_info": {
+			"avg_scores": "4.73",
+			"total_scores": "3309",
+			"click_count": "0",
+			"comment_record": "699"
+		},
+		"go_date_setting": {
+			"type": "01"
+		},
+		"is_cancel_free": false,
+		"description_module": {
+			"PMDL_EXCHANGE": {
+				"module_title": "憑證使用方式",
+				"content": {
+					"properties": {
+						"exchange_type": {
+							"desc": "現場請出示電子憑證",
+							"title": "使用方式"
+						}
+					}
+				}
+			},
+			"PMDL_INC_NINC": {
+				"module_title": "費用包含/不包含",
+				"content": {
+					"properties": {
+						"include_item": {
+							"list": [
+								{
+									"desc": "保險"
+								},
+								{
+									"desc": "來回船票"
+								},
+								{
+									"desc": "七美島上交通"
+								},
+								{
+									"desc": "導覽解說"
+								}
+							],
+							"title": "費用包含"
+						}
+					}
+				}
+			},
+			"PMDL_REFUND_POLICY": {
+				"module_title": "取消政策",
+				"content": {
+					"properties": {
+						"policy_type": {
+							"desc": "指定手續費",
+							"title": "手續費收取方式"
+						},
+						"partial_refund": {
+							"list": [
+								{
+									"desc": "所選日期 8 天（含）之前取消，收取手續費 0%"
+								},
+								{
+									"desc": "所選日期  4 ~ 7 天之間取消，收取手續費 50%"
+								},
+								{
+									"desc": "所選日期  0 ~ 3 天之間取消，收取手續費 100%"
+								}
+							],
+							"title": "政策內容"
+						}
+					}
+				}
+			},
+			"PMDL_NOTICE": {
+				"module_title": "注意事項",
+				"content": {
+					"properties": {
+						"reminds": {
+							"list": [
+								{
+									"desc": "最少出團人數 20 人，當參加人數未達上述規定的最少成團人數時，將取消旅遊行程，於出發日前 1 天發出取消旅遊的 Email 通知。"
+								},
+								{
+									"desc": "因交通、天氣等不可抗力因素所引起的時間延誤，造成部份行程景點取消時，請您主動聯絡客服，我們將會為您辦理部份退款。"
+								}
+							]
+						},
+						"cust_reminds": {
+							"list": [
+								{
+									"desc": "未滿 3 歲孩童免費（現場收取保險費用TWD100），並於訂購時備註告知；3 歲以上視同成人"
+								},
+								{
+									"desc": "機車為 2 人 1 台（單人訂購需於取車時補單人差價TWD100）"
+								},
+								{
+									"desc": "欲參加浮潛者皆必須選擇騎乘機車方案，敬請知悉"
+								},
+								{
+									"desc": "島上有提供電動機車，如需更改請於訂購時備註告知"
+								},
+								{
+									"desc": "台灣旅客須具備並出示機車駕照，外籍旅客亦須備妥國際駕照；若因未出示合法駕照導致無法領用機車，敬請自行承擔責任"
+								},
+								{
+									"desc": "遊覽車跟船都是階梯式的，客人如有拐杖或是有人攙扶的話還是可以的，反之則不建議參加，身障者（一般輪椅和電動輪椅）請斟酌自身狀況後再下訂購買，敬請知悉"
+								},
+								{
+									"desc": "如需攜帶寵物（只能是中小型犬）須事先告知，否則不於同行，敬請知悉"
+								},
+								{
+									"desc": "可於得意遊艇報到櫃台加購島上餐廳風味午餐及浮潛活動，請於現場告知服務人員"
+								},
+								{
+									"desc": "行程將依天候或潮汐而有所調整，不另行公告，部分景點將依每日漲退潮有不同景色"
+								},
+								{
+									"desc": "燕鷗群飛可能因氣候遷徙觀看數量較少，請知悉"
+								}
+							]
+						},
+						"cust_reminds_after": {
+							"list": [
+								{
+									"desc": "務必準時於集合時間抵達集合地點，以免影響其他旅客體驗"
+								},
+								{
+									"desc": "易暈船者，建議於開航前 30 分鐘使用暈船藥"
+								}
+							],
+							"title": "售後注意事項"
+						}
+					}
+				}
+			},
+			"PMDL_SCHEDULE": {
+				"module_title": "行程介紹",
+				"content": {
+					"properties": {
+						"total_day": {
+							"desc": "1天",
+							"title": "行程時間"
+						},
+						"schedule_list": {
+							"list": [
+								{
+									"daily_title": {
+										"desc": "第1天"
+									},
+									"daily_schedule_list": {
+										"table_key_langs": {
+											"time": "活動時間",
+											"content": "活動內容",
+											"media": "活動圖片"
+										},
+										"list": [
+											{
+												"time": {
+													"desc": "07:40"
+												},
+												"content": {
+													"desc": "於南海遊客中心－得意遊艇櫃台報到"
+												}
+											},
+											{
+												"content": {
+													"desc": "啟航前往東吉島，欣賞八卦山無敵海景"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_23914/20200610061624_fcBXR/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "島上停留90分鐘，欣賞美麗景色"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_23914/20200610061604_OLdzP/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "運氣好時，還可以近距離觀賞野生羊群"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_23914/20200610061800_q3dTA/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "巡航失去炊煙的島嶼西吉島拍照，熱門的藍洞景點"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_23914/20200527033704_Cuy0J/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "七美島停留180分鐘"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_23914/20200527033729_5jYWr/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "七美玥鯉灣"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_23914/20190807034035_OxjRe/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "七美石獅與龍埕，一次收集兩個拍照景點"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_23914/20190807034039_kcMEA/jpg"
+														}
+													]
+												}
+											},
+											{
+												"content": {
+													"desc": "巡航東嶼坪、西嶼坪及無人島南鐵砧嶼"
+												}
+											},
+											{
+												"content": {
+													"desc": "頭巾嶼欣賞燕鷗群飛"
+												},
+												"media": {
+													"media": [
+														{
+															"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_23914/20190510104206_gx3JT/jpg"
+														}
+													]
+												}
+											},
+											{
+												"time": {
+													"desc": "16:40"
+												},
+												"content": {
+													"desc": "返航，抵達馬公南海遊客中心"
+												}
+											}
+										]
+									}
+								}
+							],
+							"table_key_langs": {
+								"meals": "當天餐點",
+								"daily_schedule_list": "當天行程內容"
+							},
+							"title": "行程內容"
+						}
+					}
+				}
+			},
+			"PMDL_EXTRA_FEE": {
+				"module_title": "額外費用",
+				"content": {
+					"list": [
+						{
+							"desc": "可於遊艇報到櫃台加購島上餐廳風味午餐，費用為 NT$200/人，不與他人併桌，部分菜色可能因季節調整",
+							"title": "風味午餐"
+						},
+						{
+							"desc": "可於遊艇報到櫃台加購 NT$400/人，行程長度約 1 小時，請自行攜帶更換衣物（浮潛可自備泳衣，現場提供防寒衣/救生衣/目鏡（最高800度）/呼氣管，現場可以沖洗更衣）\n欲參加浮潛者皆必須選擇騎乘機車方案，敬請知悉",
+							"title": "七美浮潛"
+						}
+					],
+					"title": "額外費用"
+				}
+			},
+			"PMDL_VENUE_LOCATION": {
+				"module_title": "集合地點",
+				"content": {
+					"list": [
+						{
+							"location_name": {
+								"desc": "南海遊客中心，得意遊艇櫃台（1號出口旁）"
+							},
+							"latlng": {
+								"latitude": "23.566465",
+								"longitude": "119.57251",
+								"map_snap_url": "/image/get/w_140,h_105,c_fill,q_55,wm_auto/s1.kkday.com/product_23914_location/20190510105315_6dhCt/png",
+								"zoom_lv": "16",
+								"desc": "Taiwan Penghu County Magong City 新營路南海遊客中心"
+							},
+							"gather": {
+								"desc": "07:40"
+							}
+						}
+					],
+					"table_key_langs": {
+						"location_name": "地點名稱",
+						"latlng": "地址",
+						"photo": "地點圖片",
+						"video": "地點影片",
+						"gather": "集合時間",
+						"setout": "出發時間",
+						"arrival_desc": "如何抵達"
+					}
+				}
+			},
+			"PMDL_PURCHASE_SUMMARY": {
+				"module_title": "購買須知",
+				"content": {
+					"desc": "<ul><li>因遊覽車及船都屬上下階梯式，行動不便之旅客請自行斟酌參加<br></li></ul><p>— 商品Q&amp;A —<br></p><p>Q：請問浮淺體驗會在七美島的哪邊呢？加購浮潛體驗會提供什麼設備呢？<br>Ans：浮潛地點在七美島的（魚月）鯉灣；現場提供防寒衣/救生衣/目鏡（最高800度）/呼氣管，現場可以沖洗更衣）</p><p>Q：浮潛完是否有地方可以洗澡？<br>Ans：有地方可以寄放私人物品/更衣/沖洗</p><p>Q：請問加購浮潛會有教練帶嗎？一個教練帶幾位？<br>Ans：會有當地浮潛業者派教練帶領，一位教練帶 10 位旅客</p><p>Q：此行程坐船的總時間大約多長？<br>Ans：坐船總時間約需 4 小時，如下（因每天潮汐不同會受漲退潮影響）<br>馬公至東吉登島：大約 70 分鐘上下，東吉至西吉藍洞巡航大約 15 分鐘上下，西吉至七美登島大約 40 分鐘上下，七美回程馬公因回程巡航東/西嶼坪大約 95 分鐘上下</p><p>Q：是否可以居住於七美島一晚，隔日再搭乘船班回到澎湖本島嗎？<br>Ans：無法哦，需再多訂一天的行程</p><p>Q：若旅客無機車駕照，只有汽車駕照，這樣可以體驗嗎？<br>Ans：需依照汽車駕照核發有效期限內，即可駕駛 50cc 摩托車</p><p>Q：請問可寄放私人物品嗎？是鎖櫃嗎？<br>Ans：南海遊客中心行李寄放處是開放空間，有監視器但不負保管責任</p>"
+				}
+			},
+			"PMDL_INTRODUCE_SUMMARY": {
+				"module_title": "商品說明",
+				"content": {
+					"desc": "<p>－ 行程介紹 －</p><ul><li>07:40 南海遊客中心得意遊艇櫃台報到</li><li>08:00 啟航前往南方四島國家公園<br>- 馬公海上沿途導覽介紹(第三漁港、彩繪大郵筒、馬公港、風櫃蛇頭山)<br>- 巡航無人島四角嶼及雞籠嶼<br>- 巡航鋤頭嶼-龍蝦洞(獨家行程)<br>- 東吉嶼環島（被時間遺忘的島嶼），島上停留90分鐘步行環島一圈（東吉之眼、聚落、啟明宮、梯田大草原、東吉燈塔、氣象站、八卦山無敵海景）<br>- 巡航失去炊煙的島嶼－西吉島拍照（超人氣的藍洞）<br>- 七美島停留180分鐘，浮潛（另於得意遊艇報到櫃台加購）及環島（龍埕與石獅、小臺灣、雙心石滬）<br>- 巡航東嶼坪、西嶼坪、無人島南鐵砧嶼、頭巾嶼欣賞燕鷗群飛（夏季限定5月中旬-9月）<br>- 巡航望安、將軍</li><li>16:40 抵達馬公南海遊客中心</li></ul><p><br>－ 景點介紹 －</p><ul><li>雙心石滬<br></li></ul><p>石滬為澎湖的一種人與大海相互依存的捕魚方法，因有兩座心狀石滬而得雙心石滬美名。原理為利用潮汐起落，在潮間帶堆砌兩道長圓弧形堤岸，從淺水處一路延長至深水處，在深水處盡頭向內做成彎鉤狀。漲潮時，魚群順著海水進入石滬中覓食海藻；退潮後，石堤已高於海面，魚迴游至捲曲處被阻，困於滬內，漁民藉此捕捉漁獲。<br><br></p><ul><li>南方四島</li></ul><p>澎湖南方四島是由東吉嶼、西吉嶼、東嶼坪嶼、西嶼坪嶼，這四個較大島嶼及周圍小型島嶼與海域組成，生態資源珍貴且物種多樣性高，海域珊瑚礁生長茂密，媲美國際水準，瑰麗的珊瑚礁叢林是浮潛者的天堂。其中頭巾嶼高潮線以下的潮間帶，退潮時不必下水即可觀賞各式各樣美麗潮池生態，是難得一見的天然水族館。</p>"
+				}
+			}
+		},
+		"prod_no": 23914,
+		"prod_url_no": 23914,
+		"prod_name": "台灣澎湖跳島一日遊 | 探索浪漫七美＆絕美藍洞＆南方四島＆雙心石滬等 | 自選遊覽車或機車環島",
+		"prod_type": "M01",
+		"tag": [
+			"TAG_4_3",
+			"TAG_4_4",
+			"TAG_1_3"
+		],
+		"b2c_min_price": 1400.0,
+		"b2b_min_price": 1288.0,
+		"instant_booking": false,
+		"order_count": 2008,
+		"days": 0,
+		"hours": 8,
+		"duration": 30,
+		"introduction": "在 KKday 事先預訂澎湖南方四島＋七美一日遊，走訪被時間遺忘的島嶼－東吉嶼，遊覽東吉燈塔、八卦山無敵海景等，再帶你前往西吉嶼知名藍洞，親睹神秘且令人嚮往的藍色仙境，接著前進七美島有著小臺灣及雙心石滬等人氣景點，最後巡航東嶼坪、西嶼坪、南鐵砧嶼、頭巾嶼、虎井、桶盤，結束一日充實且難忘的澎湖網美秘境之旅。",
+		"cities": [
+			{
+				"city_code": "A01-001-00019",
+				"country_code": "A01-001",
+				"name": "台灣,澎湖"
+			}
+		],
+		"b2c_price": 1500.0,
+		"b2b_price": 1288.0,
+		"prod_currency": "TWD"
+	},
+	"pkg": [
+		{
+			"pkg_no": 90701,
+			"pkg_name": "澎湖南方四島及七美一日遊（機車）",
+			"exchange_type": "",
+			"confirm_time": 1,
+			"confirm_time_unit": "d",
+			"deliver_time_unit": "d",
+			"policy_type": "3",
+			"refund_type": "1",
+			"partial_refund": [
+				{
+					"value": 0.0,
+					"day_min": 8
+				},
+				{
+					"value": 0.5,
+					"day_min": 4,
+					"day_max": 7
+				},
+				{
+					"value": 1.0,
+					"day_min": 0,
+					"day_max": 3
+				}
+			],
+			"lead_day": 2,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "23:59",
+			"b2c_min_price": 1400.0,
+			"b2b_min_price": 1288.0,
+			"item_no": [
+				26605
+			],
+			"sale_s_date": "2021-06-09",
+			"sale_e_date": "2021-10-31",
+			"description_module": {
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>機車方案可以跟導遊環島或自由行<br></p>"
+							},
+							{
+								"desc": "<p>欲參加浮潛者皆必須選擇騎乘機車方案，敬請知悉<br></p>"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"pkg_no": 90809,
+			"pkg_name": "澎湖南方四島及七美一日遊（遊覽車）",
+			"exchange_type": "",
+			"confirm_time": 1,
+			"confirm_time_unit": "d",
+			"deliver_time_unit": "d",
+			"policy_type": "3",
+			"refund_type": "1",
+			"partial_refund": [
+				{
+					"value": 0.0,
+					"day_min": 8
+				},
+				{
+					"value": 0.5,
+					"day_min": 4,
+					"day_max": 7
+				},
+				{
+					"value": 1.0,
+					"day_min": 0,
+					"day_max": 3
+				}
+			],
+			"lead_day": 2,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "23:59",
+			"b2c_min_price": 1500.0,
+			"b2b_min_price": 1380.0,
+			"item_no": [
+				26604
+			],
+			"sale_s_date": "2021-06-09",
+			"sale_e_date": "2021-10-31",
+			"description_module": {
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>觀光遊覽車會與團體及散客一同合車，停留時間將依景點大小停留約 10 - 20 分左右，如有景點停留時間之疑慮，建議旅客選擇機車方案<br></p>"
+							},
+							{
+								"desc": "<p>須於指定集合時間及地點上車並由司機兼解說（無導遊陪同）<br></p>"
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"booking_field": {
+		"prod_no": "23914",
+		"custom": {
+			"cus_type": {
+				"is_require": "True",
+				"is_contact_used": "True",
+				"is_lead_used": "True",
+				"type": "array",
+				"list_option": [
+					"cus_01",
+					"contact"
+				]
+			},
+			"english_last_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_lead_used": "True",
+				"type": "string"
+			},
+			"english_first_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_lead_used": "True",
+				"type": "string"
+			},
+			"native_last_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"is_lead_used": "True",
+				"type": "string"
+			},
+			"native_first_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"is_lead_used": "True",
+				"type": "string"
+			},
+			"tel_country_code": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"ref_source": "list_option.code",
+				"type": "list",
+				"list_option": [
+					{
+						"code": "93",
+						"info": "Afghanistan(阿富汗)"
+					},
+					{
+						"code": "355",
+						"info": "Albania(阿爾巴尼亞)"
+					},
+					{
+						"code": "213",
+						"info": "Algeria(阿爾及利亞)"
+					},
+					{
+						"code": "376",
+						"info": "Andorra(安道爾)"
+					},
+					{
+						"code": "244",
+						"info": "Angola(安哥拉)"
+					},
+					{
+						"code": "1264",
+						"info": "Anguilla(安圭拉)"
+					},
+					{
+						"code": "672",
+						"info": "Antarctica(南極洲)"
+					},
+					{
+						"code": "1268",
+						"info": "Antigua and Barbuda(安地卡及巴布達)"
+					},
+					{
+						"code": "54",
+						"info": "Argentina(阿根廷)"
+					},
+					{
+						"code": "374",
+						"info": "Armenia(亞美尼亞)"
+					},
+					{
+						"code": "297",
+						"info": "Aruba(阿魯巴)"
+					},
+					{
+						"code": "61",
+						"info": "Australia(澳洲)"
+					},
+					{
+						"code": "43",
+						"info": "Austria(奥地利)"
+					},
+					{
+						"code": "994",
+						"info": "Azerbaijan(亞塞拜然)"
+					},
+					{
+						"code": "1242",
+						"info": "Bahamas(巴哈馬)"
+					},
+					{
+						"code": "973",
+						"info": "Bahrain(巴林)"
+					},
+					{
+						"code": "880",
+						"info": "Bangladesh(孟加拉)"
+					},
+					{
+						"code": "1246",
+						"info": "Barbados(巴貝多)"
+					},
+					{
+						"code": "375",
+						"info": "Belarus(白俄羅斯)"
+					},
+					{
+						"code": "32",
+						"info": "Belgium(比利時)"
+					},
+					{
+						"code": "501",
+						"info": "Belize(貝里斯)"
+					},
+					{
+						"code": "229",
+						"info": "Benin(貝南)"
+					},
+					{
+						"code": "1441",
+						"info": "Bermuda(百慕達)"
+					},
+					{
+						"code": "975",
+						"info": "Bhutan(不丹)"
+					},
+					{
+						"code": "591",
+						"info": "Bolivia(玻利維亞)"
+					},
+					{
+						"code": "387",
+						"info": "Bosnia and Herzegovina(波士尼亞與赫塞哥維納)"
+					},
+					{
+						"code": "267",
+						"info": "Botswana(波札那)"
+					},
+					{
+						"code": "55",
+						"info": "Brazil(巴西)"
+					},
+					{
+						"code": "673",
+						"info": "Brunei(汶萊)"
+					},
+					{
+						"code": "359",
+						"info": "Bulgaria(保加利亞)"
+					},
+					{
+						"code": "226",
+						"info": "Burkina Faso(布吉納法索)"
+					},
+					{
+						"code": "257",
+						"info": "Burundi(蒲隆地)"
+					},
+					{
+						"code": "855",
+						"info": "Cambodia(柬埔寨)"
+					},
+					{
+						"code": "237",
+						"info": "Cameroon(喀麥隆)"
+					},
+					{
+						"code": "1",
+						"info": "Canada(加拿大)"
+					},
+					{
+						"code": "236",
+						"info": "Central African Republic(中非共和國)"
+					},
+					{
+						"code": "235",
+						"info": "Chad(查德)"
+					},
+					{
+						"code": "56",
+						"info": "Chile(智利)"
+					},
+					{
+						"code": "86",
+						"info": "China(中國)"
+					},
+					{
+						"code": "672",
+						"info": "Christmas Island(聖誕島)"
+					},
+					{
+						"code": "57",
+						"info": "Colombia(哥倫比亞)"
+					},
+					{
+						"code": "269",
+						"info": "Comoros(葛摩)"
+					},
+					{
+						"code": "682",
+						"info": "Cook Islands(庫克群島)"
+					},
+					{
+						"code": "506",
+						"info": "Costa Rica(哥斯大黎加)"
+					},
+					{
+						"code": "225",
+						"info": "Côte dIvoire(科特迪瓦(象牙海岸))"
+					},
+					{
+						"code": "385",
+						"info": "Croatia(克羅埃西亞)"
+					},
+					{
+						"code": "53",
+						"info": "Cuba(古巴)"
+					},
+					{
+						"code": "357",
+						"info": "Cyprus(賽普勒斯)"
+					},
+					{
+						"code": "420",
+						"info": "Czech Republic(捷克共和國)"
+					},
+					{
+						"code": "45",
+						"info": "Denmark(丹麥)"
+					},
+					{
+						"code": "253",
+						"info": "Djibouti(吉布地)"
+					},
+					{
+						"code": "1767",
+						"info": "Dominica(多明尼加共和國)"
+					},
+					{
+						"code": "1809",
+						"info": "Dominican Republic(多明尼加共和國)"
+					},
+					{
+						"code": "593",
+						"info": "Ecuador(厄瓜多)"
+					},
+					{
+						"code": "20",
+						"info": "Egypt(埃及)"
+					},
+					{
+						"code": "503",
+						"info": "El Salvador(薩爾瓦多)"
+					},
+					{
+						"code": "372",
+						"info": "Estonia(愛沙尼亞)"
+					},
+					{
+						"code": "251",
+						"info": "Ethiopia(衣索比亞)"
+					},
+					{
+						"code": "500",
+						"info": "Falkland Islands(英屬福克蘭群島)"
+					},
+					{
+						"code": "252",
+						"info": "Federal Republic of Somalia(索馬利亞聯邦共和國)"
+					},
+					{
+						"code": "679",
+						"info": "Fiji(斐濟)"
+					},
+					{
+						"code": "358",
+						"info": "Finland(芬蘭)"
+					},
+					{
+						"code": "33",
+						"info": "France(法國)"
+					},
+					{
+						"code": "594",
+						"info": "French Guiana(法屬圭亞那)"
+					},
+					{
+						"code": "689",
+						"info": "French Polynesia(法屬玻里尼西亞)"
+					},
+					{
+						"code": "241",
+						"info": "Gabon(加彭)"
+					},
+					{
+						"code": "220",
+						"info": "Gambia(甘比亞)"
+					},
+					{
+						"code": "995",
+						"info": "Georgia(喬治亞)"
+					},
+					{
+						"code": "49",
+						"info": "Germany(德國)"
+					},
+					{
+						"code": "233",
+						"info": "Ghana(迦納)"
+					},
+					{
+						"code": "350",
+						"info": "Gibraltar(直布羅陀)"
+					},
+					{
+						"code": "30",
+						"info": "Greece(希臘)"
+					},
+					{
+						"code": "299",
+						"info": "Greenland(格陵蘭)"
+					},
+					{
+						"code": "1473",
+						"info": "Grenada(格瑞那達)"
+					},
+					{
+						"code": "1671",
+						"info": "Guam(關島)"
+					},
+					{
+						"code": "502",
+						"info": "Guatemala(瓜地馬拉)"
+					},
+					{
+						"code": "224",
+						"info": "Guinea(幾內亞)"
+					},
+					{
+						"code": "592",
+						"info": "Guyana(蓋亞那)"
+					},
+					{
+						"code": "509",
+						"info": "Haiti(海地)"
+					},
+					{
+						"code": "39",
+						"info": "Vatican City, Holy See(梵諦岡(教廷))"
+					},
+					{
+						"code": "504",
+						"info": "Honduras(宏都拉斯)"
+					},
+					{
+						"code": "852",
+						"info": "Hong Kong(香港)"
+					},
+					{
+						"code": "36",
+						"info": "Hungary(匈牙利)"
+					},
+					{
+						"code": "354",
+						"info": "Iceland(冰島)"
+					},
+					{
+						"code": "91",
+						"info": "India(印度)"
+					},
+					{
+						"code": "62",
+						"info": "Indonesia(印尼)"
+					},
+					{
+						"code": "98",
+						"info": "Iran(伊朗)"
+					},
+					{
+						"code": "964",
+						"info": "Iraq(伊拉克)"
+					},
+					{
+						"code": "353",
+						"info": "Ireland(愛爾蘭)"
+					},
+					{
+						"code": "972",
+						"info": "Israel(以色列)"
+					},
+					{
+						"code": "39",
+						"info": "Italy(義大利)"
+					},
+					{
+						"code": "1876",
+						"info": "Jamaica(牙買加)"
+					},
+					{
+						"code": "81",
+						"info": "Japan(日本)"
+					},
+					{
+						"code": "962",
+						"info": "Jordan(約旦)"
+					},
+					{
+						"code": "7",
+						"info": "Kazakhstan(哈薩克)"
+					},
+					{
+						"code": "254",
+						"info": "Kenya(肯亞)"
+					},
+					{
+						"code": "965",
+						"info": "Kuwait(科威特)"
+					},
+					{
+						"code": "996",
+						"info": "Kyrgyzstan(吉爾吉斯坦)"
+					},
+					{
+						"code": "856",
+						"info": "Laos(寮國)"
+					},
+					{
+						"code": "371",
+						"info": "Latvia(拉脫維亞)"
+					},
+					{
+						"code": "961",
+						"info": "Lebanon(黎巴嫩)"
+					},
+					{
+						"code": "266",
+						"info": "Lesotho(賴索托)"
+					},
+					{
+						"code": "231",
+						"info": "Liberia(賴比瑞亞)"
+					},
+					{
+						"code": "218",
+						"info": "Libya(利比亞)"
+					},
+					{
+						"code": "423",
+						"info": "Liechtenstein(列支敦斯登)"
+					},
+					{
+						"code": "370",
+						"info": "Lithuania(立陶宛)"
+					},
+					{
+						"code": "352",
+						"info": "Luxembourg(盧森堡)"
+					},
+					{
+						"code": "853",
+						"info": "Macau(澳門)"
+					},
+					{
+						"code": "389",
+						"info": "Macedonia(馬其頓)"
+					},
+					{
+						"code": "261",
+						"info": "Madagascar(馬達加斯加)"
+					},
+					{
+						"code": "265",
+						"info": "Malawi(馬拉威)"
+					},
+					{
+						"code": "60",
+						"info": "Malaysia(馬來西亞)"
+					},
+					{
+						"code": "960",
+						"info": "Maldives(馬爾地夫)"
+					},
+					{
+						"code": "223",
+						"info": "Mali(馬利)"
+					},
+					{
+						"code": "356",
+						"info": "Malta(馬爾他)"
+					},
+					{
+						"code": "230",
+						"info": "Mauritius(模里西斯)"
+					},
+					{
+						"code": "52",
+						"info": "Mexico(墨西哥)"
+					},
+					{
+						"code": "373",
+						"info": "Moldova(摩爾多瓦)"
+					},
+					{
+						"code": "377",
+						"info": "Monaco(摩納哥)"
+					},
+					{
+						"code": "976",
+						"info": "Mongolia(蒙古)"
+					},
+					{
+						"code": "382",
+						"info": "Montenegro(蒙特內哥羅)"
+					},
+					{
+						"code": "1664",
+						"info": "Montserrat(蒙塞拉特)"
+					},
+					{
+						"code": "212",
+						"info": "Morocco(摩洛哥)"
+					},
+					{
+						"code": "258",
+						"info": "Mozambique(莫三比克)"
+					},
+					{
+						"code": "95",
+						"info": "Myanmar(緬甸)"
+					},
+					{
+						"code": "264",
+						"info": "Namibia(那米比亞)"
+					},
+					{
+						"code": "674",
+						"info": "Nauru(諾魯)"
+					},
+					{
+						"code": "977",
+						"info": "Nepal(尼泊爾)"
+					},
+					{
+						"code": "31",
+						"info": "Netherlands(荷蘭)"
+					},
+					{
+						"code": "64",
+						"info": "New Zealand(紐西蘭)"
+					},
+					{
+						"code": "505",
+						"info": "Nicaragua(尼加拉瓜)"
+					},
+					{
+						"code": "227",
+						"info": "Niger(尼日)"
+					},
+					{
+						"code": "234",
+						"info": "Nigeria(奈及利亞)"
+					},
+					{
+						"code": "1-670",
+						"info": "Northern Mariana Islands(北馬里安納群島)"
+					},
+					{
+						"code": "850",
+						"info": "North Korea(北韓)"
+					},
+					{
+						"code": "47",
+						"info": "Norway(挪威)"
+					},
+					{
+						"code": "968",
+						"info": "Oman(阿曼)"
+					},
+					{
+						"code": "92",
+						"info": "Pakistan(巴基斯坦)"
+					},
+					{
+						"code": "507",
+						"info": "Panama(巴拿馬)"
+					},
+					{
+						"code": "675",
+						"info": "Papua New Guinea(巴布亞紐幾內亞)"
+					},
+					{
+						"code": "595",
+						"info": "Paraguay(巴拉圭)"
+					},
+					{
+						"code": "51",
+						"info": "Peru(秘魯)"
+					},
+					{
+						"code": "63",
+						"info": "Philippines(菲律賓)"
+					},
+					{
+						"code": "48",
+						"info": "Poland(波蘭)"
+					},
+					{
+						"code": "351",
+						"info": "Portugal(葡萄牙)"
+					},
+					{
+						"code": "1787",
+						"info": "Puerto Rico(波多黎各)"
+					},
+					{
+						"code": "974",
+						"info": "Qatar(卡達)"
+					},
+					{
+						"code": "680",
+						"info": "Republic of Palau(帛琉)"
+					},
+					{
+						"code": "242",
+						"info": "Republic of the Congo(剛果共和國)"
+					},
+					{
+						"code": "262",
+						"info": "Réunion(留尼旺)"
+					},
+					{
+						"code": "40",
+						"info": "Romania(羅馬尼亞)"
+					},
+					{
+						"code": "7",
+						"info": "Russia(俄羅斯)"
+					},
+					{
+						"code": "250",
+						"info": "Rwanda(盧安達)"
+					},
+					{
+						"code": "378",
+						"info": "San Marino(聖馬里諾)"
+					},
+					{
+						"code": "239",
+						"info": "Sao Tome and Principe(聖多美普林西比)"
+					},
+					{
+						"code": "966",
+						"info": "Saudi Arabia(沙烏地阿拉伯)"
+					},
+					{
+						"code": "221",
+						"info": "Senegal(塞內加爾)"
+					},
+					{
+						"code": "381",
+						"info": "Serbia(塞爾維亞)"
+					},
+					{
+						"code": "248",
+						"info": "Seychelles(塞席爾)"
+					},
+					{
+						"code": "232",
+						"info": "Sierra Leone(獅子山)"
+					},
+					{
+						"code": "65",
+						"info": "Singapore(新加坡)"
+					},
+					{
+						"code": "421",
+						"info": "Slovakia(斯洛伐克)"
+					},
+					{
+						"code": "386",
+						"info": "Slovenia(斯洛維尼亞)"
+					},
+					{
+						"code": "677",
+						"info": "Solomon Islands(索羅門群島)"
+					},
+					{
+						"code": "27",
+						"info": "South Africa(南非)"
+					},
+					{
+						"code": "82",
+						"info": "South Korea(南韓)"
+					},
+					{
+						"code": "34",
+						"info": "Spain(西班牙)"
+					},
+					{
+						"code": "94",
+						"info": "Sri Lanka(斯里蘭卡)"
+					},
+					{
+						"code": "1758",
+						"info": "St. Lucia(聖露西亞)"
+					},
+					{
+						"code": "1784",
+						"info": "St. Vincent and the Grenadines(聖文森及格瑞那丁)"
+					},
+					{
+						"code": "249",
+						"info": "Sudan(蘇丹)"
+					},
+					{
+						"code": "597",
+						"info": "Suriname(蘇利南)"
+					},
+					{
+						"code": "268",
+						"info": "Swaziland(史瓦濟蘭)"
+					},
+					{
+						"code": "46",
+						"info": "Sweden(瑞典)"
+					},
+					{
+						"code": "41",
+						"info": "Switzerland(瑞士)"
+					},
+					{
+						"code": "963",
+						"info": "Syria(希利亞)"
+					},
+					{
+						"code": "886",
+						"info": "Taiwan(台灣)"
+					},
+					{
+						"code": "992",
+						"info": "Tajikistan(塔吉克)"
+					},
+					{
+						"code": "255",
+						"info": "Tanzania(坦尚尼亞)"
+					},
+					{
+						"code": "66",
+						"info": "Thailand(泰國)"
+					},
+					{
+						"code": "228",
+						"info": "Togo(多哥)"
+					},
+					{
+						"code": "676",
+						"info": "Tonga(東加)"
+					},
+					{
+						"code": "1868",
+						"info": "Trinidad and Tobago(千里達及托巴哥)"
+					},
+					{
+						"code": "216",
+						"info": "Tunisia(突尼西亞)"
+					},
+					{
+						"code": "90",
+						"info": "Turkey(土耳其)"
+					},
+					{
+						"code": "993",
+						"info": "Turkmenistan(土庫曼)"
+					},
+					{
+						"code": "256",
+						"info": "Uganda(烏干達)"
+					},
+					{
+						"code": "380",
+						"info": "Ukraine(烏克蘭)"
+					},
+					{
+						"code": "971",
+						"info": "United Arab Emirates(阿拉伯聯合大公國)"
+					},
+					{
+						"code": "44",
+						"info": "United Kingdom(英國)"
+					},
+					{
+						"code": "1",
+						"info": "United States of America(美國)"
+					},
+					{
+						"code": "598",
+						"info": "Uruguay(烏拉圭)"
+					},
+					{
+						"code": "233",
+						"info": "Uzbekistan(烏茲別克)"
+					},
+					{
+						"code": "58",
+						"info": "Venezuela(委內瑞拉)"
+					},
+					{
+						"code": "84",
+						"info": "Vietnam(越南)"
+					},
+					{
+						"code": "967",
+						"info": "Yemen(葉門)"
+					},
+					{
+						"code": "260",
+						"info": "Zambia(尚比亞)"
+					},
+					{
+						"code": "263",
+						"info": "Zimbabwe(辛巴威)"
+					}
+				]
+			},
+			"tel_number": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"type": "string"
+			},
+			"gender": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_lead_used": "True",
+				"ref_source": "list_option.id",
+				"type": "list",
+				"list_option": [
+					{
+						"id": "F",
+						"name": "Female"
+					},
+					{
+						"id": "M",
+						"name": "Male"
+					}
+				]
+			},
+			"contact_app": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"ref_source": "list_option.app_type",
+				"type": "list",
+				"list_option": [
+					{
+						"supported": false,
+						"app_type": "0006",
+						"app_name": "SnapChat"
+					},
+					{
+						"supported": false,
+						"app_type": "0007",
+						"app_name": "Facebook Messenger"
+					},
+					{
+						"supported": false,
+						"app_type": "0004",
+						"app_name": "Kakao"
+					},
+					{
+						"supported": false,
+						"app_type": "0005",
+						"app_name": "Viber"
+					},
+					{
+						"supported": false,
+						"app_type": "0002",
+						"app_name": "WhatsApp"
+					},
+					{
+						"supported": false,
+						"app_type": "0003",
+						"app_name": "WeChat"
+					},
+					{
+						"supported": true,
+						"app_type": "0001",
+						"app_name": "Line"
+					},
+					{
+						"supported": false,
+						"app_type": "0008",
+						"app_name": "Twitter"
+					}
+				]
+			},
+			"contact_app_account": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"type": "string"
+			},
+			"guide_lang": {
+				"is_require": "True",
+				"is_visible": "True",
+				"ref_source": "list_option.code",
+				"type": "list",
+				"list_option": [
+					{
+						"code": "zh-tw",
+						"name": "中文"
+					}
+				]
+			}
+		},
+		"ref_pkg": {
+			"90701": {
+				"custom": {
+					"cus_type": [
+						"cus_01",
+						"contact"
+					]
+				}
+			},
+			"90809": {
+				"custom": {
+					"cus_type": [
+						"cus_01",
+						"contact"
+					]
+				}
+			}
+		}
+	}
+}

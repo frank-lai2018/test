@@ -1,0 +1,3808 @@
+{
+	"result": "00",
+	"result_msg": "OK",
+	"prod_marketing": {
+		"CN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"HK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"ID": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"JP": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KR": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"MY": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"PH": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"SG": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"TH": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"TW": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"VN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		}
+	},
+	"prod": {
+		"is_tour": false,
+		"timezone": "Asia/Taipei",
+		"guide_lang_list": [],
+		"voice_guide_lang": [],
+		"confirm_order_time": true,
+		"online_s_date": "2021-06-11",
+		"online_e_date": "2021-09-06",
+		"img_list": [
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_100299/20200511040029_dlFxk/jpg"
+		],
+		"video_list": [
+			"https://www.youtube.com/embed/AV7UrlsKH7I"
+		],
+		"prod_comment_info": {
+			"avg_scores": "4.8",
+			"total_scores": "121199",
+			"click_count": "0",
+			"comment_record": "25251"
+		},
+		"go_date_setting": {
+			"type": "01"
+		},
+		"is_cancel_free": false,
+		"description_module": {
+			"PMDL_EXCHANGE": {
+				"module_title": "憑證使用方式",
+				"content": {
+					"properties": {
+						"exchange_type": {
+							"desc": "電子憑證將寄送至 Email 信箱，請於指定地點兌換成實體票券",
+							"title": "使用方式"
+						},
+						"description": {
+							"desc": "請憑電子乘車券 / 列印紙本乘車券與證件及入境證明（輔助簽證或入台證等短期入境證明）至「 高鐵人工售票窗口 」兌換正式車票，如未預先線上作業可在現場兌換時向高鐵站售票窗口工作人員指定有效搭乘日期，方可使用。"
+						}
+					}
+				}
+			},
+			"PMDL_INC_NINC": {
+				"module_title": "費用包含/不包含",
+				"content": {
+					"properties": {
+						"include_item": {
+							"list": [
+								{
+									"desc": "交通"
+								}
+							],
+							"title": "費用包含"
+						},
+						"not_include_item": {
+							"list": [
+								{
+									"desc": "小費"
+								},
+								{
+									"desc": "保險"
+								}
+							],
+							"title": "費用不包含"
+						}
+					}
+				}
+			},
+			"PMDL_REFUND_POLICY": {
+				"module_title": "取消政策",
+				"content": {
+					"properties": {
+						"policy_type": {
+							"desc": "指定手續費",
+							"title": "手續費收取方式"
+						},
+						"partial_refund": {
+							"list": [
+								{
+									"desc": "所選日期 0 天（含）之前取消，收取手續費 10%"
+								}
+							],
+							"title": "政策內容"
+						}
+					}
+				}
+			},
+			"PMDL_EXCHANGE_VALID": {
+				"module_title": "憑證兌換期限",
+				"content": {
+					"properties": {
+						"exchange": {
+							"desc": "自開票日算起 89日 之內兌換有效，逾期無效"
+						}
+					}
+				}
+			},
+			"PMDL_NOTICE": {
+				"module_title": "注意事項",
+				"content": {
+					"properties": {
+						"cust_reminds": {
+							"list": [
+								{
+									"desc": "此產品為外國人限定（非台灣籍）。開票後若拿台灣護照到現場而造成無法換票，請自行負責，恕不接受退票。"
+								},
+								{
+									"desc": "適用對象僅適用於免簽、持觀光簽證、短期入境180天內之旅客，現場若資格不符合高鐵有權拒絕兌換。持中華民國居留證或中華民國護照入境者不適用。"
+								},
+								{
+									"desc": "經兌換實體票本後一概不接受訂單退款。"
+								},
+								{
+									"desc": "如尚未領取實體票本需變更日期或訂位之需求者，可於『台灣高鐵周遊券官方網站』進行變更作業。"
+								},
+								{
+									"desc": "如已領取實體票本後需變更日期或訂位之需求者，請持實體票本及護照正本至高鐵車站售票窗口辦理，每張票本僅可變更乙次。"
+								},
+								{
+									"desc": "如尚未領取實體票本需訂單退款需求者，請優先至『台灣高鐵周遊券官方網站』操作兌換日期及訂位的取消作業，方可訂單取消。"
+								},
+								{
+									"desc": "變更需於指定兌換首日23:59前 或 首班訂位車次發車前30分鐘（以上兩項條件以時間較早的為準）。"
+								},
+								{
+									"desc": "如有輪椅座位需求，請至台灣高鐵車站實體售票窗口辦理訂位作業。"
+								}
+							]
+						},
+						"cust_reminds_after": {
+							"list": [
+								{
+									"desc": "可於台灣高鐵周遊券官方網站（https://pass.thsrc.com.tw/oatsb2c/home.do）線上預定搭乘日期、班次及時間的位置。"
+								},
+								{
+									"desc": "請至「高鐵人工售票窗口」出示所有旅客之兌換憑證、護照正本及入境證明（輔助簽證或入台證等短期入境證明）以兌換正式車票。"
+								}
+							],
+							"title": "售後注意事項"
+						}
+					}
+				}
+			},
+			"PMDL_GRAPHIC": {
+				"module_title": "圖文介紹",
+				"content": {
+					"list": [
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_100299/20201106075616_osJ05/jpg"
+								}
+							],
+							"desc": "High Speed"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_100299/20201106075615_deMlz/jpg"
+								}
+							],
+							"desc": "High Speed"
+						}
+					]
+				}
+			},
+			"PMDL_NATIONALITY": {
+				"module_title": "使用對象",
+				"content": {
+					"properties": {
+						"nationality_not_allow": {
+							"desc": "台灣",
+							"title": "不可使用國籍/地區"
+						},
+						"notes": {
+							"list": [
+								{
+									"desc": "僅限短期入境外籍旅客適用（180天內）"
+								}
+							],
+							"title": "備註"
+						}
+					}
+				}
+			},
+			"PMDL_HOWTO_SUMMARY": {
+				"module_title": "如何使用",
+				"content": {
+					"desc": "<p>－ 兌換方式 －</p><ul><li>Step.1<br>商品訂購後不可更改，請於預訂時提供完整的英文姓名、性別、生日、護照號碼及國籍，未滿 6 歲不佔位孩童，無需購票。</li><li>Step.2<br>預訂完成後，旅客的 e-mail 將收到一封確認單及附件，附件為標有兌換碼的電子乘車券；電子乘車有效期為車票自購買日隔日起算89天內需完成車票兌換與搭乘。</li><li>Step.3<br>\b可持 e-mail 內附件中的兌換碼至<a href=\"https://pass.thsrc.com.tw/oatsb2c/home.do\">台灣高鐵周遊券官方網站</a>進行線上預先日期、班次及時間的劃位，劃位僅提供當日00:00起算29天內，每逢週五及週六至多可兌換四週後至週日(以台灣時間為準)。<br>舉例 1 ：A旅客兌換日為2021/01/04(一)，旅客的搭乘首日，至多可指定至2021/02/01(一)<br>舉例 2 ：B旅客兌換日為2021/01/08(五)，旅客的搭乘首日，至多可指定至2021/02/07(日)</li><li>Step.4<br>出行時，請憑電子乘車券 / 列印紙本乘車券與證件及入境證明（輔助簽證或入台證等短期入境證明）至「 高鐵人工售票窗口 」兌換正式車票，如未預先線上作業可在現場兌換時向高鐵站售票窗口工作人員指定有效搭乘日期，方可使用。</li><li>Step.5<br>本車票可任意搭乘自由座車廂，如需使標準對號服務時請至售票窗口預先訂位，不加收費用。進站時，請從「 人工驗票閘門 」進站，並隨身攜帶證件以備查驗。</li></ul><p>＊訂購時輸入台灣通行證號，現場就要出示台灣通行證正本；若輸入護照號，現場就要出示護照正本</p>"
+				}
+			},
+			"PMDL_PURCHASE_SUMMARY": {
+				"module_title": "購買須知",
+				"content": {
+					"desc": "<ul><li>訂購時所輸入的使用票券旅客證件資料，需等同於入境時證件，且必須含有一種以上之入境證明（輔助簽證或入台證等短期入境證明）。</li><li>未滿六歲不佔位兒童免購票。</li><li>完成預定後可持 E-mail 內附件中的兌換碼至<a href=\"https://pass.thsrc.com.tw/oatsb2c/home.do\">台灣高鐵周遊券官方網站</a>進行線上預先劃位。</li></ul>"
+				}
+			},
+			"PMDL_EXCHANGE_LOCATION": {
+				"module_title": "兌換地點",
+				"content": {
+					"properties": {
+						"locations": {
+							"list": [
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "高鐵南港站",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "25.0531893",
+												"longitude": "121.6070639",
+												"place_id": "ChIJgWhQ3l2rQjQRdtpPUgvJgqE",
+												"map_snap_url": "s1.kkday.com/product_100299/20200514074553_jIJWV/png",
+												"zoom_lv": "17",
+												"desc": "台北市南港區南港路一段313號",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"provide_service": {
+													"desc": "可兌換"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "05:50"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "05:50"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "05:50"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "05:50"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "05:50"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "05:50"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "05:50"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "高鐵台北站",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "25.047702",
+												"longitude": "121.5173735",
+												"place_id": "ChIJUZ-WfXKpQjQR0j4ggToD89A",
+												"map_snap_url": "s1.kkday.com/product_100299/20200514074553_bYMrj/png",
+												"zoom_lv": "17",
+												"desc": "台北市北平西路3號",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"provide_service": {
+													"desc": "可兌換"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "高鐵板橋站",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "25.0147194",
+												"longitude": "121.4634333",
+												"place_id": "ChIJ8Y8oQhmoQjQRDUBvInkLuzs",
+												"map_snap_url": "s1.kkday.com/product_100299/20200514074553_VXjfT/png",
+												"zoom_lv": "17",
+												"desc": "新北市板橋區縣民大道二段7號",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"provide_service": {
+													"desc": "可兌換"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "高鐵桃園站",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "25.0130119",
+												"longitude": "121.2147751",
+												"place_id": "ChIJS5srwwchaDQRlkNgS9W83y8",
+												"map_snap_url": "s1.kkday.com/product_100299/20200514074553_HC8p3/png",
+												"zoom_lv": "17",
+												"desc": "桃園市中壢區高鐵北路一段6號",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"provide_service": {
+													"desc": "可兌換"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "06:20"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "06:20"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "06:20"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "06:20"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "06:20"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "06:20"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "06:20"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "高鐵新竹站",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "24.8080601",
+												"longitude": "121.0404152",
+												"place_id": "ChIJYVsYXwc3aDQRxkf2EF11vVo",
+												"map_snap_url": "s1.kkday.com/product_100299/20200514074634_nI3sU/png",
+												"zoom_lv": "17",
+												"desc": "新竹縣竹北市高鐵七路6號",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"provide_service": {
+													"desc": "可兌換"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "06:15"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "06:15"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "06:15"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "06:15"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "06:15"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "06:15"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "06:15"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "高鐵苗栗站",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "24.6057663",
+												"longitude": "120.8255728",
+												"place_id": "ChIJnaSSGMqtaTQR9xdnVpkX-2E",
+												"map_snap_url": "s1.kkday.com/product_100299/20200514074634_w7Fq8/png",
+												"zoom_lv": "17",
+												"desc": "苗栗縣後龍鎮高鐵三路268號",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"provide_service": {
+													"desc": "可兌換"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "06:05"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "06:05"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "06:05"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "06:05"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "06:05"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "06:05"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "06:05"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "高鐵台中站",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "24.1115251",
+												"longitude": "120.6158213",
+												"place_id": "ChIJnbv8X50_aTQRP9q5D8vwYcI",
+												"map_snap_url": "s1.kkday.com/product_100299/20200514074742_kdzGQ/png",
+												"zoom_lv": "17",
+												"desc": "台中市烏日區站區二路8號",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"provide_service": {
+													"desc": "可兌換"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "05:40"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "05:40"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "05:40"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "05:40"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "05:40"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "05:40"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "05:40"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "高鐵彰化站",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "23.8742566",
+												"longitude": "120.5747402",
+												"place_id": "ChIJ5RR4feI0aTQRRGaze61biWM",
+												"map_snap_url": "s1.kkday.com/product_100299/20200514074742_Sk5EA/png",
+												"zoom_lv": "17",
+												"desc": "彰化縣田中鎮站區路二段99號",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"provide_service": {
+													"desc": "可兌換"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "06:20"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "06:20"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "06:20"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "06:20"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "06:20"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "06:20"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "06:20"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "高鐵雲林站",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "23.7361928",
+												"longitude": "120.4165976",
+												"place_id": "ChIJ4Rd-psOwbjQR3ZKPmn2-gFg",
+												"map_snap_url": "s1.kkday.com/product_100299/20200514074742_d4Au3/png",
+												"zoom_lv": "17",
+												"desc": "雲林縣虎尾鎮站前東路301號",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"provide_service": {
+													"desc": "可兌換"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "06:15"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "06:15"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "06:15"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "06:15"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "06:15"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "06:15"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "06:15"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "高鐵嘉義站",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "23.4591718",
+												"longitude": "120.322967",
+												"place_id": "ChIJZ2sDhxeabjQRVASAtAsHODE",
+												"map_snap_url": "s1.kkday.com/product_100299/20200514074742_ebjLX/png",
+												"zoom_lv": "17",
+												"desc": "嘉義縣太保市高鐵西路168號",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"provide_service": {
+													"desc": "可兌換"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "06:00"
+															},
+															"end_time": {
+																"desc": "23:45"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "高鐵台南站",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "22.9249609",
+												"longitude": "120.2855408",
+												"place_id": "ChIJl7gtAaZzbjQR7ibme-XQG0Q",
+												"map_snap_url": "s1.kkday.com/product_100299/20200514074759_D5K5u/png",
+												"zoom_lv": "17",
+												"desc": "台南市歸仁區歸仁大道100號",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"provide_service": {
+													"desc": "可兌換"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "05:45"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "05:45"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "05:45"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "05:45"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "05:45"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "05:45"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "05:45"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "高鐵高雄左營站",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "22.6871352",
+												"longitude": "120.3076584",
+												"place_id": "ChIJ2wdwy3EFbjQRnI7MjQwT-_M",
+												"map_snap_url": "s1.kkday.com/product_100299/20200514074816_jSVDh/png",
+												"zoom_lv": "17",
+												"desc": "高雄市左營區高鐵路105號",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"provide_service": {
+													"desc": "可兌換"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "05:25"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "05:25"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "05:25"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "05:25"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "05:25"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "05:25"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "05:25"
+															},
+															"end_time": {
+																"desc": "23:59"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								}
+							],
+							"table_key_langs": {
+								"city_info": "城市資訊",
+								"location_info": "地點資訊",
+								"station_list": "地點清單"
+							},
+							"title": "兌換地點"
+						}
+					}
+				}
+			},
+			"PMDL_INTRODUCE_SUMMARY": {
+				"module_title": "商品說明",
+				"content": {
+					"desc": "<p>－ 公告事項 －<br><br>為避免新冠疫情擴大，台灣高鐵公司不定期暫停提供自由座服務。故請配合高鐵公司政策提前至高鐵車站售票櫃台辦理標準車廂對號座訂位。若所選時段/車次已無座位，則可上車後空位搭乘或於車廂玄關站立乘車，謝謝配合。</p><p>更多疫情相關即時資訊，請參考<a href=\"https://pass.thsrc.com.tw/oatsb2c/home.do\">台灣高速鐵路官方網站</a><br><br><br>－ 票券介紹 －</p><p>台灣高鐵單程票券為台灣高鐵公司特別為來台海外旅客設計的交通票券，只要你是外籍人士，在KKday預訂高鐵票即可享有比原價便宜20%的折扣，讓你在台灣的旅行更加便利，在KKday線上完成預定後還可到<a href=\"https://pass.thsrc.com.tw/oatsb2c/home.do\">台灣高鐵周遊券官方網站</a>預先選擇搭乘日期、班次及劃位，為此趟旅程增添愉快及安心感。</p>"
+				}
+			}
+		},
+		"prod_no": 100299,
+		"prod_url_no": 100299,
+		"prod_name": "台灣高鐵8折優惠車票（外國人限定電子票）",
+		"prod_type": "M04",
+		"tag": [
+			"TAG_5_1"
+		],
+		"b2c_min_price": 30.0,
+		"b2b_min_price": 30.0,
+		"instant_booking": true,
+		"order_count": 219394,
+		"days": 0,
+		"hours": 0,
+		"duration": 0,
+		"introduction": "外國人限定優惠高鐵車票，獨享8折優惠，比早鳥票更便宜！優惠不限乘車班次此票自由座或對號座均可使用，並且可預先出發前在線上完成劃位，搭乘時不用怕沒位置坐。無論是到台北、台南或高雄旅遊都能舒適地出發。",
+		"cities": [
+			{
+				"city_code": "A01-001-00001",
+				"country_code": "A01-001",
+				"name": "台灣,台北"
+			},
+			{
+				"city_code": "A01-001-00002",
+				"country_code": "A01-001",
+				"name": "台灣,台中"
+			},
+			{
+				"city_code": "A01-001-00003",
+				"country_code": "A01-001",
+				"name": "台灣,台南"
+			},
+			{
+				"city_code": "A01-001-00004",
+				"country_code": "A01-001",
+				"name": "台灣,高雄"
+			},
+			{
+				"city_code": "A01-001-00006",
+				"country_code": "A01-001",
+				"name": "台灣,新北市"
+			},
+			{
+				"city_code": "A01-001-00008",
+				"country_code": "A01-001",
+				"name": "台灣,桃園"
+			},
+			{
+				"city_code": "A01-001-00009",
+				"country_code": "A01-001",
+				"name": "台灣,新竹"
+			},
+			{
+				"city_code": "A01-001-00010",
+				"country_code": "A01-001",
+				"name": "台灣,苗栗"
+			},
+			{
+				"city_code": "A01-001-00011",
+				"country_code": "A01-001",
+				"name": "台灣,彰化"
+			},
+			{
+				"city_code": "A01-001-00013",
+				"country_code": "A01-001",
+				"name": "台灣,雲林"
+			},
+			{
+				"city_code": "A01-001-00014",
+				"country_code": "A01-001",
+				"name": "台灣,嘉義"
+			}
+		],
+		"b2c_price": 1220.0,
+		"b2b_price": 30.0,
+		"prod_currency": "TWD"
+	},
+	"pkg": [
+		{
+			"pkg_no": 300963,
+			"pkg_name": "高鐵單程券",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "3",
+			"refund_type": "1",
+			"partial_refund": [
+				{
+					"value": 0.1,
+					"day_min": 0
+				}
+			],
+			"lead_day": 1,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "23:59",
+			"b2c_min_price": 30.0,
+			"b2b_min_price": 30.0,
+			"item_no": [
+				46290
+			],
+			"sale_s_date": "2021-06-11",
+			"sale_e_date": "2021-09-06",
+			"description_module": {}
+		}
+	],
+	"booking_field": {
+		"prod_no": "100299",
+		"custom": {
+			"cus_type": {
+				"is_require": "True",
+				"is_perParticipant": "True",
+				"type": "array",
+				"list_option": [
+					"cus_02"
+				]
+			},
+			"english_last_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_perParticipant": "True",
+				"type": "string"
+			},
+			"english_first_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_perParticipant": "True",
+				"type": "string"
+			},
+			"gender": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_perParticipant": "True",
+				"ref_source": "list_option.id",
+				"type": "list",
+				"list_option": [
+					{
+						"id": "F",
+						"name": "Female"
+					},
+					{
+						"id": "M",
+						"name": "Male"
+					}
+				]
+			},
+			"nationality": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_perParticipant": "True",
+				"ref_source": "list_option.code",
+				"type": "list",
+				"list_option": [
+					{
+						"name": "Afghanistan(阿富汗)",
+						"code": "AF"
+					},
+					{
+						"name": "Albania(阿爾巴尼亞)",
+						"code": "AL"
+					},
+					{
+						"name": "Algeria(阿爾及利亞)",
+						"code": "DZ"
+					},
+					{
+						"name": "Andorra(安道爾)",
+						"code": "AD"
+					},
+					{
+						"name": "Angola(安哥拉)",
+						"code": "AO"
+					},
+					{
+						"name": "Anguilla(安圭拉)",
+						"code": "AI"
+					},
+					{
+						"name": "Antarctica(南極洲)",
+						"code": "AQ"
+					},
+					{
+						"name": "Antigua and Barbuda(安地卡及巴布達)",
+						"code": "AG"
+					},
+					{
+						"name": "Argentina(阿根廷)",
+						"code": "AR"
+					},
+					{
+						"name": "Armenia(亞美尼亞)",
+						"code": "AM"
+					},
+					{
+						"name": "Aruba(阿魯巴)",
+						"code": "AW"
+					},
+					{
+						"name": "Australia(澳洲)",
+						"code": "AU"
+					},
+					{
+						"name": "Austria(奥地利)",
+						"code": "AT"
+					},
+					{
+						"name": "Azerbaijan(亞塞拜然)",
+						"code": "AZ"
+					},
+					{
+						"name": "Bahamas(巴哈馬)",
+						"code": "BS"
+					},
+					{
+						"name": "Bahrain(巴林)",
+						"code": "BH"
+					},
+					{
+						"name": "Bangladesh(孟加拉)",
+						"code": "BD"
+					},
+					{
+						"name": "Barbados(巴貝多)",
+						"code": "BB"
+					},
+					{
+						"name": "Belarus(白俄羅斯)",
+						"code": "BY"
+					},
+					{
+						"name": "Belgium(比利時)",
+						"code": "BE"
+					},
+					{
+						"name": "Belize(貝里斯)",
+						"code": "BZ"
+					},
+					{
+						"name": "Benin(貝南)",
+						"code": "BJ"
+					},
+					{
+						"name": "Bermuda(百慕達)",
+						"code": "BM"
+					},
+					{
+						"name": "Bhutan(不丹)",
+						"code": "BT"
+					},
+					{
+						"name": "Bolivia(玻利維亞)",
+						"code": "BO"
+					},
+					{
+						"name": "Bosnia and Herzegovina(波士尼亞與赫塞哥維納)",
+						"code": "BA"
+					},
+					{
+						"name": "Botswana(波札那)",
+						"code": "BW"
+					},
+					{
+						"name": "Brazil(巴西)",
+						"code": "BR"
+					},
+					{
+						"name": "Brunei(汶萊)",
+						"code": "BN"
+					},
+					{
+						"name": "Bulgaria(保加利亞)",
+						"code": "BG"
+					},
+					{
+						"name": "Burkina Faso(布吉納法索)",
+						"code": "BF"
+					},
+					{
+						"name": "Burundi(蒲隆地)",
+						"code": "BI"
+					},
+					{
+						"name": "Cambodia(柬埔寨)",
+						"code": "KH"
+					},
+					{
+						"name": "Cameroon(喀麥隆)",
+						"code": "CM"
+					},
+					{
+						"name": "Canada(加拿大)",
+						"code": "CA"
+					},
+					{
+						"name": "Central African Republic(中非共和國)",
+						"code": "CF"
+					},
+					{
+						"name": "Chad(查德)",
+						"code": "TD"
+					},
+					{
+						"name": "Chile(智利)",
+						"code": "CL"
+					},
+					{
+						"name": "China(中國)",
+						"code": "CN"
+					},
+					{
+						"name": "Christmas Island(聖誕島)",
+						"code": "CX"
+					},
+					{
+						"name": "Colombia(哥倫比亞)",
+						"code": "CO"
+					},
+					{
+						"name": "Comoros(葛摩)",
+						"code": "KM"
+					},
+					{
+						"name": "Cook Islands(庫克群島)",
+						"code": "CK"
+					},
+					{
+						"name": "Costa Rica(哥斯大黎加)",
+						"code": "CR"
+					},
+					{
+						"name": "Côte dIvoire(科特迪瓦(象牙海岸))",
+						"code": "CI"
+					},
+					{
+						"name": "Croatia(克羅埃西亞)",
+						"code": "HR"
+					},
+					{
+						"name": "Cuba(古巴)",
+						"code": "CU"
+					},
+					{
+						"name": "Cyprus(賽普勒斯)",
+						"code": "CY"
+					},
+					{
+						"name": "Czech Republic(捷克共和國)",
+						"code": "CZ"
+					},
+					{
+						"name": "Denmark(丹麥)",
+						"code": "DK"
+					},
+					{
+						"name": "Djibouti(吉布地)",
+						"code": "DJ"
+					},
+					{
+						"name": "Dominica(多明尼加共和國)",
+						"code": "DM"
+					},
+					{
+						"name": "Dominican Republic(多明尼加共和國)",
+						"code": "DO"
+					},
+					{
+						"name": "Ecuador(厄瓜多)",
+						"code": "EC"
+					},
+					{
+						"name": "Egypt(埃及)",
+						"code": "EG"
+					},
+					{
+						"name": "El Salvador(薩爾瓦多)",
+						"code": "SV"
+					},
+					{
+						"name": "Estonia(愛沙尼亞)",
+						"code": "EE"
+					},
+					{
+						"name": "Ethiopia(衣索比亞)",
+						"code": "ET"
+					},
+					{
+						"name": "Falkland Islands(英屬福克蘭群島)",
+						"code": "FK"
+					},
+					{
+						"name": "Federal Republic of Somalia(索馬利亞聯邦共和國)",
+						"code": "SO"
+					},
+					{
+						"name": "Fiji(斐濟)",
+						"code": "FJ"
+					},
+					{
+						"name": "Finland(芬蘭)",
+						"code": "FI"
+					},
+					{
+						"name": "France(法國)",
+						"code": "FR"
+					},
+					{
+						"name": "French Guiana(法屬圭亞那)",
+						"code": "GF"
+					},
+					{
+						"name": "French Polynesia(法屬玻里尼西亞)",
+						"code": "PF"
+					},
+					{
+						"name": "Gabon(加彭)",
+						"code": "GA"
+					},
+					{
+						"name": "Gambia(甘比亞)",
+						"code": "GM"
+					},
+					{
+						"name": "Georgia(喬治亞)",
+						"code": "GE"
+					},
+					{
+						"name": "Germany(德國)",
+						"code": "DE"
+					},
+					{
+						"name": "Ghana(迦納)",
+						"code": "GH"
+					},
+					{
+						"name": "Gibraltar(直布羅陀)",
+						"code": "GI"
+					},
+					{
+						"name": "Greece(希臘)",
+						"code": "GR"
+					},
+					{
+						"name": "Greenland(格陵蘭)",
+						"code": "GL"
+					},
+					{
+						"name": "Grenada(格瑞那達)",
+						"code": "GD"
+					},
+					{
+						"name": "Guam(關島)",
+						"code": "GU"
+					},
+					{
+						"name": "Guatemala(瓜地馬拉)",
+						"code": "GT"
+					},
+					{
+						"name": "Guinea(幾內亞)",
+						"code": "GN"
+					},
+					{
+						"name": "Guyana(蓋亞那)",
+						"code": "GY"
+					},
+					{
+						"name": "Haiti(海地)",
+						"code": "HT"
+					},
+					{
+						"name": "Vatican City, Holy See(梵諦岡(教廷))",
+						"code": "VA"
+					},
+					{
+						"name": "Honduras(宏都拉斯)",
+						"code": "HN"
+					},
+					{
+						"name": "Hong Kong(香港)",
+						"code": "HK"
+					},
+					{
+						"name": "Hungary(匈牙利)",
+						"code": "HU"
+					},
+					{
+						"name": "Iceland(冰島)",
+						"code": "IS"
+					},
+					{
+						"name": "India(印度)",
+						"code": "IN"
+					},
+					{
+						"name": "Indonesia(印尼)",
+						"code": "ID"
+					},
+					{
+						"name": "Iran(伊朗)",
+						"code": "IR"
+					},
+					{
+						"name": "Iraq(伊拉克)",
+						"code": "IQ"
+					},
+					{
+						"name": "Ireland(愛爾蘭)",
+						"code": "IE"
+					},
+					{
+						"name": "Israel(以色列)",
+						"code": "IL"
+					},
+					{
+						"name": "Italy(義大利)",
+						"code": "IT"
+					},
+					{
+						"name": "Jamaica(牙買加)",
+						"code": "JM"
+					},
+					{
+						"name": "Japan(日本)",
+						"code": "JP"
+					},
+					{
+						"name": "Jordan(約旦)",
+						"code": "JO"
+					},
+					{
+						"name": "Kazakhstan(哈薩克)",
+						"code": "KZ"
+					},
+					{
+						"name": "Kenya(肯亞)",
+						"code": "KE"
+					},
+					{
+						"name": "Kuwait(科威特)",
+						"code": "KW"
+					},
+					{
+						"name": "Kyrgyzstan(吉爾吉斯坦)",
+						"code": "KG"
+					},
+					{
+						"name": "Laos(寮國)",
+						"code": "LA"
+					},
+					{
+						"name": "Latvia(拉脫維亞)",
+						"code": "LV"
+					},
+					{
+						"name": "Lebanon(黎巴嫩)",
+						"code": "LB"
+					},
+					{
+						"name": "Lesotho(賴索托)",
+						"code": "LS"
+					},
+					{
+						"name": "Liberia(賴比瑞亞)",
+						"code": "LR"
+					},
+					{
+						"name": "Libya(利比亞)",
+						"code": "LY"
+					},
+					{
+						"name": "Liechtenstein(列支敦斯登)",
+						"code": "LI"
+					},
+					{
+						"name": "Lithuania(立陶宛)",
+						"code": "LT"
+					},
+					{
+						"name": "Luxembourg(盧森堡)",
+						"code": "LU"
+					},
+					{
+						"name": "Macau(澳門)",
+						"code": "MO"
+					},
+					{
+						"name": "Macedonia(馬其頓)",
+						"code": "MK"
+					},
+					{
+						"name": "Madagascar(馬達加斯加)",
+						"code": "MG"
+					},
+					{
+						"name": "Malawi(馬拉威)",
+						"code": "MW"
+					},
+					{
+						"name": "Malaysia(馬來西亞)",
+						"code": "MY"
+					},
+					{
+						"name": "Maldives(馬爾地夫)",
+						"code": "MV"
+					},
+					{
+						"name": "Mali(馬利)",
+						"code": "ML"
+					},
+					{
+						"name": "Malta(馬爾他)",
+						"code": "MT"
+					},
+					{
+						"name": "Mauritius(模里西斯)",
+						"code": "MU"
+					},
+					{
+						"name": "Mexico(墨西哥)",
+						"code": "MX"
+					},
+					{
+						"name": "Moldova(摩爾多瓦)",
+						"code": "MD"
+					},
+					{
+						"name": "Monaco(摩納哥)",
+						"code": "MC"
+					},
+					{
+						"name": "Mongolia(蒙古)",
+						"code": "MN"
+					},
+					{
+						"name": "Montenegro(蒙特內哥羅)",
+						"code": "ME"
+					},
+					{
+						"name": "Montserrat(蒙塞拉特)",
+						"code": "MS"
+					},
+					{
+						"name": "Morocco(摩洛哥)",
+						"code": "MA"
+					},
+					{
+						"name": "Mozambique(莫三比克)",
+						"code": "MZ"
+					},
+					{
+						"name": "Myanmar(緬甸)",
+						"code": "MM"
+					},
+					{
+						"name": "Namibia(那米比亞)",
+						"code": "NA"
+					},
+					{
+						"name": "Nauru(諾魯)",
+						"code": "NR"
+					},
+					{
+						"name": "Nepal(尼泊爾)",
+						"code": "NP"
+					},
+					{
+						"name": "Netherlands(荷蘭)",
+						"code": "NL"
+					},
+					{
+						"name": "New Zealand(紐西蘭)",
+						"code": "NZ"
+					},
+					{
+						"name": "Nicaragua(尼加拉瓜)",
+						"code": "NI"
+					},
+					{
+						"name": "Niger(尼日)",
+						"code": "NE"
+					},
+					{
+						"name": "Nigeria(奈及利亞)",
+						"code": "NG"
+					},
+					{
+						"name": "Northern Mariana Islands(北馬里安納群島)",
+						"code": "MP"
+					},
+					{
+						"name": "North Korea(北韓)",
+						"code": "KP"
+					},
+					{
+						"name": "Norway(挪威)",
+						"code": "NO"
+					},
+					{
+						"name": "Oman(阿曼)",
+						"code": "OM"
+					},
+					{
+						"name": "Pakistan(巴基斯坦)",
+						"code": "PK"
+					},
+					{
+						"name": "Panama(巴拿馬)",
+						"code": "PA"
+					},
+					{
+						"name": "Papua New Guinea(巴布亞紐幾內亞)",
+						"code": "PG"
+					},
+					{
+						"name": "Paraguay(巴拉圭)",
+						"code": "PY"
+					},
+					{
+						"name": "Peru(秘魯)",
+						"code": "PE"
+					},
+					{
+						"name": "Philippines(菲律賓)",
+						"code": "PH"
+					},
+					{
+						"name": "Poland(波蘭)",
+						"code": "PL"
+					},
+					{
+						"name": "Portugal(葡萄牙)",
+						"code": "PT"
+					},
+					{
+						"name": "Puerto Rico(波多黎各)",
+						"code": "PR"
+					},
+					{
+						"name": "Qatar(卡達)",
+						"code": "QA"
+					},
+					{
+						"name": "Republic of Palau(帛琉)",
+						"code": "PW"
+					},
+					{
+						"name": "Republic of the Congo(剛果共和國)",
+						"code": "CG"
+					},
+					{
+						"name": "Réunion(留尼旺)",
+						"code": "RE"
+					},
+					{
+						"name": "Romania(羅馬尼亞)",
+						"code": "RO"
+					},
+					{
+						"name": "Russia(俄羅斯)",
+						"code": "RU"
+					},
+					{
+						"name": "Rwanda(盧安達)",
+						"code": "RW"
+					},
+					{
+						"name": "San Marino(聖馬里諾)",
+						"code": "SM"
+					},
+					{
+						"name": "Sao Tome and Principe(聖多美普林西比)",
+						"code": "ST"
+					},
+					{
+						"name": "Saudi Arabia(沙烏地阿拉伯)",
+						"code": "SA"
+					},
+					{
+						"name": "Senegal(塞內加爾)",
+						"code": "SN"
+					},
+					{
+						"name": "Serbia(塞爾維亞)",
+						"code": "RS"
+					},
+					{
+						"name": "Seychelles(塞席爾)",
+						"code": "SC"
+					},
+					{
+						"name": "Sierra Leone(獅子山)",
+						"code": "SL"
+					},
+					{
+						"name": "Singapore(新加坡)",
+						"code": "SG"
+					},
+					{
+						"name": "Slovakia(斯洛伐克)",
+						"code": "SK"
+					},
+					{
+						"name": "Slovenia(斯洛維尼亞)",
+						"code": "SI"
+					},
+					{
+						"name": "Solomon Islands(索羅門群島)",
+						"code": "SB"
+					},
+					{
+						"name": "South Africa(南非)",
+						"code": "ZA"
+					},
+					{
+						"name": "South Korea(南韓)",
+						"code": "KR"
+					},
+					{
+						"name": "Spain(西班牙)",
+						"code": "ES"
+					},
+					{
+						"name": "Sri Lanka(斯里蘭卡)",
+						"code": "LK"
+					},
+					{
+						"name": "St. Lucia(聖露西亞)",
+						"code": "LC"
+					},
+					{
+						"name": "St. Vincent and the Grenadines(聖文森及格瑞那丁)",
+						"code": "VC"
+					},
+					{
+						"name": "Sudan(蘇丹)",
+						"code": "SD"
+					},
+					{
+						"name": "Suriname(蘇利南)",
+						"code": "SR"
+					},
+					{
+						"name": "Swaziland(史瓦濟蘭)",
+						"code": "SZ"
+					},
+					{
+						"name": "Sweden(瑞典)",
+						"code": "SE"
+					},
+					{
+						"name": "Switzerland(瑞士)",
+						"code": "CH"
+					},
+					{
+						"name": "Syria(希利亞)",
+						"code": "SY"
+					},
+					{
+						"name": "Taiwan(台灣)",
+						"code": "TW"
+					},
+					{
+						"name": "Tajikistan(塔吉克)",
+						"code": "TJ"
+					},
+					{
+						"name": "Tanzania(坦尚尼亞)",
+						"code": "TZ"
+					},
+					{
+						"name": "Thailand(泰國)",
+						"code": "TH"
+					},
+					{
+						"name": "Togo(多哥)",
+						"code": "TG"
+					},
+					{
+						"name": "Tonga(東加)",
+						"code": "TO"
+					},
+					{
+						"name": "Trinidad and Tobago(千里達及托巴哥)",
+						"code": "TT"
+					},
+					{
+						"name": "Tunisia(突尼西亞)",
+						"code": "TN"
+					},
+					{
+						"name": "Turkey(土耳其)",
+						"code": "TR"
+					},
+					{
+						"name": "Turkmenistan(土庫曼)",
+						"code": "TM"
+					},
+					{
+						"name": "Uganda(烏干達)",
+						"code": "UG"
+					},
+					{
+						"name": "Ukraine(烏克蘭)",
+						"code": "UA"
+					},
+					{
+						"name": "United Arab Emirates(阿拉伯聯合大公國)",
+						"code": "AE"
+					},
+					{
+						"name": "United Kingdom(英國)",
+						"code": "GB"
+					},
+					{
+						"name": "United States of America(美國)",
+						"code": "US"
+					},
+					{
+						"name": "Uruguay(烏拉圭)",
+						"code": "UY"
+					},
+					{
+						"name": "Uzbekistan(烏茲別克)",
+						"code": "UZ"
+					},
+					{
+						"name": "Venezuela(委內瑞拉)",
+						"code": "VE"
+					},
+					{
+						"name": "Vietnam(越南)",
+						"code": "VN"
+					},
+					{
+						"name": "Yemen(葉門)",
+						"code": "YE"
+					},
+					{
+						"name": "Zambia(尚比亞)",
+						"code": "ZM"
+					},
+					{
+						"name": "Zimbabwe(辛巴威)",
+						"code": "ZW"
+					}
+				]
+			},
+			"passport_no": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_perParticipant": "True",
+				"type": "string"
+			},
+			"birth": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_perParticipant": "True",
+				"type": "date"
+			}
+		},
+		"traffic": {
+			"car": {
+				"traffic_type": {
+					"is_require": "True",
+					"type": "array",
+					"list_option": [
+						"voucher"
+					]
+				},
+				"location_list": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_voucher_used": "True",
+					"type": "list",
+					"list_option": [
+						{
+							"traffic_type": "voucher",
+							"id": "62e71d66-e426-49b7-b23a-ca7aa9987076",
+							"name": "高鐵南港站",
+							"address": "台北市南港區南港路一段313號",
+							"time_list": [
+								{
+									"weekDays": "Y,N,N,N,N,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 50
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,Y,N,N,N,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 50
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,Y,N,N,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 50
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,Y,N,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 50
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,Y,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 50
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,Y,N",
+									"from": {
+										"hour": 5,
+										"minute": 50
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,N,Y",
+									"from": {
+										"hour": 5,
+										"minute": 50
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								}
+							]
+						},
+						{
+							"traffic_type": "voucher",
+							"id": "75f2d416-0d83-4fdc-aa88-4f9aaaa54454",
+							"name": "高鐵台北站",
+							"address": "台北市北平西路3號",
+							"time_list": [
+								{
+									"weekDays": "Y,N,N,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,Y,N,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,Y,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,Y,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,Y,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,Y,N",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,N,Y",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								}
+							]
+						},
+						{
+							"traffic_type": "voucher",
+							"id": "09d8fb8c-1f4c-4455-9264-4535e36e280d",
+							"name": "高鐵板橋站",
+							"address": "新北市板橋區縣民大道二段7號",
+							"time_list": [
+								{
+									"weekDays": "Y,N,N,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,Y,N,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,Y,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,Y,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,Y,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,Y,N",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,N,Y",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								}
+							]
+						},
+						{
+							"traffic_type": "voucher",
+							"id": "37677615-98c4-46e2-83ef-4fee82373f41",
+							"name": "高鐵桃園站",
+							"address": "桃園市中壢區高鐵北路一段6號",
+							"time_list": [
+								{
+									"weekDays": "Y,N,N,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 20
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,Y,N,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 20
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,Y,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 20
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,Y,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 20
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,Y,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 20
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,Y,N",
+									"from": {
+										"hour": 6,
+										"minute": 20
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,N,Y",
+									"from": {
+										"hour": 6,
+										"minute": 20
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								}
+							]
+						},
+						{
+							"traffic_type": "voucher",
+							"id": "f78214ef-e224-47df-be4d-5663385e7d12",
+							"name": "高鐵新竹站",
+							"address": "新竹縣竹北市高鐵七路6號",
+							"time_list": [
+								{
+									"weekDays": "Y,N,N,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 15
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,Y,N,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 15
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,Y,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 15
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,Y,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 15
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,Y,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 15
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,Y,N",
+									"from": {
+										"hour": 6,
+										"minute": 15
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,N,Y",
+									"from": {
+										"hour": 6,
+										"minute": 15
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								}
+							]
+						},
+						{
+							"traffic_type": "voucher",
+							"id": "8d8c3bb1-4997-4631-b471-3a1ae4938941",
+							"name": "高鐵苗栗站",
+							"address": "苗栗縣後龍鎮高鐵三路268號",
+							"time_list": [
+								{
+									"weekDays": "Y,N,N,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 5
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,Y,N,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 5
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,Y,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 5
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,Y,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 5
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,Y,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 5
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,Y,N",
+									"from": {
+										"hour": 6,
+										"minute": 5
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,N,Y",
+									"from": {
+										"hour": 6,
+										"minute": 5
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								}
+							]
+						},
+						{
+							"traffic_type": "voucher",
+							"id": "f55feb3c-4a09-465d-bc62-21ba85bf59a1",
+							"name": "高鐵台中站",
+							"address": "台中市烏日區站區二路8號",
+							"time_list": [
+								{
+									"weekDays": "Y,N,N,N,N,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 40
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,Y,N,N,N,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 40
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,Y,N,N,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 40
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,Y,N,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 40
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,Y,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 40
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,Y,N",
+									"from": {
+										"hour": 5,
+										"minute": 40
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,N,Y",
+									"from": {
+										"hour": 5,
+										"minute": 40
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								}
+							]
+						},
+						{
+							"traffic_type": "voucher",
+							"id": "7e7f9570-43e8-41a9-a74c-420c0b832cba",
+							"name": "高鐵彰化站",
+							"address": "彰化縣田中鎮站區路二段99號",
+							"time_list": [
+								{
+									"weekDays": "Y,N,N,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 20
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,Y,N,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 20
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,Y,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 20
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,Y,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 20
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,Y,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 20
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,Y,N",
+									"from": {
+										"hour": 6,
+										"minute": 20
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,N,Y",
+									"from": {
+										"hour": 6,
+										"minute": 20
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								}
+							]
+						},
+						{
+							"traffic_type": "voucher",
+							"id": "6bf2bc29-1c50-4738-90ff-1131c9f13a58",
+							"name": "高鐵雲林站",
+							"address": "雲林縣虎尾鎮站前東路301號",
+							"time_list": [
+								{
+									"weekDays": "Y,N,N,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 15
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,Y,N,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 15
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,Y,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 15
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,Y,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 15
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,Y,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 15
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,Y,N",
+									"from": {
+										"hour": 6,
+										"minute": 15
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,N,Y",
+									"from": {
+										"hour": 6,
+										"minute": 15
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								}
+							]
+						},
+						{
+							"traffic_type": "voucher",
+							"id": "b0ac0a7e-83ba-4c46-b562-27ee7b6d608f",
+							"name": "高鐵嘉義站",
+							"address": "嘉義縣太保市高鐵西路168號",
+							"time_list": [
+								{
+									"weekDays": "Y,N,N,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,Y,N,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,Y,N,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,Y,N,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,Y,N,N",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,Y,N",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,N,Y",
+									"from": {
+										"hour": 6,
+										"minute": 0
+									},
+									"to": {
+										"hour": 23,
+										"minute": 45
+									}
+								}
+							]
+						},
+						{
+							"traffic_type": "voucher",
+							"id": "1547ac2d-9cc4-4bfa-b7e6-58a518f96876",
+							"name": "高鐵台南站",
+							"address": "台南市歸仁區歸仁大道100號",
+							"time_list": [
+								{
+									"weekDays": "Y,N,N,N,N,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 45
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,Y,N,N,N,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 45
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,Y,N,N,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 45
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,Y,N,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 45
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,Y,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 45
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,Y,N",
+									"from": {
+										"hour": 5,
+										"minute": 45
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,N,Y",
+									"from": {
+										"hour": 5,
+										"minute": 45
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								}
+							]
+						},
+						{
+							"traffic_type": "voucher",
+							"id": "a2e8c50b-8851-4024-a7f7-c8d066d13663",
+							"name": "高鐵高雄左營站",
+							"address": "高雄市左營區高鐵路105號",
+							"time_list": [
+								{
+									"weekDays": "Y,N,N,N,N,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 25
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,Y,N,N,N,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 25
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,Y,N,N,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 25
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,Y,N,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 25
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,Y,N,N",
+									"from": {
+										"hour": 5,
+										"minute": 25
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,Y,N",
+									"from": {
+										"hour": 5,
+										"minute": 25
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								},
+								{
+									"weekDays": "N,N,N,N,N,N,Y",
+									"from": {
+										"hour": 5,
+										"minute": 25
+									},
+									"to": {
+										"hour": 23,
+										"minute": 59
+									}
+								}
+							]
+						}
+					]
+				},
+				"s_location": {
+					"is_require": "True",
+					"is_voucher_used": "True",
+					"ref_source": "location_list.id",
+					"type": "string"
+				}
+			}
+		},
+		"ref_pkg": {
+			"300963": {
+				"custom": {
+					"cus_type": [
+						"cus_02"
+					]
+				},
+				"traffic": {
+					"traffic_type": [
+						"voucher"
+					],
+					"s_location": "True"
+				}
+			}
+		}
+	}
+}

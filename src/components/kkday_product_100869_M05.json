@@ -1,0 +1,528 @@
+{
+	"result": "00",
+	"result_msg": "OK",
+	"prod_marketing": {
+		"CN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"HK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"ID": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"JP": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"KK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KR": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"MY": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"PH": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"SG": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"TH": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"TW": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"VN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		}
+	},
+	"prod": {
+		"is_tour": false,
+		"timezone": "Asia/Ho_Chi_Minh",
+		"guide_lang_list": [],
+		"voice_guide_lang": [],
+		"confirm_order_time": true,
+		"online_s_date": "2021-06-10",
+		"online_e_date": "2021-09-30",
+		"img_list": [
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_100869/20200612063616_x552o/png",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_100869/20200612063558_SwBqz/png",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_100869/20200612063601_hgzk7/png",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_100869/20200612063607_HJETE/png",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_100869/20200612063611_jgI4M/png",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_100869/20200612063605_RKuiw/png",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_100869/20200612063556_lKReE/png",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_100869/20200612063603_lgXEp/png",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_100869/20200612063609_Qo2sv/png",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_100869/20200612063614_mWkPn/png"
+		],
+		"video_list": [
+			"https://www.youtube.com/embed/https://youtu.be/OcbTCNEHKpE"
+		],
+		"prod_comment_info": {
+			"avg_scores": "4.58",
+			"total_scores": "142",
+			"click_count": "0",
+			"comment_record": "31"
+		},
+		"go_date_setting": {
+			"type": "01"
+		},
+		"is_cancel_free": false,
+		"description_module": {
+			"PMDL_INC_NINC": {
+				"module_title": "費用包含/不包含",
+				"content": {
+					"properties": {
+						"include_item": {
+							"list": [
+								{
+									"desc": "已選擇套餐的入場費用"
+								}
+							],
+							"title": "費用包含"
+						},
+						"not_include_item": {
+							"list": [
+								{
+									"desc": "個人消費"
+								},
+								{
+									"desc": "小費"
+								}
+							],
+							"title": "費用不包含"
+						}
+					}
+				}
+			},
+			"PMDL_REFUND_POLICY": {
+				"module_title": "取消政策",
+				"content": {
+					"properties": {
+						"policy_type": {
+							"desc": "免費取消！",
+							"title": "手續費收取方式"
+						}
+					}
+				}
+			},
+			"PMDL_EXCHANGE_VALID": {
+				"module_title": "憑證兌換期限",
+				"content": {
+					"properties": {
+						"exchange": {
+							"desc": "需要按照預訂日期及當天開放時間內兌換，逾期失效"
+						}
+					}
+				}
+			},
+			"PMDL_NOTICE": {
+				"module_title": "注意事項",
+				"content": {
+					"properties": {
+						"cust_reminds": {
+							"list": [
+								{
+									"desc": "Vinwonders Phu Quoc \b+ Vinpearl Safari 套票: 套票必須在同一天使用於兩個公園。您可以在任一公園兌換實體票卷，並在另一個公園出示該門票即可"
+								},
+								{
+									"desc": "如果您打算去水上公園，請自備泳衣和替換衣物"
+								},
+								{
+									"desc": "若您需要兌換長者票，請在售票處出示您的身份證正本或護照正本及憑證"
+								},
+								{
+									"desc": "建議您在參觀之前戴上帽子並塗抹防曬霜"
+								}
+							]
+						},
+						"cust_reminds_after": {
+							"list": [
+								{
+									"desc": "孩子們可以在歡樂之城休息，這裡備有齊全的設施（如床，毯子，枕頭）"
+								},
+								{
+									"desc": "客服電話: +84869419614"
+								},
+								{
+									"desc": "請您出示您的憑證（列印紙本或電子憑證）並在指定地點兌換成實體票卷"
+								}
+							],
+							"title": "售後注意事項"
+						}
+					}
+				}
+			},
+			"PMDL_GRAPHIC": {
+				"module_title": "圖文介紹",
+				"content": {
+					"list": [
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_100869/20200612063603_lgXEp/png"
+								}
+							],
+							"desc": "嘗試各種室內和室外景點（包括驚險刺激的遊樂設施和5D電影院），一天份的樂趣！"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_100869/20200612063556_lKReE/png"
+								}
+							],
+							"desc": "乘坐戶外景點時，感受呼嘯而過的風！"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_100869/20200612063611_jgI4M/png"
+								}
+							],
+							"desc": "在水上樂園重新找回遊玩樂趣！"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_100869/20200612063601_hgzk7/png"
+								}
+							],
+							"desc": "與最愛的人共度美好時光"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_100869/20200612063558_SwBqz/png"
+								}
+							],
+							"desc": "參觀VinWonders Phu Quoc，踏入夢幻般的童話世界"
+						}
+					]
+				}
+			},
+			"PMDL_EXCHANGE_LOCATION": {
+				"module_title": "兌換地點",
+				"content": {
+					"properties": {
+						"locations": {
+							"list": [
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "Vinwonders Phu Quoc 主題公園",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "10.34819",
+												"longitude": "103.902799",
+												"place_id": "ChIJq9Cae5wfCDERwmzdkKom29M",
+												"map_snap_url": "s1.kkday.com/product_100869/20201210025731_ErSEN/png",
+												"zoom_lv": "16",
+												"desc": "Phu Quoc, Ganh Dau, Phu Quoc Island, Kien Giang Province",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"arrival_desc": {
+													"desc": "建議旅客搭乘計程車前往"
+												},
+												"provide_service": {
+													"desc": "可兌換"
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								}
+							],
+							"table_key_langs": {
+								"city_info": "城市資訊",
+								"location_info": "地點資訊",
+								"station_list": "地點清單"
+							},
+							"title": "兌換地點"
+						}
+					}
+				}
+			},
+			"PMDL_INTRODUCE_SUMMARY": {
+				"module_title": "商品說明",
+				"content": {
+					"desc": "<p>與家人或朋友在VinWonders Phu Quoc相聚，並度過令人振奮的一天！它被譽為越南西南地區最大，最現代的遊樂園，在室內和室外體驗區擁有無數景點，此外還設有水上樂園，使您的旅行刻骨銘心！</p><p><br></p><p>感受高速遊樂設施的刺激，觀看刺激的雜技表演，或觀看娛樂表演以及在水上樂園暢游來放鬆一下！還有空餘時間嗎？預訂組合票可同時訪問 VinWonders和&nbsp;<a href=\"https://www.kkday.com/en/product/100875\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255);\">VinPearl Safari</a>，該博物館擁有來自世界各地的150多種野生動物！<br><br><br>－ 重要資訊 －</p><ul><li>公園開放時間：週一至週日，09:00-20:00（最後入場時間：19:00）</li><li>世界開放時間</li></ul><p>-&nbsp;幻想世界：09:00-19:00（最後入場時間：18:00）</p><p>-&nbsp;神秘維京村：09:00-18:00</p><p>-&nbsp;冒險世界：09:00-19:00（最後入場時間：18:00）<br>-&nbsp;歐洲街頭:：09:00-19:00（最後入場時間：18:00）</p><p>-&nbsp;颱風世界：09:00-18:00（最後入場時間：18:00）<br>- 貝殼：09：00-19：00（最後入場時間：18:00）<br></p><ul><li>Grand World 景點設施<br>-&nbsp;北越精華劇&nbsp;The Quintessence of Tonkin show<br>- 泰迪熊博物館&nbsp;Teddy Bear Museum<br>- 威尼斯色彩秀&nbsp;The Venice Color Show</li></ul><ul><li>演出時間</li></ul><p>- 颱風世界的舞蹈表演：10:00/ 16:30<br>- 冒險世界的瑪雅之歌：11:00/ 17:00<br>- 歐洲街頭的&nbsp;Vinwonders之友：09:00/ 15:00</p><p>-&nbsp;神秘維京村的維京舞蹈：10:3​​0/ 15:30</p><p>-火鳳凰廣場的一次性表演（待更新）</p>"
+				}
+			}
+		},
+		"prod_no": 100869,
+		"prod_url_no": 100869,
+		"prod_name": "越南 | VinWonders Phu Quoc主題公園門票",
+		"prod_type": "M05",
+		"tag": [
+			"TAG_2_3",
+			"TAG_1_3",
+			"TAG_2_1"
+		],
+		"b2c_min_price": 906.0,
+		"b2b_min_price": 834.0,
+		"instant_booking": true,
+		"order_count": 388,
+		"days": 0,
+		"hours": 0,
+		"duration": 0,
+		"introduction": "歡迎來到位於越南西南部最大，最現代化的遊樂園！ VinWonders Phu Quoc 在室內和室外體驗區擁有無數景點，更設有水上樂園，使您的旅行刻骨銘心！",
+		"cities": [
+			{
+				"city_code": "A01-011-00011",
+				"country_code": "A01-011",
+				"name": "越南,富國島"
+			}
+		],
+		"b2c_price": 1208.0,
+		"b2b_price": 834.0,
+		"prod_currency": "TWD"
+	},
+	"pkg": [
+		{
+			"pkg_no": 303718,
+			"pkg_name": "Vinwonders Phu Quoc 入場券",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "1",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 1,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Ho_Chi_Minh",
+			"lead_s_time": "00:00",
+			"lead_e_time": "16:59",
+			"b2c_min_price": 906.0,
+			"b2b_min_price": 834.0,
+			"item_no": [
+				49495
+			],
+			"sale_s_date": "2021-06-11",
+			"sale_e_date": "2021-09-30",
+			"description_module": {
+				"PMDL_USE_VALID": {
+					"module_title": "使用期限",
+					"content": {
+						"properties": {
+							"exchange": {
+								"desc": "需要按照預訂日期及當天開放時間內使用，逾期失效"
+							}
+						}
+					}
+				},
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>身高99公分及以下兒童可以免費入場</p>"
+							},
+							{
+								"desc": "<p>使用長者票的旅客，需在售票處向工作人員出示身份證正本或護照正本以及憑證以兌換票卷</p>"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"pkg_no": 310679,
+			"pkg_name": "VinPearl Safari Phu Quoc + Vinpearl Safari 組合套票",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "1",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 1,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Ho_Chi_Minh",
+			"lead_s_time": "00:00",
+			"lead_e_time": "16:59",
+			"b2c_min_price": 1208.0,
+			"b2b_min_price": 1111.0,
+			"item_no": [
+				56456
+			],
+			"sale_s_date": "2021-06-11",
+			"sale_e_date": "2021-09-30",
+			"description_module": {
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>身高99公分以下兒童免費入場</p>"
+							},
+							{
+								"desc": "<p>持有長者票旅客，需在售票處向工作人員出示身份證正本或護照正本以及憑證</p>"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"pkg_no": 334204,
+			"pkg_name": "Vinwonders Phu Quoc 入場券 (限當日訂購)",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "1",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 0,
+			"lead_day_unit": "h",
+			"lead_day_timezone": "Asia/Ho_Chi_Minh",
+			"lead_s_time": "00:00",
+			"lead_e_time": "16:59",
+			"b2c_min_price": 906.0,
+			"b2b_min_price": 861.0,
+			"item_no": [
+				79981
+			],
+			"sale_s_date": "2021-06-10",
+			"sale_e_date": "2021-09-30",
+			"description_module": {
+				"PMDL_USE_VALID": {
+					"module_title": "使用期限",
+					"content": {
+						"properties": {
+							"exchange": {
+								"desc": "需要按照預訂日期及當天開放時間內使用，逾期失效"
+							}
+						}
+					}
+				},
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>身高99公分以下兒童免費入場</p>"
+							},
+							{
+								"desc": "<p>持有長者票旅客，需在售票處向工作人員出示身份證正本或護照正本以及憑證</p>"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"pkg_no": 334206,
+			"pkg_name": "Vinwonders Phu Quoc\b+  Safari 套票  (限當日訂購)",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "1",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 0,
+			"lead_day_unit": "h",
+			"lead_day_timezone": "Asia/Ho_Chi_Minh",
+			"lead_s_time": "00:00",
+			"lead_e_time": "16:59",
+			"b2c_min_price": 1208.0,
+			"b2b_min_price": 1148.0,
+			"item_no": [
+				79983
+			],
+			"sale_s_date": "2021-06-10",
+			"sale_e_date": "2021-09-30",
+			"description_module": {
+				"PMDL_USE_VALID": {
+					"module_title": "使用期限",
+					"content": {
+						"properties": {
+							"exchange": {
+								"desc": "需要按照預訂日期及當天開放時間內使用，逾期失效"
+							}
+						}
+					}
+				},
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>身高99公分以下兒童免費入場</p>"
+							},
+							{
+								"desc": "<p>請注意：套票應在同一天內於兩個公園使用。您可以在任一公園兌換實體票卷，並在需要時於下一個公園出示該票卷。</p>"
+							},
+							{
+								"desc": "<p>持有長者票旅客，需在售票處向工作人員出示身份證正本或護照正本以及憑證</p>"
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"booking_field": {
+		"prod_no": "100869",
+		"ref_pkg": {
+			"334206": {},
+			"310679": {},
+			"303718": {},
+			"334204": {}
+		}
+	}
+}

@@ -1,0 +1,1803 @@
+{
+	"result": "00",
+	"result_msg": "OK",
+	"prod_marketing": {
+		"CN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"HK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"ID": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"JP": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"KK": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"KR": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"MY": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"PH": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"SG": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"TH": {
+			"is_search": false,
+			"is_sale": false,
+			"is_show": false
+		},
+		"TW": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		},
+		"VN": {
+			"is_search": true,
+			"is_sale": true,
+			"is_show": true
+		}
+	},
+	"prod": {
+		"is_tour": false,
+		"timezone": "Asia/Taipei",
+		"guide_lang_list": [],
+		"voice_guide_lang": [],
+		"confirm_order_time": false,
+		"online_s_date": "2021-06-09",
+		"online_e_date": "2022-03-03",
+		"img_list": [
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_105317/20201221031905_quiQF/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_105317/20201221031904_47qun/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_105317/20201221031903_zizA7/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_105317/20201127063148_H5ecq/png",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_105317/20201124032855_XJ1rc/jpg",
+			"https://image.kkday.com/v2/image/get/w_1920,h_1080,c_fit,q_55,wm_auto/s1.kkday.com/product_105317/20210303021342_mAHSd/jpg"
+		],
+		"video_list": [],
+		"prod_comment_info": {
+			"avg_scores": "4.55",
+			"total_scores": "150",
+			"click_count": "0",
+			"comment_record": "33"
+		},
+		"go_date_setting": {
+			"type": "01"
+		},
+		"is_cancel_free": false,
+		"description_module": {
+			"PMDL_EXCHANGE": {
+				"module_title": "憑證使用方式",
+				"content": {
+					"properties": {
+						"exchange_type": {
+							"desc": "現場請出示電子憑證",
+							"title": "使用方式"
+						}
+					}
+				}
+			},
+			"PMDL_INC_NINC": {
+				"module_title": "費用包含/不包含",
+				"content": {
+					"properties": {
+						"include_item": {
+							"list": [
+								{
+									"desc": "租車費用"
+								},
+								{
+									"desc": "冠城租車特製金門景點美食地圖"
+								},
+								{
+									"desc": "汽機車保險（強制險）"
+								},
+								{
+									"desc": "租機車附兩頂安全帽及安全帽套"
+								},
+								{
+									"desc": "電動車享不限次數免費更換電池"
+								}
+							],
+							"title": "費用包含"
+						},
+						"not_include_item": {
+							"list": [
+								{
+									"desc": "停車費"
+								},
+								{
+									"desc": "加油費"
+								}
+							],
+							"title": "費用不包含"
+						}
+					}
+				}
+			},
+			"PMDL_USE_VALID": {
+				"module_title": "使用期限",
+				"content": {
+					"properties": {
+						"exchange": {
+							"desc": "需要按照預訂日期及當天開放時間內使用，逾期失效"
+						}
+					}
+				}
+			},
+			"PMDL_REFUND_POLICY": {
+				"module_title": "取消政策",
+				"content": {
+					"properties": {
+						"policy_type": {
+							"desc": "指定手續費",
+							"title": "手續費收取方式"
+						},
+						"partial_refund": {
+							"list": [
+								{
+									"desc": "所選日期 2 天（含）之前取消，收取手續費 0%"
+								},
+								{
+									"desc": "所選日期  1 ~ 1 天之間取消，收取手續費 50%"
+								},
+								{
+									"desc": "所選日期  0 ~ 0 天之間取消，收取手續費 100%"
+								}
+							],
+							"title": "政策內容"
+						}
+					}
+				}
+			},
+			"PMDL_NOTICE": {
+				"module_title": "注意事項",
+				"content": {
+					"properties": {
+						"cust_reminds": {
+							"list": [
+								{
+									"desc": "租車客人請於下飛機後打開手機；以利本公司機場人員與您聯繫，冠城租車機場專線：0965-800-085"
+								},
+								{
+									"desc": "若原預約車型遇不可抗拒因素無法出車，本公司得以其他同等級或更高等級車輛代替。"
+								}
+							]
+						}
+					}
+				}
+			},
+			"PMDL_GRAPHIC": {
+				"module_title": "圖文介紹",
+				"content": {
+					"list": [
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_105317/20201124032958_YcPjl/png"
+								}
+							],
+							"desc": "TOYOTA VIOS（五人座車）"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_105317/20201124032959_ukk10/png"
+								}
+							],
+							"desc": "2019 TOYOTA VIOS（五人座車）"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_105317/20201124032959_2qiwQ/png"
+								}
+							],
+							"desc": "TOYOTA ALTIS（五人座車）"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_105317/20201124033000_4wIRe/png"
+								}
+							],
+							"desc": "豐田 TOYOTA CAMRY（五人座車）"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_105317/20201124033001_DK1Dz/png"
+								}
+							],
+							"desc": "NISSAN LIVINA（五人座車）"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_105317/20210303025617_SjF4F/png"
+								}
+							],
+							"desc": "125cc機車"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_105317/20210303031137_Lmqwx/png"
+								}
+							],
+							"desc": "中華電動機車"
+						},
+						{
+							"media": [
+								{
+									"source_content": "https://image.kkday.com/v2/image/get/w_960,c_fit,q_55,wm_auto/s1.kkday.com/product_105317/20210303031138_0DyhO/png"
+								}
+							],
+							"desc": "中華電動自行車"
+						}
+					]
+				}
+			},
+			"PMDL_EXTRA_FEE": {
+				"module_title": "額外費用",
+				"content": {
+					"list": [
+						{
+							"desc": "以日租金 10% 計算，超時超過六小時以一日計算",
+							"title": "超時計費"
+						},
+						{
+							"desc": "NT$100/天（非 24小時制計價）\n如需嬰兒座椅請於訂單備註中告知供應商保留",
+							"title": "嬰兒座椅租借"
+						}
+					],
+					"title": "額外費用"
+				}
+			},
+			"PMDL_PURCHASE_SUMMARY": {
+				"module_title": "購買須知",
+				"content": {
+					"desc": "<ul><li>為確保服務品質，本公司所有服務車輛全程禁止吸菸<br></li><li>承租人需年滿20歲，並出示本身持有之中華民國駕照，取車時需攜帶本人駕照</li></ul>"
+				}
+			},
+			"PMDL_EXCHANGE_LOCATION": {
+				"module_title": "租車地點",
+				"content": {
+					"properties": {
+						"locations": {
+							"list": [
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "金門機場",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "24.4290517",
+												"longitude": "118.3596702",
+												"place_id": "ChIJ83vpvbqjFDQRJDlzCLzNZeg",
+												"map_snap_url": "s1.kkday.com/product_105317/20201124031132_KHO4M/png",
+												"zoom_lv": "15",
+												"desc": "金門機場",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"provide_service": {
+													"desc": "可取還車"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "08:00"
+															},
+															"end_time": {
+																"desc": "17:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "08:00"
+															},
+															"end_time": {
+																"desc": "17:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "08:00"
+															},
+															"end_time": {
+																"desc": "17:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "08:00"
+															},
+															"end_time": {
+																"desc": "17:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "08:00"
+															},
+															"end_time": {
+																"desc": "17:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "08:00"
+															},
+															"end_time": {
+																"desc": "17:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "08:00"
+															},
+															"end_time": {
+																"desc": "17:30"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								},
+								{
+									"location_info": {
+										"properties": {
+											"store_name": {
+												"desc": "金門冠城租車",
+												"title": "地點名稱"
+											},
+											"latlng": {
+												"latitude": "24.429705",
+												"longitude": "118.3156684",
+												"place_id": "ChIJ4-n_jLqjFDQR1zG2QQAfAgc",
+												"map_snap_url": "s1.kkday.com/product_105317/20201124031132_ZjhMO/png",
+												"zoom_lv": "15",
+												"desc": "冠城租車",
+												"title": "地址資訊"
+											}
+										}
+									},
+									"station_list": {
+										"list": [
+											{
+												"provide_service": {
+													"desc": "可取還車"
+												},
+												"active_time": {
+													"list": [
+														{
+															"week_title": {
+																"desc": "禮拜一"
+															},
+															"start_time": {
+																"desc": "07:30"
+															},
+															"end_time": {
+																"desc": "18:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜二"
+															},
+															"start_time": {
+																"desc": "07:30"
+															},
+															"end_time": {
+																"desc": "18:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜三"
+															},
+															"start_time": {
+																"desc": "07:30"
+															},
+															"end_time": {
+																"desc": "18:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜四"
+															},
+															"start_time": {
+																"desc": "07:30"
+															},
+															"end_time": {
+																"desc": "18:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜五"
+															},
+															"start_time": {
+																"desc": "07:30"
+															},
+															"end_time": {
+																"desc": "18:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜六"
+															},
+															"start_time": {
+																"desc": "07:30"
+															},
+															"end_time": {
+																"desc": "18:30"
+															}
+														},
+														{
+															"week_title": {
+																"desc": "禮拜日"
+															},
+															"start_time": {
+																"desc": "07:30"
+															},
+															"end_time": {
+																"desc": "18:30"
+															}
+														}
+													],
+													"table_key_langs": {
+														"week_title": "星期",
+														"start_time": "開放時間",
+														"end_time": "結束時間",
+														"close_desc": "是否開放"
+													}
+												}
+											}
+										],
+										"table_key_langs": {
+											"station_desc": "地點描述",
+											"provide_service": "提供服務",
+											"arrival_desc": "如何抵達",
+											"photo": "地點圖片",
+											"video": "地點影片",
+											"active_time": "服務時間",
+											"active_time_desc": "服務時間說明",
+											"active_tel_desc": "服務電話"
+										}
+									}
+								}
+							],
+							"table_key_langs": {
+								"city_info": "城市資訊",
+								"location_info": "地點資訊",
+								"station_list": "地點清單"
+							},
+							"title": "租車地點"
+						}
+					}
+				}
+			},
+			"PMDL_INTRODUCE_SUMMARY": {
+				"module_title": "商品說明",
+				"content": {
+					"desc": "<p>－ 行程資訊 －</p><ul><li>車款資訊：（依所選套餐）</li><li>取還車地點：機場或分店取車</li><li>取還車時間：請於各分店營業時間內取還車</li><li>用車時間：以一日租車 (24 小時) 為計算單位</li><li>必備證件：限中華民國核發之合格普通小型車駕照、中華民國核發之合格重型機車駕照</li></ul>"
+				}
+			}
+		},
+		"prod_no": 105317,
+		"prod_url_no": 105317,
+		"prod_name": "【限時優惠 8 折起】金門租車/租機車｜租車自駕遊金門｜金門機場碼頭取件",
+		"prod_type": "M04",
+		"tag": [
+			"TAG_5_3"
+		],
+		"b2c_min_price": 400.0,
+		"b2b_min_price": 368.0,
+		"instant_booking": false,
+		"order_count": 158,
+		"days": 0,
+		"hours": 0,
+		"duration": 0,
+		"introduction": "金門冠城租車為來訪金門的遊客提供各式汽車、機車租賃服務，提供最齊全的車種和最優質專業服務。不管是要去翟山坑道或清金門鎮總兵署、欣賞金門建築莒光樓、山后民俗文化村，到特色景點走訪太武山、擎天，感受金門在地文化特色，自行租車玩金門輕鬆自在又便利，開心自駕暢遊各大金門必去景點",
+		"cities": [
+			{
+				"city_code": "A01-001-00020",
+				"country_code": "A01-001",
+				"name": "台灣,金門"
+			}
+		],
+		"b2c_price": 16000.0,
+		"b2b_price": 368.0,
+		"prod_currency": "TWD"
+	},
+	"pkg": [
+		{
+			"pkg_no": 317794,
+			"pkg_name": "金門租車｜五人座車",
+			"exchange_type": "",
+			"confirm_time": 1,
+			"confirm_time_unit": "d",
+			"deliver_time_unit": "d",
+			"policy_type": "3",
+			"refund_type": "1",
+			"partial_refund": [
+				{
+					"value": 0.0,
+					"day_min": 2
+				},
+				{
+					"value": 0.5,
+					"day_min": 1,
+					"day_max": 1
+				},
+				{
+					"value": 1.0,
+					"day_min": 0,
+					"day_max": 0
+				}
+			],
+			"lead_day": 1,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "09:30",
+			"lead_e_time": "17:59",
+			"b2c_min_price": 1300.0,
+			"b2b_min_price": 1196.0,
+			"item_no": [
+				63571
+			],
+			"sale_s_date": "2021-06-09",
+			"sale_e_date": "2021-11-12",
+			"description_module": {
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>可乘載行李數：1-2件行李箱（依乘坐人數而有增減）<br></p>"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"pkg_no": 317795,
+			"pkg_name": "金門租車｜七人座車",
+			"exchange_type": "",
+			"confirm_time": 1,
+			"confirm_time_unit": "d",
+			"deliver_time_unit": "d",
+			"policy_type": "3",
+			"refund_type": "1",
+			"partial_refund": [
+				{
+					"value": 0.0,
+					"day_min": 2
+				},
+				{
+					"value": 0.5,
+					"day_min": 1,
+					"day_max": 1
+				},
+				{
+					"value": 1.0,
+					"day_min": 0,
+					"day_max": 0
+				}
+			],
+			"lead_day": 1,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "09:00",
+			"lead_e_time": "17:59",
+			"b2c_min_price": 2400.0,
+			"b2b_min_price": 2208.0,
+			"item_no": [
+				63572
+			],
+			"sale_s_date": "2021-06-09",
+			"sale_e_date": "2021-11-24",
+			"description_module": {}
+		},
+		{
+			"pkg_no": 339411,
+			"pkg_name": "金門租車｜九人座車",
+			"exchange_type": "",
+			"confirm_time": 1,
+			"confirm_time_unit": "d",
+			"deliver_time_unit": "d",
+			"policy_type": "3",
+			"refund_type": "1",
+			"partial_refund": [
+				{
+					"value": 0.0,
+					"day_min": 2
+				},
+				{
+					"value": 0.5,
+					"day_min": 1,
+					"day_max": 1
+				},
+				{
+					"value": 1.0,
+					"day_min": 0,
+					"day_max": 0
+				}
+			],
+			"lead_day": 1,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "09:30",
+			"lead_e_time": "17:29",
+			"b2c_min_price": 3500.0,
+			"b2b_min_price": 3220.0,
+			"item_no": [
+				85188
+			],
+			"sale_s_date": "2021-06-09",
+			"sale_e_date": "2021-12-31",
+			"description_module": {}
+		},
+		{
+			"pkg_no": 338616,
+			"pkg_name": "【 KKgift 2021 平日限定 8 折優惠專案】金門租機車",
+			"exchange_type": "",
+			"confirm_time": 1,
+			"confirm_time_unit": "d",
+			"deliver_time_unit": "d",
+			"policy_type": "3",
+			"refund_type": "1",
+			"partial_refund": [
+				{
+					"value": 0.0,
+					"day_min": 2
+				},
+				{
+					"value": 0.5,
+					"day_min": 1,
+					"day_max": 1
+				},
+				{
+					"value": 1.0,
+					"day_min": 0,
+					"day_max": 0
+				}
+			],
+			"lead_day": 1,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "09:30",
+			"lead_e_time": "16:29",
+			"b2c_min_price": 640.0,
+			"b2b_min_price": 589.0,
+			"item_no": [
+				84393
+			],
+			"sale_s_date": "2021-06-09",
+			"sale_e_date": "2021-06-30",
+			"description_module": {}
+		},
+		{
+			"pkg_no": 337319,
+			"pkg_name": "金門租機車＆電動自行車",
+			"exchange_type": "",
+			"confirm_time": 1,
+			"confirm_time_unit": "d",
+			"deliver_time_unit": "d",
+			"policy_type": "3",
+			"refund_type": "1",
+			"partial_refund": [
+				{
+					"value": 0.0,
+					"day_min": 2
+				},
+				{
+					"value": 0.5,
+					"day_min": 1,
+					"day_max": 1
+				},
+				{
+					"value": 1.0,
+					"day_min": 0,
+					"day_max": 0
+				}
+			],
+			"lead_day": 2,
+			"lead_day_unit": "d",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "09:30",
+			"lead_e_time": "16:29",
+			"b2c_min_price": 400.0,
+			"b2b_min_price": 368.0,
+			"item_no": [
+				83096
+			],
+			"sale_s_date": "2021-06-10",
+			"sale_e_date": "2022-03-03",
+			"description_module": {}
+		}
+	],
+	"booking_field": {
+		"prod_no": "105317",
+		"custom": {
+			"cus_type": {
+				"is_require": "True",
+				"is_contact_used": "True",
+				"is_lead_used": "True",
+				"type": "array",
+				"list_option": [
+					"cus_01",
+					"contact"
+				]
+			},
+			"native_last_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"is_lead_used": "True",
+				"type": "string"
+			},
+			"native_first_name": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"is_lead_used": "True",
+				"type": "string"
+			},
+			"tel_country_code": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"ref_source": "list_option.code",
+				"type": "list",
+				"list_option": [
+					{
+						"code": "93",
+						"info": "Afghanistan(阿富汗)"
+					},
+					{
+						"code": "355",
+						"info": "Albania(阿爾巴尼亞)"
+					},
+					{
+						"code": "213",
+						"info": "Algeria(阿爾及利亞)"
+					},
+					{
+						"code": "376",
+						"info": "Andorra(安道爾)"
+					},
+					{
+						"code": "244",
+						"info": "Angola(安哥拉)"
+					},
+					{
+						"code": "1264",
+						"info": "Anguilla(安圭拉)"
+					},
+					{
+						"code": "672",
+						"info": "Antarctica(南極洲)"
+					},
+					{
+						"code": "1268",
+						"info": "Antigua and Barbuda(安地卡及巴布達)"
+					},
+					{
+						"code": "54",
+						"info": "Argentina(阿根廷)"
+					},
+					{
+						"code": "374",
+						"info": "Armenia(亞美尼亞)"
+					},
+					{
+						"code": "297",
+						"info": "Aruba(阿魯巴)"
+					},
+					{
+						"code": "61",
+						"info": "Australia(澳洲)"
+					},
+					{
+						"code": "43",
+						"info": "Austria(奥地利)"
+					},
+					{
+						"code": "994",
+						"info": "Azerbaijan(亞塞拜然)"
+					},
+					{
+						"code": "1242",
+						"info": "Bahamas(巴哈馬)"
+					},
+					{
+						"code": "973",
+						"info": "Bahrain(巴林)"
+					},
+					{
+						"code": "880",
+						"info": "Bangladesh(孟加拉)"
+					},
+					{
+						"code": "1246",
+						"info": "Barbados(巴貝多)"
+					},
+					{
+						"code": "375",
+						"info": "Belarus(白俄羅斯)"
+					},
+					{
+						"code": "32",
+						"info": "Belgium(比利時)"
+					},
+					{
+						"code": "501",
+						"info": "Belize(貝里斯)"
+					},
+					{
+						"code": "229",
+						"info": "Benin(貝南)"
+					},
+					{
+						"code": "1441",
+						"info": "Bermuda(百慕達)"
+					},
+					{
+						"code": "975",
+						"info": "Bhutan(不丹)"
+					},
+					{
+						"code": "591",
+						"info": "Bolivia(玻利維亞)"
+					},
+					{
+						"code": "387",
+						"info": "Bosnia and Herzegovina(波士尼亞與赫塞哥維納)"
+					},
+					{
+						"code": "267",
+						"info": "Botswana(波札那)"
+					},
+					{
+						"code": "55",
+						"info": "Brazil(巴西)"
+					},
+					{
+						"code": "673",
+						"info": "Brunei(汶萊)"
+					},
+					{
+						"code": "359",
+						"info": "Bulgaria(保加利亞)"
+					},
+					{
+						"code": "226",
+						"info": "Burkina Faso(布吉納法索)"
+					},
+					{
+						"code": "257",
+						"info": "Burundi(蒲隆地)"
+					},
+					{
+						"code": "855",
+						"info": "Cambodia(柬埔寨)"
+					},
+					{
+						"code": "237",
+						"info": "Cameroon(喀麥隆)"
+					},
+					{
+						"code": "1",
+						"info": "Canada(加拿大)"
+					},
+					{
+						"code": "236",
+						"info": "Central African Republic(中非共和國)"
+					},
+					{
+						"code": "235",
+						"info": "Chad(查德)"
+					},
+					{
+						"code": "56",
+						"info": "Chile(智利)"
+					},
+					{
+						"code": "86",
+						"info": "China(中國)"
+					},
+					{
+						"code": "672",
+						"info": "Christmas Island(聖誕島)"
+					},
+					{
+						"code": "57",
+						"info": "Colombia(哥倫比亞)"
+					},
+					{
+						"code": "269",
+						"info": "Comoros(葛摩)"
+					},
+					{
+						"code": "682",
+						"info": "Cook Islands(庫克群島)"
+					},
+					{
+						"code": "506",
+						"info": "Costa Rica(哥斯大黎加)"
+					},
+					{
+						"code": "225",
+						"info": "Côte dIvoire(科特迪瓦(象牙海岸))"
+					},
+					{
+						"code": "385",
+						"info": "Croatia(克羅埃西亞)"
+					},
+					{
+						"code": "53",
+						"info": "Cuba(古巴)"
+					},
+					{
+						"code": "357",
+						"info": "Cyprus(賽普勒斯)"
+					},
+					{
+						"code": "420",
+						"info": "Czech Republic(捷克共和國)"
+					},
+					{
+						"code": "45",
+						"info": "Denmark(丹麥)"
+					},
+					{
+						"code": "253",
+						"info": "Djibouti(吉布地)"
+					},
+					{
+						"code": "1767",
+						"info": "Dominica(多明尼加共和國)"
+					},
+					{
+						"code": "1809",
+						"info": "Dominican Republic(多明尼加共和國)"
+					},
+					{
+						"code": "593",
+						"info": "Ecuador(厄瓜多)"
+					},
+					{
+						"code": "20",
+						"info": "Egypt(埃及)"
+					},
+					{
+						"code": "503",
+						"info": "El Salvador(薩爾瓦多)"
+					},
+					{
+						"code": "372",
+						"info": "Estonia(愛沙尼亞)"
+					},
+					{
+						"code": "251",
+						"info": "Ethiopia(衣索比亞)"
+					},
+					{
+						"code": "500",
+						"info": "Falkland Islands(英屬福克蘭群島)"
+					},
+					{
+						"code": "252",
+						"info": "Federal Republic of Somalia(索馬利亞聯邦共和國)"
+					},
+					{
+						"code": "679",
+						"info": "Fiji(斐濟)"
+					},
+					{
+						"code": "358",
+						"info": "Finland(芬蘭)"
+					},
+					{
+						"code": "33",
+						"info": "France(法國)"
+					},
+					{
+						"code": "594",
+						"info": "French Guiana(法屬圭亞那)"
+					},
+					{
+						"code": "689",
+						"info": "French Polynesia(法屬玻里尼西亞)"
+					},
+					{
+						"code": "241",
+						"info": "Gabon(加彭)"
+					},
+					{
+						"code": "220",
+						"info": "Gambia(甘比亞)"
+					},
+					{
+						"code": "995",
+						"info": "Georgia(喬治亞)"
+					},
+					{
+						"code": "49",
+						"info": "Germany(德國)"
+					},
+					{
+						"code": "233",
+						"info": "Ghana(迦納)"
+					},
+					{
+						"code": "350",
+						"info": "Gibraltar(直布羅陀)"
+					},
+					{
+						"code": "30",
+						"info": "Greece(希臘)"
+					},
+					{
+						"code": "299",
+						"info": "Greenland(格陵蘭)"
+					},
+					{
+						"code": "1473",
+						"info": "Grenada(格瑞那達)"
+					},
+					{
+						"code": "1671",
+						"info": "Guam(關島)"
+					},
+					{
+						"code": "502",
+						"info": "Guatemala(瓜地馬拉)"
+					},
+					{
+						"code": "224",
+						"info": "Guinea(幾內亞)"
+					},
+					{
+						"code": "592",
+						"info": "Guyana(蓋亞那)"
+					},
+					{
+						"code": "509",
+						"info": "Haiti(海地)"
+					},
+					{
+						"code": "39",
+						"info": "Vatican City, Holy See(梵諦岡(教廷))"
+					},
+					{
+						"code": "504",
+						"info": "Honduras(宏都拉斯)"
+					},
+					{
+						"code": "852",
+						"info": "Hong Kong(香港)"
+					},
+					{
+						"code": "36",
+						"info": "Hungary(匈牙利)"
+					},
+					{
+						"code": "354",
+						"info": "Iceland(冰島)"
+					},
+					{
+						"code": "91",
+						"info": "India(印度)"
+					},
+					{
+						"code": "62",
+						"info": "Indonesia(印尼)"
+					},
+					{
+						"code": "98",
+						"info": "Iran(伊朗)"
+					},
+					{
+						"code": "964",
+						"info": "Iraq(伊拉克)"
+					},
+					{
+						"code": "353",
+						"info": "Ireland(愛爾蘭)"
+					},
+					{
+						"code": "972",
+						"info": "Israel(以色列)"
+					},
+					{
+						"code": "39",
+						"info": "Italy(義大利)"
+					},
+					{
+						"code": "1876",
+						"info": "Jamaica(牙買加)"
+					},
+					{
+						"code": "81",
+						"info": "Japan(日本)"
+					},
+					{
+						"code": "962",
+						"info": "Jordan(約旦)"
+					},
+					{
+						"code": "7",
+						"info": "Kazakhstan(哈薩克)"
+					},
+					{
+						"code": "254",
+						"info": "Kenya(肯亞)"
+					},
+					{
+						"code": "965",
+						"info": "Kuwait(科威特)"
+					},
+					{
+						"code": "996",
+						"info": "Kyrgyzstan(吉爾吉斯坦)"
+					},
+					{
+						"code": "856",
+						"info": "Laos(寮國)"
+					},
+					{
+						"code": "371",
+						"info": "Latvia(拉脫維亞)"
+					},
+					{
+						"code": "961",
+						"info": "Lebanon(黎巴嫩)"
+					},
+					{
+						"code": "266",
+						"info": "Lesotho(賴索托)"
+					},
+					{
+						"code": "231",
+						"info": "Liberia(賴比瑞亞)"
+					},
+					{
+						"code": "218",
+						"info": "Libya(利比亞)"
+					},
+					{
+						"code": "423",
+						"info": "Liechtenstein(列支敦斯登)"
+					},
+					{
+						"code": "370",
+						"info": "Lithuania(立陶宛)"
+					},
+					{
+						"code": "352",
+						"info": "Luxembourg(盧森堡)"
+					},
+					{
+						"code": "853",
+						"info": "Macau(澳門)"
+					},
+					{
+						"code": "389",
+						"info": "Macedonia(馬其頓)"
+					},
+					{
+						"code": "261",
+						"info": "Madagascar(馬達加斯加)"
+					},
+					{
+						"code": "265",
+						"info": "Malawi(馬拉威)"
+					},
+					{
+						"code": "60",
+						"info": "Malaysia(馬來西亞)"
+					},
+					{
+						"code": "960",
+						"info": "Maldives(馬爾地夫)"
+					},
+					{
+						"code": "223",
+						"info": "Mali(馬利)"
+					},
+					{
+						"code": "356",
+						"info": "Malta(馬爾他)"
+					},
+					{
+						"code": "230",
+						"info": "Mauritius(模里西斯)"
+					},
+					{
+						"code": "52",
+						"info": "Mexico(墨西哥)"
+					},
+					{
+						"code": "373",
+						"info": "Moldova(摩爾多瓦)"
+					},
+					{
+						"code": "377",
+						"info": "Monaco(摩納哥)"
+					},
+					{
+						"code": "976",
+						"info": "Mongolia(蒙古)"
+					},
+					{
+						"code": "382",
+						"info": "Montenegro(蒙特內哥羅)"
+					},
+					{
+						"code": "1664",
+						"info": "Montserrat(蒙塞拉特)"
+					},
+					{
+						"code": "212",
+						"info": "Morocco(摩洛哥)"
+					},
+					{
+						"code": "258",
+						"info": "Mozambique(莫三比克)"
+					},
+					{
+						"code": "95",
+						"info": "Myanmar(緬甸)"
+					},
+					{
+						"code": "264",
+						"info": "Namibia(那米比亞)"
+					},
+					{
+						"code": "674",
+						"info": "Nauru(諾魯)"
+					},
+					{
+						"code": "977",
+						"info": "Nepal(尼泊爾)"
+					},
+					{
+						"code": "31",
+						"info": "Netherlands(荷蘭)"
+					},
+					{
+						"code": "64",
+						"info": "New Zealand(紐西蘭)"
+					},
+					{
+						"code": "505",
+						"info": "Nicaragua(尼加拉瓜)"
+					},
+					{
+						"code": "227",
+						"info": "Niger(尼日)"
+					},
+					{
+						"code": "234",
+						"info": "Nigeria(奈及利亞)"
+					},
+					{
+						"code": "1-670",
+						"info": "Northern Mariana Islands(北馬里安納群島)"
+					},
+					{
+						"code": "850",
+						"info": "North Korea(北韓)"
+					},
+					{
+						"code": "47",
+						"info": "Norway(挪威)"
+					},
+					{
+						"code": "968",
+						"info": "Oman(阿曼)"
+					},
+					{
+						"code": "92",
+						"info": "Pakistan(巴基斯坦)"
+					},
+					{
+						"code": "507",
+						"info": "Panama(巴拿馬)"
+					},
+					{
+						"code": "675",
+						"info": "Papua New Guinea(巴布亞紐幾內亞)"
+					},
+					{
+						"code": "595",
+						"info": "Paraguay(巴拉圭)"
+					},
+					{
+						"code": "51",
+						"info": "Peru(秘魯)"
+					},
+					{
+						"code": "63",
+						"info": "Philippines(菲律賓)"
+					},
+					{
+						"code": "48",
+						"info": "Poland(波蘭)"
+					},
+					{
+						"code": "351",
+						"info": "Portugal(葡萄牙)"
+					},
+					{
+						"code": "1787",
+						"info": "Puerto Rico(波多黎各)"
+					},
+					{
+						"code": "974",
+						"info": "Qatar(卡達)"
+					},
+					{
+						"code": "680",
+						"info": "Republic of Palau(帛琉)"
+					},
+					{
+						"code": "242",
+						"info": "Republic of the Congo(剛果共和國)"
+					},
+					{
+						"code": "262",
+						"info": "Réunion(留尼旺)"
+					},
+					{
+						"code": "40",
+						"info": "Romania(羅馬尼亞)"
+					},
+					{
+						"code": "7",
+						"info": "Russia(俄羅斯)"
+					},
+					{
+						"code": "250",
+						"info": "Rwanda(盧安達)"
+					},
+					{
+						"code": "378",
+						"info": "San Marino(聖馬里諾)"
+					},
+					{
+						"code": "239",
+						"info": "Sao Tome and Principe(聖多美普林西比)"
+					},
+					{
+						"code": "966",
+						"info": "Saudi Arabia(沙烏地阿拉伯)"
+					},
+					{
+						"code": "221",
+						"info": "Senegal(塞內加爾)"
+					},
+					{
+						"code": "381",
+						"info": "Serbia(塞爾維亞)"
+					},
+					{
+						"code": "248",
+						"info": "Seychelles(塞席爾)"
+					},
+					{
+						"code": "232",
+						"info": "Sierra Leone(獅子山)"
+					},
+					{
+						"code": "65",
+						"info": "Singapore(新加坡)"
+					},
+					{
+						"code": "421",
+						"info": "Slovakia(斯洛伐克)"
+					},
+					{
+						"code": "386",
+						"info": "Slovenia(斯洛維尼亞)"
+					},
+					{
+						"code": "677",
+						"info": "Solomon Islands(索羅門群島)"
+					},
+					{
+						"code": "27",
+						"info": "South Africa(南非)"
+					},
+					{
+						"code": "82",
+						"info": "South Korea(南韓)"
+					},
+					{
+						"code": "34",
+						"info": "Spain(西班牙)"
+					},
+					{
+						"code": "94",
+						"info": "Sri Lanka(斯里蘭卡)"
+					},
+					{
+						"code": "1758",
+						"info": "St. Lucia(聖露西亞)"
+					},
+					{
+						"code": "1784",
+						"info": "St. Vincent and the Grenadines(聖文森及格瑞那丁)"
+					},
+					{
+						"code": "249",
+						"info": "Sudan(蘇丹)"
+					},
+					{
+						"code": "597",
+						"info": "Suriname(蘇利南)"
+					},
+					{
+						"code": "268",
+						"info": "Swaziland(史瓦濟蘭)"
+					},
+					{
+						"code": "46",
+						"info": "Sweden(瑞典)"
+					},
+					{
+						"code": "41",
+						"info": "Switzerland(瑞士)"
+					},
+					{
+						"code": "963",
+						"info": "Syria(希利亞)"
+					},
+					{
+						"code": "886",
+						"info": "Taiwan(台灣)"
+					},
+					{
+						"code": "992",
+						"info": "Tajikistan(塔吉克)"
+					},
+					{
+						"code": "255",
+						"info": "Tanzania(坦尚尼亞)"
+					},
+					{
+						"code": "66",
+						"info": "Thailand(泰國)"
+					},
+					{
+						"code": "228",
+						"info": "Togo(多哥)"
+					},
+					{
+						"code": "676",
+						"info": "Tonga(東加)"
+					},
+					{
+						"code": "1868",
+						"info": "Trinidad and Tobago(千里達及托巴哥)"
+					},
+					{
+						"code": "216",
+						"info": "Tunisia(突尼西亞)"
+					},
+					{
+						"code": "90",
+						"info": "Turkey(土耳其)"
+					},
+					{
+						"code": "993",
+						"info": "Turkmenistan(土庫曼)"
+					},
+					{
+						"code": "256",
+						"info": "Uganda(烏干達)"
+					},
+					{
+						"code": "380",
+						"info": "Ukraine(烏克蘭)"
+					},
+					{
+						"code": "971",
+						"info": "United Arab Emirates(阿拉伯聯合大公國)"
+					},
+					{
+						"code": "44",
+						"info": "United Kingdom(英國)"
+					},
+					{
+						"code": "1",
+						"info": "United States of America(美國)"
+					},
+					{
+						"code": "598",
+						"info": "Uruguay(烏拉圭)"
+					},
+					{
+						"code": "233",
+						"info": "Uzbekistan(烏茲別克)"
+					},
+					{
+						"code": "58",
+						"info": "Venezuela(委內瑞拉)"
+					},
+					{
+						"code": "84",
+						"info": "Vietnam(越南)"
+					},
+					{
+						"code": "967",
+						"info": "Yemen(葉門)"
+					},
+					{
+						"code": "260",
+						"info": "Zambia(尚比亞)"
+					},
+					{
+						"code": "263",
+						"info": "Zimbabwe(辛巴威)"
+					}
+				]
+			},
+			"tel_number": {
+				"is_require": "True",
+				"is_visible": "True",
+				"is_contact_used": "True",
+				"type": "string"
+			}
+		},
+		"traffic": {
+			"car": {
+				"traffic_type": {
+					"is_require": "True",
+					"type": "array",
+					"list_option": [
+						"rentcar_01"
+					]
+				},
+				"location_list": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_rentcar_used": "True",
+					"type": "list",
+					"list_option": [
+						{
+							"traffic_type": "rentcar_01",
+							"sort": 0,
+							"id": "0f67c018-031d-48db-bf88-38d84fa403d1",
+							"code": "A01-001-00020",
+							"name": "金門機場",
+							"address": "[English]Kinmen Airport (KNH)[Native]金門機場",
+							"interval": 30,
+							"s_time": "08:00",
+							"e_time": "17:30"
+						},
+						{
+							"traffic_type": "rentcar_01",
+							"sort": 1,
+							"id": "53da4bc7-e4d5-409d-af21-eb86a0a6d43a",
+							"code": "A01-001-00020",
+							"name": "金門冠城租車",
+							"address": "[English]Guan Cheng Car Rental[Native]冠城租車",
+							"interval": 30,
+							"s_time": "07:30",
+							"e_time": "18:30"
+						}
+					]
+				},
+				"s_location": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_rentcar_used": "True",
+					"ref_source": "location_list.id",
+					"type": "string"
+				},
+				"e_location": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_rentcar_used": "True",
+					"ref_source": "location_list.id",
+					"type": "string"
+				},
+				"s_date": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_rentcar_used": "True",
+					"type": "string"
+				},
+				"e_date": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_rentcar_used": "True",
+					"type": "string"
+				},
+				"s_time": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_rentcar_used": "True",
+					"type": "string"
+				},
+				"e_time": {
+					"is_require": "True",
+					"is_visible": "True",
+					"is_rentcar_used": "True",
+					"type": "string"
+				}
+			}
+		},
+		"ref_pkg": {
+			"317794": {
+				"custom": {
+					"cus_type": [
+						"cus_01",
+						"contact"
+					]
+				},
+				"traffic": {
+					"traffic_type": [
+						"rentcar_01"
+					],
+					"s_date": "True",
+					"s_time": "True",
+					"s_location": "True",
+					"e_date": "True",
+					"e_time": "True"
+				}
+			},
+			"317795": {
+				"custom": {
+					"cus_type": [
+						"cus_01",
+						"contact"
+					]
+				},
+				"traffic": {
+					"traffic_type": [
+						"rentcar_01"
+					],
+					"s_date": "True",
+					"s_time": "True",
+					"s_location": "True",
+					"e_date": "True",
+					"e_time": "True"
+				}
+			},
+			"339411": {
+				"custom": {
+					"cus_type": [
+						"cus_01",
+						"contact"
+					]
+				},
+				"traffic": {
+					"traffic_type": [
+						"rentcar_01"
+					],
+					"s_date": "True",
+					"s_time": "True",
+					"s_location": "True",
+					"e_date": "True",
+					"e_time": "True"
+				}
+			},
+			"338616": {
+				"custom": {
+					"cus_type": [
+						"cus_01",
+						"contact"
+					]
+				},
+				"traffic": {
+					"traffic_type": [
+						"rentcar_01"
+					],
+					"s_date": "True",
+					"s_time": "True",
+					"s_location": "True",
+					"e_date": "True",
+					"e_time": "True"
+				}
+			},
+			"337319": {
+				"custom": {
+					"cus_type": [
+						"cus_01",
+						"contact"
+					]
+				},
+				"traffic": {
+					"traffic_type": [
+						"rentcar_01"
+					],
+					"s_date": "True",
+					"s_time": "True",
+					"s_location": "True",
+					"e_date": "True",
+					"e_time": "True"
+				}
+			}
+		}
+	}
+}

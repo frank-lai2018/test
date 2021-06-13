@@ -1,0 +1,3233 @@
+{
+	"packageList": [
+		{
+			"result": "00",
+			"result_msg": "OK",
+			"guid": "5a790f5e13a682cf07131c3698623df3",
+			"pkg_no": 304621,
+			"pkg_name": "常設展",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "1",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 0,
+			"lead_day_unit": "h",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "23:59",
+			"b2c_min_price": 200.0,
+			"b2b_min_price": 190.0,
+			"item_no": [
+				50398
+			],
+			"sale_s_date": "2021-06-17",
+			"sale_e_date": "2021-12-31",
+			"description_module": {
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>全票：7 - 64歲非學生身份一般民眾</p>"
+							},
+							{
+								"desc": "<p>優惠票：7 - 22歲學生及 65歲以上長者​（兌換時必須攜帶附有照片及出生日期之有效證件）</p>"
+							},
+							{
+								"desc": "<p>免費票：0 - 6 歲兒童、持有身心障礙手冊者及陪同者一名（須同時入場）、持本人之觀光局核發導遊/領隊證者、設籍台南市者、於台南市就讀之外縣市學生 （不含空中大學、大專院校學分班、附設進修補習班、社區大學、學習中心、語言中心等)</p>"
+							}
+						]
+					}
+				},
+				"PMDL_EXCHANGE_VALID": {
+					"module_title": "憑證兌換期限",
+					"content": {
+						"properties": {
+							"exchange": {
+								"desc": "自開票日算起 12月 之內兌換有效，逾期無效"
+							}
+						}
+					}
+				}
+			},
+			"item": [
+				{
+					"item_no": 50398,
+					"unit": "人",
+					"last_spec_multi": true,
+					"voucher_type": "KKDAY",
+					"unit_quantity_rule": {
+						"total_rule": {
+							"max_quantity": 10,
+							"min_quantity": 1
+						},
+						"ticket_rule": {
+							"rulesets": [
+								{
+									"spec_items": [
+										"senior",
+										"adult",
+										"student"
+									],
+									"max_quantity": 10,
+									"min_quantity": 1
+								}
+							],
+							"is_active": true
+						}
+					},
+					"b2c_min_price": 200.0,
+					"b2b_min_price": 190.0,
+					"sale_s_date": "2021-06-17",
+					"sale_e_date": "2021-12-31",
+					"inventory_set": 0,
+					"skus": [
+						{
+							"sku_id": "3b39bc1cfdd6f247d152d43996003ad8",
+							"spec_token": "b748bde9-ba30-4755-ace8-5805bce90d8b",
+							"spec": {
+								"方案類型": "全票",
+								"票種": "成人"
+							},
+							"b2c_price": 0.0,
+							"b2b_price": 0.0,
+							"ticket_rule_spec_item": "adult",
+							"calendar_detail": {
+								"2021-06-17": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-06-18": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-06-19": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-06-20": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-06-21": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-06-22": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-06-23": {},
+								"2021-06-24": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-06-25": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-06-26": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-06-27": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-06-28": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-06-29": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-06-30": {},
+								"2021-07-01": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-02": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-03": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-04": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-05": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-06": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-07": {},
+								"2021-07-08": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-09": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-10": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-11": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-12": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-13": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-14": {},
+								"2021-07-15": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-16": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-17": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-18": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-19": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-20": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-21": {},
+								"2021-07-22": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-23": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-24": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-25": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-26": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-27": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-28": {},
+								"2021-07-29": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-30": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-07-31": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-01": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-02": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-03": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-04": {},
+								"2021-08-05": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-06": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-07": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-08": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-09": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-10": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-11": {},
+								"2021-08-12": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-13": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-14": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-15": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-16": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-17": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-18": {},
+								"2021-08-19": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-20": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-21": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-22": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-23": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-24": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-25": {},
+								"2021-08-26": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-27": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-28": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-29": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-30": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-08-31": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-09-01": {},
+								"2021-09-02": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-09-03": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-09-04": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-09-05": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-09-06": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-09-07": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								},
+								"2021-09-08": {},
+								"2021-09-09": {
+									"b2b_price": {
+										"fullday": 190.0
+									},
+									"b2c_price": {
+										"fullday": 200.0
+									}
+								}
+							},
+							"spec_rule": {
+								"max_age": 64,
+								"min_age": 7
+							},
+							"spec_desc": "(7 - 64 歲)",
+							"specs_ref": [
+								{
+									"spec_item_id": "d9020bc0-5f2d-4f9a-89e7-5dad4f75b426",
+									"spec_value_id": "b748bde9-ba30-4755-ace8-5805bce90d8b"
+								},
+								{
+									"spec_item_id": "spec-ticket",
+									"spec_value_id": "adult"
+								}
+							]
+						},
+						{
+							"sku_id": "aa13e04f3a3d3b55bb387a3ad12c5408",
+							"spec_token": "c09d22bf-9811-40c3-a722-7641e4882f50",
+							"spec": {
+								"方案類型": "優惠票",
+								"票種": "長者"
+							},
+							"b2c_price": 0.0,
+							"b2b_price": 0.0,
+							"ticket_rule_spec_item": "senior",
+							"calendar_detail": {
+								"2021-06-17": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-18": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-19": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-20": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-21": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-22": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-23": {},
+								"2021-06-24": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-25": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-26": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-27": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-28": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-29": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-30": {},
+								"2021-07-01": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-02": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-03": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-04": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-05": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-06": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-07": {},
+								"2021-07-08": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-09": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-10": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-11": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-12": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-13": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-14": {},
+								"2021-07-15": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-16": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-17": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-18": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-19": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-20": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-21": {},
+								"2021-07-22": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-23": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-24": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-25": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-26": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-27": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-28": {},
+								"2021-07-29": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-30": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-31": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-01": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-02": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-03": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-04": {},
+								"2021-08-05": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-06": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-07": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-08": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-09": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-10": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-11": {},
+								"2021-08-12": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-13": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-14": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-15": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-16": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-17": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-18": {},
+								"2021-08-19": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-20": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-21": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-22": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-23": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-24": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-25": {},
+								"2021-08-26": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-27": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-28": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-29": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-30": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-31": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-09-01": {},
+								"2021-09-02": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-09-03": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-09-04": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-09-05": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-09-06": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-09-07": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-09-08": {},
+								"2021-09-09": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								}
+							},
+							"spec_rule": {
+								"max_age": 0,
+								"min_age": 65
+							},
+							"spec_desc": "(65 歲以上（含）)",
+							"specs_ref": [
+								{
+									"spec_item_id": "d9020bc0-5f2d-4f9a-89e7-5dad4f75b426",
+									"spec_value_id": "c09d22bf-9811-40c3-a722-7641e4882f50"
+								},
+								{
+									"spec_item_id": "spec-ticket",
+									"spec_value_id": "senior"
+								}
+							]
+						},
+						{
+							"sku_id": "44bc728e95cc37ac4ff847b95404970f",
+							"spec_token": "c09d22bf-9811-40c3-a722-7641e4882f50",
+							"spec": {
+								"方案類型": "優惠票",
+								"票種": "學生"
+							},
+							"b2c_price": 0.0,
+							"b2b_price": 0.0,
+							"ticket_rule_spec_item": "student",
+							"calendar_detail": {
+								"2021-06-17": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-18": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-19": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-20": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-21": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-22": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-23": {},
+								"2021-06-24": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-25": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-26": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-27": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-28": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-29": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-06-30": {},
+								"2021-07-01": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-02": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-03": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-04": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-05": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-06": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-07": {},
+								"2021-07-08": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-09": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-10": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-11": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-12": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-13": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-14": {},
+								"2021-07-15": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-16": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-17": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-18": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-19": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-20": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-21": {},
+								"2021-07-22": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-23": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-24": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-25": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-26": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-27": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-28": {},
+								"2021-07-29": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-30": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-07-31": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-01": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-02": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-03": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-04": {},
+								"2021-08-05": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-06": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-07": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-08": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-09": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-10": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-11": {},
+								"2021-08-12": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-13": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-14": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-15": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-16": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-17": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-18": {},
+								"2021-08-19": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-20": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-21": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-22": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-23": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-24": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-25": {},
+								"2021-08-26": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-27": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-28": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-29": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-30": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-08-31": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-09-01": {},
+								"2021-09-02": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-09-03": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-09-04": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-09-05": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-09-06": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-09-07": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								},
+								"2021-09-08": {},
+								"2021-09-09": {
+									"b2b_price": {
+										"fullday": 143.0
+									},
+									"b2c_price": {
+										"fullday": 150.0
+									}
+								}
+							},
+							"spec_rule": {
+								"max_age": 22,
+								"min_age": 7
+							},
+							"spec_desc": "(7 - 22 歲)",
+							"specs_ref": [
+								{
+									"spec_item_id": "d9020bc0-5f2d-4f9a-89e7-5dad4f75b426",
+									"spec_value_id": "c09d22bf-9811-40c3-a722-7641e4882f50"
+								},
+								{
+									"spec_item_id": "spec-ticket",
+									"spec_value_id": "student"
+								}
+							]
+						}
+					],
+					"specs": [
+						{
+							"spec_oid": "d9020bc0-5f2d-4f9a-89e7-5dad4f75b426",
+							"spec_title": "方案類型",
+							"spec_items": [
+								{
+									"name": "全票",
+									"spec_item_oid": "b748bde9-ba30-4755-ace8-5805bce90d8b"
+								},
+								{
+									"name": "優惠票",
+									"spec_item_oid": "c09d22bf-9811-40c3-a722-7641e4882f50"
+								}
+							]
+						},
+						{
+							"spec_oid": "spec-ticket",
+							"spec_title": "票種",
+							"spec_items": [
+								{
+									"name": "成人",
+									"spec_item_oid": "adult",
+									"rule": {
+										"age_rule": {
+											"max": 64,
+											"min": 7
+										},
+										"height_rule": {}
+									}
+								},
+								{
+									"name": "長者",
+									"spec_item_oid": "senior",
+									"rule": {
+										"age_rule": {
+											"min": 65
+										},
+										"height_rule": {}
+									}
+								},
+								{
+									"name": "學生",
+									"spec_item_oid": "student",
+									"rule": {
+										"age_rule": {
+											"max": 22,
+											"min": 7
+										},
+										"height_rule": {}
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"result": "00",
+			"result_msg": "OK",
+			"guid": "3c9f81ac5d9d183d232f09432098934a",
+			"pkg_no": 345055,
+			"pkg_name": "早鳥預售67折起《蒂姆 ‧ 沃克 : 美妙事物》英國維多利亞與亞伯特博物館─世界巡迴展",
+			"exchange_type": "",
+			"confirm_time": 0,
+			"confirm_time_unit": "h",
+			"deliver_time": 0,
+			"deliver_time_unit": "h",
+			"deliver_timing": 0,
+			"policy_type": "1",
+			"refund_type": "1",
+			"partial_refund": [],
+			"lead_day": 0,
+			"lead_day_unit": "h",
+			"lead_day_timezone": "Asia/Taipei",
+			"lead_s_time": "00:00",
+			"lead_e_time": "23:59",
+			"b2c_min_price": 300.0,
+			"b2b_min_price": 285.0,
+			"item_no": [
+				90832
+			],
+			"sale_s_date": "2021-07-31",
+			"sale_e_date": "2022-02-06",
+			"description_module": {
+				"PMDL_PACKAGE_DESC": {
+					"module_title": "方案描述",
+					"content": {
+						"list": [
+							{
+								"desc": "<p>全票：7 - 64歲非學生身份一般民眾<br></p>"
+							},
+							{
+								"desc": "<p>優惠票：7 - 22歲學生及 65歲以上長者​（兌換時必須攜帶附有照片及出生日期之有效證件）、設籍台南市者、於台南市就讀之外縣市學生 （不含空中大學、大專院校學分班、附設進修補習班、社區大學、學習中心、語言中心等)<br></p>"
+							},
+							{
+								"desc": "<p>免費票：0 - 6 歲兒童、持有身心障礙手冊者及陪同者一名（須同時入場）、持本人之觀光局核發導遊/領隊證者<br></p>"
+							}
+						]
+					}
+				},
+				"PMDL_EXCHANGE_VALID": {
+					"module_title": "憑證兌換期限",
+					"content": {
+						"properties": {
+							"exchange": {
+								"desc": "指定兌換效期 2022-02-06 之前兌換有效，逾期無效"
+							}
+						}
+					}
+				}
+			},
+			"item": [
+				{
+					"item_no": 90832,
+					"unit": "人",
+					"last_spec_multi": true,
+					"voucher_type": "KKDAY",
+					"unit_quantity_rule": {
+						"total_rule": {
+							"max_quantity": 20,
+							"min_quantity": 1
+						},
+						"ticket_rule": {
+							"rulesets": [
+								{
+									"spec_items": [
+										"adult",
+										"senior",
+										"student"
+									],
+									"max_quantity": 20,
+									"min_quantity": 1
+								}
+							],
+							"is_active": true
+						}
+					},
+					"b2c_min_price": 300.0,
+					"b2b_min_price": 285.0,
+					"sale_s_date": "2021-07-31",
+					"sale_e_date": "2022-02-06",
+					"inventory_set": 0,
+					"skus": [
+						{
+							"sku_id": "171a4005a1e40cbdfdbb5bea68dba2fd",
+							"spec_token": "1f5c690e-94fd-4155-a2c5-a20a229aa134",
+							"spec": {
+								"方案類型": "早鳥優惠票",
+								"票種": "成人"
+							},
+							"official_price": 450.0,
+							"b2c_price": 0.0,
+							"b2b_price": 0.0,
+							"ticket_rule_spec_item": "adult",
+							"calendar_detail": {
+								"2021-07-31": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-01": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-02": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-03": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-04": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-05": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-06": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-07": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-08": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-09": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-10": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-11": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-12": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-13": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-14": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-15": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-16": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-17": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-18": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-19": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-20": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-21": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-22": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-23": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-24": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-25": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-26": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-27": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-28": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-29": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-30": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-31": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-01": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-02": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-03": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-04": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-05": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-06": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-07": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-08": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-09": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								}
+							},
+							"spec_rule": {
+								"max_age": 64,
+								"min_age": 7
+							},
+							"spec_desc": "(7 - 64 歲)",
+							"specs_ref": [
+								{
+									"spec_item_id": "03384c25-1d80-4bdd-9768-fa36be9cf563",
+									"spec_value_id": "1f5c690e-94fd-4155-a2c5-a20a229aa134"
+								},
+								{
+									"spec_item_id": "spec-ticket",
+									"spec_value_id": "adult"
+								}
+							]
+						},
+						{
+							"sku_id": "d0bc4a3f3f67cb567e621352b8d59fad",
+							"spec_token": "1f5c690e-94fd-4155-a2c5-a20a229aa134",
+							"spec": {
+								"方案類型": "早鳥優惠票",
+								"票種": "長者"
+							},
+							"official_price": 450.0,
+							"b2c_price": 0.0,
+							"b2b_price": 0.0,
+							"ticket_rule_spec_item": "senior",
+							"calendar_detail": {
+								"2021-07-31": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-01": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-02": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-03": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-04": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-05": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-06": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-07": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-08": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-09": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-10": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-11": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-12": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-13": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-14": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-15": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-16": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-17": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-18": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-19": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-20": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-21": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-22": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-23": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-24": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-25": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-26": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-27": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-28": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-29": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-30": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-31": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-01": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-02": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-03": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-04": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-05": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-06": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-07": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-08": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-09": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								}
+							},
+							"spec_rule": {
+								"max_age": 0,
+								"min_age": 65
+							},
+							"spec_desc": "(65 歲以上（含）)",
+							"specs_ref": [
+								{
+									"spec_item_id": "03384c25-1d80-4bdd-9768-fa36be9cf563",
+									"spec_value_id": "1f5c690e-94fd-4155-a2c5-a20a229aa134"
+								},
+								{
+									"spec_item_id": "spec-ticket",
+									"spec_value_id": "senior"
+								}
+							]
+						},
+						{
+							"sku_id": "2fb6ced755eee996c18ccee10499110e",
+							"spec_token": "1f5c690e-94fd-4155-a2c5-a20a229aa134",
+							"spec": {
+								"方案類型": "早鳥優惠票",
+								"票種": "學生"
+							},
+							"official_price": 450.0,
+							"b2c_price": 0.0,
+							"b2b_price": 0.0,
+							"ticket_rule_spec_item": "student",
+							"calendar_detail": {
+								"2021-07-31": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-01": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-02": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-03": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-04": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-05": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-06": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-07": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-08": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-09": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-10": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-11": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-12": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-13": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-14": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-15": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-16": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-17": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-18": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-19": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-20": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-21": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-22": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-23": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-24": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-25": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-26": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-27": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-28": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-29": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-30": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-08-31": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-01": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-02": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-03": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-04": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-05": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-06": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-07": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-08": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								},
+								"2021-09-09": {
+									"b2b_price": {
+										"fullday": 285.0
+									},
+									"b2c_price": {
+										"fullday": 300.0
+									}
+								}
+							},
+							"spec_rule": {
+								"max_age": 22,
+								"min_age": 7
+							},
+							"spec_desc": "(7 - 22 歲)",
+							"specs_ref": [
+								{
+									"spec_item_id": "03384c25-1d80-4bdd-9768-fa36be9cf563",
+									"spec_value_id": "1f5c690e-94fd-4155-a2c5-a20a229aa134"
+								},
+								{
+									"spec_item_id": "spec-ticket",
+									"spec_value_id": "student"
+								}
+							]
+						}
+					],
+					"specs": [
+						{
+							"spec_oid": "03384c25-1d80-4bdd-9768-fa36be9cf563",
+							"spec_title": "方案類型",
+							"spec_items": [
+								{
+									"name": "早鳥優惠票",
+									"spec_item_oid": "1f5c690e-94fd-4155-a2c5-a20a229aa134"
+								}
+							]
+						},
+						{
+							"spec_oid": "spec-ticket",
+							"spec_title": "票種",
+							"spec_items": [
+								{
+									"name": "成人",
+									"spec_item_oid": "adult",
+									"rule": {
+										"age_rule": {
+											"max": 64,
+											"min": 7
+										},
+										"height_rule": {}
+									}
+								},
+								{
+									"name": "長者",
+									"spec_item_oid": "senior",
+									"rule": {
+										"age_rule": {
+											"min": 65
+										},
+										"height_rule": {}
+									}
+								},
+								{
+									"name": "學生",
+									"spec_item_oid": "student",
+									"rule": {
+										"age_rule": {
+											"max": 22,
+											"min": 7
+										},
+										"height_rule": {}
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
