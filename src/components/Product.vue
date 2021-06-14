@@ -1,121 +1,131 @@
 <template>
-  <div>
-   <div>
-      <span v-for="(pridCityObj,index) in product.pridCityObjArray" :key="index">
-        <a href="" >{{pridCityObj.cityName}}</a>
-        <span v-if="(index === 0)">/</span>
-        <span v-if="(index !== 0 & index !== product.pridCityObjArray.length-1)">,</span>
-      </span>
-    </div>
     <div>
-      <span v-for="(pridCityObj,index) in product.pridCityObjArray" :key="index">
-        <a href="" >{{pridCityObj.cityName}}</a>
-        <span v-if="(index === 0)">/</span>
-        <span v-if="(index !== 0 & index !== product.pridCityObjArray.length-1)">,</span>
-      </span>
-    </div>
-    <br>
-    <div>
-      <span v-for="(imgList,index) in product.img_list" :key="index">
-        <img :src="imgList" alt=""  width="100px" height ="100px">
-      </span>
-    </div>
-    <br>
-    <div>
-      <p>{{product.prod_name}}</p>
-    </div>
-    <br>
-    <div>
-      <span v-for="(pridCityObj,index) in product.pridCityObjArray" :key="index">
-        <a href="" >{{pridCityObj.cityName}}</a>
-        <span v-if="(index === 0)">/</span>
-        <span v-if="(index !== 0 & index !== product.pridCityObjArray.length-1)">,</span>
-      </span>
-    </div>
-    <br>
-    <div class="float:right">
-      <span v-if="(product.days !== 0 || product.hours !== 0 || product.duration !==0)" class="float:right">
-        行程時間        
-        <span v-if="(product.days !== 0)">{{product.days}}天</span>
-        <span v-if="(product.hours !== 0)">{{product.hours}}小時</span>
-        <span v-if="(product.duration !==0)">{{product.duration}}分鐘</span>
-      </span>
-      /
-      <span v-if="product.partial_refund !== 0" class="float:right">
-        {{product.partial_refund}}天前可免費取消       
-      </span>
-      /
-      <span v-if="product.PMDL_EXCHANGE_DESC === '現場請出示電子憑證'" class="float:right">
-        現場請出示電子憑證       
-      </span>
-      /
-      <span v-if="product.guide_lang_list && product.guide_lang_list.length !== 0">
-        <span v-for="(guideLang,index) in product.guide_lang_list" :key="index">
-          {{guideLang}}
-          <span v-if="index !== (product.guide_lang_list.length -1)">
-            /
-          </span>
+      <div>
+        <span v-for="(pridCityObj,index) in product.pridCityObjArray" :key="index">
+          <a href="" >{{pridCityObj.cityName}}</a>
+          <span v-if="(index === 0)">/</span>
+          <span v-if="(index !== 0 & index !== product.pridCityObjArray.length-1)">,</span>
         </span>
-        <span>導覽</span>
-      </span>
-      <span v-if="product.voice_guide_lang && product.voice_guide_lang.length !== 0">
-        <span v-for="(voice_guide_lang,index) in product.voice_guide_lang" :key="index">
-          {{voice_guide_lang}}
-          <span v-if="index !== (product.voice_guide_lang.length -1)">
-            /
-          </span>
+      </div>
+      <hr>
+      <hr>
+      <div>
+        <span v-for="(imgList,index) in product.img_list" :key="index">
+          <img :src="imgList" alt=""  width="100px" height ="100px">
         </span>
-        <span>語音導覽</span>
-      </span>
-    </div>
-    <br>
-    <div v-html="product.introduction" v-if="product.introduction"></div>
-
-    <div>
-      <h1>選擇方案</h1>
-      <div v-for="(selectPkg,index) in product.selectPkgArray" :key="index">
-        <h2>{{selectPkg.pkg_name}}</h2>
-        <div v-for="(packageDesc,index) in selectPkg.packageDescArray" :key="index" ><p v-html="packageDesc.desc"></p></div>
-        <h3>TW {{selectPkg.b2c_min_price}}</h3>
-        <h3>最早可預訂日:  {{selectPkg.sale_s_date}}</h3>
-        <div>
-          <h3>關於此方案</h3>
-          <span ></span>
-        </div>
-        <div style="width:100%;height:100%;float:left;background-color:red;">
-          <div style="width:60%;height:100%;float:left;background-color:green;">
-            <HotelDatePicker
-            :periodDates='periodDates'
-            :showSingleMonth='true'
-            :alwaysVisible='true'
-            :showPrice='true'
-            :singleDaySelection='true'
-            :halfDay='false'
-            :disabledDates='disabledDates'
-            />
-          </div>
-          <div style="width:40%;float:left;background-color:#664521;">
-            <span>場次時間</span>
-            <span v-for="(showTime,index) in selectPkg.showTimeList" :key="index">
-              <el-button type="success" plain>{{showTime}}</el-button>
+      </div>
+      <hr>
+      <div>
+        <p>{{product.prod_name}}</p>
+      </div>
+      <hr>
+      <div>
+        <span v-for="(pridCityObj,index) in product.pridCityObjArray" :key="index">
+          <a href="" >{{pridCityObj.cityName}}</a>
+          <span v-if="(index === 0)">/</span>
+          <span v-if="(index !== 0 & index !== product.pridCityObjArray.length-1)">,</span>
+        </span>
+      </div>
+      <hr>
+      <div class="float:right">
+        <span v-if="(product.days !== 0 || product.hours !== 0 || product.duration !==0)" class="float:right">
+          行程時間        
+          <span v-if="(product.days !== 0)">{{product.days}}天</span>
+          <span v-if="(product.hours !== 0)">{{product.hours}}小時</span>
+          <span v-if="(product.duration !==0)">{{product.duration}}分鐘</span>
+        </span>
+        /
+        <span v-if="product.partial_refund !== 0" class="float:right">
+          {{product.partial_refund}}天前可免費取消       
+        </span>
+        /
+        <span v-if="product.PMDL_EXCHANGE_DESC === '現場請出示電子憑證'" class="float:right">
+          現場請出示電子憑證       
+        </span>
+        /
+        <span v-if="product.guide_lang_list && product.guide_lang_list.length !== 0">
+          <span v-for="(guideLang,index) in product.guide_lang_list" :key="index">
+            {{guideLang}}
+            <span v-if="index !== (product.guide_lang_list.length -1)">
+              /
             </span>
-            <p>....</p>
-          </div>
-          <div style="width:40%;float:left;background-color:#664521;">
-            <span>選擇數量</span>
-            <span v-for="(ticket,index) in selectPkg.ticketComponentList" :key="index">
-              <span>{{ticket.desc}}</span>
+          </span>
+          <span>導覽</span>
+        </span>
+        <span v-if="product.voice_guide_lang && product.voice_guide_lang.length !== 0">
+          <span v-for="(voice_guide_lang,index) in product.voice_guide_lang" :key="index">
+            {{voice_guide_lang}}
+            <span v-if="index !== (product.voice_guide_lang.length -1)">
+              /
             </span>
+          </span>
+          <span>語音導覽</span>
+        </span>
+      </div>
+      <hr>
+      <br>
+      <div v-html="product.introduction" v-if="product.introduction"></div>
+      <hr>
+      <div>
+        <h1>選擇方案</h1>
+        <div v-for="(selectPkg,index8) in selectPkgArrayFun" :key="index8">
+          <h3>{{selectPkg.PMDL_EXCHANGE_VALID}}</h3>
+          <h2>{{selectPkg.pkg_name}}</h2>
+          <div v-for="(packageDesc,index1) in selectPkg.packageDescArray" :key="index1" ><p v-html="packageDesc.desc"></p></div>
+          <h3>TW {{selectPkg.b2c_min_price}}</h3>
+          <h3>最早可預訂日:  {{selectPkg.sale_s_date}}</h3>
+          <div>
+            <h3>關於此方案</h3>
+            <span ></span>
+          </div>
+          <div style="width:100%;height:100%;float:left;background-color:red;">
+            <div style="width:60%;height:100%;float:left;background-color:green;">
+              <HotelDatePicker
+              :periodDates='selectPkg.periodDates'
+              :showSingleMonth='true'
+              :alwaysVisible='true'
+              :showPrice='true'
+              :singleDaySelection='true'
+              :halfDay='false'
+              :endDate="new Date(2021, 8,  5)" 
+              :disabledDates='selectPkg.disabledDates'
+              />
+            </div>
+            <div style="width:40%;float:left;background-color:#664521;" v-if="selectPkg.showTimeList">
+              <span>場次時間</span>
+              <span v-for="(showTime,index2) in selectPkg.showTimeList" :key="index2">
+                <el-button type="success" plain>{{showTime}}</el-button>
+              </span>
+              <p>....</p>
+            </div>
+            <hr>
+            <div v-if="selectPkg.clickComponentList">
+              <div v-for="(clickComponent,index3) in selectPkg.clickComponentList" :key="index3">
+                spec_title:<h3>{{clickComponent.spec_title}}</h3><br>
+                spec_oid:<h3>{{clickComponent.spec_oid}}</h3><br>
+                <span v-if="clickComponent.spec_items">
+                  <span v-for="(specItem,index4) in clickComponent.spec_items" :key="index4" >
+                    <el-button type="success" plain :spec_item_oid='specItem.spec_item_oid' @click='aaa'>{{specItem.name}}</el-button>&ensp;
+                  </span>
+                </span>
+                <hr>
+              </div>
+            </div>
+            <hr>
+            <div style="width:40%;float:left;background-color:#664521;">
+              <span>選擇數量</span>
+              <span v-for="(ticket,index6) in selectPkg.ticketComponentList" :key="index6">
+                <span>{{ticket.desc}}</span>
+              </span>
 
+            </div>
+            <hr>
           </div>
         </div>
       </div>
+
     </div>
-  </div>
-
-  
 </template>
-
 <script>
 import productData from "./kkday_product_24598_M05.json"
 import queryPackageObject from "./kkday_package_24598_M05.json"
@@ -123,14 +133,29 @@ import HotelDatePicker from 'vue-hotel-datepicker'
 import 'vue-hotel-datepicker/dist/vueHotelDatepicker.css'
 import moment from 'moment'
 
-
 export default {
-  name: 'KkdayProduct',
-  create () {
-    this.initPageData()
-  },
+  name: 'Product',
   components: {
     HotelDatePicker
+  },
+  created () {
+    this.initPageData()
+  },
+  computed: {
+    disabledDatesFun: function() {
+      return function (arr) {
+          /** do something */
+        let vm = this
+        let selectPkgArray = vm.product.selectPkgArray
+        let selectPkg = selectPkgArray[arr]
+        console.log('9999',selectPkg.disabledDates)
+        return selectPkg.disabledDates
+      }
+        
+    },
+    selectPkgArrayFun: function() {
+      return JSON.parse(this.product.selectPkgArray)
+    }
   },
   data () {
     return {
@@ -138,12 +163,11 @@ export default {
       queryPackageObject:queryPackageObject,
       product:{},
       periodDates: [],
-      disabledDates:['2021-06-14']
+      disabledDates:[]
     }
   },
   methods: {
     initPageData: function(){
-      console.log('111111111111111111111111111')
       let vm = this
       let kkday = vm.productData
       let queryPackageObject = vm.queryPackageObject
@@ -158,7 +182,7 @@ export default {
       let custom = bookingField.custom
       let prodCitiesArray = prod.cities
       let descriptionModule = prod.description_module
-      
+            
       // 3 level
       // let countryCities = custom.country_cities
 
@@ -196,7 +220,6 @@ export default {
         }
       })
       vm.product.pridCityObjArray = pridCityObjArray
-      
       //prod_name
       vm.product.prod_name = prod.prod_name
 
@@ -237,7 +260,7 @@ export default {
       
       //b2c_min_price
       vm.product.prod_comment_info = prod.prod_comment_info
-
+      
       //商品說明 建議包車路線 圖文介紹
       let pmdlIntroduceSummary = descriptionModule.PMDL_INTRODUCE_SUMMARY
       if(pmdlIntroduceSummary){
@@ -261,7 +284,7 @@ export default {
         }
       }
 
-      //行程介紹
+           //行程介紹
       let pmdlSchedule = descriptionModule.PMDL_SCHEDULE
       if(pmdlSchedule){
         vm.product.PMDL_SCHEDULE = {
@@ -369,29 +392,15 @@ export default {
       }
       //取消政策
       vm.product.prod_comment_info = prod.prod_comment_info
-
+      
       //select package 
       console.log('4444', vm.prepareQueryPackage())
-      vm.product.selectPkgArray = vm.prepareQueryPackage()
 
-      //TEST TODO
-      let specArray = []
-      specArray.push({
-        spec_item_id:'d9020bc0-5f2d-4f9a-89e7-5dad4f75b426',
-        spec_value_id:'b748bde9-ba30-4755-ace8-5805bce90d8b'
-      })
-      specArray.push({
-        spec_item_id:'spec-ticket',
-        spec_value_id:'adult'
-      })
-      let skus = vm.searchPkgItemSku(304621,specArray)
-      console.log('20210613',skus)
-      let periodDates = vm.parpareDateData(skus[0],'fullday')
-      vm.periodDates = periodDates
-      console.log('periodDates',periodDates)
-      let disabledDates = vm.prepareDisableDate()
-      console.log('disabledDates',disabledDates)
-      vm.disabledDates = disabledDates
+      // selectPkgTmp.disabledDates = disabledDates
+      vm.product.selectPkgArray = vm.prepareQueryPackage()
+      // let dateSearchSpec = vm.product.selectPkgArray.dateSearchSpec
+        // vm.initDateData()
+
     },
     prepareQueryPackage: function (){
 
@@ -400,6 +409,7 @@ export default {
       let selectPkgArray = []
       packageList.forEach(selectPkg => {
         
+        let dateSearchSpec = []
         let pkg_no = selectPkg.pkg_no
         let prod = vm.productData.prod
         let pkg = {}
@@ -411,7 +421,7 @@ export default {
           pkg = pkgArrayTmp[0]
         }
         let selectPkgTmp = {}
-        
+        selectPkgTmp.pkg_no = pkg_no
         selectPkgTmp.pkg_name = selectPkg.pkg_name
         
         //取消政策
@@ -534,10 +544,38 @@ export default {
           }
         })
 
+        // prepare date search data
+        if (selectPkgTmp.clickComponentList) {
+          let clickComponent = selectPkgTmp.clickComponentList[0]
+          /*
+          spec_oid = spec_item_id
+          spec_item_oid = spec_value_id
+          */
+          dateSearchSpec.push({
+            spec_item_id:clickComponent.spec_oid,
+            spec_value_id:clickComponent.spec_items[0].spec_item_oid
+          })
+
+        }
+        if (selectPkgTmp.ticketComponentList) {
+          dateSearchSpec.push({
+            spec_item_id:'spec-ticket',
+            spec_value_id:selectPkgTmp.ticketComponentList[0].spec_item_oid
+          })
+        }
+        selectPkgTmp.dateSearchSpec = dateSearchSpec
+        let skus = vm.searchPkgItemSku(pkg_no,dateSearchSpec)
+        let periodDates = vm.parpareDateData(skus[0],'fullday')
+        selectPkgTmp.periodDates = periodDates
+        let disabledDates = vm.prepareDisableDate(periodDates)
+        // this.$nextTick(function () {
+          selectPkgTmp.disabledDates = disabledDates
+        // });
 
         selectPkgArray.push(selectPkgTmp)
       })
-      return selectPkgArray
+      // return selectPkgArray
+      return JSON.stringify(selectPkgArray)
     },
     searchPkgItemSku: function (pkg_no,specArray) {
       let vm = this
@@ -601,9 +639,8 @@ export default {
       }
       return periodDates
     },
-    prepareDisableDate: function(){
+    prepareDisableDate: function( periodDates ){
       let vm = this
-      let periodDates = vm.periodDates
       let nowDate = moment()
       let pattern = 'YYYY-MM-DD'
       let disableDays = []
@@ -618,13 +655,56 @@ export default {
         }
       }
       return disableDays
+    },
+    initDateData: function () {
+      let vm = this
+      let selectPkgArray = JSON.parse(vm.product.selectPkgArray)
+      console.log('202020',selectPkgArray)
+      if (selectPkgArray) {
+        selectPkgArray.forEach(selectPkg => {
+          let skus = vm.searchPkgItemSku(selectPkg.pkg_no,selectPkg.dateSearchSpec)
+          console.log('202020skus',skus)
+          let periodDates = vm.parpareDateData(skus[0],'fullday')
+          console.log('202020periodDates',periodDates)
+          selectPkg.periodDates = periodDates
+          let disabledDates = vm.prepareDisableDate(periodDates)
+            // selectPkg.disabledDates = disabledDates
+            // selectPkg.disabledDates.push('2021-06-20')
+            vm.product.selectPkgArray[0].disabledDates = ['2021-06-16','2021-06-23']
+          // this.$set(this.animals, 0, this.animal)
+        })
+      }
+      vm.product.selectPkgArray = JSON.stringify(selectPkgArray)
+    },
+    aaa:function () {
+      alert('111')
+      // this.initDateData()
+      // this.product.selectPkgArray[0].disabledDates = ['2021-06-30','2021-06-29']
+      let selectPkgArray = JSON.parse(this.product.selectPkgArray)
+      let selectPkg = selectPkgArray[0]
+      console.log('selectPkg1',selectPkg.PMDL_EXCHANGE_VALID)
+      // selectPkg.disabledDates = ['2021-06-20','2021-06-21']
+      selectPkg.PMDL_EXCHANGE_VALID='2222222222222'
+      console.log('selectPkg2',selectPkg)
+      console.log('selectPkgArray2',selectPkgArray)
+
+      this.product.selectPkgArray = JSON.stringify(selectPkgArray)
+      console.log(' this.product.selectPkgArray', this.product.selectPkgArray)
+      // let p3 = this.copyObj(selectPkg);
+      // vm.$set(this.product.selectPkgArray[0].disabledDates, 0, '2021-06-24')
+      // vm.$nextTick(function () {
+      // this.product.selectPkgArray.splice(0,1,p3);
+      //  });
+    },
+    copyObj: function (mainObj){
+      let objCopy = {}; // objCopy will store a copy of the mainObj
+      let key;
+
+      for (key in mainObj) {
+        objCopy[key] = mainObj[key]; // copies each property to the objCopy object
+      }
+      return objCopy;
     }
-      
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-</style>

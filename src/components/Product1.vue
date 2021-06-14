@@ -1,121 +1,128 @@
 <template>
-  <div>
-   <div>
-      <span v-for="(pridCityObj,index) in product.pridCityObjArray" :key="index">
-        <a href="" >{{pridCityObj.cityName}}</a>
-        <span v-if="(index === 0)">/</span>
-        <span v-if="(index !== 0 & index !== product.pridCityObjArray.length-1)">,</span>
-      </span>
-    </div>
     <div>
-      <span v-for="(pridCityObj,index) in product.pridCityObjArray" :key="index">
-        <a href="" >{{pridCityObj.cityName}}</a>
-        <span v-if="(index === 0)">/</span>
-        <span v-if="(index !== 0 & index !== product.pridCityObjArray.length-1)">,</span>
-      </span>
-    </div>
-    <br>
-    <div>
-      <span v-for="(imgList,index) in product.img_list" :key="index">
-        <img :src="imgList" alt=""  width="100px" height ="100px">
-      </span>
-    </div>
-    <br>
-    <div>
-      <p>{{product.prod_name}}</p>
-    </div>
-    <br>
-    <div>
-      <span v-for="(pridCityObj,index) in product.pridCityObjArray" :key="index">
-        <a href="" >{{pridCityObj.cityName}}</a>
-        <span v-if="(index === 0)">/</span>
-        <span v-if="(index !== 0 & index !== product.pridCityObjArray.length-1)">,</span>
-      </span>
-    </div>
-    <br>
-    <div class="float:right">
-      <span v-if="(product.days !== 0 || product.hours !== 0 || product.duration !==0)" class="float:right">
-        行程時間        
-        <span v-if="(product.days !== 0)">{{product.days}}天</span>
-        <span v-if="(product.hours !== 0)">{{product.hours}}小時</span>
-        <span v-if="(product.duration !==0)">{{product.duration}}分鐘</span>
-      </span>
-      /
-      <span v-if="product.partial_refund !== 0" class="float:right">
-        {{product.partial_refund}}天前可免費取消       
-      </span>
-      /
-      <span v-if="product.PMDL_EXCHANGE_DESC === '現場請出示電子憑證'" class="float:right">
-        現場請出示電子憑證       
-      </span>
-      /
-      <span v-if="product.guide_lang_list && product.guide_lang_list.length !== 0">
-        <span v-for="(guideLang,index) in product.guide_lang_list" :key="index">
-          {{guideLang}}
-          <span v-if="index !== (product.guide_lang_list.length -1)">
-            /
-          </span>
+      <div>
+        <span v-for="(pridCityObj,index) in product.pridCityObjArray" :key="index">
+          <a href="" >{{pridCityObj.cityName}}</a>
+          <span v-if="(index === 0)">/</span>
+          <span v-if="(index !== 0 & index !== product.pridCityObjArray.length-1)">,</span>
         </span>
-        <span>導覽</span>
-      </span>
-      <span v-if="product.voice_guide_lang && product.voice_guide_lang.length !== 0">
-        <span v-for="(voice_guide_lang,index) in product.voice_guide_lang" :key="index">
-          {{voice_guide_lang}}
-          <span v-if="index !== (product.voice_guide_lang.length -1)">
-            /
-          </span>
+      </div>
+      <hr>
+      <hr>
+      <div>
+        <span v-for="(imgList,index) in product.img_list" :key="index">
+          <img :src="imgList" alt=""  width="100px" height ="100px">
         </span>
-        <span>語音導覽</span>
-      </span>
-    </div>
-    <br>
-    <div v-html="product.introduction" v-if="product.introduction"></div>
-
-    <div>
-      <h1>選擇方案</h1>
-      <div v-for="(selectPkg,index) in product.selectPkgArray" :key="index">
-        <h2>{{selectPkg.pkg_name}}</h2>
-        <div v-for="(packageDesc,index) in selectPkg.packageDescArray" :key="index" ><p v-html="packageDesc.desc"></p></div>
-        <h3>TW {{selectPkg.b2c_min_price}}</h3>
-        <h3>最早可預訂日:  {{selectPkg.sale_s_date}}</h3>
-        <div>
-          <h3>關於此方案</h3>
-          <span ></span>
-        </div>
-        <div style="width:100%;height:100%;float:left;background-color:red;">
-          <div style="width:60%;height:100%;float:left;background-color:green;">
-            <HotelDatePicker
-            :periodDates='periodDates'
-            :showSingleMonth='true'
-            :alwaysVisible='true'
-            :showPrice='true'
-            :singleDaySelection='true'
-            :halfDay='false'
-            :disabledDates='disabledDates'
-            />
-          </div>
-          <div style="width:40%;float:left;background-color:#664521;">
-            <span>場次時間</span>
-            <span v-for="(showTime,index) in selectPkg.showTimeList" :key="index">
-              <el-button type="success" plain>{{showTime}}</el-button>
+      </div>
+      <hr>
+      <div>
+        <p>{{product.prod_name}}</p>
+      </div>
+      <hr>
+      <div>
+        <span v-for="(pridCityObj,index) in product.pridCityObjArray" :key="index">
+          <a href="" >{{pridCityObj.cityName}}</a>
+          <span v-if="(index === 0)">/</span>
+          <span v-if="(index !== 0 & index !== product.pridCityObjArray.length-1)">,</span>
+        </span>
+      </div>
+      <hr>
+      <div class="float:right">
+        <span v-if="(product.days !== 0 || product.hours !== 0 || product.duration !==0)" class="float:right">
+          行程時間        
+          <span v-if="(product.days !== 0)">{{product.days}}天</span>
+          <span v-if="(product.hours !== 0)">{{product.hours}}小時</span>
+          <span v-if="(product.duration !==0)">{{product.duration}}分鐘</span>
+        </span>
+        /
+        <span v-if="product.partial_refund !== 0" class="float:right">
+          {{product.partial_refund}}天前可免費取消       
+        </span>
+        /
+        <span v-if="product.PMDL_EXCHANGE_DESC === '現場請出示電子憑證'" class="float:right">
+          現場請出示電子憑證       
+        </span>
+        /
+        <span v-if="product.guide_lang_list && product.guide_lang_list.length !== 0">
+          <span v-for="(guideLang,index) in product.guide_lang_list" :key="index">
+            {{guideLang}}
+            <span v-if="index !== (product.guide_lang_list.length -1)">
+              /
             </span>
-            <p>....</p>
-          </div>
-          <div style="width:40%;float:left;background-color:#664521;">
-            <span>選擇數量</span>
-            <span v-for="(ticket,index) in selectPkg.ticketComponentList" :key="index">
-              <span>{{ticket.desc}}</span>
+          </span>
+          <span>導覽</span>
+        </span>
+        <span v-if="product.voice_guide_lang && product.voice_guide_lang.length !== 0">
+          <span v-for="(voice_guide_lang,index) in product.voice_guide_lang" :key="index">
+            {{voice_guide_lang}}
+            <span v-if="index !== (product.voice_guide_lang.length -1)">
+              /
             </span>
+          </span>
+          <span>語音導覽</span>
+        </span>
+      </div>
+      <hr>
+      <br>
+      <div v-html="product.introduction" v-if="product.introduction"></div>
+      <hr>
+      <div>
+        <h1>選擇方案</h1>
+        <div v-for="(selectPkg,index) in product.selectPkgArray" :key="index">
+          <h2>{{selectPkg.pkg_name}}</h2>
+          <div v-for="(packageDesc,index) in selectPkg.packageDescArray" :key="index" ><p v-html="packageDesc.desc"></p></div>
+          <h3>TW {{selectPkg.b2c_min_price}}</h3>
+          <h3>最早可預訂日:  {{selectPkg.sale_s_date}}</h3>
+          <div>
+            <h3>關於此方案</h3>
+            <span ></span>
+          </div>
+          <div style="width:100%;height:100%;float:left;background-color:red;">
+            <div style="width:60%;height:100%;float:left;background-color:green;">
+              <HotelDatePicker
+              :periodDates='periodDates'
+              :showSingleMonth='true'
+              :alwaysVisible='true'
+              :showPrice='true'
+              :singleDaySelection='true'
+              :halfDay='false'
+              :disabledDates='disabledDates'
+              />
+            </div>
+            <div style="width:40%;float:left;background-color:#664521;">
+              <span>場次時間</span>
+              <span v-for="(showTime,index) in selectPkg.showTimeList" :key="index">
+                <el-button type="success" plain>{{showTime}}</el-button>
+              </span>
+              <p>....</p>
+            </div>
+            <hr>
+            <div v-if="selectPkg.clickComponentList">
+              <div v-for="(clickComponent,index) in selectPkg.clickComponentList" :key="index">
+                spec_title:<h3>{{clickComponent.spec_title}}</h3><br>
+                spec_oid:<h3>{{clickComponent.spec_oid}}</h3><br>
+                <span v-if="clickComponent.spec_items">
+                  <span v-for="(specItem,index) in clickComponent.spec_items" :key="index" >
+                    <el-button type="success" plain :spec_item_oid='specItem.spec_item_oid' @click='aaa'>{{specItem.name}}</el-button>&ensp;
+                  </span>
+                </span>
+                <hr>
+              </div>
+            </div>
+            <hr>
+            <div style="width:40%;float:left;background-color:#664521;">
+              <span>選擇數量</span>
+              <span v-for="(ticket,index) in selectPkg.ticketComponentList" :key="index">
+                <span>{{ticket.desc}}</span>
+              </span>
 
+            </div>
           </div>
         </div>
       </div>
+
     </div>
-  </div>
-
-  
 </template>
-
 <script>
 import productData from "./kkday_product_24598_M05.json"
 import queryPackageObject from "./kkday_package_24598_M05.json"
@@ -123,14 +130,13 @@ import HotelDatePicker from 'vue-hotel-datepicker'
 import 'vue-hotel-datepicker/dist/vueHotelDatepicker.css'
 import moment from 'moment'
 
-
 export default {
-  name: 'KkdayProduct',
-  create () {
-    this.initPageData()
-  },
+  name: 'Product1',
   components: {
     HotelDatePicker
+  },
+  created () {
+    this.initPageData()
   },
   data () {
     return {
@@ -158,7 +164,7 @@ export default {
       let custom = bookingField.custom
       let prodCitiesArray = prod.cities
       let descriptionModule = prod.description_module
-      
+            
       // 3 level
       // let countryCities = custom.country_cities
 
@@ -196,7 +202,6 @@ export default {
         }
       })
       vm.product.pridCityObjArray = pridCityObjArray
-      
       //prod_name
       vm.product.prod_name = prod.prod_name
 
@@ -237,7 +242,7 @@ export default {
       
       //b2c_min_price
       vm.product.prod_comment_info = prod.prod_comment_info
-
+      
       //商品說明 建議包車路線 圖文介紹
       let pmdlIntroduceSummary = descriptionModule.PMDL_INTRODUCE_SUMMARY
       if(pmdlIntroduceSummary){
@@ -261,7 +266,7 @@ export default {
         }
       }
 
-      //行程介紹
+           //行程介紹
       let pmdlSchedule = descriptionModule.PMDL_SCHEDULE
       if(pmdlSchedule){
         vm.product.PMDL_SCHEDULE = {
@@ -369,7 +374,7 @@ export default {
       }
       //取消政策
       vm.product.prod_comment_info = prod.prod_comment_info
-
+      
       //select package 
       console.log('4444', vm.prepareQueryPackage())
       vm.product.selectPkgArray = vm.prepareQueryPackage()
@@ -384,6 +389,7 @@ export default {
         spec_item_id:'spec-ticket',
         spec_value_id:'adult'
       })
+
       let skus = vm.searchPkgItemSku(304621,specArray)
       console.log('20210613',skus)
       let periodDates = vm.parpareDateData(skus[0],'fullday')
@@ -391,7 +397,9 @@ export default {
       console.log('periodDates',periodDates)
       let disabledDates = vm.prepareDisableDate()
       console.log('disabledDates',disabledDates)
-      vm.disabledDates = disabledDates
+      vm.$nextTick(function () {
+        vm.disabledDates = disabledDates
+      });
     },
     prepareQueryPackage: function (){
 
@@ -618,13 +626,11 @@ export default {
         }
       }
       return disableDays
-    }
-      
+    },
+    aaa:function () {
+      alert('111')
+      this.disabledDates = ['2021-06-30','2021-06-29']
+    } 
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-</style>
