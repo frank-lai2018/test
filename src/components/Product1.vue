@@ -86,7 +86,7 @@
               :showPrice='true'
               :singleDaySelection='true'
               :halfDay='false'
-              :disabledDates='disabledDates'
+              :bookings='bookings'
               />
             </div>
             <div style="width:40%;float:left;background-color:#664521;">
@@ -144,7 +144,25 @@ export default {
       queryPackageObject:queryPackageObject,
       product:{},
       periodDates: [],
-      disabledDates:['2021-06-14']
+      disabledDates:['2021-06-14'],
+      bookings: [
+        {
+          event: true,
+          checkInDate: "2021-06-21",
+          checkOutDate: "2021-06-21",
+          style: {
+            backgroundColor: "red"
+          }
+        },
+        {
+          event: true,
+          checkInDate: "2021-06-29",
+          checkOutDate: "2021-06-29",
+          style: {
+            backgroundColor: "red"
+          }
+        }
+      ]
     }
   },
   methods: {

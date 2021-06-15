@@ -105,7 +105,7 @@
                 spec_oid:<h3>{{clickComponent.spec_oid}}</h3><br>
                 <span v-if="clickComponent.spec_items">
                   <span v-for="(specItem,index4) in clickComponent.spec_items" :key="index4" >
-                    <el-button type="success" plain :spec_oid='clickComponent.spec_oid' :spec_item_oid='specItem.spec_item_oid' @click='searchDateBySpec(index8,clickComponent.spec_oid,specItem.spec_item_oid)'>{{specItem.name}}</el-button>&ensp;&ensp;
+                    <el-button type="success" plain :spec_item_oid='specItem.spec_item_oid' @click='aaa'>{{specItem.name}}</el-button>&ensp;
                   </span>
                 </span>
                 <hr>
@@ -155,7 +155,7 @@ export default {
     },
     selectPkgArrayFun: function() {
       console.log('8888')
-      return this.product.selectPkgArray
+      return JSON.parse(this.product.selectPkgArray)
     }
   },
   data () {
@@ -400,7 +400,7 @@ export default {
       // selectPkgTmp.disabledDates = disabledDates
       vm.product.selectPkgArray = vm.prepareQueryPackage()
       // let dateSearchSpec = vm.product.selectPkgArray.dateSearchSpec
-        vm.searchDateData()
+        vm.initDateData()
 
     },
     prepareQueryPackage: function (){
@@ -575,8 +575,8 @@ export default {
 
         selectPkgArray.push(selectPkgTmp)
       })
-      return selectPkgArray
-      // return JSON.stringify(selectPkgArray)
+      // return selectPkgArray
+      return JSON.stringify(selectPkgArray)
     },
     searchPkgItemSku: function (pkg_no,specArray) {
       let vm = this
@@ -657,13 +657,16 @@ export default {
       }
       return disableDays
     },
-    searchDateData: function () {
+    initDateData: function () {
       let vm = this
-      let selectPkgArray = vm.product.selectPkgArray
+      let selectPkgArray = JSON.parse(vm.product.selectPkgArray)
+      console.log('202020',selectPkgArray)
       if (selectPkgArray) {
         selectPkgArray.forEach(selectPkg => {
           let skus = vm.searchPkgItemSku(selectPkg.pkg_no,selectPkg.dateSearchSpec)
+          console.log('202020skus',skus)
           let periodDates = vm.parpareDateData(skus[0],'fullday')
+          console.log('202020periodDates',periodDates)
           selectPkg.periodDates = periodDates
           let disabledDates = vm.prepareDisableDate(periodDates)
             // selectPkg.disabledDates = disabledDates
@@ -674,45 +677,27 @@ export default {
           // this.$set(this.animals, 0, this.animal)
         })
       }
-      vm.product.selectPkgArray = selectPkgArray
+      vm.product.selectPkgArray = JSON.stringify(selectPkgArray)
     },
     aaa:function () {
-      // alert('111')
-      // this.searchDateData()
+      alert('111')
+      // this.initDateData()
       // this.product.selectPkgArray[0].disabledDates = ['2021-06-30','2021-06-29']
-      let selectPkgArray = this.product.selectPkgArray
+      let selectPkgArray = JSON.parse(this.product.selectPkgArray)
       let selectPkg = selectPkgArray[0]
       console.log('selectPkg1',selectPkg.PMDL_EXCHANGE_VALID)
       // selectPkg.disabledDates = ['2021-06-20','2021-06-21']
-      // var clonedArray = JSON.parse(JSON.stringify(selectPkg))
-      // clonedArray.PMDL_EXCHANGE_VALID='2222222222222'
-      // clonedArray.disabledDates = ['2021-06-30']
-      // console.log('44444clonedArray',clonedArray.PMDL_EXCHANGE_VALID)
-      // console.log('44444selectPkg',selectPkg.PMDL_EXCHANGE_VALID)
-      // this.product.selectPkgArray.splice(0,1,clonedArray);
-      this.$set(this.product.selectPkgArray[0],'disabledDates', ['2021-06-30'])
+      selectPkg.PMDL_EXCHANGE_VALID='2222222222222'
+      console.log('selectPkg2',selectPkg)
+      console.log('selectPkgArray2',selectPkgArray)
 
-      // this.product.selectPkgArray = selectPkgArray
+      this.product.selectPkgArray = JSON.stringify(selectPkgArray)
+      console.log(' this.product.selectPkgArray', this.product.selectPkgArray)
       // let p3 = this.copyObj(selectPkg);
       // vm.$set(this.product.selectPkgArray[0].disabledDates, 0, '2021-06-24')
       // vm.$nextTick(function () {
+      // this.product.selectPkgArray.splice(0,1,p3);
       //  });
-    },
-    searchDateBySpec: function (index,spec_oid,spec_item_oid) {
-      console.log('index',index)
-      console.log('spec_oid',spec_oid)
-      console.log('spec_item_oid',spec_item_oid)
-      let vm = this
-      let selectPkgArray = vm.product.selectPkgArray
-      let dateSearchSpec  = selectPkgArray[index].dateSearchSpec
-      console.log('dateSearchSpec',dateSearchSpec)
-      dateSearchSpec.forEach(spec => {
-        if (spec.spec_item_id === spec_oid) {
-          spec.spec_value_id = spec_item_oid
-        }
-      })
-
-      
     },
     copyObj: function (mainObj){
       let objCopy = {}; // objCopy will store a copy of the mainObj
